@@ -2,7 +2,7 @@ import requests
 import json
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 import hashlib
 import random
 
@@ -22,7 +22,7 @@ payload_template = {
         "@type": "type.googleapis.com/post_list.PaginationData",
         "last_post_date": None,  # Will be set dynamically
         "page": 0,
-        "layer_page": 1  # Fixed to 1 (like your working code)
+        "layer_page": 0  
     },
     "disable_recommendation": False,
     "map_state": {"camera_info": {"bbox": {}}},
@@ -30,13 +30,14 @@ payload_template = {
         "form_data": {
             "data": {
                 "sort": {"str": {"value": "sort_date"}},
-                "category": {"str": {"value": "temporary-rent"}}
+                "category": {"str": {"value": "parts-accessories"}}
             }
         },
         "server_payload": {
             "@type": "type.googleapis.com/widgets.SearchData.ServerPayload",
             "additional_form_data": {}
-        }
+        },
+    "query" : "دزدگیر"
     }
 }
 
@@ -52,7 +53,7 @@ max_non_200 = 100
 max_non_widget = 10
 
 
-base_dir = "divar/temporary-rent/sort_date"
+base_dir = "divar/car-accessories/sort_date"
 if not os.path.exists(base_dir):
     os.makedirs(base_dir)
 
@@ -65,7 +66,7 @@ while non_200_count < max_non_200:
     print(f"Processing city_id: {city_id}")
     
     # Start with a fixed known old date to fetch newest first, can be customized
-    last_post_date = "2025-05-08T10:39:16.934211626Z"
+    last_post_date = datetime.now().strftime("%Y-%m-%dT%H:%M:%S.") + f"{datetime.now().time().microsecond * 1000:09d}Z"
     
     no_more_results = 0
     
@@ -78,7 +79,7 @@ while non_200_count < max_non_200:
         payload = dict(payload_template)  # create a fresh copy each loop
         payload["city_ids"] = [str(city_id)]
         payload["pagination_data"]["page"] = page
-        payload["pagination_data"]["layer_page"] = 1  # fixed to 1 as in original working code
+        payload["pagination_data"]["layer_page"] = page
         payload["pagination_data"]["last_post_date"] = last_post_date  # update dynamically
         
         try:
