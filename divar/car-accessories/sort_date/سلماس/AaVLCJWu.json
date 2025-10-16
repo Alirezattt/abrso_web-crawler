@@ -1,0 +1,477 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "لاستیک پرشیا",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "لاستیک پرشیا",
+            "subtitle": "۲ هفته پیش در سلماس",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaVLCJWu"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "۴عدد لاستیک پرشیا بفروشیم می‌رسد \n۲عدد گلدستون ۷۰درصد\n۲عدد کویر ۷۰ درصد\nلازم به ذکر است که لاستیک ها با رینگ بفروش می‌رسد \nدلیل فروش لاستیک ها برای خودم نو خریدم با رینک اسپورت واسه همون اضافه مونده هر کسی خواست در خدمتم شرمنده به پیام جواب نمیدم تماس بگیرید",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Gty74E0c7GHWNH-TRbfSfQ/93606f34-2d3b-4ab7-a8d8-3eddc3c74540.webp",
+                  "alt": "لاستیک پرشیا|قطعات یدکی و لوازم جانبی|سلماس, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Djr65AjUAY7nbJD8J-ZcWw/93606f34-2d3b-4ab7-a8d8-3eddc3c74540.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GLNvgIMaie6LL4mXV_zt9A/c5f019c9-c121-48d3-a33e-14263c9fa7ee.webp",
+                  "alt": "لاستیک پرشیا|قطعات یدکی و لوازم جانبی|سلماس, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dl9iqfgfIPZ9rJT5_5IYIA/c5f019c9-c121-48d3-a33e-14263c9fa7ee.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/vdsj6tu0_UUkB47Ii9qSkg/fab75804-cf13-47df-804a-127ad9b2af81.webp",
+                  "alt": "لاستیک پرشیا|قطعات یدکی و لوازم جانبی|سلماس, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cld798hv1Pxd6Lf5DJSqvQ/fab75804-cf13-47df-804a-127ad9b2af81.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qlyqLs5GP6lfCaZMQyiMeg/42d96e2f-7540-4996-a7ae-625637d9b5e3.webp",
+                  "alt": "لاستیک پرشیا|قطعات یدکی و لوازم جانبی|سلماس, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/skFoaEFIAMCL3GiTtpkBtg/42d96e2f-7540-4996-a7ae-625637d9b5e3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4X88RK0kMx8-aQgF6akxeQ/39a2b5d1-8d07-4cfe-9503-c6a6e251ea35.webp",
+                  "alt": "لاستیک پرشیا|قطعات یدکی و لوازم جانبی|سلماس, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pBh5n9UaROadxtvAG2mcew/39a2b5d1-8d07-4cfe-9503-c6a6e251ea35.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۶،۵۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaVLCJWu",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 768
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaVLCJWu"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaVLCJWu"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "لاستیک پرشیا",
+    "web_url": "https://divar.ir/v/AaVLCJWu"
+  },
+  "seo": {
+    "title": "لاستیک پرشیا در سلماس",
+    "description": "آگهی لاستیک پرشیا در دیوار سلماس",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/لاستیک پرشیا/AaVLCJWu/",
+    "web_info": {
+      "title": "لاستیک پرشیا",
+      "city_persian": "سلماس",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-26T14:36:32.823124",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "768",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "لاستیک پرشیا",
+      "category": "parts-accessories",
+      "offers": {
+        "price": "6500000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/لاستیک-پرشیا/AaVLCJWu",
+      "web_info": {
+        "title": "لاستیک پرشیا",
+        "city_persian": "سلماس",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "@context": "https://schema.org",
+      "description": "۴عدد لاستیک پرشیا بفروشیم می‌رسد \n۲عدد گلدستون ۷۰درصد\n۲عدد کویر ۷۰ درصد\nلازم به ذکر است که لاستیک ها با رینگ بفروش می‌رسد \nدلیل فروش لاستیک ها برای خودم نو خریدم با رینک اسپورت واسه همون اضافه مونده هر کسی خواست در خدمتم شرمنده به پیام جواب نمیدم تماس بگیرید",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/Gty74E0c7GHWNH-TRbfSfQ/93606f34-2d3b-4ab7-a8d8-3eddc3c74540.webp"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaVLCJWu",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "3022cf84-e83c-4857-8268-4938f852867c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "3022cf84-e83c-4857-8268-4938f852867c"
+  },
+  "webengage": {
+    "source_view": "",
+    "cat_3": "",
+    "brand_model": "",
+    "business_type": "personal",
+    "cat_1": "vehicles",
+    "district": "",
+    "price": 6500000,
+    "rent": 0,
+    "credit": 0,
+    "cat_2": "parts-accessories",
+    "city": "salmas",
+    "image_count": 5,
+    "business_ref": "",
+    "gender": "",
+    "originality": "",
+    "status": "",
+    "category": "parts-accessories",
+    "token": "AaVLCJWu"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "salmas"
+  },
+  "city": {
+    "city_id": "768",
+    "name": "سلماس",
+    "parent_id": "881",
+    "second_slug": "salmas"
+  }
+}

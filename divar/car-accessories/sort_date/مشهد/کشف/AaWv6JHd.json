@@ -1,0 +1,573 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر ایزیکارE7",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر ایزیکارE7",
+            "subtitle": "۲ هفته پیش در مشهد، کشف",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaWv6JHd"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "دزدگیر ایزیکار مدل E7کاملا سالم 6ماه روماشینم بود الان لازمش ندارم تمام قطعات سالم سالم تک ریموت ریموت تصویری شارژی باطری لیتیومی یک ساعت شارژ 15رو استفاده ضمانتشم 15روزه دوستان الکی پیام ندین اول قیمت بگیرید دیجی کالا ترب بعد تخفیف بخرید هفت و پانصد ..... لول فنر کمک جلو پژو همه مدل پژو یکوسیصد.  یک جفت باند هست که تمام مشخصاتش پشتشه دوچهارصد..",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/MFwqIzEgDgZDOQHaN5vEew/95848d31-e30b-45ab-af0f-3ea7adb18fd3.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/V-uXJ0wzSFlQC-RozNPGAw/95848d31-e30b-45ab-af0f-3ea7adb18fd3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/iaoYXS-JhTVVoZ6wNpxHlA/c5e574b0-8f66-429d-a94a-8dc800821826.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/u3baYwfmRE_wYeH6kc0p6A/c5e574b0-8f66-429d-a94a-8dc800821826.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/v2im2D5Ijv_UJcUIsEWrqg/686612db-4b02-4af5-94ff-f9ece893bcdf.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ymjqmYLDjPn2Y3fmLNfJ5A/686612db-4b02-4af5-94ff-f9ece893bcdf.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/o2JDfFJICSgr29BIQlgBNg/eacf62aa-29d1-4c79-9f29-7883b23dc79f.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/z0x_ILGXw3rY_PxRHosd1w/eacf62aa-29d1-4c79-9f29-7883b23dc79f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cnKR3JpbcizbSgwDtCPfEg/3ec1881a-90e9-4f8b-882d-4eba7be5ef5d.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-QjsHzMg0l4znawnKCZEBw/3ec1881a-90e9-4f8b-882d-4eba7be5ef5d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/yBtrblOdgMdaxHBnKUJfKg/5001af4c-d5cd-46a1-bd79-c21e3ec37c1f.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/epE4M4AIR-U03wktAL79xg/5001af4c-d5cd-46a1-bd79-c21e3ec37c1f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/VpBT1pNMP7HbLWr0ZLbnDg/3081e719-0694-45db-8684-6ee9ef6387b9.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bfuuA4SIQK4gFX_1ik5aAA/3081e719-0694-45db-8684-6ee9ef6387b9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/A6B9Muc6gcYs8GIrOd5UkA/37215df0-1ff3-481a-a163-3086721bfb2b.webp",
+                  "alt": "دزدگیر ایزیکارE7|قطعات یدکی و لوازم جانبی|مشهد, کشف|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/h76WRF48pOr_KuTfQSVvNg/37215df0-1ff3-481a-a163-3086721bfb2b.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaWv6JHd",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در کشف",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3094"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "کمک فنر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/کمک-فنر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3680943,
+                  "longitude": 59.5766369
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXEhD2CdDOK_uQmIiwR3hEv5LD7zJNS2q86iXH8od-qnLkA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaWv6JHd"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaWv6JHd"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaWv6JHd"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر ایزیکارE7",
+    "web_url": "https://divar.ir/v/AaWv6JHd"
+  },
+  "seo": {
+    "title": "دزدگیر ایزیکارE7 در مشهد",
+    "description": "آگهی دزدگیر ایزیکارE7 در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر ایزیکارE7/AaWv6JHd/",
+    "web_info": {
+      "title": "دزدگیر ایزیکارE7",
+      "district_persian": "کشف",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-27T18:33:42.719974",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3094"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3094"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "کشف",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3094"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "دزدگیر ایزیکارE7",
+      "@type": "Product",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/MFwqIzEgDgZDOQHaN5vEew/95848d31-e30b-45ab-af0f-3ea7adb18fd3.webp",
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/دزدگیر-ایزیکارe7/AaWv6JHd",
+      "web_info": {
+        "title": "دزدگیر ایزیکارE7",
+        "city_persian": "مشهد",
+        "district_persian": "کشف",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000"
+      },
+      "description": "دزدگیر ایزیکار مدل E7کاملا سالم 6ماه روماشینم بود الان لازمش ندارم تمام قطعات سالم سالم تک ریموت ریموت تصویری شارژی باطری لیتیومی یک ساعت شارژ 15رو استفاده ضمانتشم 15روزه دوستان الکی پیام ندین اول قیمت بگیرید دیجی کالا ترب بعد تخفیف بخرید هفت و پانصد ..... لول فنر کمک جلو پژو همه مدل پژو یکوسیصد.  یک جفت باند هست که تمام مشخصاتش پشتشه دوچهارصد..",
+      "@context": "https://schema.org"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaWv6JHd",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "1d8f8437-398e-4f87-a73e-3f59510ee709"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "1d8f8437-398e-4f87-a73e-3f59510ee709"
+  },
+  "webengage": {
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "originality": "",
+    "city": "mashhad",
+    "source_view": "",
+    "brand_model": "",
+    "rent": 0,
+    "category": "parts-accessories",
+    "token": "AaWv6JHd",
+    "gender": "",
+    "business_ref": "",
+    "image_count": 8,
+    "status": "",
+    "credit": 0,
+    "district": "kashf",
+    "price": 1000,
+    "business_type": "personal"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

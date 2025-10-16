@@ -1,0 +1,559 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دوره تخفیف لوازم یدکی خودرو",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دوره تخفیف لوازم یدکی خودرو",
+            "subtitle": "۳ روز پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aarr-blD"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام \nدوره تخفیف قطعات خودرویی اسپید یدک \nفروش محصولات اسپورت ، فابریک \n✅سپر خودرو های پرشیا ، ۴۰۵ ، پراید ،  ✅\n✅قالپاق های تمامی خودرو های ایرانی موجود ✅\n✅جلو پنجره های خودرو های ایرانی در تمامی رنگ ✅\n⛔️سپر جلوی پراید صبا ۴۵۰\n⛔️سپر عقب پراید صبا ۴۵۰ \n⛔️چراغ خطر پراید صبا در تمامی رنگ ها موجود ۲۶۰\n⛔️ جلو پنجره پراید ۱۷۰\n✅استیل اینه پراید موجود✅\n✅استیل برف پاکن پراید موجود✅\n✅استیل فلاپ صندوق موجود ✅\n✅نمد سینه تمامی خودرو ها موجود ✅\n⛔️برای استعلام قیمت و یا در چت یا  به شماره  زیر تماس حاصل فرمایید در خدمتیم ⛔️\n\n***********\nتمامی قطعات به صورت عمده و تکی به فروش میرسد .",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4qgOksrim2NvoEp1RiQ-dA/90c9e6b4-ed25-43be-9d3b-df4b97393fd7.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HiA-GIUq8n0EP5eNIBRI5A/90c9e6b4-ed25-43be-9d3b-df4b97393fd7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/pnd0j793UjVGFCiVBU0Y9A/b3146f9a-adc9-4b9d-ac6f-4f2b63e0f631.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vROTOfmabAvQZxtNIpssfw/b3146f9a-adc9-4b9d-ac6f-4f2b63e0f631.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/8EeQhls-L5TKYdA9B93_1Q/17745c51-1fd7-4460-818a-987f314f3ca6.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Yyyiy4SAyOLpsUQ-DAZUMg/17745c51-1fd7-4460-818a-987f314f3ca6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eSQ6vh-Uptyi69hXFB8qqg/f3e829e4-f06a-4628-8adf-8861a07d3a56.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VvhN5iAgtSyy58_c6O1Xmw/f3e829e4-f06a-4628-8adf-8861a07d3a56.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/TkZEBUKbCt3O6edFX7WYRQ/c8216dcf-f068-475c-afbf-d58be7e52d76.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WBpnoa5Z4gvtM37LnYuTDg/c8216dcf-f068-475c-afbf-d58be7e52d76.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/aALbQ8g9dchufj3TNn_47w/3f8f90c5-fa1d-4b1f-bdb4-1ed3ea8d756f.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0GctSfQiGsrTMOMCxLWXwA/3f8f90c5-fa1d-4b1f-bdb4-1ed3ea8d756f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/92muRMQx5kTUaw7kLGFfaQ/cf7f16da-4a5c-4802-ab5a-db64dc7b6d55.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Yp6plQSnromHJo5iNhVZDA/cf7f16da-4a5c-4802-ab5a-db64dc7b6d55.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JNLqR3iPUuMbfTby9cuBvw/0b9cd8cb-f309-4492-b969-627163c6a430.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fFoUV_f0iFLhBuHP_wlwXw/0b9cd8cb-f309-4492-b969-627163c6a430.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/IJPtxieVp7AUSPIOx5tbCw/78df4642-ba31-49cc-9ecd-a7522fc4bf66.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cpFoq4y1vX-AE50wzyGywQ/78df4642-ba31-49cc-9ecd-a7522fc4bf66.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qBiImg_FW9f4snWeVusj7A/21c1476e-6bd4-49c4-8a22-2c22529c38fc.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6dR3n0gv0LlerHEaJfIlKw/21c1476e-6bd4-49c4-8a22-2c22529c38fc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/_WX5evrIHX6fM6aQzKkbgA/cccf86d4-d7a1-4c78-9835-4b4963c2fd67.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nyHT8_tx7BdjmzNOvu2iIw/cccf86d4-d7a1-4c78-9835-4b4963c2fd67.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/u4lUIG1iVDh8hA5BOVE9YA/7c5a486a-8c8b-405c-afee-85cd5a789dde.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IoRpcN6lSEzdm07W_BygTg/7c5a486a-8c8b-405c-afee-85cd5a789dde.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/WFat1fYc2l3COJ1KZ2N3dQ/97b3995b-d4ca-4043-b649-bf986a74eaf5.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VmLV7Gv4WpLpTnppLq1OOQ/97b3995b-d4ca-4043-b649-bf986a74eaf5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/be5xv1VvvntxPw-1k2ceww/9121de17-22db-47fa-8878-b00807d52e33.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/saVpjyUtWNwUOkO9iOHdUg/9121de17-22db-47fa-8878-b00807d52e33.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ikcYpyMO2SNPPLONrYG4AA/479b853a-8492-4c2e-ac6b-77544ec24a0c.webp",
+                  "alt": "دوره تخفیف لوازم یدکی خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Cv9NTAU4I8dTneMKbjfJsg/479b853a-8492-4c2e-ac6b-77544ec24a0c.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aarr-blD",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "چراغ خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/چراغ-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aarr-blD"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aarr-blD"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دوره تخفیف لوازم یدکی خودرو",
+    "web_url": "https://divar.ir/v/Aarr-blD"
+  },
+  "seo": {
+    "title": "دوره تخفیف لوازم یدکی خودرو در ارومیه",
+    "description": "آگهی دوره تخفیف لوازم یدکی خودرو در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دوره تخفیف لوازم یدکی خودرو/Aarr-blD/",
+    "web_info": {
+      "title": "دوره تخفیف لوازم یدکی خودرو",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-12T21:27:17.073801",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "name": "دوره تخفیف لوازم یدکی خودرو",
+      "description": "با سلام \nدوره تخفیف قطعات خودرویی اسپید یدک \nفروش محصولات اسپورت ، فابریک \n✅سپر خودرو های پرشیا ، ۴۰۵ ، پراید ،  ✅\n✅قالپاق های تمامی خودرو های ایرانی موجود ✅\n✅جلو پنجره های خودرو های ایرانی در تمامی رنگ ✅\n⛔️سپر جلوی پراید صبا ۴۵۰\n⛔️سپر عقب پراید صبا ۴۵۰ \n⛔️چراغ خطر پراید صبا در تمامی رنگ ها موجود ۲۶۰\n⛔️ جلو پنجره پراید ۱۷۰\n✅استیل اینه پراید موجود✅\n✅استیل برف پاکن پراید موجود✅\n✅استیل فلاپ صندوق موجود ✅\n✅نمد سینه تمامی خودرو ها موجود ✅\n⛔️برای استعلام قیمت و یا در چت یا  به شماره  زیر تماس حاصل فرمایید در خدمتیم ⛔️\n\n***********\nتمامی قطعات به صورت عمده و تکی به فروش میرسد .",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/4qgOksrim2NvoEp1RiQ-dA/90c9e6b4-ed25-43be-9d3b-df4b97393fd7.webp",
+      "@type": "Product",
+      "url": "https://divar.ir/v/دوره-تخفیف-لوازم-یدکی-خودرو/Aarr-blD",
+      "@context": "https://schema.org",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "100000"
+      },
+      "web_info": {
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دوره تخفیف لوازم یدکی خودرو",
+        "city_persian": "ارومیه"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aarr-blD",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "9faf97be-3fc5-4278-ae56-7ba8b21c5eb1"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "9faf97be-3fc5-4278-ae56-7ba8b21c5eb1"
+  },
+  "webengage": {
+    "token": "Aarr-blD",
+    "city": "urmia",
+    "business_ref": "",
+    "gender": "",
+    "category": "parts-accessories",
+    "image_count": 15,
+    "cat_1": "vehicles",
+    "price": 100000,
+    "district": "",
+    "originality": "",
+    "brand_model": "",
+    "rent": 0,
+    "cat_2": "parts-accessories",
+    "status": "",
+    "cat_3": "",
+    "credit": 0,
+    "business_type": "personal",
+    "source_view": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

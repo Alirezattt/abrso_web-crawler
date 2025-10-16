@@ -1,0 +1,546 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "کمک فنر تمامی خودرو های ایرانی ملکی یدک",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "کمک فنر تمامی خودرو های ایرانی ملکی یدک",
+            "subtitle": "۱ روز پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "gZuu_haG"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام و خسته نباشید \nکمک جلو و عقب ۴۰۵ ، پارس ، فابریک و اسپرت و رگلاژی\nکمک جلو و عقب سمند ، سورن ، دنا ، دنا پلاس فابریک و اسپرت\nکمک جلو و عقب ۲۰۶ ، 207، رانا فابریک و اسپرت \nکمک جلو و عقب پراید فابریک و اسپرت و رگلاژی\nکمک جلو و عقب روا ، آردی ، پیکان ، و پیکان وانت \nکمک جلو ‌و عقب ساینا ، تیبا و کوییک \nکمک جلو و عقب L90 و مگان \nجعبه فرمان پراید ، پژو قدیم و سال ، روا ، سمند \nتوپی سر کمک \nگرد گیر کمک جلو و عقب پراید ، پژو ، سمند و پیکان \nلنت تمامی ماشین ها \nپک کامل جلوبندی ماشین های پراید ، سمند ، پژو ، ۲۰۶ ، تیبا\nجهت خرید حضوری از ساعت ۱۰ صبح تا ۱۹ شب حتی روز های تعطیل در خدمت مشتریان گرامی هستیم \nتمامی لوازم ها دارای ضمانت می‌باشد\nارسال به محدوده رایگان می‌باشد \nآدرس : شیخ شلتوت ، اول صمد زاده ۲ ، دومین مغازه سمت چپ ، مغازه ملکی یدک\nاعتماد مشتری اعتبار ماست",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/FwZwlRMJ-H8sVeuECm2WcQ/5e319dce-2147-4fed-b368-3dfbe20419a0.jpg.jpg",
+                  "alt": "کمک فنر تمامی خودرو های ایرانی ملکی یدک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/t7qFTvscknSihh3IU_cLHQ/5e319dce-2147-4fed-b368-3dfbe20419a0.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/jWc7DM23VJzpVWt_6F-LIg/3b1c74e4-79d0-456c-81e2-d05f4bcd2388.jpg.jpg",
+                  "alt": "کمک فنر تمامی خودرو های ایرانی ملکی یدک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VQgKiaqCnBa-IP33DP1Jlw/3b1c74e4-79d0-456c-81e2-d05f4bcd2388.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/I8BvGKPokK-DKi_TvK7nmw/38b73e53-d5fa-4a18-86e0-5de3fd6e10f2.jpg.jpg",
+                  "alt": "کمک فنر تمامی خودرو های ایرانی ملکی یدک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/b90xUnocLvdpxuF5i3vy8Q/38b73e53-d5fa-4a18-86e0-5de3fd6e10f2.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/hpZuCm324T0I5Xzra6Ynsw/51946b04-dc37-4335-94f4-f1d644cdfa25.jpg.jpg",
+                  "alt": "کمک فنر تمامی خودرو های ایرانی ملکی یدک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1viFLVAeIPIM4ysmEUW55w/51946b04-dc37-4335-94f4-f1d644cdfa25.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/F_3yfcabABjeWBN5yaLPvw/a9dd542c-b618-4f13-ae58-2b4852da8212.jpg.jpg",
+                  "alt": "کمک فنر تمامی خودرو های ایرانی ملکی یدک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sc8NeXwTLgt0MN4m6HiKQQ/a9dd542c-b618-4f13-ae58-2b4852da8212.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/goscE6LNqjGklEorGOjH7w/ba94ca0a-dc82-4032-be03-1cefea1bf247.jpg.jpg",
+                  "alt": "کمک فنر تمامی خودرو های ایرانی ملکی یدک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LiU9IneOAvt96Xb4z3YZSw/ba94ca0a-dc82-4032-be03-1cefea1bf247.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/QJVhHf_b4OwRAI7hdrTU2g/2adcbc98-8022-401a-b481-28033b95d64b.jpg.jpg",
+                  "alt": "کمک فنر تمامی خودرو های ایرانی ملکی یدک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cudF_jRNX1_y_G5V8B0PLg/2adcbc98-8022-401a-b481-28033b95d64b.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "gZuu_haG",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "لنت",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/لنت-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "کمک فنر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/کمک-فنر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.5481368345,
+                  "longitude": 45.096658536254
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXMubGsh30a_uQrK8um9xV_VLLBUESzHcLhaL8djSurBIVQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "gZuu_haG"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "gZuu_haG"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "gZuu_haG"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "کمک فنر تمامی خودرو های ایرانی ملکی یدک",
+    "web_url": "https://divar.ir/v/gZuu_haG"
+  },
+  "seo": {
+    "title": "کمک فنر تمامی خودرو های ایرانی ملکی یدک در ارومیه",
+    "description": "آگهی کمک فنر تمامی خودرو های ایرانی ملکی یدک در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/کمک فنر تمامی خودرو های ایرانی ملکی یدک/gZuu_haG/",
+    "web_info": {
+      "title": "کمک فنر تمامی خودرو های ایرانی ملکی یدک",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-29T07:27:06.592841",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/FwZwlRMJ-H8sVeuECm2WcQ/5e319dce-2147-4fed-b368-3dfbe20419a0.jpg.jpg",
+      "@type": "Product",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "10000"
+      },
+      "url": "https://divar.ir/v/کمک-فنر-تمامی-خودرو-های-ایرانی-ملکی-یدک/gZuu_haG",
+      "name": "کمک فنر تمامی خودرو های ایرانی ملکی یدک",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "web_info": {
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "کمک فنر تمامی خودرو های ایرانی ملکی یدک",
+        "city_persian": "ارومیه"
+      },
+      "description": "سلام و خسته نباشید \nکمک جلو و عقب ۴۰۵ ، پارس ، فابریک و اسپرت و رگلاژی\nکمک جلو و عقب سمند ، سورن ، دنا ، دنا پلاس فابریک و اسپرت\nکمک جلو و عقب ۲۰۶ ، 207، رانا فابریک و اسپرت \nکمک جلو و عقب پراید فابریک و اسپرت و رگلاژی\nکمک جلو و عقب روا ، آردی ، پیکان ، و پیکان وانت \nکمک جلو ‌و عقب ساینا ، تیبا و کوییک \nکمک جلو و عقب L90 و مگان \nجعبه فرمان پراید ، پژو قدیم و سال ، روا ، سمند \nتوپی سر کمک \nگرد گیر کمک جلو و عقب پراید ، پژو ، سمند و پیکان \nلنت تمامی ماشین ها \nپک کامل جلوبندی ماشین های پراید ، سمند ، پژو ، ۲۰۶ ، تیبا\nجهت خرید حضوری از ساعت ۱۰ صبح تا ۱۹ شب حتی روز های تعطیل در خدمت مشتریان گرامی هستیم \nتمامی لوازم ها دارای ضمانت می‌باشد\nارسال به محدوده رایگان می‌باشد \nآدرس : شیخ شلتوت ، اول صمد زاده ۲ ، دومین مغازه سمت چپ ، مغازه ملکی یدک\nاعتماد مشتری اعتبار ماست"
+    }
+  },
+  "contact": {
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "gZuu_haG",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "91adef18-232d-4224-85a1-91a9df477406"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "91adef18-232d-4224-85a1-91a9df477406"
+  },
+  "webengage": {
+    "originality": "",
+    "token": "gZuu_haG",
+    "price": 10000,
+    "rent": 0,
+    "gender": "",
+    "status": "",
+    "business_type": "personal",
+    "source_view": "",
+    "image_count": 7,
+    "district": "",
+    "brand_model": "",
+    "credit": 0,
+    "cat_2": "parts-accessories",
+    "category": "parts-accessories",
+    "city": "urmia",
+    "cat_3": "",
+    "business_ref": "",
+    "cat_1": "vehicles"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

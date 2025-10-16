@@ -1,0 +1,561 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک",
+            "subtitle": "۱ هفته پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "gZUdW96U"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⚡️⚡️رادیو اسپرت تسلا⚡️⚡️\nخرید مطمئن با شرایط اقساطی تا۳ ماه با چک✅\n *انواع ضبط پخش فلشخور ۴۵۰ هزار تومان\n*انواع باند بیضی و میدرنج از ۸۸۰ هزار تومان\n*انواع مانیتور از ۲ میلیون ۸۰۰ هزار تومان\n*انواع دزدگیر از ۹۵۰ هزار تومان\n*انواع ساب از ۲میلیون ۴۰۰ هزار تومان\nو دیگر لوازم سیستم صوتی خودرو اعم از آمپلی فایر،آیینه ثبت وقایع،دوربین دنده عقب،سنسور دنده عقب،طاقچه ۳ بعدی ردیاب،از ۹۹۰ هزار تومان\nآدرس:ارومیه بلوار باکری نرسیده روبروی وکیل باشی جنب اموزشگاه رانندگی فدک رادیو تسلا",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/mDW516nSRildLsvy5idvlQ/a50bd3f0-87cf-4f51-8fc4-f06d5cabf618.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/WeyBcnRxjUV8qP5rv3SwFw/a50bd3f0-87cf-4f51-8fc4-f06d5cabf618.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/l1eyJIbt7mkCFZD7mwPRSw/bc0d5da8-56b3-452b-a441-168d7a97244e.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/sjphh1Qb0yk2MEnotSoVog/bc0d5da8-56b3-452b-a441-168d7a97244e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/7ouET4Tb7XvfCJvJjvBkUg/e979fac2-d6bd-419a-96c8-e7d122675f0e.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/McOMqNw8hI4B73qplHqQVA/e979fac2-d6bd-419a-96c8-e7d122675f0e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/Y3WXJxmuqf6M-h0cq9HfYw/1a6dca61-5a06-4ba3-8d70-1794c677d5de.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/J9tbWKOMTqB-64R14A4-Og/1a6dca61-5a06-4ba3-8d70-1794c677d5de.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/upMiDVY-Aj_ZiwyKTb4ngg/6e08d11e-5fd0-4f42-86ff-4b7d0c86b30a.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/fhE1ADv2Q8W4E2jhDFkGKg/6e08d11e-5fd0-4f42-86ff-4b7d0c86b30a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/SxE_-ZVBuJs2EcMc7CUHAg/241ab18c-5b40-40d2-9c69-fabe343ceb88.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/hfP1Kr5YEIbBKQ7a4lk03w/241ab18c-5b40-40d2-9c69-fabe343ceb88.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/UCU86B_PKSkN9VuAWa29VQ/ed924c7f-f50c-4572-9284-9b3c886909b5.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/tw5y9OOGxy8ApCDNAoAWPg/ed924c7f-f50c-4572-9284-9b3c886909b5.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/owwt1PoIH1pAYiQz7CxC9w/550d5058-b4ab-43bf-9763-48e3c8b3645d.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/aJEbpdY1_KpH6bv72DlovQ/550d5058-b4ab-43bf-9763-48e3c8b3645d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/NoWkiG8ydPkyncPjQTbidw/4bacb4f1-bac1-480e-8b7b-acbc53c5d2da.jpg.jpg",
+                  "alt": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/M3onJXXnVXbQL1vyEPhTsQ/4bacb4f1-bac1-480e-8b7b-acbc53c5d2da.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۳۹۹،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "gZUdW96U",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دوربین عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/دوربین-و-سنسور-دنده-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.548707097528,
+                  "longitude": 45.078234031173
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXOAUrZli0a_uQngetrMtUfVL4l36JoOzHgZxyXQvzXLGxg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "gZUdW96U"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "gZUdW96U"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "gZUdW96U"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک",
+    "web_url": "https://divar.ir/v/gZUdW96U"
+  },
+  "seo": {
+    "title": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک در ارومیه",
+    "description": "آگهی ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک/gZUdW96U/",
+    "web_info": {
+      "title": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-20T14:31:14.051314",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "title": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک",
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/ضبط-باند-مانتیور-سیستم-صوتی-ماشین-شرایطی-چک/gZUdW96U",
+      "name": "ضبط،باند،مانتیور،سیستم صوتی ماشین شرایطی چک",
+      "@type": "Product",
+      "description": "⚡️⚡️رادیو اسپرت تسلا⚡️⚡️\nخرید مطمئن با شرایط اقساطی تا۳ ماه با چک✅\n *انواع ضبط پخش فلشخور ۴۵۰ هزار تومان\n*انواع باند بیضی و میدرنج از ۸۸۰ هزار تومان\n*انواع مانیتور از ۲ میلیون ۸۰۰ هزار تومان\n*انواع دزدگیر از ۹۵۰ هزار تومان\n*انواع ساب از ۲میلیون ۴۰۰ هزار تومان\nو دیگر لوازم سیستم صوتی خودرو اعم از آمپلی فایر،آیینه ثبت وقایع،دوربین دنده عقب،سنسور دنده عقب،طاقچه ۳ بعدی ردیاب،از ۹۹۰ هزار تومان\nآدرس:ارومیه بلوار باکری نرسیده روبروی وکیل باشی جنب اموزشگاه رانندگی فدک رادیو تسلا",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/mDW516nSRildLsvy5idvlQ/a50bd3f0-87cf-4f51-8fc4-f06d5cabf618.jpg.jpg",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "399000"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "gZUdW96U",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "cde16931-973b-4467-834e-043ea0bfc07f"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "cde16931-973b-4467-834e-043ea0bfc07f"
+  },
+  "webengage": {
+    "cat_3": "",
+    "rent": 0,
+    "image_count": 9,
+    "brand_model": "",
+    "business_type": "personal",
+    "business_ref": "",
+    "token": "gZUdW96U",
+    "source_view": "",
+    "city": "urmia",
+    "status": "",
+    "price": 399000,
+    "gender": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "district": "",
+    "credit": 0,
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

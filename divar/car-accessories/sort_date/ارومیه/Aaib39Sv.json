@@ -1,0 +1,603 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "تعدادی وسایل خودرو موتور به درد بخور",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "تعدادی وسایل خودرو موتور به درد بخور",
+            "subtitle": "۳ روز پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aaib39Sv"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام باند خربزه ای مکسیدر ۷۰۰وات امپیلی خور یکیش ایراد داره‌ جفتی ۱تومن\nچراغ عقب پراید ۱۳۱ درحدصفر ۴۵۰\nچراغ جلوی پراید ۱۳۱ سالم درحد۶۰۰\nطلق چراغ عقب برفی قرمز‌کامل و قرمز سفید جفتی ۲۰۰\nفلاپ اینه استیل با فلاپ بغل اینه کامل ۴تاش ۴۰۰\nجا سیگاری سمند اکبنده استفاده نشده ۵۵۰\nمه‌شکن ۲۰۷ واس ال ایکس و ال نود  اکبند۵۰۰\nزیر سپر پراید لامپ خور۲۰۰\nترانس زنون ۱۰۰وات اصل یک عدد سالم به شرط تست ۳۵۰\nباک‌موتورسیکلت۱۲۵ و۱۵۰ قاب بغل  قرمز فزورهتگی داره ۱۰لیتر ۳۰۰\nباک‌مشکی سالم ۳۰۰\n فلاپ موتور سیکلت پرشی کامل ۴۵۰\nکاربرات موتور سیکلت ۱۵۰ و۱۲۵ سالم یه سرویس میخواد ۳۵۰\nدوتا چراغ جلوی پراید ۱۳۱ یکم‌کدر شدن طلق هاشون ۴۰۰\nدوتا چراغ عقب کامل پراید صبا جفتی۴۵۰\nهواکش‌پرشیا ای ال ایکس و پژو ۲۰۰۰درحد صفر ۱تومن\nهواکش پراید کاربرات درحد صفر کامل ۹۰۰\nماشین بچه‌ باطری تازه‌خریداری شده اونم ۱۹۰۰\nعمود بر ادون کار میکنه فقط دنده رد کرده باید بدین تنظیم کنن اونم ۱تومن\nتاقچه سه بعدی پژو ۴۰۵ فایبر ۸۰۰\nتاقچه‌سه بعدی پراید دوتا هرکدام ۶۰۰\nتاقچه‌معمولی پراید هرکدوم ۲۰۰\nرینک پراید کره‌ای ۳۵۰\nرادیات پراید۵۰۰",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/dAe9o3GC9Nw2Ql24V37yXA/e11fe26b-098f-4c57-bca6-56d024d48c6a.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/75PAeBVWADjv-f0eZ5Hccg/e11fe26b-098f-4c57-bca6-56d024d48c6a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/0L-yjDRx2FoS9ooJImqTJQ/74f79906-1443-4be1-a233-62a3f900c2d1.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AIVRxv2YPxJdQED9yL2sNg/74f79906-1443-4be1-a233-62a3f900c2d1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eP-F-32O8jvt6aAEVP9GqQ/18e135b4-5628-4fb3-ab03-be44060658b6.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aYJXw6V9wK7RdYc4XE_FUA/18e135b4-5628-4fb3-ab03-be44060658b6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1bepn0fVjJYhlaF65E_yvQ/0ed59f79-edba-43f5-9a1f-7074ff6e1ebd.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4xo5d-Q4EYDGsDdMJE-aEQ/0ed59f79-edba-43f5-9a1f-7074ff6e1ebd.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/n0a1S-_1MV-Puo8axHbvrA/57a90ccb-6500-473e-8eb3-6ff443a57e6e.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HOjiondYrdLGI6enrGq90Q/57a90ccb-6500-473e-8eb3-6ff443a57e6e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OKoYUJG_IzOm-M_IBAEg4g/fc58daa0-5956-4ec3-a87a-2b5fe28e426b.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/rQKZCTN1SXxu5Wpuq3IQwA/fc58daa0-5956-4ec3-a87a-2b5fe28e426b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/57VVB6RAEiSePL5w1RmI7g/a4819898-ce69-40a0-ac5e-f3cf13aa9811.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fG_Ps2wsNaNAfvOYoHfv9A/a4819898-ce69-40a0-ac5e-f3cf13aa9811.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ae1GkMNb2Cwypn0T7JH33w/fbb5e5c8-e89b-4c08-9dcb-d79cd174b2f7.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XWmLfYEXZGGeaY6EzAIOmA/fbb5e5c8-e89b-4c08-9dcb-d79cd174b2f7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/zVN6x87b4OSQxldOpWShaA/ac498e40-250d-498d-8858-ba7a91e0e677.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WH-gFXCg4I_fnaLy5fAcJA/ac498e40-250d-498d-8858-ba7a91e0e677.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/b1dKr74v766PXLD_Em0iJA/39dae254-e4cd-48e1-a56d-134d33079fbe.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/q0bgcWSra4GHIA4BIrqRTA/39dae254-e4cd-48e1-a56d-134d33079fbe.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/yL8cH4n-TL4nPO3E3n-8zg/adf8a721-039b-453a-9335-f272d42c7024.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zGDw1qSUJyudskyknnd0ig/adf8a721-039b-453a-9335-f272d42c7024.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/IMgGsLUbNwA7xpaaWgYSWw/ab3e3335-e124-44bd-afa1-a6abead283a4.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5-zTY3nTYXz-hAFv7Ssyzg/ab3e3335-e124-44bd-afa1-a6abead283a4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wNBA0iGCAQyzsHjfTLvpyw/ee533ff7-ba0a-4ab6-8b99-30ad075b68f5.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xCwq5qhlEMw-XJI8Lw-4ag/ee533ff7-ba0a-4ab6-8b99-30ad075b68f5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/vuZb3_PmTGBV_-MlrVZrjQ/ec964c2b-b838-43b1-8c54-b1ac9be4ec67.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/P9l3Z5IDJmJu0ekDO-w7Ig/ec964c2b-b838-43b1-8c54-b1ac9be4ec67.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/EUhfgvMzEWwP_9e6PqEeWw/fb7f9428-96f8-4103-be5d-35ad2d7decb4.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iZLbKN-9Kq7jQ30DiQGIDQ/fb7f9428-96f8-4103-be5d-35ad2d7decb4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/6P5ldyaLZZkO_TufyBQU-A/2926205b-fb79-4ba1-b98c-3870b9191d67.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YsQYZgEOJuFVu-THNMN4iw/2926205b-fb79-4ba1-b98c-3870b9191d67.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/SB278RKiTIaY7NHiuAjGdw/24245923-073a-4e34-8207-2dabca5a748d.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/k3GQ0vbnezabS9Q3phc6tw/24245923-073a-4e34-8207-2dabca5a748d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/W5l35EhFXylAkQCh2C1DfQ/82235f13-5cf8-4613-a317-9f7e15034e50.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HgTeuAnA7vSo2Wf7Cy5Bkw/82235f13-5cf8-4613-a317-9f7e15034e50.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cHaxZceTszmX6bnEwWLdWQ/3b5e60dd-6087-4270-9b97-8eacecda9957.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/W-pKK_IrDQG2DefEI9t0Kw/3b5e60dd-6087-4270-9b97-8eacecda9957.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/TJ6LvKUwvLoK_ONu-s3XAA/0b413de6-c693-4336-8f9f-6b90c708d189.webp",
+                  "alt": "تعدادی وسایل خودرو موتور به درد بخور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KUdmnOyqVnpWZgZc5PnxTQ/0b413de6-c693-4336-8f9f-6b90c708d189.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "مایل به معاوضه",
+            "value": "هستم",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۵۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aaib39Sv",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "چراغ خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/چراغ-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aaib39Sv"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aaib39Sv"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "تعدادی وسایل خودرو موتور به درد بخور",
+    "web_url": "https://divar.ir/v/Aaib39Sv"
+  },
+  "seo": {
+    "title": "تعدادی وسایل خودرو موتور به درد بخور در ارومیه",
+    "description": "آگهی تعدادی وسایل خودرو موتور به درد بخور در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/تعدادی وسایل خودرو موتور به درد بخور/Aaib39Sv/",
+    "web_info": {
+      "title": "تعدادی وسایل خودرو موتور به درد بخور",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-05T18:38:35.186548",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "تعدادی وسایل خودرو موتور به درد بخور",
+      "description": "سلام باند خربزه ای مکسیدر ۷۰۰وات امپیلی خور یکیش ایراد داره‌ جفتی ۱تومن\nچراغ عقب پراید ۱۳۱ درحدصفر ۴۵۰\nچراغ جلوی پراید ۱۳۱ سالم درحد۶۰۰\nطلق چراغ عقب برفی قرمز‌کامل و قرمز سفید جفتی ۲۰۰\nفلاپ اینه استیل با فلاپ بغل اینه کامل ۴تاش ۴۰۰\nجا سیگاری سمند اکبنده استفاده نشده ۵۵۰\nمه‌شکن ۲۰۷ واس ال ایکس و ال نود  اکبند۵۰۰\nزیر سپر پراید لامپ خور۲۰۰\nترانس زنون ۱۰۰وات اصل یک عدد سالم به شرط تست ۳۵۰\nباک‌موتورسیکلت۱۲۵ و۱۵۰ قاب بغل  قرمز فزورهتگی داره ۱۰لیتر ۳۰۰\nباک‌مشکی سالم ۳۰۰\n فلاپ موتور سیکلت پرشی کامل ۴۵۰\nکاربرات موتور سیکلت ۱۵۰ و۱۲۵ سالم یه سرویس میخواد ۳۵۰\nدوتا چراغ جلوی پراید ۱۳۱ یکم‌کدر شدن طلق هاشون ۴۰۰\nدوتا چراغ عقب کامل پراید صبا جفتی۴۵۰\nهواکش‌پرشیا ای ال ایکس و پژو ۲۰۰۰درحد صفر ۱تومن\nهواکش پراید کاربرات درحد صفر کامل ۹۰۰\nماشین بچه‌ باطری تازه‌خریداری شده اونم ۱۹۰۰\nعمود بر ادون کار میکنه فقط دنده رد کرده باید بدین تنظیم کنن اونم ۱تومن\nتاقچه سه بعدی پژو ۴۰۵ فایبر ۸۰۰\nتاقچه‌سه بعدی پراید دوتا هرکدام ۶۰۰\nتاقچه‌معمولی پراید هرکدوم ۲۰۰\nرینک پراید کره‌ای ۳۵۰\nرادیات پراید۵۰۰",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/dAe9o3GC9Nw2Ql24V37yXA/e11fe26b-098f-4c57-bca6-56d024d48c6a.webp",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "500000"
+      },
+      "web_info": {
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "تعدادی وسایل خودرو موتور به درد بخور",
+        "city_persian": "ارومیه"
+      },
+      "url": "https://divar.ir/v/تعدادی-وسایل-خودرو-موتور-به-درد-بخور/Aaib39Sv"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aaib39Sv",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "025f0913-9e58-47d1-a8af-5b4621300f69"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "025f0913-9e58-47d1-a8af-5b4621300f69"
+  },
+  "webengage": {
+    "image_count": 20,
+    "business_type": "personal",
+    "category": "parts-accessories",
+    "status": "",
+    "originality": "",
+    "business_ref": "",
+    "price": 500000,
+    "district": "",
+    "cat_3": "",
+    "brand_model": "",
+    "credit": 0,
+    "cat_1": "vehicles",
+    "token": "Aaib39Sv",
+    "city": "urmia",
+    "rent": 0,
+    "cat_2": "parts-accessories",
+    "gender": "",
+    "source_view": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "کیلس استارتر، جی پی اس،دزدگیر مجیکار",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "کیلس استارتر، جی پی اس،دزدگیر مجیکار",
+            "subtitle": "۲ هفته پیش در مشهد، بهاران",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaZXAZHe"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "نصب انواع آپشن های خودرو ایرانی و خارجی  فابریک \nکیلس استارتر مارک اسکایپن \nرادار نقطه کور \nسنسور دنده عقب و جلو \nدوربین 360 درجه \nمانیتور اندروید \nآینه تاشو برقی \nپاور شیشه و پاور آینه \nدوربین ثبت وقایع \nجی پی اس \nدزدگیر مجیکار\nبا بهترین نصب و با بهترین کیفیت به صورت فابریک \nجهت بازدید نمونه کارهای انجام شده داخل اینستگرام car.noise سرچ کنید\nنصب در محل پذیرش میشود\nآدرس: بلوار ساجدی بین ساجدی 3و5 فروشگاه نویز \n   ««««««««««««««Noise»»»»»»»»»«««««««",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/0d3f176c-3fc0-4b55-9098-130579518af4.jpg",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/0/0d3f176c-3fc0-4b55-9098-130579518af4/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AaZXAZHe",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/0/0d3f176c-3fc0-4b55-9098-130579518af4/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "کیلس استارتر، جی پی اس،دزدگیر مجیکار",
+                  "upload_date": "2025-09-28T09:56:21.080458Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4dPxL-UBsKofHurLvGUp2w/5b6651b7-53c2-4a21-8ce2-dd037936da61.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WYU9AqlYuiSNiiWxDaavRw/5b6651b7-53c2-4a21-8ce2-dd037936da61.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/R2r88BddBBZMaXM3eoZX7Q/3abb65e9-6463-4895-941c-b3cc50bbe9d5.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/08JTjMB8JrBJGxbsbipEOQ/3abb65e9-6463-4895-941c-b3cc50bbe9d5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/9WFD9olpcyIPyiO5ckf_QA/80bce782-d0dc-4a51-85d5-662742afb5ab.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/j1pGAvPioOhNEDXSljkkQw/80bce782-d0dc-4a51-85d5-662742afb5ab.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7LTD7PvWSVmmcoh5sbl4oA/89e92738-fe63-4329-90e9-54ea6d62f430.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/F7zMkMoQHgAO8r0o19aiFg/89e92738-fe63-4329-90e9-54ea6d62f430.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/xYHwCpI_nCYosgKYQ_EXCA/e888c5ff-5e43-4230-a69c-cb5557277f01.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GU9kL541GlgrXPD56BNr9w/e888c5ff-5e43-4230-a69c-cb5557277f01.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/SVOb5aFHPmk5hCrDKI3Ixg/12e5ad4c-b3c2-4ad3-a4b2-5eae3ea094b8.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NKPqsjj802Rp5KMP9TQ_kg/12e5ad4c-b3c2-4ad3-a4b2-5eae3ea094b8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eWHH4tofOdCnOahvnEu2YA/8e0666a5-5714-49b9-8aa6-6a1a5213a243.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/x_E8gwNuHVLrpEXAiyV-ow/8e0666a5-5714-49b9-8aa6-6a1a5213a243.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3IlDcvINbQtfCOBFwNrf6A/d2dce9a5-c2ba-4ef7-88a3-dae83d057e30.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lq30nneu7R7di70jp9u-Mg/d2dce9a5-c2ba-4ef7-88a3-dae83d057e30.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wcM1eqOqDGXH3d5DNj_1yQ/2e8dbc5a-1a0d-47d7-a912-d7c0465a2010.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GzI0IMKS_P__DHK7lymbYQ/2e8dbc5a-1a0d-47d7-a912-d7c0465a2010.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/TNq5xC1yHK_81joXVlMU4g/4c5d056d-22ac-4a54-aa25-20604d23eb4b.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ybgv52fHM7_fKrBimOkBqA/4c5d056d-22ac-4a54-aa25-20604d23eb4b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DzjB-X_73W--KWG_uvDM4w/6cf8070e-e263-40e3-beb0-0ae3d27c84cc.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5xtVI6lm8BJo_lpYhcBy3A/6cf8070e-e263-40e3-beb0-0ae3d27c84cc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BRm4ZJxcWWaM8msOKimtQQ/0092a3da-69a5-49b5-b3fa-11a58b657008.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kQ_0p3UZ3HQlzsu1PBe2AQ/0092a3da-69a5-49b5-b3fa-11a58b657008.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/RDC0atfmS4HVI5tZtevuSg/0b0c95ff-d8e0-42c6-800c-e82dde07784b.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/guC3nZfBwFguhd13JGVAJw/0b0c95ff-d8e0-42c6-800c-e82dde07784b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/YjOp9IMmN_hw80WFg0GKyA/e298621f-ea70-4f82-a715-7a45343de983.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3AxNcJ3-BZPoJ5kJ2x6m5A/e298621f-ea70-4f82-a715-7a45343de983.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/WYTrbjzv5qWn7QdfM6w-9Q/de4c168a-3592-4603-9062-fcf32880f060.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ETui7uLafNEzT9JeVsQx6Q/de4c168a-3592-4603-9062-fcf32880f060.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3hFgClwu5jyWeLjNb8VGhg/43137b69-e2d8-40be-ac90-8f49820a7d1c.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PwzJnND7wvvI9SozJfiN_w/43137b69-e2d8-40be-ac90-8f49820a7d1c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/YmGLX6Vq8MiikCE0t81w6w/14cf7413-6f9e-4860-9fdc-f222e3aa5d8c.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qJlzeNeilp6nD585ZVVnwQ/14cf7413-6f9e-4860-9fdc-f222e3aa5d8c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JL0qQsE5QHn_uj0YfTzQ6g/3b09877f-7c94-4eed-9747-3885e4d7e0bd.webp",
+                  "alt": "کیلس استارتر، جی پی اس،دزدگیر مجیکار|قطعات یدکی و لوازم جانبی|مشهد, بهاران|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5DIyEXlRPSueL_E6lvZKxg/3b09877f-7c94-4eed-9747-3885e4d7e0bd.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaZXAZHe",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در بهاران",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1139"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دوربین عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دوربین-و-سنسور-دنده-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3424171,
+                  "longitude": 59.5600533
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXOpkwcOKPK_uQhF1v_KBHP5LnU_QvILa8d6nNeIf-JOGTQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaZXAZHe"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaZXAZHe"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaZXAZHe"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "کیلس استارتر، جی پی اس،دزدگیر مجیکار",
+    "web_url": "https://divar.ir/v/AaZXAZHe"
+  },
+  "seo": {
+    "title": "کیلس استارتر، جی پی اس،دزدگیر مجیکار در مشهد",
+    "description": "آگهی کیلس استارتر، جی پی اس،دزدگیر مجیکار در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/کیلس استارتر، جی پی اس،دزدگیر مجیکار/AaZXAZHe/",
+    "web_info": {
+      "title": "کیلس استارتر، جی پی اس،دزدگیر مجیکار",
+      "district_persian": "بهاران",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-29T13:26:21.080102",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1139"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1139"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "بهاران",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1139"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "district_persian": "بهاران",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "کیلس استارتر، جی پی اس،دزدگیر مجیکار",
+        "city_persian": "مشهد"
+      },
+      "description": "نصب انواع آپشن های خودرو ایرانی و خارجی  فابریک \nکیلس استارتر مارک اسکایپن \nرادار نقطه کور \nسنسور دنده عقب و جلو \nدوربین 360 درجه \nمانیتور اندروید \nآینه تاشو برقی \nپاور شیشه و پاور آینه \nدوربین ثبت وقایع \nجی پی اس \nدزدگیر مجیکار\nبا بهترین نصب و با بهترین کیفیت به صورت فابریک \nجهت بازدید نمونه کارهای انجام شده داخل اینستگرام car.noise سرچ کنید\nنصب در محل پذیرش میشود\nآدرس: بلوار ساجدی بین ساجدی 3و5 فروشگاه نویز \n   ««««««««««««««Noise»»»»»»»»»«««««««",
+      "@type": "Product",
+      "name": "کیلس استارتر، جی پی اس،دزدگیر مجیکار",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/کیلس-استارتر-جی-پی-اس-دزدگیر-مجیکار/AaZXAZHe",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/4dPxL-UBsKofHurLvGUp2w/5b6651b7-53c2-4a21-8ce2-dd037936da61.webp",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "10000"
+      },
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaZXAZHe",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "b23fa847-e75c-42e9-a192-1497c2b33b6a"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "b23fa847-e75c-42e9-a192-1497c2b33b6a"
+  },
+  "webengage": {
+    "price": 10000,
+    "token": "AaZXAZHe",
+    "credit": 0,
+    "city": "mashhad",
+    "district": "baharan-mashhad",
+    "brand_model": "",
+    "business_ref": "",
+    "image_count": 18,
+    "originality": "",
+    "cat_1": "vehicles",
+    "status": "",
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "gender": "",
+    "rent": 0,
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "source_view": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا",
+            "subtitle": "۴ هفته پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaIP2WYt"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "فروش دو عدد باک قرمز و سیاه\nفروش دو عدد تایر عقب و جلو \nفروش قاب بغل و...\nفروش هواکش طرح توربو\nو چراغ جلو پرشیا سالم \nمعاوضه هم دارم",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/xrx1hRVXoKP4FtEz1-fBBQ/9d316e19-563d-4e5a-9a2d-4cac529df5f8.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fbSlJKlMGrN4fc3JLJiUVw/9d316e19-563d-4e5a-9a2d-4cac529df5f8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/0Dxk4OM0dCMjmKDBLWDOrg/5b2e2d41-5574-49b3-886d-1bc63343dced.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mybrAT6dIHSThZjl0l0iIA/5b2e2d41-5574-49b3-886d-1bc63343dced.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/kFwZ61i9NJt0cgDjJ0L_HA/6ccec63c-564c-428e-985e-cd750951be98.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/d1FBCTU43AAeqZ1d6kejig/6ccec63c-564c-428e-985e-cd750951be98.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/akN4VPox7M8Uh5dLk7cRzw/db9491e2-bc97-4238-b4b8-49b08c369b2d.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZlUpWi693qfXWfpazZN6xQ/db9491e2-bc97-4238-b4b8-49b08c369b2d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/mwMjFLM5DaIJGv3UC-ZL0w/930c9a60-8096-4843-919c-2b670af18225.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Mu9ekPFGNOtyvr3nm5Vn0g/930c9a60-8096-4843-919c-2b670af18225.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/vRelIyyPzIJ0cp563b2Edw/84a7be04-7850-4744-8d33-edad91730283.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5xtKwfPLaS94tSXv3-0d1Q/84a7be04-7850-4744-8d33-edad91730283.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7g5-9xBokODHF8rBReTidA/ba92a66c-45e2-4b6c-8ae5-60c1559ba923.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CxGyjK7aLR-4n_aB7pWd3g/ba92a66c-45e2-4b6c-8ae5-60c1559ba923.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/z76h1-9hT6Tru2-AxrJo9g/e69c49ed-f439-4480-b0ea-e538be0551f5.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EzsZtoPWsnJd-VnGfKt8Ow/e69c49ed-f439-4480-b0ea-e538be0551f5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qtbJHrXA0jtaV6B3gP87kw/095ecbe6-6d63-4533-a16d-44503b6b84c5.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Cjs_HdZtTQ88F_vtS3pG3g/095ecbe6-6d63-4533-a16d-44503b6b84c5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BYzrfUrE5G7YLpLfGgrSMQ/de115308-7806-4029-9ec0-ec3fe9dda6ca.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CQNwQ-TABXuJpjZK9asNkQ/de115308-7806-4029-9ec0-ec3fe9dda6ca.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/NL6488kyYNaeUhU1J0gHug/5dbf29d3-0ad7-4673-894d-a046121ac050.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HUcqPMH5K6JznXgnjYOrqA/5dbf29d3-0ad7-4673-894d-a046121ac050.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/sEtApQAS23IoWLyFSXtZrw/0dbcb430-517a-44fd-bbce-a3966d946973.webp",
+                  "alt": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/09XmP73OpkFkE74o8CBcBw/0dbcb430-517a-44fd-bbce-a3966d946973.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "مایل به معاوضه",
+            "value": "هستم",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۳۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaIP2WYt",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.419031166719,
+                  "longitude": 45.082284276726
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXErnIEH8oq_uQoh2omumUfVLvlghO6e9AkkHVuTDPfOc1g=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaIP2WYt"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaIP2WYt"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaIP2WYt"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا",
+    "web_url": "https://divar.ir/v/AaIP2WYt"
+  },
+  "seo": {
+    "title": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا در ارومیه",
+    "description": "آگهی فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا/AaIP2WYt/",
+    "web_info": {
+      "title": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-16T22:35:29.339197",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/فروش-وسایل-ماشین-و-موتور-سیکلت-چراغ-جلو-پرشیا/AaIP2WYt",
+      "@context": "https://schema.org",
+      "description": "فروش دو عدد باک قرمز و سیاه\nفروش دو عدد تایر عقب و جلو \nفروش قاب بغل و...\nفروش هواکش طرح توربو\nو چراغ جلو پرشیا سالم \nمعاوضه هم دارم",
+      "category": "parts-accessories",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "1300000",
+        "@type": "Offer"
+      },
+      "@type": "Product",
+      "web_info": {
+        "title": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا",
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "فروش وسایل ماشین و موتور سیکلت چراغ جلو پرشیا",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/xrx1hRVXoKP4FtEz1-fBBQ/9d316e19-563d-4e5a-9a2d-4cac529df5f8.webp"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaIP2WYt",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "8e34b3ec-caf6-440e-a62b-0bd416cab2a9"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "8e34b3ec-caf6-440e-a62b-0bd416cab2a9"
+  },
+  "webengage": {
+    "business_type": "personal",
+    "business_ref": "",
+    "image_count": 12,
+    "credit": 0,
+    "city": "urmia",
+    "source_view": "",
+    "cat_2": "parts-accessories",
+    "district": "",
+    "originality": "",
+    "gender": "",
+    "status": "",
+    "brand_model": "",
+    "rent": 0,
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "price": 1300000,
+    "token": "AaIP2WYt"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

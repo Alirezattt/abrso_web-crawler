@@ -1,0 +1,603 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ظبط باند سیستم کلی جزعی",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ظبط باند سیستم کلی جزعی",
+            "subtitle": "۲ روز پیش در مشهد، عبادی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aawyrcxg"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "‌با سلام \nفروش کلی چزعی با پایین ترین قیمت ها\n            .نصب .عیب یابی .\nنصب اصولی سیستم صوتی ک باعث طول عمر بالا و صدایی با کیفیت میشه\nفروش کلیه لوازم صوتی خودرو ب پایین ترین قیمت در بازار.کافیه یه بار خرید و مقایسه کنید\n باندبیضی از۹۵۰\nظبط از۶۵۰\nاجرا نور پردازی ثابت و متحرک با موزیک و نصب ال ای  دی.رفع نویز صدا\nنصب و فروش      دزدگیر      جی پی اس \nموم بندی و عایق کاری و دمپینگ انواع سیستم خودرو\n با یکبار امتحان  و مقایسه مشتری دائم بشین\nادرس  عبادی۸۲ روبروی استکی یک سیستم رادیو اکتیو\nهمچنین در نرم افزار بلد و نشان ادرس ما ب نام سیستم و دزدگیر رادیواکتیو\n.ساب\n.باکس\n.میدرنج\n.تویتر\n.بلندگو\n.باند\n.آمپ\n.فول رنج\n.هورن\n.آمپلی فایر\n.سیستم سنگین\n.ظبط\n.رادیوفلش\n.مانیتور\n.فرم مانیتور",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/76051ea2-13b6-4560-aca3-0aefa01f1f3c.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/7/76051ea2-13b6-4560-aca3-0aefa01f1f3c/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "Aawyrcxg",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/7/76051ea2-13b6-4560-aca3-0aefa01f1f3c/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "ظبط باند سیستم کلی جزعی",
+                  "upload_date": "2025-09-04T16:01:58.892627Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/zaaAonhCPxoX8TCbEXooMg/66aaff82-10b5-4cd3-abe3-4d7e1e160e3f.jpg.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JgWowTqNGS4xzxKWEej9nw/66aaff82-10b5-4cd3-abe3-4d7e1e160e3f.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/jqU2l_fVI3rXzfYRQZHVyg/4f8d7479-95b4-4fe5-86c8-ccb0f19a06ca.jpg.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7iSQDfwMAzO5EXCbbWX85w/4f8d7479-95b4-4fe5-86c8-ccb0f19a06ca.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/JJiY2GZRlxdqw1dYOY4zYQ/eab893f6-9d6a-42e9-ac00-08510812ccf7.jpg.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sslgZM_puodKcGBMmGDFsg/eab893f6-9d6a-42e9-ac00-08510812ccf7.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/1q7ua5iZUp3JcG-rACLwtA/0d417299-7e98-46be-98e0-5bfa1e9f3ffa.jpg.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pN_qtByoATrvcvakyaOuAw/0d417299-7e98-46be-98e0-5bfa1e9f3ffa.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/E0qmpcswICtwMEBP6Y0gRQ/d74afa3a-6b7a-4ff0-97fe-4d78345c88e8.jpg.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FdNNk-wVXImGrgd88mVKSA/d74afa3a-6b7a-4ff0-97fe-4d78345c88e8.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/NdaevGNQq7V_6TQWlA01rg/051a2458-bcf7-4566-bd4a-590521b78b91.jpg.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/J6DKQlEzpFrV3Dry65eOdw/051a2458-bcf7-4566-bd4a-590521b78b91.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/PPZ27ZWQaqxj8dLtlNQ63Q/53000d88-be86-457f-9a72-8f5c05d02679.jpg.jpg",
+                  "alt": "ظبط باند سیستم کلی جزعی|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9xG__VYUlRMt-a4igsN8ZQ/53000d88-be86-457f-9a72-8f5c05d02679.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۲،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aawyrcxg",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در عبادی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1156"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "مانیتور خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/مانیتور-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3209666,
+                  "longitude": 59.6178343
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXJxi7_9LPq_uQlTb6BA7FP5LD8HGCo9jYv9PCV0QauCgPQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aawyrcxg"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aawyrcxg"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aawyrcxg"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ظبط باند سیستم کلی جزعی",
+    "web_url": "https://divar.ir/v/Aawyrcxg"
+  },
+  "seo": {
+    "title": "ظبط باند سیستم کلی جزعی در مشهد",
+    "description": "آگهی ظبط باند سیستم کلی جزعی در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ظبط باند سیستم کلی جزعی/Aawyrcxg/",
+    "web_info": {
+      "title": "ظبط باند سیستم کلی جزعی",
+      "district_persian": "عبادی",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-04T19:31:58.892262",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "عبادی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "‌با سلام \nفروش کلی چزعی با پایین ترین قیمت ها\n            .نصب .عیب یابی .\nنصب اصولی سیستم صوتی ک باعث طول عمر بالا و صدایی با کیفیت میشه\nفروش کلیه لوازم صوتی خودرو ب پایین ترین قیمت در بازار.کافیه یه بار خرید و مقایسه کنید\n باندبیضی از۹۵۰\nظبط از۶۵۰\nاجرا نور پردازی ثابت و متحرک با موزیک و نصب ال ای  دی.رفع نویز صدا\nنصب و فروش      دزدگیر      جی پی اس \nموم بندی و عایق کاری و دمپینگ انواع سیستم خودرو\n با یکبار امتحان  و مقایسه مشتری دائم بشین\nادرس  عبادی۸۲ روبروی استکی یک سیستم رادیو اکتیو\nهمچنین در نرم افزار بلد و نشان ادرس ما ب نام سیستم و دزدگیر رادیواکتیو\n.ساب\n.باکس\n.میدرنج\n.تویتر\n.بلندگو\n.باند\n.آمپ\n.فول رنج\n.هورن\n.آمپلی فایر\n.سیستم سنگین\n.ظبط\n.رادیوفلش\n.مانیتور\n.فرم مانیتور",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/zaaAonhCPxoX8TCbEXooMg/66aaff82-10b5-4cd3-abe3-4d7e1e160e3f.jpg.jpg",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/ظبط-باند-سیستم-کلی-جزعی/Aawyrcxg",
+      "web_info": {
+        "district_persian": "عبادی",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ظبط باند سیستم کلی جزعی",
+        "city_persian": "مشهد"
+      },
+      "name": "ظبط باند سیستم کلی جزعی",
+      "offers": {
+        "price": "12000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aawyrcxg",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e13e2156-2942-4ef3-96ee-8fdb41082ab3"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e13e2156-2942-4ef3-96ee-8fdb41082ab3"
+  },
+  "webengage": {
+    "rent": 0,
+    "business_type": "personal",
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "price": 12000,
+    "source_view": "",
+    "city": "mashhad",
+    "brand_model": "",
+    "status": "",
+    "gender": "",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "originality": "",
+    "token": "Aawyrcxg",
+    "credit": 0,
+    "image_count": 7,
+    "district": "ayatollah-ebadi",
+    "business_ref": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

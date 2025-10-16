@@ -1,0 +1,584 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "رینگ ۱۵ اگزوز بلوچی....",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "رینگ ۱۵ اگزوز بلوچی....",
+            "subtitle": "۱ هفته پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aak_sXVe"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام ۴ عدد رینگ فابریک ۱۵ نو نو دونه ای ۷۵۰تومان.\n۱جفت لاستیک چینی roadving بدون پنچری ۱میلیون.\n۱عدد اگزوز بلوچی نو با بهترین صدا و تو خالی۷۰۰تومان.\n۱عدد بالابر شیشه پژو سمت راننده نو۷۵۰تومان.\nیک عدد لاستیک برای زاپاس ۱۵ بدون پنچری خودم ۹۰۰ خریدم مال شما ۷۰۰تومان.\nدوستا تمامی وسایل ها در حد نو هست میتونید از جلو هم ببینید عکس‌ ها گویای همه چیز هست.\nبا تشکر از برنامه دیوا.",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/q-qJ8p7G8cfOCPvhDXQLOQ/3920220b-3396-4e12-b4ec-95f815e000e8.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JepKWb0ETJR9Pd0Rsg8aqg/3920220b-3396-4e12-b4ec-95f815e000e8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/syHQQpG-InjYat3wGVoHaA/19f12435-d2ec-4f43-b017-4d86f5d52f59.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jtc8CMfng8BrpogbGRGfUg/19f12435-d2ec-4f43-b017-4d86f5d52f59.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/LOd1r49MRzK4wKdw6ogBuA/83fd85e7-0bfd-4772-8d17-159862e26012.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EwSbW0NaaDTXUc6CpWlKpQ/83fd85e7-0bfd-4772-8d17-159862e26012.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/I6M70I-IxvU4eoLBsALXgg/2eb2c5ed-ba76-45b9-b532-cf88940f2e21.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pyuYlWtsG3Zm61631b12iA/2eb2c5ed-ba76-45b9-b532-cf88940f2e21.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/FtAL0XpAIBc-NNg8vpndKw/12d11b50-3400-48e4-95d7-6452f583841e.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/y3onG2Ls0nEkeAf4bbh51g/12d11b50-3400-48e4-95d7-6452f583841e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/dBHfTyWDG75di6iTDsr3jQ/c33f18c9-5a6e-4351-9e35-1ab4fe14df99.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3kySGLuHhUVrNd1Dawo-Fg/c33f18c9-5a6e-4351-9e35-1ab4fe14df99.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/udsOXBDcwy5w3xoRkgFaDw/399c3692-c051-4d11-ae20-78cc4e8d3b74.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p9yd9ex77hxU8XfZSvqdBQ/399c3692-c051-4d11-ae20-78cc4e8d3b74.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/24ot1uNB-E1WY_x_3ZO4lA/e9af768e-f75f-4f1b-a62f-61c9eb466ff5.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Y2qn7n5-MGv7ZceYJx4y6g/e9af768e-f75f-4f1b-a62f-61c9eb466ff5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/0st8qbfT1svkCxEXlcdsww/b4936b12-5802-447a-b388-3ebf01704619.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KOH91m1jNileYJW7-O_u_w/b4936b12-5802-447a-b388-3ebf01704619.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/euwtwWlk9Km1HLwYN6Tw1g/d35d4801-8d68-4cec-b8d0-2445df355e6f.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/76GFgar0jgCzxzt5f34s4g/d35d4801-8d68-4cec-b8d0-2445df355e6f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hNS3X2Sjt9f7IUPVK2_NVw/97153c58-0ad7-48c5-aa0d-22d287a76703.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3q-CweTZWnX0lArwEaQY2Q/97153c58-0ad7-48c5-aa0d-22d287a76703.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hLt9bohrBArizJjDdghq7g/491816dc-b492-4c6f-a4e3-ba2020fac5b6.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_jcWSJYUIAFCRhjPlowgiA/491816dc-b492-4c6f-a4e3-ba2020fac5b6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/6agWAEfPxuF8kBzM651IfQ/4f8b3359-323a-4dc0-9dff-18566608c2e7.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3XvKY56Pj6lVulJpDznkUw/4f8b3359-323a-4dc0-9dff-18566608c2e7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/RXOTWeBpiQcO_ZXjIW8wsA/e05fd50d-7052-4345-81a5-0f0fc93593bd.webp",
+                  "alt": "رینگ ۱۵ اگزوز بلوچی....|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0ta5UenZXqn1_eJl5Nk28Q/e05fd50d-7052-4345-81a5-0f0fc93593bd.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aak_sXVe",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "اگزوز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/اگزوز-و-منبع-اگزوز",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.591214853109,
+                  "longitude": 45.068907094307
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNzut3zy3K_uQl_2stP_U_VLPU804NsV6tTaVoof1Tfpjw=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aak_sXVe"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aak_sXVe"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aak_sXVe"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "رینگ ۱۵ اگزوز بلوچی....",
+    "web_url": "https://divar.ir/v/Aak_sXVe"
+  },
+  "seo": {
+    "title": "رینگ ۱۵ اگزوز بلوچی.... در ارومیه",
+    "description": "آگهی رینگ ۱۵ اگزوز بلوچی.... در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/رینگ ۱۵ اگزوز بلوچی..../Aak_sXVe/",
+    "web_info": {
+      "title": "رینگ ۱۵ اگزوز بلوچی....",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-07T11:59:51.930964",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/رینگ-۱۵-اگزوز-بلوچی-/Aak_sXVe",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "رینگ ۱۵ اگزوز بلوچی....",
+        "city_persian": "ارومیه",
+        "district_persian": ""
+      },
+      "category": "parts-accessories",
+      "offers": {
+        "price": "1000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "@context": "https://schema.org",
+      "name": "رینگ ۱۵ اگزوز بلوچی....",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/q-qJ8p7G8cfOCPvhDXQLOQ/3920220b-3396-4e12-b4ec-95f815e000e8.webp",
+      "@type": "Product",
+      "description": "با سلام ۴ عدد رینگ فابریک ۱۵ نو نو دونه ای ۷۵۰تومان.\n۱جفت لاستیک چینی roadving بدون پنچری ۱میلیون.\n۱عدد اگزوز بلوچی نو با بهترین صدا و تو خالی۷۰۰تومان.\n۱عدد بالابر شیشه پژو سمت راننده نو۷۵۰تومان.\nیک عدد لاستیک برای زاپاس ۱۵ بدون پنچری خودم ۹۰۰ خریدم مال شما ۷۰۰تومان.\nدوستا تمامی وسایل ها در حد نو هست میتونید از جلو هم ببینید عکس‌ ها گویای همه چیز هست.\nبا تشکر از برنامه دیوا."
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aak_sXVe",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "2b6bec71-218c-44bf-9b07-cd7bf16b75ec"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "2b6bec71-218c-44bf-9b07-cd7bf16b75ec"
+  },
+  "webengage": {
+    "token": "Aak_sXVe",
+    "credit": 0,
+    "cat_2": "parts-accessories",
+    "business_type": "personal",
+    "rent": 0,
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "source_view": "",
+    "status": "",
+    "originality": "",
+    "price": 1000,
+    "gender": "",
+    "city": "urmia",
+    "category": "parts-accessories",
+    "business_ref": "",
+    "district": "",
+    "brand_model": "",
+    "image_count": 14
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

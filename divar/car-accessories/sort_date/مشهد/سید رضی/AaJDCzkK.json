@@ -1,0 +1,609 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب دزدگیر جی پی اسgps",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب دزدگیر جی پی اسgps",
+            "subtitle": "۲۱ ساعت پیش در مشهد، سید رضی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaJDCzkK"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "امنیت وسیله نقلیه خود را به ما بسپارید✅\n\n✅نصب تخصصی ردیاب و دزدگیر روی انواع ماشین و موتور های داخلی و خارجی \n\n✅موقعیت یابی دقیق آنلاین و آفلاین\n\n✅هشدار باز بسته شدن درب خودرو\n\n✅هشدار روشن و خاموش کردن \n\n✅امکان خاموش کردن خودرو از راه دور\n\n✅امکان دریافت صدای داخل کابین\n\n❌بدون اختلال در گارانتی \n\n✅با ضمانت قیمت و کیفیت\n\n✅پشتیبانی ۲۴ساعته\n\nآدرس:بین مهران۲وجلال۴۴",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5dd_7dWGpL4dkbGCO3b3iA/199581a3-2f1c-41e5-84d7-fe184ef875fd.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zh0fj-05vxG1pjS-1aW1uQ/199581a3-2f1c-41e5-84d7-fe184ef875fd.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/j7VZUOHQoHmZK9lk4ZegVg/b5da59b3-b3d7-488b-939a-5e08a4c233ae.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1RNmTfyGufRlsF8L3vSr8w/b5da59b3-b3d7-488b-939a-5e08a4c233ae.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/kOQfFt7nKw3NeSP0-TrI5g/8a2ddcbf-226c-4cf5-a1a6-b7e14388e42b.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Yd26ExPfLdsuOyxexLj_qw/8a2ddcbf-226c-4cf5-a1a6-b7e14388e42b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/V4RCiq_QCDbaGB79GYtyZQ/dc282165-cbde-45d2-b294-b5e1829d2fd1.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3hHTzRp0HTufW0fv00BYIQ/dc282165-cbde-45d2-b294-b5e1829d2fd1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/9G2GSHIlTmU9LXMGJmuu0Q/6dcbcf16-b9e6-4e79-a2cc-9fc4551a1c5c.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WggX47t928SSBrIxfdm-ow/6dcbcf16-b9e6-4e79-a2cc-9fc4551a1c5c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/c5YoTwtr6_0B1iSnhTkJvw/4be89620-f8dd-47f9-ac15-39f69fbe2fc4.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Mcj2_07TpdaYo7uiwgpYRQ/4be89620-f8dd-47f9-ac15-39f69fbe2fc4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qd4CxFCaR8s6sQ85WJwMWg/7de842fb-dfc7-47f7-94ca-97e0f4c6e58b.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uR--cO8aQPLqESmG4jsjSw/7de842fb-dfc7-47f7-94ca-97e0f4c6e58b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/fTwzBjWGW7D3p7wQKF-15Q/bd0b2168-02c2-4e03-8dc0-daf68d228b5d.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0ahReQq8WiYa6EC6MY243g/bd0b2168-02c2-4e03-8dc0-daf68d228b5d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Hyk1HFOTIcRspOD8v3GJ6g/7707ee9d-d29d-4d4b-a209-18521d53a3dd.webp",
+                  "alt": "ردیاب دزدگیر جی پی اسgps|قطعات یدکی و لوازم جانبی|مشهد, سید رضی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QuyZrLu-rpsQyQZZYvwDrw/7707ee9d-d29d-4d4b-a209-18521d53a3dd.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaJDCzkK",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در سید رضی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3064"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3344975,
+                  "longitude": 59.529249
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXEHjdUGOPa_uQlGPTU-QGP5LV-UHj8pdvq7NJOJetLnTAA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaJDCzkK"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaJDCzkK"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaJDCzkK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AaJDCzkK/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "AaJDCzkK"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب دزدگیر جی پی اسgps",
+    "web_url": "https://divar.ir/v/AaJDCzkK"
+  },
+  "seo": {
+    "title": "ردیاب دزدگیر جی پی اسgps در مشهد",
+    "description": "آگهی ردیاب دزدگیر جی پی اسgps در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب دزدگیر جی پی اسgps/AaJDCzkK/",
+    "web_info": {
+      "title": "ردیاب دزدگیر جی پی اسgps",
+      "district_persian": "سید رضی",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-16T12:04:23.977181",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3064"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3064"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "سید رضی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3064"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/ردیاب-دزدگیر-جی-پی-اسgps/AaJDCzkK",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/5dd_7dWGpL4dkbGCO3b3iA/199581a3-2f1c-41e5-84d7-fe184ef875fd.webp",
+      "@context": "https://schema.org",
+      "description": "امنیت وسیله نقلیه خود را به ما بسپارید✅\n\n✅نصب تخصصی ردیاب و دزدگیر روی انواع ماشین و موتور های داخلی و خارجی \n\n✅موقعیت یابی دقیق آنلاین و آفلاین\n\n✅هشدار باز بسته شدن درب خودرو\n\n✅هشدار روشن و خاموش کردن \n\n✅امکان خاموش کردن خودرو از راه دور\n\n✅امکان دریافت صدای داخل کابین\n\n❌بدون اختلال در گارانتی \n\n✅با ضمانت قیمت و کیفیت\n\n✅پشتیبانی ۲۴ساعته\n\nآدرس:بین مهران۲وجلال۴۴",
+      "web_info": {
+        "district_persian": "سید رضی",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ردیاب دزدگیر جی پی اسgps",
+        "city_persian": "مشهد"
+      },
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000000"
+      },
+      "name": "ردیاب دزدگیر جی پی اسgps",
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaJDCzkK",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e2fecf4f-95b0-4859-8e6e-51ed12920172"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e2fecf4f-95b0-4859-8e6e-51ed12920172"
+  },
+  "webengage": {
+    "token": "AaJDCzkK",
+    "rent": 0,
+    "image_count": 9,
+    "gender": "",
+    "city": "mashhad",
+    "source_view": "",
+    "business_ref": "icSXddVk_rnwFvBZe",
+    "cat_2": "parts-accessories",
+    "status": "",
+    "brand_model": "",
+    "business_type": "premium-panel",
+    "price": 1000000,
+    "credit": 0,
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "district": "seyyed-razi",
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

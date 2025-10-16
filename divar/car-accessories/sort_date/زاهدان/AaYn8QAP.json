@@ -1,0 +1,536 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "لوازم تزئیناتی خودرو",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "لوازم تزئیناتی خودرو",
+            "subtitle": "۲ هفته پیش در زاهدان",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaYn8QAP"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "انواع لوازم تزئینی ماشین شامل انواع عرقگیرـ رو فرمانی  ـ خز دنده و دستی ـ خز رو باندی ـ رو داشبوردی پارس جدیدـ روکش صندلی . در مدل و رنگ های متفاوت عرضه مستقیم از تولیدی با قیمت مناسب و زیر قیمت بازار\n۰۹۳۸\n۴۱۷\n۳۳۴۹",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/MlOw24rwzQmWJfoGUS3cyg/50bb1329-64dd-46bd-b793-20de942caaa1.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/OzTTmjCcy9Hq9l-mS8d7vA/50bb1329-64dd-46bd-b793-20de942caaa1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GFcp3XqXekNI9AodKrZC0A/b79a1850-9ba6-4ec0-a014-ffa03e1fe14f.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_p37pHE7cE4OKMvjp4YFBg/b79a1850-9ba6-4ec0-a014-ffa03e1fe14f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4W9W4Gdv2JCbZIh1cXIdwg/c8e33e29-ddb9-4db6-8920-0a4aad6fecdb.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7EcBPSk8ueQU0CbIS_GEiQ/c8e33e29-ddb9-4db6-8920-0a4aad6fecdb.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/WGEalX9TnzQi8sFRexLR3w/6ea6c764-5e10-4a86-ac46-4f31696d1622.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/K_H4_Cx0D01Op_sJNqSZ0Q/6ea6c764-5e10-4a86-ac46-4f31696d1622.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OQa4bMn4vL61iuItM_UlsA/5a2dd643-f1eb-4ae6-9c58-7f8c965cc537.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NOSv02-liHq8E-376CKBZQ/5a2dd643-f1eb-4ae6-9c58-7f8c965cc537.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JeNK6q8w2b6sO7vO3vZsSA/674efe1b-1d86-42ed-bdd8-6cc7681cc233.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RysqgiTaAwcZqF1r7TYk3g/674efe1b-1d86-42ed-bdd8-6cc7681cc233.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/l3hq1kdo-rQt8byfzbmlog/5feb7ef7-72f1-409b-a757-bdc7aee9c97c.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Nr4w2LQiztjPYCU48ZwsKw/5feb7ef7-72f1-409b-a757-bdc7aee9c97c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/el1hvUZL23GKB8SqLPTzhQ/6f58e87d-1dc0-4963-9b9b-657400662645.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UrAwBO_aMrPIbf6XEfX-2w/6f58e87d-1dc0-4963-9b9b-657400662645.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/RFOLxapZSqrXuXJVKqtNgA/00293e0a-ce59-4d80-82a4-4360298be834.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1t5LalBhipMHFMNXiiFkPw/00293e0a-ce59-4d80-82a4-4360298be834.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-BQnL-CJtwOp_1bhAbuWQg/970f80fd-2f04-4b09-a818-4251d980f2c3.webp",
+                  "alt": "لوازم تزئیناتی خودرو|قطعات یدکی و لوازم جانبی|زاهدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/f5xRPwZD1rH5hW8AX1te1w/970f80fd-2f04-4b09-a818-4251d980f2c3.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۵۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaYn8QAP",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 11
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "داشبورد",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/zahedan/list/داشبورد-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "روکش صندلی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/zahedan/list/صندلی-و-روکش-صندلی-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaYn8QAP"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaYn8QAP"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "لوازم تزئیناتی خودرو",
+    "web_url": "https://divar.ir/v/AaYn8QAP"
+  },
+  "seo": {
+    "title": "لوازم تزئیناتی خودرو در زاهدان",
+    "description": "آگهی لوازم تزئیناتی خودرو در دیوار زاهدان",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/لوازم تزئیناتی خودرو/AaYn8QAP/",
+    "web_info": {
+      "title": "لوازم تزئیناتی خودرو",
+      "city_persian": "زاهدان",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-29T09:07:29.09686",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "11",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "city_persian": "زاهدان",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "لوازم تزئیناتی خودرو"
+      },
+      "description": "انواع لوازم تزئینی ماشین شامل انواع عرقگیرـ رو فرمانی  ـ خز دنده و دستی ـ خز رو باندی ـ رو داشبوردی پارس جدیدـ روکش صندلی . در مدل و رنگ های متفاوت عرضه مستقیم از تولیدی با قیمت مناسب و زیر قیمت بازار\n۰۹۳۸\n۴۱۷\n۳۳۴۹",
+      "category": "parts-accessories",
+      "@type": "Product",
+      "name": "لوازم تزئیناتی خودرو",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/MlOw24rwzQmWJfoGUS3cyg/50bb1329-64dd-46bd-b793-20de942caaa1.webp",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/لوازم-تزئیناتی-خودرو/AaYn8QAP",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "500000"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaYn8QAP",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "2936d01a-760d-4991-a6a4-b51b150890fb"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "2936d01a-760d-4991-a6a4-b51b150890fb"
+  },
+  "webengage": {
+    "category": "parts-accessories",
+    "brand_model": "",
+    "image_count": 10,
+    "gender": "",
+    "cat_1": "vehicles",
+    "city": "zahedan",
+    "district": "",
+    "credit": 0,
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "originality": "",
+    "business_ref": "",
+    "rent": 0,
+    "business_type": "personal",
+    "status": "",
+    "token": "AaYn8QAP",
+    "price": 500000,
+    "source_view": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "zahedan"
+  },
+  "city": {
+    "city_id": "11",
+    "name": "زاهدان",
+    "parent_id": "883",
+    "second_slug": "zahedan"
+  }
+}

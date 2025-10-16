@@ -1,0 +1,638 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی",
+            "subtitle": "۶ روز پیش در خوی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AabDyHKZ"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "❌❌ بدون ریالی پیش پرداخت واقعی ❌❌\n\n✅ بزرگترین مرکز فروش اقساطی لوازم اسپورت \n          با چک 2 تا 8 ماهه بدون سود و بهره ✅\n\nلوازم فروشگاه شامل :\n❗سیستم صوتی کامل برند و اقتصادی قیمت مناسب\n❗هدلایت ، چراغ اسپورت عقب و جلو ، \n❗روکش صندلی ، زیر پایی ، دور فرمان \n❗مانیتور سیستم خور و معمولی با دوربین\n❗ دزدگیر ، ردیاب تمام فول شنود دار و خاموش ❗بوق ۱۰۱۱ ، منبع اگزوز ، سراگزوز دولول و معمولی\n\n⬇️ آدرس : خوی ، میدان امام حسین به طرف فلکه ربط ۲۰۰ متر نرسیده به فلکه ربط\n           ⛔ فروشگاه رادیو امید تورک ⛔\n\n   ❎کیفیت تضمینی ، شرایط عالی اقساطی ❎",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/S-8XmY0ec4UBF1_OrV7ULQ/60022d63-ec30-4145-9698-77759f1cd6cc.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dXe53DtTfrBNc7656HipfQ/60022d63-ec30-4145-9698-77759f1cd6cc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/z-1fdQep_HmffkJthTyvFA/142e1dc0-478a-4603-9698-8b82b52aa8c7.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/r2FajE11KzFSaNm1_G5paA/142e1dc0-478a-4603-9698-8b82b52aa8c7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/NLGByUf5BrisJsp6X-CtrA/2478b955-dd7e-4d4f-a6d1-6f66fff31aa4.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/rPD7s2coxtv55l0aDSX90g/2478b955-dd7e-4d4f-a6d1-6f66fff31aa4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/72czSQkmGKYGHwkn-Y2ZXw/eb243892-c50f-46ff-b811-8fa3bc80555e.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EFkV7Aghr1abmrS0PrKd2g/eb243892-c50f-46ff-b811-8fa3bc80555e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ZNNCJWRLEHWx64t6_AgAVA/c350a04c-4b5f-48cc-8e87-94fb2897774c.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/rAePHTrkn4LTyyeC1_9m3Q/c350a04c-4b5f-48cc-8e87-94fb2897774c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qGzpGSyGQqE8DSVSYmg4rA/81b5207a-ce7d-496b-b1c8-b9af43a7fc2c.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wUFXJTLlueD--AnFUYuPbA/81b5207a-ce7d-496b-b1c8-b9af43a7fc2c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/mn5NrqFH60KjGeCJNkIK7w/7efd49d6-386f-438c-bfe0-13cf4e3b4583.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gVNu8V8B2Fqe4b0nYMqYcw/7efd49d6-386f-438c-bfe0-13cf4e3b4583.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/VIIp_XI7Epiy1H2-p3tfxQ/af49bf1d-506d-4d1a-922b-cb3cc8bc8807.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/84uZfPoHYCInAc5mqDPfUw/af49bf1d-506d-4d1a-922b-cb3cc8bc8807.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DcSrASUkbR2KpmBLEfuM7Q/f3ad5531-9507-4636-b630-bdcb843c6df4.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sT305DsNCXh9K5eqHKOUew/f3ad5531-9507-4636-b630-bdcb843c6df4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OpQcA3H3RT4Zvu4EM_yQ5g/cf5b0233-0394-486c-b5ab-80675d52069c.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uXSeyZwCiKr0MDbCc8C75w/cf5b0233-0394-486c-b5ab-80675d52069c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XyP6OfsJNJ5R5IEtKS46AA/ec29ff96-927f-499c-91c3-86d2ed543800.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TziYEM0CpmPXDr8FiXgq9Q/ec29ff96-927f-499c-91c3-86d2ed543800.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hx1C1gIv7ezvLckW8Uqr6Q/aa971007-b514-44c4-a24e-4df55099333f.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O2HAyrwmaDEaL6T8qY__eQ/aa971007-b514-44c4-a24e-4df55099333f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ruReIiC_YW4fqHlqhKofXA/57913e4e-16c2-4614-9d2e-004c53232d17.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3dS5IrTX9pQVlIRdXgMf_A/57913e4e-16c2-4614-9d2e-004c53232d17.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DGeXCf-_pQhA93FEoQtTpQ/e832856a-ea08-48b1-bc40-39c1a0a40c6f.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZAi7hmw-wPf4ipgs-CTEAg/e832856a-ea08-48b1-bc40-39c1a0a40c6f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/I2IjR3eRsCPJha_FhLwuGA/278363d7-7b17-42c4-85dc-b4f965048c2b.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KBitI4dzdbhVpmo-18gh5A/278363d7-7b17-42c4-85dc-b4f965048c2b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/NfycEmhLBuyaMeY7PrzYNw/657c52dd-a74f-43ec-bdde-d16f4e90e2fb.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/c1rnvaSfQ_FR6McqkI3Puw/657c52dd-a74f-43ec-bdde-d16f4e90e2fb.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/elBFZt9UCgixuoAeO8kROQ/44af58d4-387f-4fe6-a249-d8f310262264.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_PQLEL4oII3k99g1vFn9Jw/44af58d4-387f-4fe6-a249-d8f310262264.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/j6toTKr-sp6MEpqPNBuIBg/8e369569-c0d2-4382-9f73-b094e778ec0d.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_QuL4pPdWTP5EdQtKW8Djg/8e369569-c0d2-4382-9f73-b094e778ec0d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eFg-mqwi97PGegOUFL3Gig/bc17e4b4-8ba7-4368-84e5-b56593c9e9b7.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UrA9nyLZdhunjwUR96ncaw/bc17e4b4-8ba7-4368-84e5-b56593c9e9b7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bbC6GIDDvgXDoLTyn6WiCw/7f13caa3-3d27-4fe5-adbf-a5da2ea31763.webp",
+                  "alt": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sEDFO_hgENxZqZFG4AYzvQ/7f13caa3-3d27-4fe5-adbf-a5da2ea31763.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AabDyHKZ",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 767
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "اگزوز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/khoy/list/اگزوز-و-منبع-اگزوز",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "روکش صندلی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/khoy/list/صندلی-و-روکش-صندلی-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 38.555851223959,
+                  "longitude": 44.94014288468
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXHhDFLN4UK7uQnwVN7t4o_VLHd2f9hRl6YUnXDdgDMxzsA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AabDyHKZ"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AabDyHKZ"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AabDyHKZ"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی",
+    "web_url": "https://divar.ir/v/AabDyHKZ"
+  },
+  "seo": {
+    "title": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی در خوی",
+    "description": "آگهی ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی در دیوار خوی",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی/AabDyHKZ/",
+    "web_info": {
+      "title": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی",
+      "city_persian": "خوی",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-31T03:42:34.990127",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "767",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "description": "❌❌ بدون ریالی پیش پرداخت واقعی ❌❌\n\n✅ بزرگترین مرکز فروش اقساطی لوازم اسپورت \n          با چک 2 تا 8 ماهه بدون سود و بهره ✅\n\nلوازم فروشگاه شامل :\n❗سیستم صوتی کامل برند و اقتصادی قیمت مناسب\n❗هدلایت ، چراغ اسپورت عقب و جلو ، \n❗روکش صندلی ، زیر پایی ، دور فرمان \n❗مانیتور سیستم خور و معمولی با دوربین\n❗ دزدگیر ، ردیاب تمام فول شنود دار و خاموش ❗بوق ۱۰۱۱ ، منبع اگزوز ، سراگزوز دولول و معمولی\n\n⬇️ آدرس : خوی ، میدان امام حسین به طرف فلکه ربط ۲۰۰ متر نرسیده به فلکه ربط\n           ⛔ فروشگاه رادیو امید تورک ⛔\n\n   ❎کیفیت تضمینی ، شرایط عالی اقساطی ❎",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/S-8XmY0ec4UBF1_OrV7ULQ/60022d63-ec30-4145-9698-77759f1cd6cc.webp",
+      "url": "https://divar.ir/v/ردیاب-روکش-مانیتور-با-چک-2-تا-8-ماه-واقعی/AabDyHKZ",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی",
+        "city_persian": "خوی",
+        "district_persian": ""
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000"
+      },
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "ردیاب ، روکش ، مانیتور با چک 2 تا 8 ماه واقعی"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AabDyHKZ",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "ec4beff6-546c-4cbe-859b-9adb3e82d9c9"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "ec4beff6-546c-4cbe-859b-9adb3e82d9c9"
+  },
+  "webengage": {
+    "cat_1": "vehicles",
+    "business_type": "personal",
+    "source_view": "",
+    "business_ref": "",
+    "credit": 0,
+    "district": "",
+    "category": "parts-accessories",
+    "rent": 0,
+    "status": "",
+    "price": 1000,
+    "city": "khoy",
+    "token": "AabDyHKZ",
+    "cat_2": "parts-accessories",
+    "cat_3": "",
+    "brand_model": "",
+    "originality": "",
+    "gender": "",
+    "image_count": 20
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "khoy"
+  },
+  "city": {
+    "city_id": "767",
+    "name": "خوی",
+    "parent_id": "881",
+    "second_slug": "khoy"
+  }
+}

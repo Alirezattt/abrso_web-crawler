@@ -1,0 +1,589 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی",
+            "subtitle": "۵ روز پیش در مشهد، رسالت، خ رسالت ۴۹",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aaofsda2"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "باند خربزه دو جفت ۱۲۵۰ تومن از سالم بوداش خبر ندارم\nباند کوچک دونه ۲۵۰ تومن \nضبط ۱۰۰۰ تومن روشن میشه ولی فلش بد میگیر با سرویس بشه\nدزدگیر جی پی اس دار که دزدگیر مشکل داره ولی جی پی اس سالم ۲۰۰۰ تومن \nاگه همه‌اش بخواهی ۶۵۰۰",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/pw09Exbpv1QwDg8EldTzKQ/1add5a24-73ab-4fae-8194-8966feeb5a69.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VZSU4P9TEAtK11bT4YQDjQ/1add5a24-73ab-4fae-8194-8966feeb5a69.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/MrbCRftRXRiz40r16DjO8w/7827ad0f-abdc-49a4-b48b-48521bb88448.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/D05DsTijLWVhH7HpdXjcJQ/7827ad0f-abdc-49a4-b48b-48521bb88448.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ipQPbWi_8etdbSi6GFSG2g/39bbcbca-8655-4714-a6eb-4f0826ff88e3.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IRhXu-QnuwtA555khFSVjA/39bbcbca-8655-4714-a6eb-4f0826ff88e3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qRX_ACBsTa4ydwftW0lVAw/a8d22679-693b-427c-9ed5-5a7b85f03fae.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/u_xBVfIAezZF2RgiA2fCoA/a8d22679-693b-427c-9ed5-5a7b85f03fae.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/savjfse-WTdQeotN56qAIQ/52273ae5-7a66-45b6-ab13-5099e7118753.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tNiUAK-5jka00_fgYoiuHA/52273ae5-7a66-45b6-ab13-5099e7118753.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OBo02JFi89DKlSCVs2ozXw/3cbb51b9-0ae9-4791-9ee2-627c986b6722.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_577Om34QEmN9jAbQ13bNw/3cbb51b9-0ae9-4791-9ee2-627c986b6722.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/z5xWYALrnoa3oIznkNuQeg/3c7bec9d-121b-46a8-b9f0-ca0320e50bf4.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EsoGAsVzDaYCmkbzHYA9VQ/3c7bec9d-121b-46a8-b9f0-ca0320e50bf4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QIXBNOVxEXcuyOXX0u7dqQ/64256b04-8edb-4bb4-a512-c8e40165138f.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TWpIvkEC5_Qfmj2CjoKZLA/64256b04-8edb-4bb4-a512-c8e40165138f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hYBmx-_5nNJOa8ObcSxUIQ/03ee84ff-5da2-41a7-b1c7-bad1c98dbaf7.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JB4PYfiGV9YnDBpBnuvtLA/03ee84ff-5da2-41a7-b1c7-bad1c98dbaf7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hOvkxNhJY0yw2xUs_HBbEA/bb9d860f-daf1-4345-99f3-15e949a5d691.webp",
+                  "alt": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی|قطعات یدکی و لوازم جانبی|مشهد, رسالت|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0x7VmbS2-O6oGXI28ChWkQ/bb9d860f-daf1-4345-99f3-15e949a5d691.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۲۵۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aaofsda2",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در رسالت",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "498"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "ضبط و باند",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/ضبط-و-باند-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "type": "FUZZY",
+              "fuzzy_data": {
+                "point": {
+                  "latitude": 36.315439283084956,
+                  "longitude": 59.64133166036378
+                },
+                "radius": 500
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXN8zbME-P6_uQlckzQY5Cf5LsDM902Q6zUx9gPPzy369EA==&is_nearby=true"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aaofsda2"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aaofsda2"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aaofsda2"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی",
+    "web_url": "https://divar.ir/v/Aaofsda2"
+  },
+  "seo": {
+    "title": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی در مشهد",
+    "description": "آگهی باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی/Aaofsda2/",
+    "web_info": {
+      "title": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی",
+      "district_persian": "رسالت",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-10T12:15:05.033981",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "498"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "498"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "رسالت",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "498"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "باند خربزه دو جفت ۱۲۵۰ تومن از سالم بوداش خبر ندارم\nباند کوچک دونه ۲۵۰ تومن \nضبط ۱۰۰۰ تومن روشن میشه ولی فلش بد میگیر با سرویس بشه\nدزدگیر جی پی اس دار که دزدگیر مشکل داره ولی جی پی اس سالم ۲۰۰۰ تومن \nاگه همه‌اش بخواهی ۶۵۰۰",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/pw09Exbpv1QwDg8EldTzKQ/1add5a24-73ab-4fae-8194-8966feeb5a69.webp",
+      "category": "parts-accessories",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "1250000",
+        "@type": "Offer"
+      },
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/باند-خربزه-باند-ماشین-ضبط-دزدگیر-جی-پی-اسی/Aaofsda2",
+      "web_info": {
+        "title": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی",
+        "city_persian": "مشهد",
+        "district_persian": "رسالت",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "@type": "Product",
+      "name": "باند خربزه.باند ماشین.ضبط.دزدگیر جی پی اسی"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aaofsda2",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "89893ab1-0c86-46ee-a711-3490539ede37"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "89893ab1-0c86-46ee-a711-3490539ede37"
+  },
+  "webengage": {
+    "price": 1250000,
+    "brand_model": "",
+    "credit": 0,
+    "token": "Aaofsda2",
+    "gender": "",
+    "cat_1": "vehicles",
+    "image_count": 10,
+    "district": "resalat-mashhad",
+    "business_type": "personal",
+    "business_ref": "",
+    "cat_3": "",
+    "rent": 0,
+    "status": "",
+    "originality": "",
+    "city": "mashhad",
+    "source_view": "",
+    "cat_2": "parts-accessories",
+    "category": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

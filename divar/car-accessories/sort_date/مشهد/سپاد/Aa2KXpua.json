@@ -1,0 +1,560 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب شنود دزدگیر کارینا",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب شنود دزدگیر کارینا",
+            "subtitle": "۴ روز پیش در مشهد، سپاد",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aa2KXpua"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "✅نصب رایگان ویژه کارگران عزیز شهرداری \n✅تخفیف 50%نصب ویژه فرهنگیان و نیروهای مسلح\n\nدزدگیر و ردیاب کارینا با دوسال گارانتی تعویض دستگاه\nلینک مستقیم اپ استور و گوگل پلی \nردیاب موتورسیکلت دزدگیر موتور سیکلت\nردیاب ماشین دزدگیر ماشین\nردیاب کامیون دزدگیر کامیون\n\nآماده عقد قرارداد با شرکتها\n\nGX7_F1‌ پرفروش ترین ردیاب\n\nGX7_F1 ردیاب ریموت دار\n\n✅ردیابی آنلاین وآفلاین(حرکت، توقف،مسیر،سرعت)\n\n✅خاموش کردن خودرو\n✅شنود\n✅حصار جغرافیایی\n✅هشدار روشن شدن\n✅هشدار باز شدن درب\n✅شوک سنسور\n✅کنترل از طریق بلوتوث،پیامک،نرم‌افزار اندروید وios\n✅هشدار پارک امن\n✅هشدار قطع برق\n✅هشدار سرعت بالا \n✅قفل مرکزی\n✅ریموت مجازی\n✅ریموت سخت افزاری (ویژه F2)\nموقع نصب داشتن سیم کارت الزامیست\nآدرس:چراغچی ۳۱ دزدگیر و ردیاب کارینا\nدر صورت توافق نصب در محل انجام میشود",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/XpJ2sa_kHyEYG9GoH5GE2g/33d17681-c489-4e99-b4c7-e0306e3a678e.jpg.jpg",
+                  "alt": "ردیاب شنود دزدگیر کارینا|قطعات یدکی و لوازم جانبی|مشهد, سپاد|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LkJqVdqEejvav9zSAy5Qpg/33d17681-c489-4e99-b4c7-e0306e3a678e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/AYLszTLtnvIxJWRit3zh0A/162918b1-a7db-4ce8-91f5-d5f12389e493.jpg.jpg",
+                  "alt": "ردیاب شنود دزدگیر کارینا|قطعات یدکی و لوازم جانبی|مشهد, سپاد|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5ZAE1cBGHMii-dozLJdtog/162918b1-a7db-4ce8-91f5-d5f12389e493.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۳،۲۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aa2KXpua",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در سپاد",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "4567"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.341958964763,
+                  "longitude": 59.596524090088
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNRyp96bPK_uQhmt6cd0F_5LNFFehfyMcbdu0b0c-r29pQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aa2KXpua"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aa2KXpua"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aa2KXpua"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/Aa2KXpua/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "Aa2KXpua"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب شنود دزدگیر کارینا",
+    "web_url": "https://divar.ir/v/Aa2KXpua"
+  },
+  "seo": {
+    "title": "ردیاب شنود دزدگیر کارینا در مشهد",
+    "description": "آگهی ردیاب شنود دزدگیر کارینا در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب شنود دزدگیر کارینا/Aa2KXpua/",
+    "web_info": {
+      "title": "ردیاب شنود دزدگیر کارینا",
+      "district_persian": "سپاد",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-02T08:01:10.305779",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "4567"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "4567"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "سپاد",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "4567"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "✅نصب رایگان ویژه کارگران عزیز شهرداری \n✅تخفیف 50%نصب ویژه فرهنگیان و نیروهای مسلح\n\nدزدگیر و ردیاب کارینا با دوسال گارانتی تعویض دستگاه\nلینک مستقیم اپ استور و گوگل پلی \nردیاب موتورسیکلت دزدگیر موتور سیکلت\nردیاب ماشین دزدگیر ماشین\nردیاب کامیون دزدگیر کامیون\n\nآماده عقد قرارداد با شرکتها\n\nGX7_F1‌ پرفروش ترین ردیاب\n\nGX7_F1 ردیاب ریموت دار\n\n✅ردیابی آنلاین وآفلاین(حرکت، توقف،مسیر،سرعت)\n\n✅خاموش کردن خودرو\n✅شنود\n✅حصار جغرافیایی\n✅هشدار روشن شدن\n✅هشدار باز شدن درب\n✅شوک سنسور\n✅کنترل از طریق بلوتوث،پیامک،نرم‌افزار اندروید وios\n✅هشدار پارک امن\n✅هشدار قطع برق\n✅هشدار سرعت بالا \n✅قفل مرکزی\n✅ریموت مجازی\n✅ریموت سخت افزاری (ویژه F2)\nموقع نصب داشتن سیم کارت الزامیست\nآدرس:چراغچی ۳۱ دزدگیر و ردیاب کارینا\nدر صورت توافق نصب در محل انجام میشود",
+      "category": "parts-accessories",
+      "@type": "Product",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/XpJ2sa_kHyEYG9GoH5GE2g/33d17681-c489-4e99-b4c7-e0306e3a678e.jpg.jpg",
+      "web_info": {
+        "title": "ردیاب شنود دزدگیر کارینا",
+        "city_persian": "مشهد",
+        "district_persian": "سپاد",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "offers": {
+        "price": "3200000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/ردیاب-شنود-دزدگیر-کارینا/Aa2KXpua",
+      "name": "ردیاب شنود دزدگیر کارینا"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aa2KXpua",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "7e7b9276-df8f-48be-ba29-830a82dcb33c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "7e7b9276-df8f-48be-ba29-830a82dcb33c"
+  },
+  "webengage": {
+    "cat_3": "",
+    "originality": "",
+    "category": "parts-accessories",
+    "district": "sepad-mashhad",
+    "status": "",
+    "city": "mashhad",
+    "token": "Aa2KXpua",
+    "source_view": "",
+    "gender": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "rent": 0,
+    "business_type": "premium-panel",
+    "image_count": 2,
+    "business_ref": "GdJhXqvS_EuRpIOmm",
+    "price": 3200000,
+    "credit": 0,
+    "brand_model": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

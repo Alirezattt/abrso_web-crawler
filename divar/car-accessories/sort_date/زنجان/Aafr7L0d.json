@@ -1,0 +1,568 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور",
+            "subtitle": "۱ هفته پیش در زنجان",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aafr7L0d"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": " مرکز امنیت خودرو بوشاسیب – نمایندگی رسمی آذر ردیاب و کارمکس \n فروش و نصب حرفه‌ای ردیاب‌های ماهواره‌ای بدون سیم‌کشی (آهن‌ربایی)وسیم کشی\n✅ باتری با دوام ۱۰ روزه و ۳۰ روزه\n✅ ردیابی آنلاین و لحظه‌ای (GPS)\n✅ ذخیره مسیرها و گزارش حرکت\n✅ شنود داخل کابین\n✅ هشدار سرعت، لرزش و تصادف\n✅ هشدار باز و بسته شدن درب‌ها و روشن شدن خودرو\n✅ نصب در محل، بدون دستکاری سیم‌کشی\n\n خدمات ویژه مرکز بوشاسیب:\n•نصب انواع دزدگیر و کیلس استارتر\n•تعویض قفل‌های خودرو (درها، صندوق، کاپوت) + نصب محافظ قفل درب‌ها، کاپوت و ECU\n•تعریف کلید کددار و ایموبلایزر برای خودرو و موتورسیکلت\n•قاب و کاور ریموت در طرح‌ها و رنگ‌های مختلف\n•تعمیر و تعریف انواع ریموت (کرکره برقی، پارکینگ، خودروهای داخلی و خارجی، ریموت‌های تاشو)\n آدرس:اسلام‌آباد، پایین‌تر از بانک صادرات، کوچه حسین محمدی\nفروشگاه قفل و کلید حاج نجف\n جهت استعلام قیمت و مشاوره با ما در تماس باشید.\n\nبا تشکر",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/r-hUgpST9NFZSk5c0LBxCg/7b810be4-008c-47f7-9f79-dde6e826ff8a.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/16Tj5g0MFisv76veiBcYCw/7b810be4-008c-47f7-9f79-dde6e826ff8a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/0gB4fnC4qTyGG7djpE4XVg/a03a68b9-ecc6-4536-b9ea-77bdfd571bca.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZlwIKOXBj3NomtEssM0G6A/a03a68b9-ecc6-4536-b9ea-77bdfd571bca.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/AZwd7I4uOJdsOYxsc4UsSA/bebe0f3b-ff50-4547-9590-0e23536dc83e.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/b-TySEfBIzTBNh4qY6h_TQ/bebe0f3b-ff50-4547-9590-0e23536dc83e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/sSzqleCNOojZrKOA5O8A_g/f9727e2f-528c-42a2-9b59-24c26d939db1.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mq1RLVfnRcLVYLGSN6GB5w/f9727e2f-528c-42a2-9b59-24c26d939db1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/-FyuLGWhnbaFPiCvuYk4Dg/9d427fc7-5cf8-46c0-981d-64444034aec4.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lXn6oJOiXmITmXUpNonIaA/9d427fc7-5cf8-46c0-981d-64444034aec4.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/iCEHGStHzOmGrkI9sxoUUQ/67910900-fb2b-40f4-9efd-24c28d90a0d2.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/z1-HslZuTArJe_7cTEOv3A/67910900-fb2b-40f4-9efd-24c28d90a0d2.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/HLWMp7J4IpgSVRVpcvR3Ow/981d5f8b-1957-4413-a9bd-9b3291ef27c1.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tfZ1Ib-TnupXRzEhdZ-CkA/981d5f8b-1957-4413-a9bd-9b3291ef27c1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/h0iM_0w0RtGmI9jXhWrBmQ/4322a3ee-0012-46ca-875c-e03bcdc14691.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2rwgK97QTf1rcFRMP3upDw/4322a3ee-0012-46ca-875c-e03bcdc14691.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/P70RCjHb-PLK_TsElS86GQ/e8de92e8-f79d-42f2-a95c-7d72d74d3f8c.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VKaz2kzeMf_nH1ImCxuNEw/e8de92e8-f79d-42f2-a95c-7d72d74d3f8c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/5bM17EtWUbrUkQD88dFUMA/d0c3973f-ff65-4d4d-ae7f-1f2aee09f9ab.jpg.jpg",
+                  "alt": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور|قطعات یدکی و لوازم جانبی|زنجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bGA0zKm05ExMvZgxeHRYYA/d0c3973f-ff65-4d4d-ae7f-1f2aee09f9ab.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۴،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aafr7L0d",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 20
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/zanjan/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/zanjan/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.68731629,
+                  "longitude": 48.473313623698
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXC-o_2unQK_uQmfzW6u75_tLoZDStmUOdYzf7A6YlyYPRA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aafr7L0d"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aafr7L0d"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aafr7L0d"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور",
+    "web_url": "https://divar.ir/v/Aafr7L0d"
+  },
+  "seo": {
+    "title": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور در زنجان",
+    "description": "آگهی ردیاب(جی پی اس) ماهواره ای خودرو و موتور در دیوار زنجان",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب(جی پی اس) ماهواره ای خودرو و موتور/Aafr7L0d/",
+    "web_info": {
+      "title": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور",
+      "city_persian": "زنجان",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-03T15:28:12.850827",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "20",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@type": "Product",
+      "description": " مرکز امنیت خودرو بوشاسیب – نمایندگی رسمی آذر ردیاب و کارمکس \n فروش و نصب حرفه‌ای ردیاب‌های ماهواره‌ای بدون سیم‌کشی (آهن‌ربایی)وسیم کشی\n✅ باتری با دوام ۱۰ روزه و ۳۰ روزه\n✅ ردیابی آنلاین و لحظه‌ای (GPS)\n✅ ذخیره مسیرها و گزارش حرکت\n✅ شنود داخل کابین\n✅ هشدار سرعت، لرزش و تصادف\n✅ هشدار باز و بسته شدن درب‌ها و روشن شدن خودرو\n✅ نصب در محل، بدون دستکاری سیم‌کشی\n\n خدمات ویژه مرکز بوشاسیب:\n•نصب انواع دزدگیر و کیلس استارتر\n•تعویض قفل‌های خودرو (درها، صندوق، کاپوت) + نصب محافظ قفل درب‌ها، کاپوت و ECU\n•تعریف کلید کددار و ایموبلایزر برای خودرو و موتورسیکلت\n•قاب و کاور ریموت در طرح‌ها و رنگ‌های مختلف\n•تعمیر و تعریف انواع ریموت (کرکره برقی، پارکینگ، خودروهای داخلی و خارجی، ریموت‌های تاشو)\n آدرس:اسلام‌آباد، پایین‌تر از بانک صادرات، کوچه حسین محمدی\nفروشگاه قفل و کلید حاج نجف\n جهت استعلام قیمت و مشاوره با ما در تماس باشید.\n\nبا تشکر",
+      "category": "parts-accessories",
+      "offers": {
+        "price": "4000000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "url": "https://divar.ir/v/ردیاب-جی-پی-اس-ماهواره-ای-خودرو-و-موتور/Aafr7L0d",
+      "name": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور",
+      "@context": "https://schema.org",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ردیاب(جی پی اس) ماهواره ای خودرو و موتور",
+        "city_persian": "زنجان",
+        "district_persian": ""
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/r-hUgpST9NFZSk5c0LBxCg/7b810be4-008c-47f7-9f79-dde6e826ff8a.jpg.jpg"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aafr7L0d",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "38a27ce0-812a-4525-ac7d-3a098c7bd752"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "38a27ce0-812a-4525-ac7d-3a098c7bd752"
+  },
+  "webengage": {
+    "credit": 0,
+    "category": "parts-accessories",
+    "business_ref": "",
+    "cat_3": "",
+    "business_type": "personal",
+    "cat_2": "parts-accessories",
+    "district": "",
+    "rent": 0,
+    "image_count": 10,
+    "gender": "",
+    "cat_1": "vehicles",
+    "originality": "",
+    "brand_model": "",
+    "source_view": "",
+    "token": "Aafr7L0d",
+    "status": "",
+    "price": 4000000,
+    "city": "zanjan"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "zanjan"
+  },
+  "city": {
+    "city_id": "20",
+    "name": "زنجان",
+    "parent_id": "879",
+    "second_slug": "zanjan"
+  }
+}

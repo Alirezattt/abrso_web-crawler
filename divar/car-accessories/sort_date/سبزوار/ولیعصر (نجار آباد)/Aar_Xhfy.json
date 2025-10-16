@@ -1,0 +1,611 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن",
+            "subtitle": "۳ روز پیش در سبزوار، ولیعصر (نجار آباد)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aar_Xhfy"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام\nبوق دولول استیل ترک پمپ سرخود صدا رگباری و دروری صدا شقه بدون نیاز به منبع باد در حد دو میلیون و پانصد هزار \nظبط پایونیر فلش خور از پشت شش خروجی امکان بلوتوث کردن هم داره مخصوص سیستم سنگین \nشش میلیون \nباند خربزه ای سونی اکسپلورر جفت قدیمی بشرط صدا ساب چهار میلیون و پانصد هزار \nآینه تاشو برقی 405 مدل خرگوشی سالم در حد \nیک میلیون و سیصد هزار \nمه شکن 405 با لامپ زنون یخی رنگ 55 وات اصلی آب بندی شده سالم دو میلیون و دویست هزار \nدزدگیر تصویری ماشین مارک مجیکار کره‌ای اصلی با اصالت استارتر و کلی امکانات دیگه پنج میلیون و پانصد هزار \nتوپی وسط بین فرمان ماشین برای 405 مارک مومو یک میلیون و دویست هزار \nیک پمپ باد چهار سوراخ اصلی ایتالیایی برند فیام 12 وات برای بوق شیپوری قدیمی پنج میلیون",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/VyPGQWHL8rGJqRYiBPokhQ/c0a0bea0-8cd3-452f-ae89-890bf4666f56.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cdsmV8Aj4URclb7elV-Gvg/c0a0bea0-8cd3-452f-ae89-890bf4666f56.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/YOb9ObWx-dzkJo-fmNxRAQ/b6199254-e93d-456c-9e51-9116a8be278f.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cReu7TV26vtXmndSrRBqGA/b6199254-e93d-456c-9e51-9116a8be278f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qS-zawYQwmz-MRjrTzMbOQ/401f9095-be48-4e3b-baef-70fe8841b709.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/17jrJc8YDb_lW32EySPwCg/401f9095-be48-4e3b-baef-70fe8841b709.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/P-Hm3sBPT5rBQrbNXX-O0Q/1c31ec59-6a69-485f-8450-4dcef314a179.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/g5a5i5-Sp95NwiXrOegICA/1c31ec59-6a69-485f-8450-4dcef314a179.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/lgvHJo62jVziv7ypv9VeeQ/577e31d5-f283-40d6-afc8-3bf3e4f73808.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xCQeMQY_8Y_hCQg0zOX3rw/577e31d5-f283-40d6-afc8-3bf3e4f73808.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/sDqAQ64f8vsOJOrARAFz8Q/7c838960-ab6e-4804-bf8c-b8b9ba62eba5.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EPzQSHPdYI_ZUKLZm97Q1Q/7c838960-ab6e-4804-bf8c-b8b9ba62eba5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Y3MA_IKgsay61e1E6VPPRw/ab5a0d2e-61b8-43b0-9772-ca2730d81a4d.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/34zSVBmNz4ZccXAO65-uOA/ab5a0d2e-61b8-43b0-9772-ca2730d81a4d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ojdP94DZ4qC-9MCifsJOYQ/f7434f16-b4a2-4f83-bd30-a3a700221521.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Tk8z1XgVfZoQQ8eDFq1cnw/f7434f16-b4a2-4f83-bd30-a3a700221521.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ICyT1_NyhzozxVGoLhYBug/bfea43d1-5ac6-4832-9f76-7e9a85f0d83b.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0RtZISu4AMvsMuQm1IxJ_A/bfea43d1-5ac6-4832-9f76-7e9a85f0d83b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/siMMNYea-4mCvopLRTcjaA/01e19f64-9cbe-49a5-b049-1b2177506ccb.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ePEpQvHTkyc82e6Zs_JF0A/01e19f64-9cbe-49a5-b049-1b2177506ccb.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BD4_2B_R-flmNNYwdFdIvg/bb942f06-9c20-42b2-ad40-893169f9c3a8.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_pe7v6Rmsyv3nwl-4l2Ihw/bb942f06-9c20-42b2-ad40-893169f9c3a8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/al9PrDDDa5FG96A45zaX3A/1f2c783f-0d55-42e1-9a31-599c614ed7c4.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/15QoCoQcln4x2fVa79EZ2g/1f2c783f-0d55-42e1-9a31-599c614ed7c4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/t9uTZeiu0VJH3Ks4aZg7nQ/1257c98e-dced-4846-ad77-93cbdcbe6eec.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/J-Qod3MybFZE78XmKnlVTQ/1257c98e-dced-4846-ad77-93cbdcbe6eec.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/G2FQABfxTpczuI58BG_z-w/dca4b4c5-e0f1-44ba-99c1-2d49ced0efdf.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/d0-JAceUHqx0m-K8abmECg/dca4b4c5-e0f1-44ba-99c1-2d49ced0efdf.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ziqS64qMVCV8E2GqKxGGrg/3a6f61ae-98b3-4958-b0ba-f44012ca7c8b.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JqohcNOfwhaF6d-KcStlQA/3a6f61ae-98b3-4958-b0ba-f44012ca7c8b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/p-sH1O2lIGDlJApod0nqUQ/66966de3-0c14-4ade-9795-0b1157e3d1f1.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/d-Akb_khOQjYx5mPHp9lLg/66966de3-0c14-4ade-9795-0b1157e3d1f1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/btYE7v8XCM4DxPvkpEXkGg/8550a964-ac61-4279-807c-4229c8256978.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7Aiz6uT8VcGp-OhWaA39tw/8550a964-ac61-4279-807c-4229c8256978.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/UsVMDe7cPcmk6Rd6ZhWZCw/a57db673-3adc-4fa5-a712-9f363071c9c7.webp",
+                  "alt": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن|قطعات یدکی و لوازم جانبی|سبزوار, ولیعصر (نجار آباد)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wDNSObXmOCMh7m5_kYHB9w/a57db673-3adc-4fa5-a712-9f363071c9c7.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۲،۵۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aar_Xhfy",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 316
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در ولیعصر (نجار آباد)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3179"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "بوق ماشین",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/sabzevar/list/بوق-خودرو-و-موتور",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aar_Xhfy"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aar_Xhfy"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن",
+    "web_url": "https://divar.ir/v/Aar_Xhfy"
+  },
+  "seo": {
+    "title": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن در سبزوار",
+    "description": "آگهی بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن در دیوار سبزوار",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن/Aar_Xhfy/",
+    "web_info": {
+      "title": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن",
+      "district_persian": "ولیعصر (نجار آباد)",
+      "city_persian": "سبزوار",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-12T13:44:58.817632",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3179"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3179"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "ولیعصر (نجار آباد)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3179"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "316",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@type": "Product",
+      "web_info": {
+        "title": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن",
+        "city_persian": "سبزوار",
+        "district_persian": "ولیعصر (نجار آباد)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "@context": "https://schema.org",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/VyPGQWHL8rGJqRYiBPokhQ/c0a0bea0-8cd3-452f-ae89-890bf4666f56.webp",
+      "url": "https://divar.ir/v/بوق-ظبط-پایونیر-دزدگیر-تصویری-باندآینه-405-مه-شکن/Aar_Xhfy",
+      "description": "با سلام\nبوق دولول استیل ترک پمپ سرخود صدا رگباری و دروری صدا شقه بدون نیاز به منبع باد در حد دو میلیون و پانصد هزار \nظبط پایونیر فلش خور از پشت شش خروجی امکان بلوتوث کردن هم داره مخصوص سیستم سنگین \nشش میلیون \nباند خربزه ای سونی اکسپلورر جفت قدیمی بشرط صدا ساب چهار میلیون و پانصد هزار \nآینه تاشو برقی 405 مدل خرگوشی سالم در حد \nیک میلیون و سیصد هزار \nمه شکن 405 با لامپ زنون یخی رنگ 55 وات اصلی آب بندی شده سالم دو میلیون و دویست هزار \nدزدگیر تصویری ماشین مارک مجیکار کره‌ای اصلی با اصالت استارتر و کلی امکانات دیگه پنج میلیون و پانصد هزار \nتوپی وسط بین فرمان ماشین برای 405 مارک مومو یک میلیون و دویست هزار \nیک پمپ باد چهار سوراخ اصلی ایتالیایی برند فیام 12 وات برای بوق شیپوری قدیمی پنج میلیون",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "2500000",
+        "@type": "Offer"
+      },
+      "name": "بوق ظبط پایونیر دزدگیر تصویری باندآینه 405 مه شکن",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aar_Xhfy",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "a4d1d010-09a0-4a10-9b2e-4df747aeb8f1"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "a4d1d010-09a0-4a10-9b2e-4df747aeb8f1"
+  },
+  "webengage": {
+    "cat_2": "parts-accessories",
+    "originality": "",
+    "gender": "",
+    "cat_1": "vehicles",
+    "token": "Aar_Xhfy",
+    "business_type": "personal",
+    "city": "sabzevar",
+    "status": "",
+    "district": "vali-asr-najjarabad",
+    "rent": 0,
+    "price": 2500000,
+    "brand_model": "",
+    "image_count": 18,
+    "credit": 0,
+    "business_ref": "",
+    "source_view": "",
+    "cat_3": "",
+    "category": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "sabzevar"
+  },
+  "city": {
+    "city_id": "316",
+    "name": "سبزوار",
+    "parent_id": "880",
+    "second_slug": "sabzevar"
+  }
+}

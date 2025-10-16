@@ -1,0 +1,608 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "فروشگاه ردیاب دزدگیر سایه",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "فروشگاه ردیاب دزدگیر سایه",
+            "subtitle": "۳ روز پیش در مشهد، گاز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "wZPGVPzD"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام درود خدمت همراهان گرامی \n \nمجموعه تخصصی vipردیاب دزدگیر احمد \nبا محیطی سرپوشیده و مسقف جهت رفاه مشتریان گرامی آماده ارائه خدمات\nبه شما عزیزان می‌باشد \n\nمجموعه ما از سال 1374در خدمت عزیزان می‌باشد\n \nآیا شما از نصب بهم ریز ودم دست بودن دزدگیرتون خسته شدید کافیه یه سر به مجموعه ما بزنید و از نزدیک نمونه کار ما رو مشاهده بفرمایید \nکلی نصب های ما توسط چسب های پارچه ای روکش کابل جورابی عایق میشود \n\nخلاصه امکانات عبارت از \n\nدوعدد ریموت کنترل آژیر سنسور ضربه\n\nدارای 2 سال گارانتی و 10 سال خدمات\n\nدارای نقشه جامع داخلی\n\nش ن و د \n\nدارای وب  اپلیکیشن \n\nامکان خاموش کردن خودرو از هر کجای دنیا\n\nهشدار روی گوشی هنگام باز شدن درب ها\n\nهشدار روی گوشی هنگام وارد شدن ضربه به خودرو\n\nهشدار روی گوشی هنگام حمل با جرثقیل\n\nهشدار روی گوشی هنگام قطع برق باطری\n\nهشدار روی گوشی هنگام باز شدن سوئیچ\n\nامکان تعریف ۳ کاربر\n\nمشاهده مسیر های پیموده شده\n\nآدرس \n\nبلوار رسالت داخل رسالت 36 جنب موسسه مالی ملل\n\nمجموعه تخصصی ردیاب دزدگیر احمد\n\nنماد خدمات برتر",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/33034141-1ea7-4980-a0ea-2951e2784a69.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/3/33034141-1ea7-4980-a0ea-2951e2784a69/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "wZPGVPzD",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/3/33034141-1ea7-4980-a0ea-2951e2784a69/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "فروشگاه ردیاب دزدگیر سایه",
+                  "upload_date": "2025-01-21T07:51:56.537505Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ejdzZ_SRb1SYkrUgwOdifA/d0558521-3746-48f9-9138-0f1646ec14f6.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BhI4ETtiWvauBvyp2VSnvg/d0558521-3746-48f9-9138-0f1646ec14f6.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/V7NFSJ2ZfIT80_YF4g7iVA/c46b17e8-58d0-4406-93ab-ea08b20b95eb.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iSQboGEoXC9reYeKFPc8kg/c46b17e8-58d0-4406-93ab-ea08b20b95eb.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/dyCp2UL7_mWhc2MeZwGvRA/86ca770f-ee53-4886-8708-b6c2ef14e3c7.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uY9SygPHemz1mWEMJUOvLA/86ca770f-ee53-4886-8708-b6c2ef14e3c7.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/-gVU21FWGCNMQWM7LUgmbg/dad3b780-16cd-44c0-8e85-146deab8d2ce.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fGcFV_JLM1Qh2Bq0B1bWdQ/dad3b780-16cd-44c0-8e85-146deab8d2ce.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/OiAhupePIMRZWEqzM7KTwA/31c6b3f9-3583-497e-89bb-8746a7a81a22.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tI4k21-t-6GrtcPLotDZiw/31c6b3f9-3583-497e-89bb-8746a7a81a22.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/bzDM-4OZgNFBiCIkVzOutA/58e04527-285d-4f0a-9137-dacce01103b2.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zP1GnAQ-ZgKmWxTPpK_k8A/58e04527-285d-4f0a-9137-dacce01103b2.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/UT_a-znV_4DnZZdrvwp8sA/a1d242bb-872a-4ea3-8900-913666ecca86.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BjKTAPvMirBGTMwedwr_xA/a1d242bb-872a-4ea3-8900-913666ecca86.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/wi5zUjgd-YKdLL4rq82exg/bab82035-a5a6-49bd-b58c-6b288d60af26.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GU2Rsf1c7xnHBph5qpu2rQ/bab82035-a5a6-49bd-b58c-6b288d60af26.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/mzMaCKYzgKCdTHGPR7jW1w/eee3258a-97c4-4bdb-86d6-4dedd2321ce9.jpg.jpg",
+                  "alt": "فروشگاه ردیاب دزدگیر سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6dCBZ9SbfSKBAUq6fFX22Q/eee3258a-97c4-4bdb-86d6-4dedd2321ce9.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "wZPGVPzD",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گاز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "495"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.31157660288,
+                  "longitude": 59.636751436819
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXICn6Sy_MK_uQvDfGjOvCv5LZU22K7bKwZUe99XIb_j48g=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "wZPGVPzD"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "wZPGVPzD"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "wZPGVPzD"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "فروشگاه ردیاب دزدگیر سایه",
+    "web_url": "https://divar.ir/v/wZPGVPzD"
+  },
+  "seo": {
+    "title": "فروشگاه ردیاب دزدگیر سایه در مشهد",
+    "description": "آگهی فروشگاه ردیاب دزدگیر سایه در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/فروشگاه ردیاب دزدگیر سایه/wZPGVPzD/",
+    "web_info": {
+      "title": "فروشگاه ردیاب دزدگیر سایه",
+      "district_persian": "گاز",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-18T11:21:56.537179",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گاز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "city_persian": "مشهد",
+        "district_persian": "گاز",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "فروشگاه ردیاب دزدگیر سایه"
+      },
+      "name": "فروشگاه ردیاب دزدگیر سایه",
+      "category": "parts-accessories",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "0",
+        "@type": "Offer"
+      },
+      "description": "سلام درود خدمت همراهان گرامی \n \nمجموعه تخصصی vipردیاب دزدگیر احمد \nبا محیطی سرپوشیده و مسقف جهت رفاه مشتریان گرامی آماده ارائه خدمات\nبه شما عزیزان می‌باشد \n\nمجموعه ما از سال 1374در خدمت عزیزان می‌باشد\n \nآیا شما از نصب بهم ریز ودم دست بودن دزدگیرتون خسته شدید کافیه یه سر به مجموعه ما بزنید و از نزدیک نمونه کار ما رو مشاهده بفرمایید \nکلی نصب های ما توسط چسب های پارچه ای روکش کابل جورابی عایق میشود \n\nخلاصه امکانات عبارت از \n\nدوعدد ریموت کنترل آژیر سنسور ضربه\n\nدارای 2 سال گارانتی و 10 سال خدمات\n\nدارای نقشه جامع داخلی\n\nش ن و د \n\nدارای وب  اپلیکیشن \n\nامکان خاموش کردن خودرو از هر کجای دنیا\n\nهشدار روی گوشی هنگام باز شدن درب ها\n\nهشدار روی گوشی هنگام وارد شدن ضربه به خودرو\n\nهشدار روی گوشی هنگام حمل با جرثقیل\n\nهشدار روی گوشی هنگام قطع برق باطری\n\nهشدار روی گوشی هنگام باز شدن سوئیچ\n\nامکان تعریف ۳ کاربر\n\nمشاهده مسیر های پیموده شده\n\nآدرس \n\nبلوار رسالت داخل رسالت 36 جنب موسسه مالی ملل\n\nمجموعه تخصصی ردیاب دزدگیر احمد\n\nنماد خدمات برتر",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/ejdzZ_SRb1SYkrUgwOdifA/d0558521-3746-48f9-9138-0f1646ec14f6.jpg.jpg",
+      "url": "https://divar.ir/v/فروشگاه-ردیاب-دزدگیر-سایه/wZPGVPzD"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "wZPGVPzD",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e88c8e53-5a54-4d25-abb3-9a797682171c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e88c8e53-5a54-4d25-abb3-9a797682171c"
+  },
+  "webengage": {
+    "rent": 0,
+    "cat_2": "parts-accessories",
+    "credit": 0,
+    "status": "",
+    "token": "wZPGVPzD",
+    "city": "mashhad",
+    "business_type": "personal",
+    "business_ref": "",
+    "district": "eastgaz",
+    "source_view": "",
+    "category": "parts-accessories",
+    "gender": "",
+    "cat_1": "vehicles",
+    "image_count": 9,
+    "cat_3": "",
+    "originality": "",
+    "brand_model": "",
+    "price": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

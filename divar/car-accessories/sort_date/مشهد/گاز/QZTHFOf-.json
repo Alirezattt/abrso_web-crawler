@@ -1,0 +1,584 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه",
+            "subtitle": "۱ هفته پیش در مشهد، گاز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "QZTHFOf-"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام درود خدمت تمامی دوستان \n\nاز مجموعه تخصصی ردیاب دزدگیر احمد \n\nدر خدمت شما دوستان گرامی هستیم با \n\nمعرفی ردیاب دزدگیر سایه \n\nتولید مشهد پارک علم فناوری\n\nنمایندگی کد 1035و1046\n\nاگر به فکر امنیت و سرمایه خود هستید \n   پیشنهاد ما به شما سایه می‌باشد \n\n  نصب قفل مرکزی لادری و سیم‌کشی \nبه طریقه اصولی و استانداردبا تایید شما \n\nدارندگان نیسان صفر ما صفر تا صد کار \nبابهترین متریال کار به سرانجام می‌رسانیم\n\n«««پمپ درب +لادری +سیم‌کشی »»\n\nنصب فوق تخصصی جهت نسیان صفر \n\nدارای دو عدد ریموت کنترل آژیر قطع کن سنسور ضربه قفل درب ها شاسی درب و سیم‌کشی و تمامی موارد با چسب پارچه ای عایق و مخفی سازی میشود \nقفل و باز شنود خاموش کن اخطار درب ضربه سویچ جرثقیل و کلی آیتم جانبی \n\nدوسال گارانتی ده سال خدمات شرکتی\n\n هر سوالی تماس ««»»چت دیوار \n\n آدرس بلوار رسالت\n\n داخل رسالت 36 جنب موسسه ملل \n\nمجموعه تخصصی ردیاب دزدگیر احمد \n\nبا بیش از ۲۵سال سابقه کاری مرتبط",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/6646eb73-57cc-4cff-b912-07d1e08196a7.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/6/6646eb73-57cc-4cff-b912-07d1e08196a7/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "QZTHFOf-",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/6/6646eb73-57cc-4cff-b912-07d1e08196a7/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه",
+                  "upload_date": "2024-02-19T13:05:58.390943Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ig9mDiJTOzfICTbGTtHpMQ/50416f54-189a-43fb-b21a-314a3b505541.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/sZjAgOcwP0fVKY9l2sVulA/50416f54-189a-43fb-b21a-314a3b505541.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ihp9ZwBybFm2pTKWNeqAKA/33aaf21d-d468-4213-a573-517ed6d57b56.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/KD-OZWllaKPUjZ_iY5mn8w/33aaf21d-d468-4213-a573-517ed6d57b56.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/e0VwtZ3rBsriANC_UjVpiQ/6f969e49-be52-4080-999e-72d11ee4085b.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/TxXu_e8lFuHliCu-G6RUXg/6f969e49-be52-4080-999e-72d11ee4085b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/6RZuI4CU6ZW53l9tUQCubw/163d5765-e622-409a-bb1a-45a8f2bf58db.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/ywqGjjdazzpjP8seg_Yhxw/163d5765-e622-409a-bb1a-45a8f2bf58db.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/GRdisKg6uOSmYLiuRpM3JA/d9d681b8-09a7-43ba-9aaf-0288053b29f0.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/-X29a7ouEV-Bbs2DkBz5Nw/d9d681b8-09a7-43ba-9aaf-0288053b29f0.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/Tw1mCOaN2qkQZHsooK2aqg/57e710ef-9a15-47d9-bdae-af1231605ab4.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/HPRJ8PY5XT37LDpdQrkIYQ/57e710ef-9a15-47d9-bdae-af1231605ab4.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/pCOl_Eog3pz2ZbjukwC_iA/2215e208-82f2-4c64-b136-3e0c4d482175.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/eA_lVeFbmk8PuBDBgxsNKQ/2215e208-82f2-4c64-b136-3e0c4d482175.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/K97Fqgr1XvpJ3XMnYTQZng/56fe7008-42ce-4dcc-85e5-cb1f15e73524.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/K_uGQwUyNt29pHM_cM5jBw/56fe7008-42ce-4dcc-85e5-cb1f15e73524.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/_CxaGAcIsWVdXMuaYFIdPg/5861e586-668a-46da-a1fd-ec81e0d4182b.jpg.jpg",
+                  "alt": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/DgWPJfhWrlzsZ0aqEjYgXQ/5861e586-668a-46da-a1fd-ec81e0d4182b.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "QZTHFOf-",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گاز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "495"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.311570423556,
+                  "longitude": 59.636723625782
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXDSmNxu_MK_uQrgezgmuCv5L-Kh1zrQnvfsg9BXXntSC-w=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "QZTHFOf-"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "QZTHFOf-"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "QZTHFOf-"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه",
+    "web_url": "https://divar.ir/v/QZTHFOf-"
+  },
+  "seo": {
+    "title": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه در مشهد",
+    "description": "آگهی دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه/QZTHFOf-/",
+    "web_info": {
+      "title": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه",
+      "district_persian": "گاز",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-11T16:35:58.390472",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گاز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/دارندگان-نیسان-صفر-پیشنهاد-دزدگیر-ردیاب-سایه/QZTHFOf-",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/ig9mDiJTOzfICTbGTtHpMQ/50416f54-189a-43fb-b21a-314a3b505541.jpg.jpg",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      },
+      "@context": "https://schema.org",
+      "category": "parts-accessories",
+      "@type": "Product",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه",
+        "city_persian": "مشهد",
+        "district_persian": "گاز"
+      },
+      "name": "دارندگان نیسان صفر پیشنهاد دزدگیر ردیاب سایه",
+      "description": "سلام درود خدمت تمامی دوستان \n\nاز مجموعه تخصصی ردیاب دزدگیر احمد \n\nدر خدمت شما دوستان گرامی هستیم با \n\nمعرفی ردیاب دزدگیر سایه \n\nتولید مشهد پارک علم فناوری\n\nنمایندگی کد 1035و1046\n\nاگر به فکر امنیت و سرمایه خود هستید \n   پیشنهاد ما به شما سایه می‌باشد \n\n  نصب قفل مرکزی لادری و سیم‌کشی \nبه طریقه اصولی و استانداردبا تایید شما \n\nدارندگان نیسان صفر ما صفر تا صد کار \nبابهترین متریال کار به سرانجام می‌رسانیم\n\n«««پمپ درب +لادری +سیم‌کشی »»\n\nنصب فوق تخصصی جهت نسیان صفر \n\nدارای دو عدد ریموت کنترل آژیر قطع کن سنسور ضربه قفل درب ها شاسی درب و سیم‌کشی و تمامی موارد با چسب پارچه ای عایق و مخفی سازی میشود \nقفل و باز شنود خاموش کن اخطار درب ضربه سویچ جرثقیل و کلی آیتم جانبی \n\nدوسال گارانتی ده سال خدمات شرکتی\n\n هر سوالی تماس ««»»چت دیوار \n\n آدرس بلوار رسالت\n\n داخل رسالت 36 جنب موسسه ملل \n\nمجموعه تخصصی ردیاب دزدگیر احمد \n\nبا بیش از ۲۵سال سابقه کاری مرتبط"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "QZTHFOf-",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "6d8dadca-36b8-47be-a97b-f72b1d1bdce9"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "6d8dadca-36b8-47be-a97b-f72b1d1bdce9"
+  },
+  "webengage": {
+    "originality": "",
+    "district": "eastgaz",
+    "gender": "",
+    "brand_model": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "status": "",
+    "rent": 0,
+    "image_count": 9,
+    "business_ref": "",
+    "source_view": "",
+    "price": 0,
+    "cat_3": "",
+    "credit": 0,
+    "token": "QZTHFOf-",
+    "city": "mashhad"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

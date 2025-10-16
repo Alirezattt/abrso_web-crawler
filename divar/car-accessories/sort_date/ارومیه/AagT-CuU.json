@@ -1,0 +1,595 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "لوازم نایاب جهت تقویت موتور",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "لوازم نایاب جهت تقویت موتور",
+            "subtitle": "۱ هفته پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AagT-CuU"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "هر چیزی که لازم داشته باشید موجود داریم به قیمت خیلی مناسب\nایسیو نسل جدید برد زیمنس سوکت ساژم هم موجوده\nرم ایر فیلتر دار هومورو موجود است\nفقط تماس بگیرید بدلیل شلوغی پیامک پاسخگو نیستم\nآدرس در لوکیشن دقیق میباشد\nبلوار استاد شهریار خیابان یوسفی ۲ ، صد متر مانده به تالار ایران زمین ،تیونینگ مارکت",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/IZdczYg1Hc6tz8XJVs-b2g/4897294c-e0a9-4efe-9f70-134358ae6c4f.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/I6xH3OBRpOVBX-K0r2n9Ww/4897294c-e0a9-4efe-9f70-134358ae6c4f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4o_A-snIn-DEZ6DFIT2y7A/993eeb48-ed89-4fa1-85ee-d9187a7454e8.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nWrClPNsoMXMJ-_ejPzvBQ/993eeb48-ed89-4fa1-85ee-d9187a7454e8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BT237hBcsxMu_91n3sWvkQ/0710b7d0-cee5-4f28-ae30-b110720f3e1a.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JqrNG0I4xnzZuv7nfY7VgA/0710b7d0-cee5-4f28-ae30-b110720f3e1a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/HHKuwt-0Bfie4GWPbyk0yA/6cdfc204-0100-4f44-bcee-1bf53d31feb3.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Y_1JqlcPSYLmG2zI4vTyWQ/6cdfc204-0100-4f44-bcee-1bf53d31feb3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/KC4w0pd8bWoWiSYYjv8s8g/8ecddcfc-ab63-4a18-8423-2a676f97a6d5.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tTnoQ3bBSOFvzlxsebQvMQ/8ecddcfc-ab63-4a18-8423-2a676f97a6d5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Nk5hDm4C0pIE96LfG0xeSA/d7ee739a-bd2e-45fa-ad1d-4462b501a942.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aPx5MsRBApnriU2C6hhdOA/d7ee739a-bd2e-45fa-ad1d-4462b501a942.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/w3vlCYyVH-5_6PWE8PuBRQ/fcddfbb7-2460-4ddf-bf2a-9addcfdcfd9d.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2kJQNnISWJaAZ9PNmnGuGQ/fcddfbb7-2460-4ddf-bf2a-9addcfdcfd9d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ez-YGANzIt2S-9qMtQP2Dw/acfd098d-ba85-4c49-b0c8-d446af30d3db.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/39fe0JBTokSLMAHr6Bczxw/acfd098d-ba85-4c49-b0c8-d446af30d3db.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1_4VsftzYO0EsukAMUbL1w/a970f7a2-0152-4a9b-b532-f3e3997ab908.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_T1fb4yKjI9f-pygmAP2UQ/a970f7a2-0152-4a9b-b532-f3e3997ab908.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XjZV0UTBkpp6p7FNsIp10Q/33b8f41d-ef1e-4273-a3ef-04461431c9ce.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HZudnKmSjG4T99bnk_a3eg/33b8f41d-ef1e-4273-a3ef-04461431c9ce.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7xgSvHNH6akm25iH0EtHTw/55eb3ee0-b4a0-4f07-baec-2ae72e38010f.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/44PfTNDOAAlKM_xd2UCP3Q/55eb3ee0-b4a0-4f07-baec-2ae72e38010f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ie4lNTLTqQy6aflirA0Ajw/4049d7f2-6664-4477-8ae8-c88f8a8d6f26.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GKzEJJP-fs3-SerzIp1udg/4049d7f2-6664-4477-8ae8-c88f8a8d6f26.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/c1e0BbIYc9D6-cQFy67TTw/02216007-eecc-440b-997c-b2445901c60d.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1ehDOpCcwMVYiQMmpNj22g/02216007-eecc-440b-997c-b2445901c60d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4EBhBaD56eQ02fxhxGDGDQ/b5a74c6b-1ec2-4d94-9677-f21fa47cd7ca.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/METIGtvFfHTaovVIaqZgYA/b5a74c6b-1ec2-4d94-9677-f21fa47cd7ca.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7Lnju73zq6j37onl4koFZg/6b1e13ea-14b5-4aaa-b9c5-3886de5b7676.webp",
+                  "alt": "لوازم نایاب جهت تقویت موتور|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jndzP6Jv_AXqIwXwWOF5JA/6b1e13ea-14b5-4aaa-b9c5-3886de5b7676.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AagT-CuU",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.570114966496,
+                  "longitude": 45.02396932798
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXPxo6hen36_uQsZUY0w_WPVLf0a7xz803RrlgVhYZXFs7A=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AagT-CuU"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AagT-CuU"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AagT-CuU"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AagT-CuU/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "AagT-CuU"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "لوازم نایاب جهت تقویت موتور",
+    "web_url": "https://divar.ir/v/AagT-CuU"
+  },
+  "seo": {
+    "title": "لوازم نایاب جهت تقویت موتور در ارومیه",
+    "description": "آگهی لوازم نایاب جهت تقویت موتور در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/لوازم نایاب جهت تقویت موتور/AagT-CuU/",
+    "web_info": {
+      "title": "لوازم نایاب جهت تقویت موتور",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-04T12:39:10.867045",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "لوازم نایاب جهت تقویت موتور",
+      "description": "هر چیزی که لازم داشته باشید موجود داریم به قیمت خیلی مناسب\nایسیو نسل جدید برد زیمنس سوکت ساژم هم موجوده\nرم ایر فیلتر دار هومورو موجود است\nفقط تماس بگیرید بدلیل شلوغی پیامک پاسخگو نیستم\nآدرس در لوکیشن دقیق میباشد\nبلوار استاد شهریار خیابان یوسفی ۲ ، صد متر مانده به تالار ایران زمین ،تیونینگ مارکت",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/IZdczYg1Hc6tz8XJVs-b2g/4897294c-e0a9-4efe-9f70-134358ae6c4f.webp",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000"
+      },
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "url": "https://divar.ir/v/لوازم-نایاب-جهت-تقویت-موتور/AagT-CuU",
+      "web_info": {
+        "title": "لوازم نایاب جهت تقویت موتور",
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      }
+    }
+  },
+  "contact": {
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AagT-CuU",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "4a65d756-7a8c-403f-b035-e864bc467e4a"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "4a65d756-7a8c-403f-b035-e864bc467e4a"
+  },
+  "webengage": {
+    "cat_1": "vehicles",
+    "cat_2": "parts-accessories",
+    "brand_model": "",
+    "source_view": "",
+    "cat_3": "",
+    "originality": "",
+    "token": "AagT-CuU",
+    "category": "parts-accessories",
+    "business_type": "premium-panel",
+    "image_count": 15,
+    "city": "urmia",
+    "gender": "",
+    "credit": 0,
+    "business_ref": "YougetdK_rlfQYoLr",
+    "price": 1000,
+    "rent": 0,
+    "status": "",
+    "district": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک",
+            "subtitle": "۱ ساعت پیش در مشهد، عبادی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "QZk5jNeO"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "✅دزدگیر ماجیکار با گارانتی مادام العمر کد نمایندگی 2240کمالی با 3 شعبه فعال در مشهد✅\n\n❌دزدگیر ماجیکار به قیمت همکاری بفروش می رسد ((فقط و فقط  یک میلیون ت با نصب رایگان))❌\n\n✅این دستگاه آیسی بزرگ با گارانتی مادام العمر و 6 سال خدمات پس از فروش با برد بالای 200متر دارای \n[کیت رسیور  آیسی بزرگ/دست سیم مسی/دو ریموت سویچی و لوکس برد بالا/شوک سنسور با قابلیت تنظیم حساس به ضربه/ال ای دی پرنور آبی/شاسی کاپوت✅\n\n❌این دستگاه شامل\nخروجی صندوق پران/خروجی پاور شیشه/سیم اتصال به ردیاب امکان خاموش کردن خودرو به وسیله ریموت و ... که همین دزدگیر رو جاهای دیگر بالای 1500 می‌فروشند❌\n\n✅در سه شعبه با پرسنل مجرب و حرفه ای\nشعبه اول میدان امام حسین به سمت چهارراه گاز عبادی 93 دقیقا روبروی پمپ بنزین اتوسیستم کمالی\n شعبه دوم نبش گاز 11 تابلو اتوسیستم کمالی \nشعبه سوم نرسیده به چهارراه استیکی روبروی بانک مهر تابلو اتوسیستم کمالی دوستان دقت کنید تابلو اتوسیستم کمالی \nساعت کار از 9 تا 1 \nبعدازظهر 4 تا 9✅\n\n❌دزدگیر از 900و رادیو فلش از390وجی پی اس از 1800❌",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/d59fd831-0fa1-4c0f-85c2-8b18a1bfae24.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/d/d59fd831-0fa1-4c0f-85c2-8b18a1bfae24/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "QZk5jNeO",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/d/d59fd831-0fa1-4c0f-85c2-8b18a1bfae24/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک",
+                  "upload_date": "2023-11-27T06:59:08.176289Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/PgL7Lz0_DlMFuRr8KM2B6g/1675184b-1cde-400e-bd61-b0fd1b865fea.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KyFmCFp4ADMJE0sCG1175A/1675184b-1cde-400e-bd61-b0fd1b865fea.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/LAVu4bzC8wqHTgO6YNZwlQ/5b77f3c0-ceaf-4c0b-bf1c-f520aedf86ac.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6NImk81dkNFbqcHEH1gabg/5b77f3c0-ceaf-4c0b-bf1c-f520aedf86ac.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/xsUXKsgzukLXpzBIqeDYwA/2ad0df77-3979-4e44-8e66-5299358fd433.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dPfAT7h2K_vjXd1rdmdtMg/2ad0df77-3979-4e44-8e66-5299358fd433.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ni4P8dktfH0OPJm9iQQkdw/8baa9d1a-706b-46e4-9413-ff7d652b387d.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zpr1GMPUE-JZh2ToVobYvw/8baa9d1a-706b-46e4-9413-ff7d652b387d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Di24XzupgN_PDQHDaigEyA/1b26e55c-d6aa-4fde-b898-c995c9c024ce.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/95q-6B6HSjMz4VzZEc7qvg/1b26e55c-d6aa-4fde-b898-c995c9c024ce.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Jc1YvhTijPdtPZI4CnbxeA/2ef9eca6-9663-4e15-8704-91c7119d8907.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/j081ny5lawy5-AgQQ3zQVw/2ef9eca6-9663-4e15-8704-91c7119d8907.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/mT3IVR2KKelXPI7JK4XjRw/37602688-a9e8-469e-b701-368888e3e181.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/L5O8B8SUDfojJZVQfXjf0w/37602688-a9e8-469e-b701-368888e3e181.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/WeJmZb8nrSl0I-Q3vU7IKw/d926971d-1529-4fa5-a08f-ba5e9b89c0c5.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iTNaXO7D6zZPCJcil7MqFQ/d926971d-1529-4fa5-a08f-ba5e9b89c0c5.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/MtTiYqnm5hYTb_Q9HqyjMA/857ecc73-3f46-4a8e-bb5f-927077bdd824.jpg.jpg",
+                  "alt": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KGVt517-N-HXDo3__GxUMw/857ecc73-3f46-4a8e-bb5f-927077bdd824.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "QZk5jNeO",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در عبادی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1156"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3096,
+                  "longitude": 59.607265
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXPsEG2j-MK_uQoo3If2UFv5LNsunXX---YRHuPZTdh328A=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "QZk5jNeO"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "QZk5jNeO"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "QZk5jNeO"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک",
+    "web_url": "https://divar.ir/v/QZk5jNeO"
+  },
+  "seo": {
+    "title": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک در مشهد",
+    "description": "آگهی دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک/QZk5jNeO/",
+    "web_info": {
+      "title": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک",
+      "district_persian": "عبادی",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-17T10:29:08.175876",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "عبادی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک",
+      "category": "parts-accessories",
+      "description": "✅دزدگیر ماجیکار با گارانتی مادام العمر کد نمایندگی 2240کمالی با 3 شعبه فعال در مشهد✅\n\n❌دزدگیر ماجیکار به قیمت همکاری بفروش می رسد ((فقط و فقط  یک میلیون ت با نصب رایگان))❌\n\n✅این دستگاه آیسی بزرگ با گارانتی مادام العمر و 6 سال خدمات پس از فروش با برد بالای 200متر دارای \n[کیت رسیور  آیسی بزرگ/دست سیم مسی/دو ریموت سویچی و لوکس برد بالا/شوک سنسور با قابلیت تنظیم حساس به ضربه/ال ای دی پرنور آبی/شاسی کاپوت✅\n\n❌این دستگاه شامل\nخروجی صندوق پران/خروجی پاور شیشه/سیم اتصال به ردیاب امکان خاموش کردن خودرو به وسیله ریموت و ... که همین دزدگیر رو جاهای دیگر بالای 1500 می‌فروشند❌\n\n✅در سه شعبه با پرسنل مجرب و حرفه ای\nشعبه اول میدان امام حسین به سمت چهارراه گاز عبادی 93 دقیقا روبروی پمپ بنزین اتوسیستم کمالی\n شعبه دوم نبش گاز 11 تابلو اتوسیستم کمالی \nشعبه سوم نرسیده به چهارراه استیکی روبروی بانک مهر تابلو اتوسیستم کمالی دوستان دقت کنید تابلو اتوسیستم کمالی \nساعت کار از 9 تا 1 \nبعدازظهر 4 تا 9✅\n\n❌دزدگیر از 900و رادیو فلش از390وجی پی اس از 1800❌",
+      "url": "https://divar.ir/v/دزدگیر-ماجیکار-اصلی-سویچی-گارانتی-مادام-والعمر-اک/QZk5jNeO",
+      "web_info": {
+        "district_persian": "عبادی",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دزدگیر ماجیکار اصلی سویچی گارانتی مادام والعمر اک",
+        "city_persian": "مشهد"
+      },
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/PgL7Lz0_DlMFuRr8KM2B6g/1675184b-1cde-400e-bd61-b0fd1b865fea.jpg.jpg",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000000"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "QZk5jNeO",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "729e4158-349d-40c1-ae20-5f3cd5c84f3a"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "729e4158-349d-40c1-ae20-5f3cd5c84f3a"
+  },
+  "webengage": {
+    "price": 1000000,
+    "city": "mashhad",
+    "cat_2": "parts-accessories",
+    "category": "parts-accessories",
+    "originality": "",
+    "district": "ayatollah-ebadi",
+    "cat_1": "vehicles",
+    "status": "",
+    "image_count": 9,
+    "token": "QZk5jNeO",
+    "source_view": "",
+    "rent": 0,
+    "business_type": "personal",
+    "gender": "",
+    "brand_model": "",
+    "business_ref": "",
+    "cat_3": "",
+    "credit": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

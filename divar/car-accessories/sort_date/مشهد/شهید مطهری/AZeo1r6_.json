@@ -1,0 +1,533 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس",
+            "subtitle": "نیم ساعت پیش در مشهد، شهید مطهری",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AZeo1r6_"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⚜️⚜️اتواکسس مرکز نصب تخصصی سیستم های هوشمند امنیتی خودرو در مشهد\n\n✅ دزدگیر ردیاب سایه مدل sy201\n✅✅ردیاب سایه مدل sy102\n\n⭐️ یک سیستم امنیتی هوشمند مناسب تمامی وسایل نقلیه از جمله موتور سیکلت ماشین و .... برای ضد سرقتی وسیله شما\n\nآپشن های دزدگیر و ردیاب سایه ⬇️\n\n⚡️ دارای تمامی اپشن های یک دزدگیر از قبیل هشدار ضربه،، باز شدن در ،، روشن شدن و.. با برد بی نهایت\n\n⚡️ ارسال موقعیت دقیق خودرو یه صورت اینترنتی و پیامکی از طریق اپلیکیشن \n\n⚡️ امکان خاموش کردن خودرو با گوشی همراه\n\n⚡️ دارای باتری پشتیبان اضطراری \n\nو...\n\n نصب به صورت فابریک کاملا حرفه ای و مخفی سازی برای تمامی خودرو ها\n\nآدرس: مشهد «بلوار شهیدکریمی» نبش کوچه ۲۷ کنار ایستگاه  پلاک ۹۶ و ۹۴ اتواکسس\n\n!!!! به تابلو مغازه توجه کنید !!!!\n\nباتشکر \nسید علیرضا حسینی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/BPox7ET8jHdQO8zQ--MIIg/86a9a82e-349b-42f6-be82-bff253ea2a6c.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/q3nmhQvGQbkPyp7Uh1qCpQ/86a9a82e-349b-42f6-be82-bff253ea2a6c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/b4IaAGwg13fvfMXGEwScog/d758b9ce-e825-4fb4-9c87-49cac2123550.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kK9mPiO3Nm1XpUO1QhEbow/d758b9ce-e825-4fb4-9c87-49cac2123550.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ZNJaPsT_rWJUa7YL4ycuPg/61e5da02-470c-46f9-ba9c-459bc54423e0.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aO28yAIBpciC88OJTsWJTw/61e5da02-470c-46f9-ba9c-459bc54423e0.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/J5y8DtrNTDuMo2vQnwHR1g/61c6e0ff-9f1a-4d8c-8c7b-2711e5af5f5a.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vQDDSbw7lybHdezoTn66kQ/61c6e0ff-9f1a-4d8c-8c7b-2711e5af5f5a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/TL7wXbBUZNXiZegPDajACA/3ccc3f72-470d-4248-aba8-d98f09645391.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nTMweFWB6Vi9CM3y10QaVw/3ccc3f72-470d-4248-aba8-d98f09645391.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/YTfavwVPE3avlfMQ21gPOg/e7d2889b-f890-4e4b-9f0f-db08c1c8e0eb.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lPiQf9tnJHK1UGh5XiXKqQ/e7d2889b-f890-4e4b-9f0f-db08c1c8e0eb.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Ws-z8MrPEeM-7rWUrlugoA/8cd41ace-19a1-49bc-aa61-ac5ea57bc628.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zqRuIIB3NJq2DHhaWH4EnQ/8cd41ace-19a1-49bc-aa61-ac5ea57bc628.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/5b_Ej5W4PoRx6bGEqcWLzQ/5415c576-dc3b-4a08-b910-c4b0c6de926a.jpg.jpg",
+                  "alt": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KhIRpPOcrRIUwtaWuOnzCw/5415c576-dc3b-4a08-b910-c4b0c6de926a.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AZeo1r6_",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3,
+              "include_post_addons": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شهید مطهری",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1155"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AZeo1r6_"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AZeo1r6_"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس",
+    "web_url": "https://divar.ir/v/AZeo1r6_"
+  },
+  "seo": {
+    "title": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس در مشهد",
+    "description": "آگهی ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس/AZeo1r6_/",
+    "web_info": {
+      "title": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس",
+      "district_persian": "شهید مطهری",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-10T05:54:38.932394",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شهید مطهری",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/ردیاب-دزدگیر-سایه-نگهبان-خودروشما-اتواکسس/AZeo1r6_",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/BPox7ET8jHdQO8zQ--MIIg/86a9a82e-349b-42f6-be82-bff253ea2a6c.jpg.jpg",
+      "category": "parts-accessories",
+      "web_info": {
+        "city_persian": "مشهد",
+        "district_persian": "شهید مطهری",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس"
+      },
+      "name": "ردیاب دزدگیر سایه نگهبان خودروشما اتواکسس",
+      "@type": "Product",
+      "description": "⚜️⚜️اتواکسس مرکز نصب تخصصی سیستم های هوشمند امنیتی خودرو در مشهد\n\n✅ دزدگیر ردیاب سایه مدل sy201\n✅✅ردیاب سایه مدل sy102\n\n⭐️ یک سیستم امنیتی هوشمند مناسب تمامی وسایل نقلیه از جمله موتور سیکلت ماشین و .... برای ضد سرقتی وسیله شما\n\nآپشن های دزدگیر و ردیاب سایه ⬇️\n\n⚡️ دارای تمامی اپشن های یک دزدگیر از قبیل هشدار ضربه،، باز شدن در ،، روشن شدن و.. با برد بی نهایت\n\n⚡️ ارسال موقعیت دقیق خودرو یه صورت اینترنتی و پیامکی از طریق اپلیکیشن \n\n⚡️ امکان خاموش کردن خودرو با گوشی همراه\n\n⚡️ دارای باتری پشتیبان اضطراری \n\nو...\n\n نصب به صورت فابریک کاملا حرفه ای و مخفی سازی برای تمامی خودرو ها\n\nآدرس: مشهد «بلوار شهیدکریمی» نبش کوچه ۲۷ کنار ایستگاه  پلاک ۹۶ و ۹۴ اتواکسس\n\n!!!! به تابلو مغازه توجه کنید !!!!\n\nباتشکر \nسید علیرضا حسینی",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AZeo1r6_",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "dcc852df-0c9a-465b-a3a9-7f8fa1287e89"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "dcc852df-0c9a-465b-a3a9-7f8fa1287e89"
+  },
+  "webengage": {
+    "source_view": "",
+    "price": 0,
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "rent": 0,
+    "business_type": "personal",
+    "status": "",
+    "credit": 0,
+    "token": "AZeo1r6_",
+    "brand_model": "",
+    "originality": "",
+    "cat_3": "",
+    "city": "mashhad",
+    "district": "north-shahid-mottahari",
+    "business_ref": "",
+    "image_count": 8,
+    "gender": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

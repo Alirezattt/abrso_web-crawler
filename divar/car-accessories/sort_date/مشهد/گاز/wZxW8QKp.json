@@ -1,0 +1,615 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه",
+            "subtitle": "۶ روز پیش در مشهد، گاز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "wZxW8QKp"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام \nقابل توجه دارندگان خودروهای سایپا و ایران‌خودرو \n\nانواع سوکت فابریک نمونه داخل عکس \n \nمجموعه تخصصی vipردیاب دزدگیر احمد \nبا محیطی سرپوشیده و مسقف جهت رفاه مشتریان گرامی آماده ارائه خدمات\nبه شما عزیزان می‌باشد \n\nمجموعه ما از سال 1374در خدمت عزیزان می‌باشد\n \nآیا شما از نصب بهم ریز ودم دست بودن دزدگیرتون خسته شدید کافیه یه سر به مجموعه ما بزنید و از نزدیک نمونه کار ما رو مشاهده بفرمایید \n\nکلی نصب های ما توسط چسب های پارچه ای روکش کابل جورابی عایق میشود\n\n✔️دوعدد ریموت کنترل آژیر سنسور ضربه\n\n✔️ دوسال گارانتی\n\n✔️دارای وب  اپلیکیشن \n\n✔️امکان خاموش کردن خودرو از هر کجای دنیا\n\n✔️هشدار روی گوشی هنگام باز شدن درب ها\n\n✔️هشدار روی گوشی هنگام وارد شدن ضربه به خودرو\n\n✔️هشدار روی گوشی هنگام حمل با جرثقیل\n\n✔️هشدار روی گوشی هنگام قطع برق باطری\n\n✔️هشدار روی گوشی هنگام باز شدن سوئیچ\n\nامکان تعریف ۳ کاربر\n\n❓مشاهده مسیر های پیموده شده\n\nآدرس \n\nبلوار رسالت داخل رسالت 36 جنب موسسه مالی ملل\n\nمجموعه تخصصی ردیاب دزدگیر احمد\n\nنماد خدمات برتر",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/260bac41-3c3f-49bc-8f54-d39ad4fe7b38.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/2/260bac41-3c3f-49bc-8f54-d39ad4fe7b38/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "wZxW8QKp",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/2/260bac41-3c3f-49bc-8f54-d39ad4fe7b38/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "کوییک اطلس__ ساینا تیبا ردیاب دزدگیر_ سایه",
+                  "upload_date": "2025-02-16T11:02:05.003438Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ZF2M2WGrSFdr7HHoToixhQ/f7288bef-d50a-4168-b3b8-10c399f7c5dd.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/rx9JKLLcoXDtZQBwgXJrjQ/f7288bef-d50a-4168-b3b8-10c399f7c5dd.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/FnIflNg2eO17Aw8pLXTvIQ/d19a560d-1111-4354-815e-082d3b18a7a8.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/AmlqPNfeXc7s6SEi9r8qlA/d19a560d-1111-4354-815e-082d3b18a7a8.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/vQbt4vWVP1Pr3GBJGCPoIA/c7092101-dfd9-4d8e-9b47-0bf55e498f07.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/y84Sx0AmyzlYHskQ7YkPOA/c7092101-dfd9-4d8e-9b47-0bf55e498f07.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/-kaMTNrFJFr1i4b44tQ9Hw/dd150e89-e0b0-4d47-805e-a71e08549b8b.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/952GhLdG1qjug_SEwLDySw/dd150e89-e0b0-4d47-805e-a71e08549b8b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/HUXe2Z8UfnC3O86fBrcELA/59a8af32-e28a-47c2-ba02-e8bba813a19c.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/CURlOUMtO83d_Ui-20ghsw/59a8af32-e28a-47c2-ba02-e8bba813a19c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/bCgzYWAHpGlQvTRf4Bu1qA/8ca4e95c-12f4-42b1-bbd6-38c5c6e82a51.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/h5Btp-Fm5nWRQFy92BYXng/8ca4e95c-12f4-42b1-bbd6-38c5c6e82a51.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/NARFF7D_PcnGBnDe6wWvrw/80c36de3-2ea6-4163-aba9-bd7388cf96c6.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/2NhxPEy_JPlCZCxIsaQZ9g/80c36de3-2ea6-4163-aba9-bd7388cf96c6.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/gwyFFpksgZwiMI0O6QsQFw/9db8566d-e5e6-4330-9491-a5f61d598085.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/j6AGCxtDDe6j2nk6K7o6qw/9db8566d-e5e6-4330-9491-a5f61d598085.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/yQF1E-ddLyu1UcNvjutiPw/26244e91-080f-4820-991b-901aa0ab881c.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/GzXyVcetXQSJpfZ2TtBjPA/26244e91-080f-4820-991b-901aa0ab881c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/j36uWtvPqOUWwHzamXTjFg/f2d15f75-cc7a-4b7c-b83c-af046db4543a.jpg.jpg",
+                  "alt": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/KmIsfNQS0QWOLEtwuCjuNA/f2d15f75-cc7a-4b7c-b83c-af046db4543a.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "wZxW8QKp",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گاز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "495"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.311527011554,
+                  "longitude": 59.636847179119
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXLZX6Yy-MK_uQuDZfxSqCv5LFaXAtWkF9Kscg95ThMir6A=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "wZxW8QKp"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "wZxW8QKp"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "wZxW8QKp"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "کوییک اطلس__ ساینا تیبا ردیاب دزدگیر_ سایه",
+    "web_url": "https://divar.ir/v/wZxW8QKp"
+  },
+  "seo": {
+    "title": "کوییک اطلس__ ساینا تیبا ردیاب دزدگیر_ سایه در مشهد",
+    "description": "آگهی کوییک اطلس__ ساینا تیبا ردیاب دزدگیر_ سایه در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/کوییک اطلس__ ساینا تیبا ردیاب دزدگیر_ سایه/wZxW8QKp/",
+    "web_info": {
+      "title": "کوییک اطلس__ ساینا تیبا ردیاب دزدگیر_ سایه",
+      "district_persian": "گاز",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-14T14:32:05.003009",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گاز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "سلام \nقابل توجه دارندگان خودروهای سایپا و ایران‌خودرو \n\nانواع سوکت فابریک نمونه داخل عکس \n \nمجموعه تخصصی vipردیاب دزدگیر احمد \nبا محیطی سرپوشیده و مسقف جهت رفاه مشتریان گرامی آماده ارائه خدمات\nبه شما عزیزان می‌باشد \n\nمجموعه ما از سال 1374در خدمت عزیزان می‌باشد\n \nآیا شما از نصب بهم ریز ودم دست بودن دزدگیرتون خسته شدید کافیه یه سر به مجموعه ما بزنید و از نزدیک نمونه کار ما رو مشاهده بفرمایید \n\nکلی نصب های ما توسط چسب های پارچه ای روکش کابل جورابی عایق میشود\n\n✔️دوعدد ریموت کنترل آژیر سنسور ضربه\n\n✔️ دوسال گارانتی\n\n✔️دارای وب  اپلیکیشن \n\n✔️امکان خاموش کردن خودرو از هر کجای دنیا\n\n✔️هشدار روی گوشی هنگام باز شدن درب ها\n\n✔️هشدار روی گوشی هنگام وارد شدن ضربه به خودرو\n\n✔️هشدار روی گوشی هنگام حمل با جرثقیل\n\n✔️هشدار روی گوشی هنگام قطع برق باطری\n\n✔️هشدار روی گوشی هنگام باز شدن سوئیچ\n\nامکان تعریف ۳ کاربر\n\n❓مشاهده مسیر های پیموده شده\n\nآدرس \n\nبلوار رسالت داخل رسالت 36 جنب موسسه مالی ملل\n\nمجموعه تخصصی ردیاب دزدگیر احمد\n\nنماد خدمات برتر",
+      "web_info": {
+        "title": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه",
+        "city_persian": "مشهد",
+        "district_persian": "گاز",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "@context": "https://schema.org",
+      "name": "کوییک اطلس// ساینا تیبا ردیاب دزدگیر/ سایه",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/ZF2M2WGrSFdr7HHoToixhQ/f7288bef-d50a-4168-b3b8-10c399f7c5dd.jpg.jpg",
+      "url": "https://divar.ir/v/کوییک-اطلس-ساینا-تیبا-ردیاب-دزدگیر-سایه/wZxW8QKp",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      },
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "wZxW8QKp",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "d0443634-16e0-44c1-94e0-2a1f56946712"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "d0443634-16e0-44c1-94e0-2a1f56946712"
+  },
+  "webengage": {
+    "cat_1": "vehicles",
+    "business_ref": "",
+    "cat_2": "parts-accessories",
+    "token": "wZxW8QKp",
+    "brand_model": "",
+    "originality": "",
+    "district": "eastgaz",
+    "business_type": "personal",
+    "price": 0,
+    "rent": 0,
+    "status": "",
+    "credit": 0,
+    "image_count": 10,
+    "cat_3": "",
+    "city": "mashhad",
+    "gender": "",
+    "source_view": "",
+    "category": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

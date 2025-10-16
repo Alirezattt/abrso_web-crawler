@@ -1,0 +1,591 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps",
+            "subtitle": "۲۰ ساعت پیش در مشهد، فرهنگ",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "gZqvtLt6"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⚜نمایندگی پاناسونیک⚜\n\n❗️پایین ترین قیمت در استان❗️\n\n⏪ جشنواره فروش مانیتور اندروید فابریک ماشین و خودرو اقساطی با چک صیادی\n\n❗️نصب رایگان \n❗️دوربین دنده عقب رایگان \n❗️سوکت فابریک بدون باطل شدن گارانتی\n\n⭐مانیتور فابریک سیم کارتی 4g بدون قطع شدن آنتن با رم های واقعی 2/3/4 CPU هشت هسته ای واقعی  تمامی بدون هنگی با تضمین قیمت \n\n⭐ انواع gps ردیاب دزدگیر \n\n✅مسیریاب GPS نشان آفلاین سخنگو دار\n\n✅بلوتوث فلش USB مکالمه و پخش موزیک \n\n✅تلوزیون و خروجی سیستم صوتی\n\n✅نصب تمامی اپ های اندروید\n\n✅ست شدن با کلید فرمان خودرو\n\nو کلی امکانت دیگر فول امکانات........\n\n⏪تضمین قیمت گارانتی معتبر شرکتی و ۵سال خدمات پس از فروش\n \n⭕️آدرس داخل معلم 22 روبروی کارواش نمایندگی پاناسونیک (دومین مغازه داخل کوچه)\n\n❌به آدرس دقت کنید❌\nفروشگاه شعبه دیگری ندارد\n\n⭕️ساعت کاری ۹ونیم الی ۲۱ یکسره\n\nپخش تصویری ضبط تصویری ساینا کوییک پارس سمند سورن دنا رانا مزدا 323 شاهین تارا 206 چانگان 207 مگان 405 ساندرو ال90 برلیانس آریسان هیوندا اکسنت سوناتا سانتافه سوزوکی ویتارا سراتو النترا  تیگو آریزو ام‌وی‌ام mvm لیفان  سیم کارتی مانیتورماشین",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/xJmhQjoe26YCzElhjaIt9Q/265fc780-c5d0-4994-bc77-703f8318961c.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/hWouxBk-QFJl9WIxy0agLA/265fc780-c5d0-4994-bc77-703f8318961c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/2GepquIDX4U-zm9eMkhIHA/2e255162-97e1-4269-8d9f-ebaae1604449.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/xV1gsSL-zg3Tn1liXSYaGg/2e255162-97e1-4269-8d9f-ebaae1604449.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/rV_yJfFNWD0en4nL32AEzQ/305f6a12-6468-4697-8aca-2a7af1647ea5.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/vQX5MAMiSlc9_qVTEJF02w/305f6a12-6468-4697-8aca-2a7af1647ea5.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/Miq3VDpou5_bfqjDfGktWQ/e8d071ce-8843-4f94-a2e8-008f752646c3.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/HvXq51KlL4eclDNep7fbVA/e8d071ce-8843-4f94-a2e8-008f752646c3.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/dJSwHsSjZnPElnEVb68DqA/ba815ea8-365d-4c6e-8591-aab14865595b.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/ODYYjkpR922v2FFR-q0fkQ/ba815ea8-365d-4c6e-8591-aab14865595b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/dYhUatk1MA3CBq_GawX_PA/d09fe31f-a7e5-479c-bf9f-3227647cabc2.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/5oji_riLxlxBYgrytuxdgA/d09fe31f-a7e5-479c-bf9f-3227647cabc2.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/0DBwbZZFDyfqvaKItuhNJw/70917309-fd9a-4b02-b7b8-6ff98430ad6b.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/4j64ZPHomH_VRK9S4NgXtg/70917309-fd9a-4b02-b7b8-6ff98430ad6b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/p7gMzRq4pbPacqtjgZ18kw/8e1f3b31-32d2-4c33-ab58-eba032df4c37.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/DeU6ZgkmwgrH2DShFac8gg/8e1f3b31-32d2-4c33-ab58-eba032df4c37.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/UYLBw9fEVS7xWysqos6olQ/2fbd105e-1a08-4cd6-a059-60bafff81245.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/sZnPs2PuMedLvsSx8BDGaw/2fbd105e-1a08-4cd6-a059-60bafff81245.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/MY018mEMPuEA8LDp2K0UXw/9cd3fda1-db81-4cd1-961a-7e0a286cf6b7.jpg.jpg",
+                  "alt": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/N0ASUznbb9pNRuww_j3i-Q/9cd3fda1-db81-4cd1-961a-7e0a286cf6b7.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "gZqvtLt6",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3,
+              "include_post_addons": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در فرهنگ",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1133"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دوربین عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دوربین-و-سنسور-دنده-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.331368812361,
+                  "longitude": 59.518413139141
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXN5vANo0Pa_uQoqBs311Gf5LbLJE-bEyk3LZGMontol-Rg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "gZqvtLt6"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "gZqvtLt6"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "gZqvtLt6"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps",
+    "web_url": "https://divar.ir/v/gZqvtLt6"
+  },
+  "seo": {
+    "title": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps در مشهد",
+    "description": "آگهی مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps/gZqvtLt6/",
+    "web_info": {
+      "title": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps",
+      "district_persian": "فرهنگ",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-13T17:23:43.795326",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1133"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1133"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "فرهنگ",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1133"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "url": "https://divar.ir/v/مانیتور-اندروید-سیم-کارت-خور-دزدگیر-ردیاب-gps/gZqvtLt6",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/xJmhQjoe26YCzElhjaIt9Q/265fc780-c5d0-4994-bc77-703f8318961c.jpg.jpg",
+      "category": "parts-accessories",
+      "web_info": {
+        "title": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps",
+        "city_persian": "مشهد",
+        "district_persian": "فرهنگ",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "مانیتور اندروید سیم کارت خور دزدگیر ردیاب gps",
+      "description": "⚜نمایندگی پاناسونیک⚜\n\n❗️پایین ترین قیمت در استان❗️\n\n⏪ جشنواره فروش مانیتور اندروید فابریک ماشین و خودرو اقساطی با چک صیادی\n\n❗️نصب رایگان \n❗️دوربین دنده عقب رایگان \n❗️سوکت فابریک بدون باطل شدن گارانتی\n\n⭐مانیتور فابریک سیم کارتی 4g بدون قطع شدن آنتن با رم های واقعی 2/3/4 CPU هشت هسته ای واقعی  تمامی بدون هنگی با تضمین قیمت \n\n⭐ انواع gps ردیاب دزدگیر \n\n✅مسیریاب GPS نشان آفلاین سخنگو دار\n\n✅بلوتوث فلش USB مکالمه و پخش موزیک \n\n✅تلوزیون و خروجی سیستم صوتی\n\n✅نصب تمامی اپ های اندروید\n\n✅ست شدن با کلید فرمان خودرو\n\nو کلی امکانت دیگر فول امکانات........\n\n⏪تضمین قیمت گارانتی معتبر شرکتی و ۵سال خدمات پس از فروش\n \n⭕️آدرس داخل معلم 22 روبروی کارواش نمایندگی پاناسونیک (دومین مغازه داخل کوچه)\n\n❌به آدرس دقت کنید❌\nفروشگاه شعبه دیگری ندارد\n\n⭕️ساعت کاری ۹ونیم الی ۲۱ یکسره\n\nپخش تصویری ضبط تصویری ساینا کوییک پارس سمند سورن دنا رانا مزدا 323 شاهین تارا 206 چانگان 207 مگان 405 ساندرو ال90 برلیانس آریسان هیوندا اکسنت سوناتا سانتافه سوزوکی ویتارا سراتو النترا  تیگو آریزو ام‌وی‌ام mvm لیفان  سیم کارتی مانیتورماشین",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "gZqvtLt6",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "17c47efc-2fb3-48d0-8484-f4c34e2b0f66"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "17c47efc-2fb3-48d0-8484-f4c34e2b0f66"
+  },
+  "webengage": {
+    "business_ref": "",
+    "cat_1": "vehicles",
+    "city": "mashhad",
+    "originality": "",
+    "image_count": 10,
+    "status": "",
+    "source_view": "",
+    "district": "farhang",
+    "gender": "",
+    "business_type": "personal",
+    "rent": 0,
+    "credit": 0,
+    "cat_3": "",
+    "token": "gZqvtLt6",
+    "category": "parts-accessories",
+    "brand_model": "",
+    "cat_2": "parts-accessories",
+    "price": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

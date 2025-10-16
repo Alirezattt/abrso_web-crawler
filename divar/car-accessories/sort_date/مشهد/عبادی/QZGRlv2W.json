@@ -1,0 +1,598 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند",
+            "subtitle": "۳ هفته پیش در مشهد، عبادی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "QZGRlv2W"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "دزدگیر مکسیدر شرکتی اصل \nتمامی دزدگیرها حاوی یک عدد ریموت سویچی برای خودروهای دیگر عرضه میشود\nدزدگیر سویچی مکسیدر با ضمانت نامه کتبی هولوگرام دار و تاریخ دار و درصورت خرابی تعویض میشود\nپک دزدگیر حاوی ریموت سویچی لوکس و یک ریموت ساده یدک ارائه میشود . شوک حساس به ضربه و لرزش. آژیر 6صدای قوی و دسته سیم نو مسی \nدزدگیر تمامی امکانات روز دنیا و خروجی های موجود برای ارتقا دزدگیر را دارا بوده و تکمیل می‌باشد\n صندوق پران \nخروجی اتصال به ردیاب  مکسیدر 1میلیون با نصب رایگان که همین دزدگیر رو جاهای دیگه دارن بالای یک میلیون و هشتصد می‌فروشند کیفیت عالی شرکتی با گارانتی شرکت مکسیدر هولوگرام دار جنس اصلی \nبه قیمت عمده فروشی تکی فروشی میگردد \nآدرس میدان امام حسین به سمت چهارراه گاز عبادی 93 دقیقا روبروی پمپ بنزین اتوسیستم کمالی \nشعبه دوم نبش گاز 11 تابلو اتوسیستم کمالی  \nساعت کار از 9 صبح تا 1 و عصر از 4تا8شب  جی پی اس از 1800و دزدگیر جی پی اس از3500ت رادیو فلش از 500 به بالا همه مدل موجود می‌باشد",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/d6db9cb1-4528-45ca-b3e3-9e15ec9a1813.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/d/d6db9cb1-4528-45ca-b3e3-9e15ec9a1813/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "QZGRlv2W",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/d/d6db9cb1-4528-45ca-b3e3-9e15ec9a1813/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند",
+                  "upload_date": "2023-11-04T14:29:42.667469Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/SII_Sfn_lfWozw6OcPAStA/870445d4-250e-40ad-8cfb-b922c8ffb1b4.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/cPEgX1nCwis5DZM181Gg_w/870445d4-250e-40ad-8cfb-b922c8ffb1b4.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ObzQIsabnhEnbMSRiS8G7g/e2972d52-3247-4473-a317-4729e94df81b.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/WN1ncq6d6rq1MWpIyWjjtQ/e2972d52-3247-4473-a317-4729e94df81b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/EMmdt_CIe8wBMgktTBGN3g/76113a51-aba9-4845-9d48-0e7043521a62.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/Jf2CPkbT8bu_Edfts4cJHg/76113a51-aba9-4845-9d48-0e7043521a62.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/fzcXn4Ld1zzO2Wk0ZPKGkg/b2e71ec5-3a2f-4d4c-8de7-0e7d25a08793.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/NEt1flluC1NJ8I9Tkx0E9g/b2e71ec5-3a2f-4d4c-8de7-0e7d25a08793.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ojcoAzeiEVSszvNngniurA/b56f5abf-4025-4bd7-b90a-02150efec958.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/BQ574ZxvbPdANW7-RJoYJQ/b56f5abf-4025-4bd7-b90a-02150efec958.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/UwHhJwuvQrP4j6R4Ki1yhA/5cd6e0d5-4da8-4420-9a66-40752ee90c9f.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/xbndAJLXwSkQhnyqezRnqg/5cd6e0d5-4da8-4420-9a66-40752ee90c9f.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/5rsI_KcFNJreagxy7T7V8A/b3e25f5b-20e6-4f31-914e-b65e3297be92.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/t_GzRH1JY8CWCvgY80pPfQ/b3e25f5b-20e6-4f31-914e-b65e3297be92.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/z5h-rXnWxrOySRCCgI-FGA/df8e668b-9b9d-4031-a8c9-5f92c6def61f.jpg.jpg",
+                  "alt": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند|قطعات یدکی و لوازم جانبی|مشهد, عبادی|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/qxnm8OBnhQO0Xeu7jV7LGQ/df8e668b-9b9d-4031-a8c9-5f92c6def61f.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "QZGRlv2W",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در عبادی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1156"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3096,
+                  "longitude": 59.607265
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXPsEG2j-MK_uQoo3If2UFv5LNsunXX---YRHuPZTdh328A=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "QZGRlv2W"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "QZGRlv2W"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "QZGRlv2W"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند",
+    "web_url": "https://divar.ir/v/QZGRlv2W"
+  },
+  "seo": {
+    "title": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند در مشهد",
+    "description": "آگهی دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند/QZGRlv2W/",
+    "web_info": {
+      "title": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند",
+      "district_persian": "عبادی",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-25T17:59:42.667125",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "عبادی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1156"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "دزدگیر مکسیدر شرکتی اصل \nتمامی دزدگیرها حاوی یک عدد ریموت سویچی برای خودروهای دیگر عرضه میشود\nدزدگیر سویچی مکسیدر با ضمانت نامه کتبی هولوگرام دار و تاریخ دار و درصورت خرابی تعویض میشود\nپک دزدگیر حاوی ریموت سویچی لوکس و یک ریموت ساده یدک ارائه میشود . شوک حساس به ضربه و لرزش. آژیر 6صدای قوی و دسته سیم نو مسی \nدزدگیر تمامی امکانات روز دنیا و خروجی های موجود برای ارتقا دزدگیر را دارا بوده و تکمیل می‌باشد\n صندوق پران \nخروجی اتصال به ردیاب  مکسیدر 1میلیون با نصب رایگان که همین دزدگیر رو جاهای دیگه دارن بالای یک میلیون و هشتصد می‌فروشند کیفیت عالی شرکتی با گارانتی شرکت مکسیدر هولوگرام دار جنس اصلی \nبه قیمت عمده فروشی تکی فروشی میگردد \nآدرس میدان امام حسین به سمت چهارراه گاز عبادی 93 دقیقا روبروی پمپ بنزین اتوسیستم کمالی \nشعبه دوم نبش گاز 11 تابلو اتوسیستم کمالی  \nساعت کار از 9 صبح تا 1 و عصر از 4تا8شب  جی پی اس از 1800و دزدگیر جی پی اس از3500ت رادیو فلش از 500 به بالا همه مدل موجود می‌باشد",
+      "name": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند",
+      "category": "parts-accessories",
+      "offers": {
+        "price": "1000000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/دزدگیر-سویچی-مکسیدر-ضمانت-مادام-والعمر-نو-اکبند/QZGRlv2W",
+      "@context": "https://schema.org",
+      "web_info": {
+        "title": "دزدگیر سویچی مکسیدر ضمانت مادام والعمر نو اکبند",
+        "city_persian": "مشهد",
+        "district_persian": "عبادی",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/SII_Sfn_lfWozw6OcPAStA/870445d4-250e-40ad-8cfb-b922c8ffb1b4.jpg.jpg"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "QZGRlv2W",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "cfc87fe8-7237-4181-9574-60dd8f048c4b"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "cfc87fe8-7237-4181-9574-60dd8f048c4b"
+  },
+  "webengage": {
+    "token": "QZGRlv2W",
+    "business_type": "personal",
+    "status": "",
+    "image_count": 8,
+    "district": "ayatollah-ebadi",
+    "cat_3": "",
+    "source_view": "",
+    "category": "parts-accessories",
+    "price": 1000000,
+    "rent": 0,
+    "business_ref": "",
+    "gender": "",
+    "brand_model": "",
+    "cat_1": "vehicles",
+    "city": "mashhad",
+    "credit": 0,
+    "cat_2": "parts-accessories",
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

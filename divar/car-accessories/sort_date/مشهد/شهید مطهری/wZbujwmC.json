@@ -1,0 +1,590 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین",
+            "subtitle": "۱ روز پیش در مشهد، شهید مطهری",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "wZbujwmC"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام و ارادت\n\n⚠️این محصول یک دزدگیر معمولی نیست!\n\nکیلس استارتر یک محصول ویژه برای دوست داران خودروست. این محصول علاوه بر بالا بردن امنیت، امکانات رفاهی جالبی به خودرو شما میدهد.\n\nاگر جذب محصول ما شدید، ادامه آگهی رو دنبال کنید تا با کیلس استارتر تمدن آشنا شید.\n\n✅ کیلس استارتر مثل یک دزدگیر از خودرو شما محافظت میکنه\n✅ خودرو شما مثل ماشین های لاکچری تنها با یک دکمه روشن و خاموش میشه\n✅ با ریموت ها میتونید ماشین رو از راه دو خاموش و روشن کنید!\n✅ استارت زدن با موبایل برای گرم کردن خودرو پیش از استفاده «مدل سیم کارتی»\n\n⭐ خدمات ویژه اتواکسس به مشتریان عزیز:\n**پرداخت شرایطی با چک صیادی**\n**نصب در محل سراسر مشهد **\n\nآدرس: نبش شهیدکریمی27 قبل ایستگاه «دزدگیر و ردیاب اتواکسس»\nنمایندگی ردیاب سایه !!!به تابلو دقت کنید!!!!\n\n سیدعلیرضا حسینی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/cuKfeigjeBiOQy46Zj7C0g/1783e658-1d15-46e1-95ac-2525f583df81.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/Ts73ZBDKbsz3gEreEs_FuQ/1783e658-1d15-46e1-95ac-2525f583df81.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/71WlSeOzCDFcxPeDqbuGyw/0baaec82-750c-4f74-ba5f-65dfb86a1165.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/j8coxXvN3hZi7VHjKpw7cg/0baaec82-750c-4f74-ba5f-65dfb86a1165.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ZGwWW4ZLbifrmBeT7i9dVg/aafd3265-16ad-4d04-8a21-58c004720032.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/FBv2kMnqs4T3vmFueXnpag/aafd3265-16ad-4d04-8a21-58c004720032.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/YymP-bVffLNzrLf2PTxaiQ/ef75f958-0de8-437a-b8d6-29f7f216b1b1.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/IZt49IXaHgLcFxhkGCw79A/ef75f958-0de8-437a-b8d6-29f7f216b1b1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/9IOG_kZsKpSMYcxoInbNJg/5f8fc0e7-cc82-4645-8cea-b61f5486424a.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/nSvm0D5tuVn05JEjbwzUXw/5f8fc0e7-cc82-4645-8cea-b61f5486424a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/u0IKNLJHHJpsqtq6SSNH2w/215b3249-860c-411f-acf6-940af05abf8d.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/L8Pxkw1OiwTMeezIXN_Otw/215b3249-860c-411f-acf6-940af05abf8d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/5vf7NYDzrkLCea0xBsNg0Q/cd0ee6f6-10b1-42ce-956a-23a99f50f716.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/SJsEMWPDB8oSH74kbbDvtw/cd0ee6f6-10b1-42ce-956a-23a99f50f716.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/vpC94dSdqwIGIPotqNCQbA/2b1b3ed3-906c-47d5-8a58-d9b5b9dadd80.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/ifAaEV5sd0toNNZ12VPbXA/2b1b3ed3-906c-47d5-8a58-d9b5b9dadd80.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/8K1yirfXRK02rjHXVnGCEA/9d892a20-d4a3-466a-954d-16dc17bb37cc.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/G43_4ylHtRm_m1iA2ob_IQ/9d892a20-d4a3-466a-954d-16dc17bb37cc.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/2cdqCIzHfPECAMRJnOciyA/5f18a071-ea43-4c50-9272-f086cabee112.jpg.jpg",
+                  "alt": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/iQiGGlGZahkkYgbRl6_fJQ/5f18a071-ea43-4c50-9272-f086cabee112.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "wZbujwmC",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شهید مطهری",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1155"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "کیلس استارتر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/کیلس-استارتر",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.316417563578,
+                  "longitude": 59.597370028496
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXAnW9c_eP6_uQia3KL5YF_5LKWLAJeIgM0qrVFyNb2wTDg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "wZbujwmC"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "wZbujwmC"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "wZbujwmC"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین",
+    "web_url": "https://divar.ir/v/wZbujwmC"
+  },
+  "seo": {
+    "title": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین در مشهد",
+    "description": "آگهی کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین/wZbujwmC/",
+    "web_info": {
+      "title": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین",
+      "district_persian": "شهید مطهری",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-28T12:15:22.319928",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شهید مطهری",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "web_info": {
+        "title": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین",
+        "city_persian": "مشهد",
+        "district_persian": "شهید مطهری",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "description": "سلام و ارادت\n\n⚠️این محصول یک دزدگیر معمولی نیست!\n\nکیلس استارتر یک محصول ویژه برای دوست داران خودروست. این محصول علاوه بر بالا بردن امنیت، امکانات رفاهی جالبی به خودرو شما میدهد.\n\nاگر جذب محصول ما شدید، ادامه آگهی رو دنبال کنید تا با کیلس استارتر تمدن آشنا شید.\n\n✅ کیلس استارتر مثل یک دزدگیر از خودرو شما محافظت میکنه\n✅ خودرو شما مثل ماشین های لاکچری تنها با یک دکمه روشن و خاموش میشه\n✅ با ریموت ها میتونید ماشین رو از راه دو خاموش و روشن کنید!\n✅ استارت زدن با موبایل برای گرم کردن خودرو پیش از استفاده «مدل سیم کارتی»\n\n⭐ خدمات ویژه اتواکسس به مشتریان عزیز:\n**پرداخت شرایطی با چک صیادی**\n**نصب در محل سراسر مشهد **\n\nآدرس: نبش شهیدکریمی27 قبل ایستگاه «دزدگیر و ردیاب اتواکسس»\nنمایندگی ردیاب سایه !!!به تابلو دقت کنید!!!!\n\n سیدعلیرضا حسینی",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/کیلس-استارتautokeyردیاب-اتواکسس-استارت-بیرون-ماشین/wZbujwmC",
+      "name": "کیلس استارتautokeyردیاب اتواکسس استارت بیرون ماشین",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/cuKfeigjeBiOQy46Zj7C0g/1783e658-1d15-46e1-95ac-2525f583df81.jpg.jpg",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "wZbujwmC",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "78ce606e-bb0a-4888-90e5-288a58b2ea3e"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "78ce606e-bb0a-4888-90e5-288a58b2ea3e"
+  },
+  "webengage": {
+    "price": 0,
+    "source_view": "",
+    "originality": "",
+    "cat_3": "",
+    "rent": 0,
+    "brand_model": "",
+    "token": "wZbujwmC",
+    "business_ref": "",
+    "credit": 0,
+    "city": "mashhad",
+    "gender": "",
+    "district": "north-shahid-mottahari",
+    "category": "parts-accessories",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "business_type": "personal",
+    "image_count": 10,
+    "status": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

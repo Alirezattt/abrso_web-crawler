@@ -1,0 +1,592 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر ردیاب ریموت دوربین ثبت وقایع",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر ردیاب ریموت دوربین ثبت وقایع",
+            "subtitle": "۳ هفته پیش در مشهد، شاهد (شهرک غرب)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaMPSCTh"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "تعمیرات تخصصی دزدگیر اتومبیل \n\nبوررس قاب و ریموت یدک\nدوربین ثبت وقایع وای فای دار و سیمکارتی \n\nنمایندگی ردیاب \nویفایندر \nهارمونی \nتلکارنت \n\nنصب قطع کن اتومات لمسی\nنصب دزدگیر ساده .. تصویری.. استارتی\nنصب ردیاب حرفه ای \n\nکددهی انواع ریموت دزدگیر \nریموت درب پارکینگ و کرکره \nکلیه خدمات دزدگیر انجام می‌شود \n\nتمامی خدمات ردیاب ویفایندر ـ تلکارنت ـ هارمونی پذیرفته میشود \n\nتعمیرات تخصصی دزدگیر در اسرع وقت و حداقل هزینه \nبیش از بیست سال تجربه تعمیرات دزدگیر در قاسم آباد \nانتهای بلوار شاهد \nدزدگیر پدیده \nکارگذار",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/lLcE8nW_2fdGNwal4V5Hyg/2f88671d-9eaf-46f2-acae-09450a65a065.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/X0xjmwnYpBC73dPQt6i7QA/2f88671d-9eaf-46f2-acae-09450a65a065.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/AMTs-cBrCFRLwUs7-me29g/410ec2ff-1836-437f-83e1-6a32cad2239e.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Xnd8oWbb1nILbDihJneNdg/410ec2ff-1836-437f-83e1-6a32cad2239e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/y0Xh5RzT_GyqfFyWyogWnw/8fdb5f15-75a8-464f-ad73-8142f5fb8fd0.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/v-hviHam9yy6mhGeunthww/8fdb5f15-75a8-464f-ad73-8142f5fb8fd0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qdNIlCTPpzwkum7Ekksrbw/c41c36ae-a545-4465-b77a-81cbc2b0d977.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TVMbOWEmBRpWEKwX15LPXA/c41c36ae-a545-4465-b77a-81cbc2b0d977.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/aKlQjfijLaQD5X2onhDR0A/afdc6161-f8e9-417d-9c6d-dde510b4e77f.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GblFFGIIcda3XBjpaD8hQw/afdc6161-f8e9-417d-9c6d-dde510b4e77f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/czLOz2Z5zs-zl1TqDQzqDw/0a9a2d59-8dbd-44bf-a06f-7ce951b044a1.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/slBAxERa2jRuksfZxjX0_g/0a9a2d59-8dbd-44bf-a06f-7ce951b044a1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Mc0yB2qd3s55DrIxSNQbCw/305fad79-d9b1-4dd0-b6f0-e8d669e317d5.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/J3g1iB50xorYVyBEGKwiQg/305fad79-d9b1-4dd0-b6f0-e8d669e317d5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7pNslbEysenFI-VkvzQdQA/029b3c01-a5b8-4f5e-99cf-786f737a82ec.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/arluzPcpYW4KIipe0skDdw/029b3c01-a5b8-4f5e-99cf-786f737a82ec.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DC3c3aWcQa_VqUz7jYcYHg/c918f0eb-84b4-413f-9f08-578213cdc6d1.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_UyzmPNVc6b252bOjGj15A/c918f0eb-84b4-413f-9f08-578213cdc6d1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/E-ZYWL7SCJPUIpZU6MKahg/ed24c75f-b815-47cd-aed5-fe822bcba7bc.webp",
+                  "alt": "دزدگیر ردیاب ریموت دوربین ثبت وقایع|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AG-DKcBBp0nHGPjcidIdkg/ed24c75f-b815-47cd-aed5-fe822bcba7bc.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۹۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaMPSCTh",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شاهد (شهرک غرب)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3021"
+                                ]
+                              }
+                            },
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.364334103664,
+                  "longitude": 59.533271634155
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXLRp6O78Oa_uQnz9mh9sH_5LbL6nn1b04oFza9R3dm0Uww=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaMPSCTh"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaMPSCTh"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaMPSCTh"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AaMPSCTh/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "AaMPSCTh"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر ردیاب ریموت دوربین ثبت وقایع",
+    "web_url": "https://divar.ir/v/AaMPSCTh"
+  },
+  "seo": {
+    "title": "دزدگیر ردیاب ریموت دوربین ثبت وقایع در مشهد",
+    "description": "آگهی دزدگیر ردیاب ریموت دوربین ثبت وقایع در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر ردیاب ریموت دوربین ثبت وقایع/AaMPSCTh/",
+    "web_info": {
+      "title": "دزدگیر ردیاب ریموت دوربین ثبت وقایع",
+      "district_persian": "شاهد (شهرک غرب)",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-19T18:51:25.479268",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3021"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3021"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شاهد (شهرک غرب)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3021"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/دزدگیر-ردیاب-ریموت-دوربین-ثبت-وقایع/AaMPSCTh",
+      "description": "تعمیرات تخصصی دزدگیر اتومبیل \n\nبوررس قاب و ریموت یدک\nدوربین ثبت وقایع وای فای دار و سیمکارتی \n\nنمایندگی ردیاب \nویفایندر \nهارمونی \nتلکارنت \n\nنصب قطع کن اتومات لمسی\nنصب دزدگیر ساده .. تصویری.. استارتی\nنصب ردیاب حرفه ای \n\nکددهی انواع ریموت دزدگیر \nریموت درب پارکینگ و کرکره \nکلیه خدمات دزدگیر انجام می‌شود \n\nتمامی خدمات ردیاب ویفایندر ـ تلکارنت ـ هارمونی پذیرفته میشود \n\nتعمیرات تخصصی دزدگیر در اسرع وقت و حداقل هزینه \nبیش از بیست سال تجربه تعمیرات دزدگیر در قاسم آباد \nانتهای بلوار شاهد \nدزدگیر پدیده \nکارگذار",
+      "@context": "https://schema.org",
+      "web_info": {
+        "title": "دزدگیر ردیاب ریموت دوربین ثبت وقایع",
+        "city_persian": "مشهد",
+        "district_persian": "شاهد (شهرک غرب)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "دزدگیر ردیاب ریموت دوربین ثبت وقایع",
+      "category": "parts-accessories",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/lLcE8nW_2fdGNwal4V5Hyg/2f88671d-9eaf-46f2-acae-09450a65a065.webp",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "190000"
+      },
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaMPSCTh",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "392e90cd-8c88-4377-95d0-2d92f23ff310"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "392e90cd-8c88-4377-95d0-2d92f23ff310"
+  },
+  "webengage": {
+    "credit": 0,
+    "brand_model": "",
+    "business_ref": "BxgQhFTG_OYQnvBND",
+    "cat_2": "parts-accessories",
+    "cat_3": "",
+    "district": "shahed-mashhad",
+    "gender": "",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "city": "mashhad",
+    "rent": 0,
+    "originality": "",
+    "source_view": "",
+    "image_count": 10,
+    "status": "",
+    "business_type": "premium-panel",
+    "token": "AaMPSCTh",
+    "price": 190000
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

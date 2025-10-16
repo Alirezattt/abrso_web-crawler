@@ -1,0 +1,560 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش",
+            "subtitle": "۱ هفته پیش در مشهد، الهیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aah3WbEw"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "دزدگیر تصویری ریموت شارژی چیتا مدل S886D\nفقط جهت فیلم آموزش نصب روی خودرو نصب و باز شده است .( مشابه آکبند با متعلقات کامل)\nقیمت ۴/۵۰۰ \n(توجه بفرمایید قیمت فروش درب مغازه ۶ میلیونه)\n\nتیوتر BOOSTER (یک جفت با متعلقات)\nقیمت ۱ میلیون ( کارکرده مشابه نو)\n\nهدلایت بسیار با کیفیت ( پژو و....)\nقیمت ۸۰۰ ( کارکرده مشابه نو)\n\nآچار فرانسه Vasterسایز ۱۲ اینچ 300mm \nقیمت ۵۵۰ ( نو )\n\nآچار فرانسه Vaster سایز ۱۰ اینچ 250mm\nقیمت ۴۸۰ ( نو )\n\nدستگاه هویه SOMO (20W_ 200W)SM.120\nقیمت ۴۵۰ ( نو )\n\nدستگاه قلع کش \nقیمت ۳۵۰ ( نو )\n\nتراز  ۱۲ اینچ 300mm  LEVEL(۳ نشانگر)\nقیمت ۴۰۰ ( نو )\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nابزار فرانسه کلاغی پیچ گوشتی انبردست سیم چین دم باریک مچی فازمتر دریل هیلتی شلاقی کیف ابزار بکس آچار بکس رابط چسب فنی صنعتی شارژی ریموت ردیاب خدمات ماشین چراغ دیلایت لامپ زنون",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/v1TqUP8vJ2zvoJQsrqdmtw/1465a76b-f0d6-412c-b818-2b5dcc6e8bcc.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vDYcV-QiQ9VjQ5gdwfrQNA/1465a76b-f0d6-412c-b818-2b5dcc6e8bcc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Jto0cE1425UY-cQ0RsEQQg/05525db1-d351-4db0-b648-1c5be3cf1803.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fd40scjFf1Am75vpHN5hpw/05525db1-d351-4db0-b648-1c5be3cf1803.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OVv5XQK9tvZfLjwdeGCk0Q/4bfbac5f-5bda-4cfd-8095-7f14e24bdb1e.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5rP5LswLDMKdD6JRKUAsfA/4bfbac5f-5bda-4cfd-8095-7f14e24bdb1e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/b62zjTzGqw2zkJRFCVPqRg/fcc8f38d-d025-4ed4-84e8-8fbd58ef7183.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MsLxGLCs_5R6r5XW7eIG0g/fcc8f38d-d025-4ed4-84e8-8fbd58ef7183.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cPTj5b_Y-HeisWjhuvP-pQ/8259ef8c-c6db-4ac2-9d33-783d7dd88dc4.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/P6uagfROuqhkYrv5_-1iGw/8259ef8c-c6db-4ac2-9d33-783d7dd88dc4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/nuR0V1t4jyMY4sfSa0ZPpA/4cf44287-73dd-4b3e-ad5e-915507463dea.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/73AD_2IPZyU2-8-rsGnBkQ/4cf44287-73dd-4b3e-ad5e-915507463dea.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/lZh41loqH-Hkx4U_5p_BLQ/bf2a6f2d-9df8-4186-bc9f-503b3519847f.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dbyDI7VUYLuWUFL33lSYGg/bf2a6f2d-9df8-4186-bc9f-503b3519847f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ARTfS_xqJUtAqmvcxsVu9w/8b86f28d-d2ea-4e4f-906f-999c2f22dad6.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mA81oHnLeowuy1VlNI_NRA/8b86f28d-d2ea-4e4f-906f-999c2f22dad6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/NuQhGlo-4Ai2pr3pzb9jxA/01af679f-4272-4100-bc93-0d7fc03affda.webp",
+                  "alt": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش|قطعات یدکی و لوازم جانبی|مشهد, الهیه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PzZJCiNCq2LVqklfbQHLew/01af679f-4272-4100-bc93-0d7fc03affda.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aah3WbEw",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در الهیه",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "488"
+                                ]
+                              }
+                            },
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aah3WbEw"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aah3WbEw"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش",
+    "web_url": "https://divar.ir/v/Aah3WbEw"
+  },
+  "seo": {
+    "title": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش در مشهد",
+    "description": "آگهی دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش/Aah3WbEw/",
+    "web_info": {
+      "title": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش",
+      "district_persian": "الهیه",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-04T22:25:05.850497",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "488"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "488"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "الهیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "488"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/دزدگیر-تصویری-هدلایت-تیوتر-آچار-فرانسه-تراز-قلع-کش/Aah3WbEw",
+      "description": "دزدگیر تصویری ریموت شارژی چیتا مدل S886D\nفقط جهت فیلم آموزش نصب روی خودرو نصب و باز شده است .( مشابه آکبند با متعلقات کامل)\nقیمت ۴/۵۰۰ \n(توجه بفرمایید قیمت فروش درب مغازه ۶ میلیونه)\n\nتیوتر BOOSTER (یک جفت با متعلقات)\nقیمت ۱ میلیون ( کارکرده مشابه نو)\n\nهدلایت بسیار با کیفیت ( پژو و....)\nقیمت ۸۰۰ ( کارکرده مشابه نو)\n\nآچار فرانسه Vasterسایز ۱۲ اینچ 300mm \nقیمت ۵۵۰ ( نو )\n\nآچار فرانسه Vaster سایز ۱۰ اینچ 250mm\nقیمت ۴۸۰ ( نو )\n\nدستگاه هویه SOMO (20W_ 200W)SM.120\nقیمت ۴۵۰ ( نو )\n\nدستگاه قلع کش \nقیمت ۳۵۰ ( نو )\n\nتراز  ۱۲ اینچ 300mm  LEVEL(۳ نشانگر)\nقیمت ۴۰۰ ( نو )\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nابزار فرانسه کلاغی پیچ گوشتی انبردست سیم چین دم باریک مچی فازمتر دریل هیلتی شلاقی کیف ابزار بکس آچار بکس رابط چسب فنی صنعتی شارژی ریموت ردیاب خدمات ماشین چراغ دیلایت لامپ زنون",
+      "name": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش",
+      "offers": {
+        "price": "1000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دزدگیر تصویری هدلایت تیوتر آچار فرانسه تراز قلع کش",
+        "city_persian": "مشهد",
+        "district_persian": "الهیه"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/v1TqUP8vJ2zvoJQsrqdmtw/1465a76b-f0d6-412c-b818-2b5dcc6e8bcc.webp",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aah3WbEw",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "9f5f4414-16eb-47a9-bc5d-ae1b62dd2496"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "9f5f4414-16eb-47a9-bc5d-ae1b62dd2496"
+  },
+  "webengage": {
+    "business_ref": "",
+    "credit": 0,
+    "cat_2": "parts-accessories",
+    "token": "Aah3WbEw",
+    "city": "mashhad",
+    "brand_model": "",
+    "gender": "",
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "source_view": "",
+    "status": "",
+    "originality": "",
+    "rent": 0,
+    "district": "elahiyehblvd",
+    "image_count": 9,
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "price": 1000
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

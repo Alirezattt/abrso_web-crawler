@@ -1,0 +1,549 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "هدرز اچ زد پاور HZ.POWER و انجین آرتز",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "هدرز اچ زد پاور HZ.POWER و انجین آرتز",
+            "subtitle": "۱ ساعت پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AawXpbBg"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": " فروشگاه تیونینگ نسل جدید \n\n بهشتی واقعی برای ماشین‌بازهای حرفه‌ای \nاگر عاشق صدا، قدرت و زیبایی موتور هستی، اینجا دقیقاً همون‌جاست که باید باشی!\n\n نمایندگی رسمی برندهای HZ Power\n✅ ارائه‌ی برگه‌ی گارانتی اصلی از خود شرکت\n\n فروش و توزیع تخصصی هدرزهای فولادی و استیل در سطح استان آذربایجان غربی\nاز XU7 تا TU5، از EF7 تا ELX… برای هر خودرویی، جواب “نه” نداریم!\n\nحالا می‌تونی از سایت ما به‌صورت آنلاین خرید کنی\nبه‌راحتی قیمت‌ها رو ببینی، سفارش بدی و همه‌چیو تا دم در تحویل بگیری \n\n\n تنوع محصولات ما:\n#هدرز_فولادی_XU7 #هدرز_فولادی_TU5 #هدرز_فولادی_EF7 #هدرز_فولادی_پراید\n#هدرز_استیل_XU10 #هدرز_استیل_پاترول #هدرز_استیل_ریو #هدرز_استیل_ELX\nو ده‌ها مدل دیگر از بهترین متریال‌های استیل و فولاد تقویت‌شده \n\n⚙️ تمام تجهیزات تیونینگ و افترمارکت برای خودروی شما آماده است!\nاز اگزوز و هدرز گرفته تا قطعات خاص و کمیاب!\n\n برای استعلام قیمت و مشاوره خرید:\nپیام بده یا با ما تماس بگیر\n\n ارسال سریع از طریق پست، تیپاکس، اتوبوس و سواری\nبه سراسر ایران و استان آذربایجان غربی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/8b98d2c4-107e-45c4-923c-bd239d70654a.jpg",
+                  "alt": "هدرز اچ زد پاور HZ.POWER و انجین آرتز|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/8/8b98d2c4-107e-45c4-923c-bd239d70654a/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AawXpbBg",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/8/8b98d2c4-107e-45c4-923c-bd239d70654a/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "هدرز اچ زد پاور HZ.POWER و انجین آرتز",
+                  "upload_date": "2025-10-16T07:05:15.896378Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/bcbq2mfTiEyNhl2-cJ_WDQ/c5a88493-a8f9-440f-a4e9-1749eed99d1c.jpg.jpg",
+                  "alt": "هدرز اچ زد پاور HZ.POWER و انجین آرتز|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/i6Wr9ahwJEoVjW6xsAP_lg/c5a88493-a8f9-440f-a4e9-1749eed99d1c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/1qf2g8pmtOKBukTwgqPQsw/23f06473-be85-4dfb-aedf-4603c6371bcf.jpg.jpg",
+                  "alt": "هدرز اچ زد پاور HZ.POWER و انجین آرتز|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pn2pVr1jq5IuCfaz3u3mNA/23f06473-be85-4dfb-aedf-4603c6371bcf.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/n_c8i6D2n6iriQW3HsFQ5Q/a5a2a4ce-40de-45bb-b4e9-5844fb81dd9a.jpg.jpg",
+                  "alt": "هدرز اچ زد پاور HZ.POWER و انجین آرتز|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ys7jKiirrcUl4T0t1qf88A/a5a2a4ce-40de-45bb-b4e9-5844fb81dd9a.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۲،۹۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AawXpbBg",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "اگزوز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/اگزوز-و-منبع-اگزوز",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.568469216697,
+                  "longitude": 45.063879546515
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXMlQeQid36_uQh4iURUDU_VLUhCuEI1dwDNEo-mD5WOhPw=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AawXpbBg"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AawXpbBg"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AawXpbBg"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AawXpbBg/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "AawXpbBg"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "هدرز اچ زد پاور HZ.POWER و انجین آرتز",
+    "web_url": "https://divar.ir/v/AawXpbBg"
+  },
+  "seo": {
+    "title": "هدرز اچ زد پاور HZ.POWER و انجین آرتز در ارومیه",
+    "description": "آگهی هدرز اچ زد پاور HZ.POWER و انجین آرتز در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/هدرز اچ زد پاور HZ.POWER و انجین آرتز/AawXpbBg/",
+    "web_info": {
+      "title": "هدرز اچ زد پاور HZ.POWER و انجین آرتز",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-16T10:35:15.896787",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/bcbq2mfTiEyNhl2-cJ_WDQ/c5a88493-a8f9-440f-a4e9-1749eed99d1c.jpg.jpg",
+      "offers": {
+        "price": "2900000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "هدرز اچ زد پاور HZ.POWER و انجین آرتز",
+        "city_persian": "ارومیه",
+        "district_persian": ""
+      },
+      "description": " فروشگاه تیونینگ نسل جدید \n\n بهشتی واقعی برای ماشین‌بازهای حرفه‌ای \nاگر عاشق صدا، قدرت و زیبایی موتور هستی، اینجا دقیقاً همون‌جاست که باید باشی!\n\n نمایندگی رسمی برندهای HZ Power\n✅ ارائه‌ی برگه‌ی گارانتی اصلی از خود شرکت\n\n فروش و توزیع تخصصی هدرزهای فولادی و استیل در سطح استان آذربایجان غربی\nاز XU7 تا TU5، از EF7 تا ELX… برای هر خودرویی، جواب “نه” نداریم!\n\nحالا می‌تونی از سایت ما به‌صورت آنلاین خرید کنی\nبه‌راحتی قیمت‌ها رو ببینی، سفارش بدی و همه‌چیو تا دم در تحویل بگیری \n\n\n تنوع محصولات ما:\n#هدرز_فولادی_XU7 #هدرز_فولادی_TU5 #هدرز_فولادی_EF7 #هدرز_فولادی_پراید\n#هدرز_استیل_XU10 #هدرز_استیل_پاترول #هدرز_استیل_ریو #هدرز_استیل_ELX\nو ده‌ها مدل دیگر از بهترین متریال‌های استیل و فولاد تقویت‌شده \n\n⚙️ تمام تجهیزات تیونینگ و افترمارکت برای خودروی شما آماده است!\nاز اگزوز و هدرز گرفته تا قطعات خاص و کمیاب!\n\n برای استعلام قیمت و مشاوره خرید:\nپیام بده یا با ما تماس بگیر\n\n ارسال سریع از طریق پست، تیپاکس، اتوبوس و سواری\nبه سراسر ایران و استان آذربایجان غربی",
+      "category": "parts-accessories",
+      "@type": "Product",
+      "name": "هدرز اچ زد پاور HZ.POWER و انجین آرتز",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/هدرز-اچ-زد-پاور-hz-power-و-انجین-آرتز/AawXpbBg"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AawXpbBg",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e9e97bb4-324f-4b59-beed-7b93ca86d972"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e9e97bb4-324f-4b59-beed-7b93ca86d972"
+  },
+  "webengage": {
+    "credit": 0,
+    "business_ref": "ToUcKigS_bIfKQDmP",
+    "cat_3": "",
+    "city": "urmia",
+    "source_view": "",
+    "rent": 0,
+    "brand_model": "",
+    "price": 2900000,
+    "originality": "",
+    "district": "",
+    "cat_1": "vehicles",
+    "image_count": 3,
+    "gender": "",
+    "category": "parts-accessories",
+    "token": "AawXpbBg",
+    "business_type": "premium-panel",
+    "status": "",
+    "cat_2": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

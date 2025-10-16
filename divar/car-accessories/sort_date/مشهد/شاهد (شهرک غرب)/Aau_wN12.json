@@ -1,0 +1,629 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80",
+            "subtitle": "۱ روز پیش در مشهد، شاهد (شهرک غرب)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aau_wN12"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "باسلام\nهشدار به تمامی مالکین خودرو لطفا تا قبل از سرقت خودرویتان بفکر امنیت خودروی خود باشید\nردیاب صد درصد ایرانی با سرور اختصاصی داخلی ونرم افزار فارسی وسایت اختصاصی\nدارای 3 پک ردیاب مخصوص موتور سیکلت وپک ردیاب خودرویی و پک دزدگیر ردیاب\nامکانات کامل دزدگیر واستفاده با نرم افزار موبایلی\nبازو بسته کردن رها\nخاموش کردن خودرو از راه دور بدون محدودیت فاصله با گوشی\nردیابی اینترنتی و پیامکی از طریق نرم افزار اتومات\nدارای هشدار باز شدن درها\nهشدار ضربه به خودرو\nهشدار روشن شدن خودرو\nهشدار ورود ویا خروج محدوده ثبت شده وقابلیت تنظیم کردن با نرم افزار\nهشدار سرعت غیر مجاز رویه گوشی و موبایل\nدارای شنود داخل کابین و خیلی امکانات دیگر...\nآدرس قاسم آباد بلوار فلاحی نبش فلاحی 80 فروشگاه دزدگیر ردیاب سید(ردیاب سایه)\n0938\n138\n2200\nباتشکر1040#موسوی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/TFOLC70zLkjkrIzYKSRCUQ/59d57c24-37e5-46a8-b9b8-9f919365b22e.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FtEpRBNijdIQ6EII1VV-rQ/59d57c24-37e5-46a8-b9b8-9f919365b22e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tKwCq_QfLX94Aq0EVcK5tg/d63e3bc3-50f8-4fd5-a1e4-ca293cec0819.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/F1Rti0CJlMokfAXCFEbibQ/d63e3bc3-50f8-4fd5-a1e4-ca293cec0819.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/uMDd5SYWSjxQNCfFfJ-c2A/99876ca2-cb71-4342-93fc-4faf804de58e.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E2jThf4M11HMybzFyalu-w/99876ca2-cb71-4342-93fc-4faf804de58e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/lBXKTB-HHM03zeR8FaCj4Q/f700a538-a81b-4dfc-a2c6-e28e3da6e0c9.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GVFAPVMc8HzxxrlNl8nzVA/f700a538-a81b-4dfc-a2c6-e28e3da6e0c9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/X8mfMNtLvH3o78yzbJVjZw/4e2a0e52-4eb7-4321-8c83-3c53a6503dd7.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/440lWECJHoML0yE4OoIMZQ/4e2a0e52-4eb7-4321-8c83-3c53a6503dd7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/AFIX9IYsfK_CfXooujYk2w/0a3591ff-cce3-4b94-aba1-6a15172ccd11.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7N_3y50zimBBV5LZx1y48g/0a3591ff-cce3-4b94-aba1-6a15172ccd11.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XN3XD9pSDKiyQo6A3Ij_Sw/79d20a3a-8d27-410f-a3ad-d267f2b91a05.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zBiwIBYgmHlfRGRa6wEuGg/79d20a3a-8d27-410f-a3ad-d267f2b91a05.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/jeT1gQ0D9tauRqSxIPHw5g/f600e253-5273-4fa1-a530-d266012480f3.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/k35mFZnbe1XIOt5LDmvRVg/f600e253-5273-4fa1-a530-d266012480f3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ABX4riNUAEiFfuCRCPQuTA/e2285c8b-4bcc-4c2b-aecd-15799615e1d3.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4z3txFbBKjsUC95EpbS77g/e2285c8b-4bcc-4c2b-aecd-15799615e1d3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/h2ZzMluLSg6Jc3QLZN56LA/ad2d8530-d7c3-4b49-b0ee-bcae44fb0354.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HLbb5jV_xSXatSSNOzjPzA/ad2d8530-d7c3-4b49-b0ee-bcae44fb0354.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/X4slRVx5IBZ4WugwMzTMdw/9679d398-e5db-4afd-8d2b-a2cf5c2d5bc9.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SuukFo3J_gUqZ4DhM8FDJA/9679d398-e5db-4afd-8d2b-a2cf5c2d5bc9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4K_NFBIp5H1AdeTsPBlzdw/aa0fbfdd-a3a9-494c-a844-758b5792f888.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/D3QWrOYt3tMpRYQEvGoOLg/aa0fbfdd-a3a9-494c-a844-758b5792f888.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/n223oIhBmp4qbIT2QO7prg/be3d7933-987b-4545-9e04-8cbb45ef55f3.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KKPLmCO98VbfBLey3M2O1w/be3d7933-987b-4545-9e04-8cbb45ef55f3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/9wvwABAz52C3MWWDtimnEw/55f8b8bd-c1ed-41e1-87b4-dad1f05b52d2.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q8kraaVo0dyYNtpRbfRy_Q/55f8b8bd-c1ed-41e1-87b4-dad1f05b52d2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/RupJhVORTNfgBOdcrzfSeA/40c5dc2c-cac7-4fa4-891d-f824aa217b04.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nWLCEtoxjOh8DCcI14XI2g/40c5dc2c-cac7-4fa4-891d-f824aa217b04.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/_FSlGBiEsi_gpyZo_qsRxA/f58baa61-16c9-483b-a83f-0bd2040701b6.webp",
+                  "alt": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80|قطعات یدکی و لوازم جانبی|مشهد, شاهد (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/U1ZCfuFjsGhuliDzlZ1PlQ/f58baa61-16c9-483b-a83f-0bd2040701b6.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۲۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aau_wN12",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شاهد (شهرک غرب)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3021"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.356389675895,
+                  "longitude": 59.50795711225
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXLEjW7zAOq_uQgrGMJwqGv5LWsUXyxGk54vsOUtkiEJXBw=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aau_wN12"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aau_wN12"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aau_wN12"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80",
+    "web_url": "https://divar.ir/v/Aau_wN12"
+  },
+  "seo": {
+    "title": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80 در مشهد",
+    "description": "آگهی دزدگیر ردیاب برند سایه (موسوی) فلاحی80 در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر ردیاب برند سایه (موسوی) فلاحی80/Aau_wN12/",
+    "web_info": {
+      "title": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80",
+      "district_persian": "شاهد (شهرک غرب)",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-14T12:22:39.131442",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3021"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3021"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شاهد (شهرک غرب)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3021"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "city_persian": "مشهد",
+        "district_persian": "شاهد (شهرک غرب)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/TFOLC70zLkjkrIzYKSRCUQ/59d57c24-37e5-46a8-b9b8-9f919365b22e.webp",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/دزدگیر-ردیاب-برند-سایه-موسوی-فلاحی80/Aau_wN12",
+      "description": "باسلام\nهشدار به تمامی مالکین خودرو لطفا تا قبل از سرقت خودرویتان بفکر امنیت خودروی خود باشید\nردیاب صد درصد ایرانی با سرور اختصاصی داخلی ونرم افزار فارسی وسایت اختصاصی\nدارای 3 پک ردیاب مخصوص موتور سیکلت وپک ردیاب خودرویی و پک دزدگیر ردیاب\nامکانات کامل دزدگیر واستفاده با نرم افزار موبایلی\nبازو بسته کردن رها\nخاموش کردن خودرو از راه دور بدون محدودیت فاصله با گوشی\nردیابی اینترنتی و پیامکی از طریق نرم افزار اتومات\nدارای هشدار باز شدن درها\nهشدار ضربه به خودرو\nهشدار روشن شدن خودرو\nهشدار ورود ویا خروج محدوده ثبت شده وقابلیت تنظیم کردن با نرم افزار\nهشدار سرعت غیر مجاز رویه گوشی و موبایل\nدارای شنود داخل کابین و خیلی امکانات دیگر...\nآدرس قاسم آباد بلوار فلاحی نبش فلاحی 80 فروشگاه دزدگیر ردیاب سید(ردیاب سایه)\n0938\n138\n2200\nباتشکر1040#موسوی",
+      "name": "دزدگیر ردیاب برند سایه (موسوی) فلاحی80",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "120000"
+      },
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aau_wN12",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "18a23149-2526-4738-a68b-b4d83f7e506a"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "18a23149-2526-4738-a68b-b4d83f7e506a"
+  },
+  "webengage": {
+    "image_count": 16,
+    "district": "shahed-mashhad",
+    "credit": 0,
+    "status": "",
+    "token": "Aau_wN12",
+    "source_view": "",
+    "city": "mashhad",
+    "price": 120000,
+    "cat_1": "vehicles",
+    "originality": "",
+    "category": "parts-accessories",
+    "cat_2": "parts-accessories",
+    "business_ref": "",
+    "gender": "",
+    "brand_model": "",
+    "business_type": "personal",
+    "cat_3": "",
+    "rent": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی",
+            "subtitle": "۱ هفته پیش در خوی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaKTP2sJ"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام❗❗❗بدون پیش پرداخت ❗❗❗\n◀️هدلایت و روکش باچک ۶ماهه بدون سود و بهره و بدون پیش پرداخت واقعی\n◀️لوازم سیستم صوتی با اقساط ۱تا۶ماه \n◀️ سیستم صوتی خودرو ضبط و باند با چک ۶ماهه\n◀️مانیتور دوربین دنده عقب و سیستم با اقساط ۱تا۶ماه\nآدرس:خوی_فلکه محله قاضی ۱۰متر به طرف میدان امام حسین\n♦️مرکز لوکس اسپورت سیدرضا؛مرکز اقساط لوازم اسپورت خودرو♦️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/2USaRNdm9JMPRp6Eu1aRwg/b321b600-0d20-44f8-acf7-431fa93a67fa.jpg.jpg",
+                  "alt": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CLS9O4CfQFrIhpfKi1flNg/b321b600-0d20-44f8-acf7-431fa93a67fa.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/HMcE_V_1g80lbkuqmo8_WA/bb25e11a-25a4-407d-a58b-c2b5f9ffe203.jpg.jpg",
+                  "alt": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/43CgFUGDuxHD3L4tQNJtqg/bb25e11a-25a4-407d-a58b-c2b5f9ffe203.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/NLzLOAZXxiIBaZZkDUnHPA/5befa82e-bc19-46ed-9f66-a056989a7694.jpg.jpg",
+                  "alt": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UUc47oEHrSBnZExWn-xyfw/5befa82e-bc19-46ed-9f66-a056989a7694.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Vm2VMpGR_hxl2P7cHJeI6g/256d9074-0768-43bf-adde-852cda81ce22.jpg.jpg",
+                  "alt": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BizYJoV2vNkdDRVlFHANEg/256d9074-0768-43bf-adde-852cda81ce22.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/pzlLFSYE9cmYiZ5lQZtDmw/aaa14117-c4c8-4b54-adda-6772fbb6d4e9.jpg.jpg",
+                  "alt": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2shUsIPM7GR6w_MPPt75uA/aaa14117-c4c8-4b54-adda-6772fbb6d4e9.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/m-7ygLFQzByPLQZhTE35tw/7c050438-0eab-43bb-8d32-11df219a9015.jpg.jpg",
+                  "alt": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/w-qmxWrN1EGpHTnTMhmpsA/7c050438-0eab-43bb-8d32-11df219a9015.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaKTP2sJ",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 767
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دوربین عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/khoy/list/دوربین-و-سنسور-دنده-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "ضبط و باند",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/khoy/list/ضبط-و-باند-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 38.546776607153,
+                  "longitude": 44.933412799251
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXBCXjFeiUq7uQo6OOzNUrPVLXj1I5EowfbRMBFF1oxXefw=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaKTP2sJ"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaKTP2sJ"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaKTP2sJ"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی",
+    "web_url": "https://divar.ir/v/AaKTP2sJ"
+  },
+  "seo": {
+    "title": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی در خوی",
+    "description": "آگهی مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی در دیوار خوی",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی/AaKTP2sJ/",
+    "web_info": {
+      "title": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی",
+      "city_persian": "خوی",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-18T21:22:41.144865",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "767",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "web_info": {
+        "title": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی",
+        "city_persian": "خوی",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/2USaRNdm9JMPRp6Eu1aRwg/b321b600-0d20-44f8-acf7-431fa93a67fa.jpg.jpg",
+      "description": "با سلام❗❗❗بدون پیش پرداخت ❗❗❗\n◀️هدلایت و روکش باچک ۶ماهه بدون سود و بهره و بدون پیش پرداخت واقعی\n◀️لوازم سیستم صوتی با اقساط ۱تا۶ماه \n◀️ سیستم صوتی خودرو ضبط و باند با چک ۶ماهه\n◀️مانیتور دوربین دنده عقب و سیستم با اقساط ۱تا۶ماه\nآدرس:خوی_فلکه محله قاضی ۱۰متر به طرف میدان امام حسین\n♦️مرکز لوکس اسپورت سیدرضا؛مرکز اقساط لوازم اسپورت خودرو♦️",
+      "@type": "Product",
+      "url": "https://divar.ir/v/مانیتورهدلایت-روکش-سیستم-بااقساط1تا8ماه-باچک-صیادی/AaKTP2sJ",
+      "name": "مانیتورهدلایت روکش سیستم بااقساط1تا8ماه باچک صیادی",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "10000"
+      }
+    }
+  },
+  "contact": {
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaKTP2sJ",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "afa23a69-4060-4268-8202-b01c1527caa4"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "afa23a69-4060-4268-8202-b01c1527caa4"
+  },
+  "webengage": {
+    "cat_3": "",
+    "city": "khoy",
+    "business_type": "personal",
+    "price": 10000,
+    "source_view": "",
+    "category": "parts-accessories",
+    "originality": "",
+    "district": "",
+    "brand_model": "",
+    "cat_1": "vehicles",
+    "status": "",
+    "image_count": 6,
+    "credit": 0,
+    "token": "AaKTP2sJ",
+    "cat_2": "parts-accessories",
+    "business_ref": "",
+    "gender": "",
+    "rent": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "khoy"
+  },
+  "city": {
+    "city_id": "767",
+    "name": "خوی",
+    "parent_id": "881",
+    "second_slug": "khoy"
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01",
+            "subtitle": "۲ روز پیش در مشهد، گاز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "wZz2TU2f"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⭐بنام خدا⭐\nقیمت آگهی مربوط به ردیاب زیتونیکس مدلZX01میباشد\n(چک ونقد)\n♦️خودم نصب میکنم و ماشین دست شاگرد نمیدم\n♦️نمایندگی gpsردیاب زیتونیکس♦️\n⏬درحال حاضر بهترین ردیاب در ایران برندزیتونیکس میباشد⭐\n➕پرسرعت\n \n➕کاملترین\n➕حرفه ای\n➕بهترین نرم افزاروسخت افزار\n➕باتری پشتیبان لیتیومی 1100میلی آمپر\n➕24ساعت نگهدارنده \n✅دارای 5 لایه حفاظتی\n\n✅گارانتی معتبر\n✅10سال خدمات پس ازفروش\n✅شرکت وپشتیبانی واقع در مشهد\n✅اپلیکیشن سخنگووفارسی\n✅نصب روی اندرویدوآیفون\n✅انتقال روی تمامی خودروهاوموتورسیکلت\n✅هشدارضربه\n✅هشداردرب\n✅هشدار سرقت باتری\n✅هشدار سوییچ\n✅بلوتوث(بازوقفل دربها)\n✅قفل کودک \n✅قطع کن نرم افزاری\n✅خاموش کردن خودرودرجا ودرسرعت کم\n✅قفل وبازدربهاباموبایل\n✅شنیدن صدای داخل کابین واضح\n✅شبکه:درصورت قطع شدن اجازه روشن شدن میدهد \n✅سوییچ 2\n✅ذخیره کردن مسیرهای پیموده\n✅مصرف سوخت\n✅نمایش زنده\n✅دوپنل ردیابی\n✅قطع شوک\n⏬محصولات\n➕ردیاب\n➕ردیاب فول\n➕ردیاب دزدگیر ساده\n➕ردیاب دزدگیرتصویری\n➕کیلس استارتر(استارت دکمه ای)\n\nنصب روی تمامی خودروهای داخلی و خارجی\n\n⭐آدرس:خیابان گاز،نبش گاز6نمایندگی زیتونیکس\n ⏬فرامرزالکترونیک⏬",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/sRyYDylsYLSyINbjIP1MVQ/680b563d-4550-44a8-a698-cddb24a916cb.jpg.jpg",
+                  "alt": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/49KWWJ9ogczM4P1HtzdQjQ/680b563d-4550-44a8-a698-cddb24a916cb.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/yOgXR9Tf4K1L4W89jNfGCQ/f25d51bf-cd36-4030-860b-05654dee7d77.webp",
+                  "alt": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-cRVAUO2E2yhzSpScY_YmQ/f25d51bf-cd36-4030-860b-05654dee7d77.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BNwmmeRXcjnynLZvG-NGZA/4973a8fe-3bc8-43a0-a80b-a125b6ccbaa4.webp",
+                  "alt": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-xvzRb0YpixYkA4PyniTHQ/4973a8fe-3bc8-43a0-a80b-a125b6ccbaa4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/krWZgOcq-thB1VkuCCbBqg/d95025e3-92be-4ba8-9b7f-c9af491a3bc9.webp",
+                  "alt": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/x7NbZc5X16_bsQEjzmi6dQ/d95025e3-92be-4ba8-9b7f-c9af491a3bc9.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۵،۱۶۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "wZz2TU2f",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گاز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "495"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.31809428087,
+                  "longitude": 59.624970075723
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXI_fKMHpP6_uQoat0iXRFP5LqpopvoOHH9qXTpViWNjd-Q=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "wZz2TU2f"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "wZz2TU2f"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "wZz2TU2f"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01",
+    "web_url": "https://divar.ir/v/wZz2TU2f"
+  },
+  "seo": {
+    "title": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01 در مشهد",
+    "description": "آگهی جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01 در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01/wZz2TU2f/",
+    "web_info": {
+      "title": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01",
+      "district_persian": "گاز",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-15T17:18:43.818792",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گاز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "⭐بنام خدا⭐\nقیمت آگهی مربوط به ردیاب زیتونیکس مدلZX01میباشد\n(چک ونقد)\n♦️خودم نصب میکنم و ماشین دست شاگرد نمیدم\n♦️نمایندگی gpsردیاب زیتونیکس♦️\n⏬درحال حاضر بهترین ردیاب در ایران برندزیتونیکس میباشد⭐\n➕پرسرعت\n \n➕کاملترین\n➕حرفه ای\n➕بهترین نرم افزاروسخت افزار\n➕باتری پشتیبان لیتیومی 1100میلی آمپر\n➕24ساعت نگهدارنده \n✅دارای 5 لایه حفاظتی\n\n✅گارانتی معتبر\n✅10سال خدمات پس ازفروش\n✅شرکت وپشتیبانی واقع در مشهد\n✅اپلیکیشن سخنگووفارسی\n✅نصب روی اندرویدوآیفون\n✅انتقال روی تمامی خودروهاوموتورسیکلت\n✅هشدارضربه\n✅هشداردرب\n✅هشدار سرقت باتری\n✅هشدار سوییچ\n✅بلوتوث(بازوقفل دربها)\n✅قفل کودک \n✅قطع کن نرم افزاری\n✅خاموش کردن خودرودرجا ودرسرعت کم\n✅قفل وبازدربهاباموبایل\n✅شنیدن صدای داخل کابین واضح\n✅شبکه:درصورت قطع شدن اجازه روشن شدن میدهد \n✅سوییچ 2\n✅ذخیره کردن مسیرهای پیموده\n✅مصرف سوخت\n✅نمایش زنده\n✅دوپنل ردیابی\n✅قطع شوک\n⏬محصولات\n➕ردیاب\n➕ردیاب فول\n➕ردیاب دزدگیر ساده\n➕ردیاب دزدگیرتصویری\n➕کیلس استارتر(استارت دکمه ای)\n\nنصب روی تمامی خودروهای داخلی و خارجی\n\n⭐آدرس:خیابان گاز،نبش گاز6نمایندگی زیتونیکس\n ⏬فرامرزالکترونیک⏬",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "5160000"
+      },
+      "@context": "https://schema.org",
+      "name": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/sRyYDylsYLSyINbjIP1MVQ/680b563d-4550-44a8-a698-cddb24a916cb.jpg.jpg",
+      "@type": "Product",
+      "web_info": {
+        "title": "جعبه سیاه خودروgpsدزدگیرردیاب ماشین زیتونیکسZX01",
+        "city_persian": "مشهد",
+        "district_persian": "گاز",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/جعبه-سیاه-خودروgpsدزدگیرردیاب-ماشین-زیتونیکسzx01/wZz2TU2f"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "wZz2TU2f",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "7b4fa8fc-aad0-4f65-bc04-45ba1d671c84"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "7b4fa8fc-aad0-4f65-bc04-45ba1d671c84"
+  },
+  "webengage": {
+    "category": "parts-accessories",
+    "district": "eastgaz",
+    "price": 5160000,
+    "brand_model": "",
+    "status": "",
+    "token": "wZz2TU2f",
+    "business_ref": "",
+    "originality": "",
+    "credit": 0,
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "source_view": "",
+    "gender": "",
+    "image_count": 4,
+    "city": "mashhad",
+    "business_type": "personal",
+    "rent": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

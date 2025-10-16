@@ -1,0 +1,607 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "لوازم اسپرت خودرو",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "لوازم اسپرت خودرو",
+            "subtitle": "۲ هفته پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaVTdZsP"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "آدرس مغازه:✅ شهرستان چهاربرج✅\nبه ترتیب:\nچراغ خطر اسپرت 405 طرح پژو 5005\nآچاربکس ۴۶ پارچه\nفلکسیبل چراغ جلو دیلایت دار 60 سانتی\nسر اگزوز صدادار/ چراغدار\nمزاحمگیر مه شکن عقب پراید 111/ نیسان\nچراغ سقفی لمسی پارس/405/ROA/RD\nهدلایت ،m8 max pro\nآویز اسکلتی لرزان مخصوص ماشین سیستم دار\nآویز سوریکاوا چراغدار ( آبی ، سفید)\nآویز فانوس خوشبو کنندهجاسویچی پیچ گوشتی vip\nکاپ رینگ پژو ( بسته ۴ عددی )\nآفتابگیر شیشه جلو ( تایوانی اصل )\nچراغ خطر اسپرت نیسان \nماسک صورت\nآرم شورلت / کیا",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/gxVfJBKiQjlJ80pLdb57yg/6b4fd688-ad11-4211-a220-2b627049b033.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jOPS13oGQ2hIc1z6v77epg/6b4fd688-ad11-4211-a220-2b627049b033.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-hK_jeUZJHFTihqXztaYYw/4224b597-fa79-470c-869e-adc8877f8c1d.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hLxBrcI2ckEcPkCaaTZf0Q/4224b597-fa79-470c-869e-adc8877f8c1d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/EH9OkWiuukHti3rl-vl_2g/07a213d4-9e43-430c-9b8b-b3c31b4d3e1e.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/h9_se5qvCw1t7yOKIcos8g/07a213d4-9e43-430c-9b8b-b3c31b4d3e1e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tG-VseX7C9QLW2AyGfY_2Q/8f447ca8-8cd1-46bc-8d53-0bc5ada8f616.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1QO_UKIqgI5HnkjfZKwuFg/8f447ca8-8cd1-46bc-8d53-0bc5ada8f616.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ulUTdbyrN4lsWhafko_4Jg/08165467-334a-4e05-bed2-cff126455a51.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1PYp68zYuwUvcZdoGJgGRA/08165467-334a-4e05-bed2-cff126455a51.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/g_rezgxTdKDDyTchLtWJsA/0c401cff-1422-4f91-93cf-377b84041acb.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/t7CGuOAmVLjczWaxuXM6uQ/0c401cff-1422-4f91-93cf-377b84041acb.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/RE64RERpFio_xrX5sT-Yww/47bc70ba-311b-4a11-a640-4a6d2cecd21b.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uoQIEyGHrWkJwI5S3AtfFw/47bc70ba-311b-4a11-a640-4a6d2cecd21b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/6dEhUM2lt6sV4G0V3m9Jjw/8ffd6c9f-4064-48c0-b1a9-1d7efc9abc0b.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hp-135VkikEi2eYPmtB20A/8ffd6c9f-4064-48c0-b1a9-1d7efc9abc0b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/jiq77biRAIOfHwdFz5UUsg/cd3ce610-afe2-4da3-9d96-4214ce4a7e3d.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Wy9l3S7DQdLhTb8WV14Bsg/cd3ce610-afe2-4da3-9d96-4214ce4a7e3d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/gLy3cxx4EM57KG25xRlYEA/dea9b512-2ca5-4f9f-93e4-87b5e64ae029.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/q4QGTxqIWxxjUBuN8h6LfQ/dea9b512-2ca5-4f9f-93e4-87b5e64ae029.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4ItyEgBB4fwcNQ8BsX77Xw/09beb12c-7f32-4294-b5bd-87bd21c8fab5.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1XO1D0fTbYxAWKI5zVwYlg/09beb12c-7f32-4294-b5bd-87bd21c8fab5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/o3x_WbOk9J6bQ4_lyUFALg/9af6f4ed-9ef8-4bd5-8867-349f650f0f5d.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TKW0Nzx31kgj4ObOdamNww/9af6f4ed-9ef8-4bd5-8867-349f650f0f5d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/79dLCWGRK_FiGa8ZboI4wA/f3962600-e305-46b4-a07c-15b22498afe3.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1PubsuhRZ_0PoBC4dcz_Ng/f3962600-e305-46b4-a07c-15b22498afe3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/UsLMy0lVuazWkig-UnZoWg/92287c20-e947-49cb-9dbe-e6684430b693.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Pe1AY8dhbe875lHtfVhCPQ/92287c20-e947-49cb-9dbe-e6684430b693.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/FnF_UHibkZppPiKYvt7iFA/b7554ee4-7a84-40a1-b0c0-1fc8820d22ce.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6w4kyDRXrNJ4E1H-fqjJSg/b7554ee4-7a84-40a1-b0c0-1fc8820d22ce.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/17zVp5GLZ7xaTj-tHHDRZQ/7f563629-0ed3-4c2a-9f8b-323ba2f444a3.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Qit1Sp9JelCsrL2qs3HsEA/7f563629-0ed3-4c2a-9f8b-323ba2f444a3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3-oa29PZQSMM_N6T58I5sg/6d5de414-2b17-4ba4-b9d1-3f43eaac4e35.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HjnUc6lUTxrCRnJY5XdVqw/6d5de414-2b17-4ba4-b9d1-3f43eaac4e35.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eDkIzeKlc5yaisBMw1aF4g/5fbd1d11-e318-4591-b141-25807e686d4d.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pgArguw-b2RoAc9qfqdOBQ/5fbd1d11-e318-4591-b141-25807e686d4d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Rl_Kw5P21RVRcI4gwR1d1g/0f0e9936-bebf-4238-a673-b2366a02c6d9.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9nBhkLeQVxwbjN_lyO8Q4w/0f0e9936-bebf-4238-a673-b2366a02c6d9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/WACBZRqpud5En6T-Msk_MQ/e1ded8a1-b35b-40c9-97eb-2753891235b0.webp",
+                  "alt": "لوازم اسپرت خودرو|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Qlt9nbU1wT65-KGEhrSDsA/e1ded8a1-b35b-40c9-97eb-2753891235b0.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaVTdZsP",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "اگزوز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/اگزوز-و-منبع-اگزوز",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "سپر 405",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/سپر-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaVTdZsP"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaVTdZsP"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "لوازم اسپرت خودرو",
+    "web_url": "https://divar.ir/v/AaVTdZsP"
+  },
+  "seo": {
+    "title": "لوازم اسپرت خودرو در ارومیه",
+    "description": "آگهی لوازم اسپرت خودرو در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/لوازم اسپرت خودرو/AaVTdZsP/",
+    "web_info": {
+      "title": "لوازم اسپرت خودرو",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-27T03:17:16.204695",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "آدرس مغازه:✅ شهرستان چهاربرج✅\nبه ترتیب:\nچراغ خطر اسپرت 405 طرح پژو 5005\nآچاربکس ۴۶ پارچه\nفلکسیبل چراغ جلو دیلایت دار 60 سانتی\nسر اگزوز صدادار/ چراغدار\nمزاحمگیر مه شکن عقب پراید 111/ نیسان\nچراغ سقفی لمسی پارس/405/ROA/RD\nهدلایت ،m8 max pro\nآویز اسکلتی لرزان مخصوص ماشین سیستم دار\nآویز سوریکاوا چراغدار ( آبی ، سفید)\nآویز فانوس خوشبو کنندهجاسویچی پیچ گوشتی vip\nکاپ رینگ پژو ( بسته ۴ عددی )\nآفتابگیر شیشه جلو ( تایوانی اصل )\nچراغ خطر اسپرت نیسان \nماسک صورت\nآرم شورلت / کیا",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "100000"
+      },
+      "url": "https://divar.ir/v/لوازم-اسپرت-خودرو/AaVTdZsP",
+      "web_info": {
+        "title": "لوازم اسپرت خودرو",
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "لوازم اسپرت خودرو",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/gxVfJBKiQjlJ80pLdb57yg/6b4fd688-ad11-4211-a220-2b627049b033.webp",
+      "@type": "Product",
+      "@context": "https://schema.org"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaVTdZsP",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "d66d511b-68fe-40ea-8556-c6cf5020f280"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "d66d511b-68fe-40ea-8556-c6cf5020f280",
+    "supplier_chat_assistant_enabled": true
+  },
+  "webengage": {
+    "image_count": 20,
+    "token": "AaVTdZsP",
+    "district": "",
+    "rent": 0,
+    "originality": "",
+    "brand_model": "",
+    "credit": 0,
+    "cat_3": "",
+    "city": "urmia",
+    "gender": "",
+    "cat_1": "vehicles",
+    "business_ref": "",
+    "price": 100000,
+    "source_view": "",
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "status": "",
+    "cat_2": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

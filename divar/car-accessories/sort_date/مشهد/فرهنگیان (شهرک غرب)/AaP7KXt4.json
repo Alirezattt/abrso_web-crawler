@@ -1,0 +1,624 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر/ردیاب /جی پی اس/سیمکارتل",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر/ردیاب /جی پی اس/سیمکارتل",
+            "subtitle": "۱۸ ساعت پیش در مشهد، فرهنگیان (شهرک غرب)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaP7KXt4"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⛔️ قبل از خرید محصولا سیمکارتل حتما مدل آن را از سایت simcartell استعلام نمایید. شرکت سیمکارتل هیچ گونه زیر مجموعه ای ندارد.⛔️\n\n✅شرکت سیمکارتل اولین و بزرگترین تولید کننده  تخصصی دزدگیر و ردیاب با 300 نمایندگی ✅\n\n\n⭐ ⭐ ویژگیهای نرم افزاری⭐ ⭐ \n\n\n⭕ تماس و پیامک در صورت باز شدن غیر مجاز دربها\n⭕ ردیابی آنلاین و آفلاین\n⭕ نرم افزار سخنگو\n⭕ باز و بست کردن دربها\n⭕ صندوق پران\n⭕ هشدار قطع باطری خودرو\n⭕ نمایش میزان شارژ سیم کارت ردیاب\n⭕ گزارش مسیرهای پیموده شده\n⭕ گزارش محل پارک خودرو\n⭕ سرعت خودرو\n⭕ روشن کردن چراغها خودرو\n⭕ هشدار حمل با جرثقیل\n⭕ میزان مصرف سوخت\n⭕ هشدار ضعیف شدن باطری خودرو\n⭕ ارسال موقعیت در تایم 5 ثانیه\n⭕ سرور داخلی قدرتمند\n⭕ هشدار ضربه\n⭕ خاموش کردن خودرو \n⭕ صدای داخل کابین\n⭕ سرقت باطری\n⭕ تغییر رمز پنل\n⭕ اپلیکیشن اندروید وios\n⭕ گارانتی معتبر\n⭕ پشتیبانی قوی\n\n\n\n⭐ ⭐ ویژگیهای سخت افزاری⭐ ⭐ \n\n\n⭕ ولتاژ کاری6 تا 60 ولت\n⭕ باطری پشتیبان\n⭕ 2ماژوله برند sim com\n⭕ دسته سیم ها استاندارد (عدم انتشار شعله)\n⭕ قطع کن برق(رله)\n⭕ تشخیص سوییچ ACC\n⭕ خروجی قفل مرکزی\n\n ✴️نماینده رسمی سیمکارتل (مهاجری) ✴️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cOeXdzM7aCoPthgv2kpyUQ/55ddd19c-c15d-47cb-b78a-aed940f7649c.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/H7k0FM8dIbKn9GxILNrmXQ/55ddd19c-c15d-47cb-b78a-aed940f7649c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hidf_0uAUURMhwpMZYD3Xw/f4a853f8-bff1-446d-92f9-f32aa071163f.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Dzit6Jk6pKlhBI9_F7nLuQ/f4a853f8-bff1-446d-92f9-f32aa071163f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1ICzZBO-XjzkE3TY9gye9A/bdceb652-88d0-40ea-a837-e8d9e05e8e96.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nVOZX0MNQGQ9RS1Mou7ZvQ/bdceb652-88d0-40ea-a837-e8d9e05e8e96.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wmT2QSbNDr68KA1urN-vnA/37d335c9-df5d-4c36-ba19-a74aaa243834.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JXTj4YKioNwQbqCKdO2UWw/37d335c9-df5d-4c36-ba19-a74aaa243834.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XIlSDouKW-m1M2YsLMJUDg/1fa495bc-c371-4e0b-b089-81fc23d579f8.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JxOifYRp8uOZbqWsTfJE5g/1fa495bc-c371-4e0b-b089-81fc23d579f8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hwyYcJLOMvSm-97X0MNkAQ/d17c0bb9-148e-41a4-941a-fd8d8c7928b6.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Z3RIaaeEV8rmnG1JK_J_Hg/d17c0bb9-148e-41a4-941a-fd8d8c7928b6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4CKxQAB_lt_7t6NcQ0Z-AQ/5b0bdef2-193c-4122-a76e-5578ada646a7.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ESpVusg1oa-jqqu6CT3rBw/5b0bdef2-193c-4122-a76e-5578ada646a7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ReMk2mQHt9jj00Z7M6kxLg/5e15ead7-d3d2-4ea1-910c-02ba364d0a69.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jes7ZgXrNUoDlqOqh1gytw/5e15ead7-d3d2-4ea1-910c-02ba364d0a69.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/mdBA6PtA2kQFQNLO4nDrkg/26312b4b-a149-44f4-b711-43667a01dbb4.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uobn6ELWa5zwcT3u0pF61A/26312b4b-a149-44f4-b711-43667a01dbb4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/RzdGRcSofgn4QJ3_o3InrA/18809bf6-6a02-41d6-b541-213dd0fa6355.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pJkIpHFhT8GbBNn37bpBhw/18809bf6-6a02-41d6-b541-213dd0fa6355.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GZGcdl2VEWzRJbaOd7I7jw/e05b14c1-6e80-4fee-bd56-9565134d2e5a.webp",
+                  "alt": "دزدگیر/ردیاب /جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, فرهنگیان (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_mgRJsb6UNj7K9dhL1sShg/e05b14c1-6e80-4fee-bd56-9565134d2e5a.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۵۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaP7KXt4",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3,
+              "include_post_addons": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در فرهنگیان (شهرک غرب)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3056"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.357530094178,
+                  "longitude": 59.485418052681
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXAmF3BqdOq_uQqok6gwMZf5L0B2rUpiT51f_kdF2hpbpFQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaP7KXt4"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaP7KXt4"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaP7KXt4"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AaP7KXt4/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "AaP7KXt4"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر_ردیاب _جی پی اس_سیمکارتل",
+    "web_url": "https://divar.ir/v/AaP7KXt4"
+  },
+  "seo": {
+    "title": "دزدگیر_ردیاب _جی پی اس_سیمکارتل در مشهد",
+    "description": "آگهی دزدگیر_ردیاب _جی پی اس_سیمکارتل در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر_ردیاب _جی پی اس_سیمکارتل/AaP7KXt4/",
+    "web_info": {
+      "title": "دزدگیر_ردیاب _جی پی اس_سیمکارتل",
+      "district_persian": "فرهنگیان (شهرک غرب)",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-21T11:23:04.461502",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3056"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3056"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "فرهنگیان (شهرک غرب)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3056"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "⛔️ قبل از خرید محصولا سیمکارتل حتما مدل آن را از سایت simcartell استعلام نمایید. شرکت سیمکارتل هیچ گونه زیر مجموعه ای ندارد.⛔️\n\n✅شرکت سیمکارتل اولین و بزرگترین تولید کننده  تخصصی دزدگیر و ردیاب با 300 نمایندگی ✅\n\n\n⭐ ⭐ ویژگیهای نرم افزاری⭐ ⭐ \n\n\n⭕ تماس و پیامک در صورت باز شدن غیر مجاز دربها\n⭕ ردیابی آنلاین و آفلاین\n⭕ نرم افزار سخنگو\n⭕ باز و بست کردن دربها\n⭕ صندوق پران\n⭕ هشدار قطع باطری خودرو\n⭕ نمایش میزان شارژ سیم کارت ردیاب\n⭕ گزارش مسیرهای پیموده شده\n⭕ گزارش محل پارک خودرو\n⭕ سرعت خودرو\n⭕ روشن کردن چراغها خودرو\n⭕ هشدار حمل با جرثقیل\n⭕ میزان مصرف سوخت\n⭕ هشدار ضعیف شدن باطری خودرو\n⭕ ارسال موقعیت در تایم 5 ثانیه\n⭕ سرور داخلی قدرتمند\n⭕ هشدار ضربه\n⭕ خاموش کردن خودرو \n⭕ صدای داخل کابین\n⭕ سرقت باطری\n⭕ تغییر رمز پنل\n⭕ اپلیکیشن اندروید وios\n⭕ گارانتی معتبر\n⭕ پشتیبانی قوی\n\n\n\n⭐ ⭐ ویژگیهای سخت افزاری⭐ ⭐ \n\n\n⭕ ولتاژ کاری6 تا 60 ولت\n⭕ باطری پشتیبان\n⭕ 2ماژوله برند sim com\n⭕ دسته سیم ها استاندارد (عدم انتشار شعله)\n⭕ قطع کن برق(رله)\n⭕ تشخیص سوییچ ACC\n⭕ خروجی قفل مرکزی\n\n ✴️نماینده رسمی سیمکارتل (مهاجری) ✴️",
+      "@type": "Product",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/دزدگیر-ردیاب-جی-پی-اس-سیمکارتل/AaP7KXt4",
+      "name": "دزدگیر/ردیاب /جی پی اس/سیمکارتل",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/cOeXdzM7aCoPthgv2kpyUQ/55ddd19c-c15d-47cb-b78a-aed940f7649c.webp",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "50000"
+      },
+      "web_info": {
+        "title": "دزدگیر/ردیاب /جی پی اس/سیمکارتل",
+        "city_persian": "مشهد",
+        "district_persian": "فرهنگیان (شهرک غرب)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaP7KXt4",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "c2cb8bd7-c8b1-45b0-a923-151d556fda87"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "c2cb8bd7-c8b1-45b0-a923-151d556fda87"
+  },
+  "webengage": {
+    "source_view": "",
+    "district": "farhangian-mashhad",
+    "originality": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "credit": 0,
+    "image_count": 11,
+    "rent": 0,
+    "business_ref": "pkthtDsL_EoGCKEwH",
+    "category": "parts-accessories",
+    "city": "mashhad",
+    "cat_3": "",
+    "token": "AaP7KXt4",
+    "gender": "",
+    "status": "",
+    "brand_model": "",
+    "price": 50000,
+    "business_type": "premium-panel"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

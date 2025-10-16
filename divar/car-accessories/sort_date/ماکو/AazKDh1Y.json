@@ -1,0 +1,539 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه",
+            "subtitle": "۲ هفته پیش در ماکو",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AazKDh1Y"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام❗️❗️❗️بدون پیش پرداخت❗️❗️❗️\n✅️هدلایت و روکش با چک ۶ماهه بدون سود و بهره و بدون پیش پرداخت واقعی\n✅️لوازم سیستم صوتی با اقساط ۱تا۸ماهه\n✅️سیستم صوتی خودرو ضبط و باند با چندماهه\n✅️مانیتور دوربین دنده عقب و سیستم با اقساط ۱تا۶ماه\nآدرس:شهرستان خوی_فلکه محله قاضی ۱۰ متر به طرف میدان امام حسین\n⚜️مرکز لوکس اسپورت سیدرضا،مرکز اقساط لوازم اسپورت⚜️\n‼️‼️‼️‼️به آدرس توجه کنید‼️‼️‼️‼️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ZEiLcLyBq-PlILZ5hq4NvA/d076c760-94be-41de-8c1e-912a09aff8f1.jpg.jpg",
+                  "alt": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cwHfvk2NDC71lGfZ1Cj_9Q/d076c760-94be-41de-8c1e-912a09aff8f1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/gz5ceofAYLR_f5_FNHeYTQ/7dc631c6-da95-4061-95bf-935e74fdf108.jpg.jpg",
+                  "alt": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SeLW4X8XLZZWCnrQ3NW2kw/7dc631c6-da95-4061-95bf-935e74fdf108.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/4C7ckAYHKve1BXFH6xfEAQ/2b5b1d07-d564-40e9-b8ef-43506f51308d.jpg.jpg",
+                  "alt": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AkU556e7Gqu8G9DzfUtnrw/2b5b1d07-d564-40e9-b8ef-43506f51308d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/oKFd2dXz0E7jTIFSC_4dCg/e9a25f2d-7fe1-4956-b115-d2d9f53da66b.jpg.jpg",
+                  "alt": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/I6CNTxVOGSeASCCYGrjStQ/e9a25f2d-7fe1-4956-b115-d2d9f53da66b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/IU_BbqtdFAZvM5vWRR_sRw/2b3cdd9b-e611-4a51-ae84-1e843bde4a05.jpg.jpg",
+                  "alt": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TjpcirGPJqUgz6RCudi6_w/2b3cdd9b-e611-4a51-ae84-1e843bde4a05.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/KmlNqcmcZB6Mxg5JoMc9JA/9478dc16-1c32-45d6-9fa2-f42b56fdad34.jpg.jpg",
+                  "alt": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TMRLqdG7JFePqDyWQLpVZQ/9478dc16-1c32-45d6-9fa2-f42b56fdad34.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AazKDh1Y",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 856
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دوربین عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/maku/list/دوربین-و-سنسور-دنده-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "ضبط و باند",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/maku/list/ضبط-و-باند-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 38.546779177894,
+                  "longitude": 44.933371084985
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXGD3PU2iUq7uQkwyDpVWrPVLgTfyAiNmDFgCmTY0F2hlWg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AazKDh1Y"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AazKDh1Y"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AazKDh1Y"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه",
+    "web_url": "https://divar.ir/v/AazKDh1Y"
+  },
+  "seo": {
+    "title": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه در ماکو",
+    "description": "آگهی سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه در دیوار ماکو",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه/AazKDh1Y/",
+    "web_info": {
+      "title": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه",
+      "city_persian": "ماکو",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-30T20:53:11.825752",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "856",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/ZEiLcLyBq-PlILZ5hq4NvA/d076c760-94be-41de-8c1e-912a09aff8f1.jpg.jpg",
+      "offers": {
+        "price": "10000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "web_info": {
+        "city_persian": "ماکو",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "سیستم صوتی هدلایت روکش مانیتور با اقساط ۶ماهه"
+      },
+      "url": "https://divar.ir/v/سیستم-صوتی-هدلایت-روکش-مانیتور-با-اقساط-۶ماهه/AazKDh1Y",
+      "description": "با سلام❗️❗️❗️بدون پیش پرداخت❗️❗️❗️\n✅️هدلایت و روکش با چک ۶ماهه بدون سود و بهره و بدون پیش پرداخت واقعی\n✅️لوازم سیستم صوتی با اقساط ۱تا۸ماهه\n✅️سیستم صوتی خودرو ضبط و باند با چندماهه\n✅️مانیتور دوربین دنده عقب و سیستم با اقساط ۱تا۶ماه\nآدرس:شهرستان خوی_فلکه محله قاضی ۱۰ متر به طرف میدان امام حسین\n⚜️مرکز لوکس اسپورت سیدرضا،مرکز اقساط لوازم اسپورت⚜️\n‼️‼️‼️‼️به آدرس توجه کنید‼️‼️‼️‼️"
+    }
+  },
+  "contact": {
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AazKDh1Y",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "593852ef-7a67-4e13-8a16-93d587352dcd"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "593852ef-7a67-4e13-8a16-93d587352dcd"
+  },
+  "webengage": {
+    "business_ref": "",
+    "originality": "",
+    "category": "parts-accessories",
+    "cat_3": "",
+    "city": "maku",
+    "rent": 0,
+    "credit": 0,
+    "token": "AazKDh1Y",
+    "business_type": "personal",
+    "cat_1": "vehicles",
+    "brand_model": "",
+    "image_count": 6,
+    "cat_2": "parts-accessories",
+    "gender": "",
+    "source_view": "",
+    "price": 10000,
+    "district": "",
+    "status": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "maku"
+  },
+  "city": {
+    "city_id": "856",
+    "name": "ماکو",
+    "parent_id": "881",
+    "second_slug": "maku"
+  }
+}

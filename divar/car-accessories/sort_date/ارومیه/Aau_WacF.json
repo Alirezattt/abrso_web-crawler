@@ -1,0 +1,572 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر",
+            "subtitle": "۱ روز پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aau_WacF"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "دو عدد باند ساوی 6902 در حد نو ( نصف قیمت فقط دو تومن ) \nدو عدد سوپر تیوتر وحشی 400 واتی سناتور ( فقط دو تومن ) چهارصد واتی پیدا نمیشه اصلا \nهدلایت ها 400\nدیفیوز صندوق عقب 206 ( صد تومن ) \nآینه بغل پراید ( 150 ) \nدو عدد تقویت شیشه بالابر ( هر عدد 80 ) \nسیفون پمپ بنزین 405 ( پانصد تومن ) \nدستی اسپرت دور فرمان فروهر ( 100) \n\nقابل معاوضه با امپیلی \nظبط شش کانال \nو..\n\n\nنهصدو نود و سه \nشصت و پنجاه \nپنجاه و نه \nسی و سه",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/H8Pb2PyqWxISQ0qsL0BSYw/816fefbc-9490-4971-a573-916a2836e69e.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Er5kO3hd4lsj4ugWgLXJ1w/816fefbc-9490-4971-a573-916a2836e69e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/PLF5A5rIu8QtCcIp0rqy_w/baa349cc-3b8e-478b-9849-894f38feea9a.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3bQ2BzTekpX6-3DxinJ7eg/baa349cc-3b8e-478b-9849-894f38feea9a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/8sUYM7P91h-oAX8XOum6qA/7c7b55fd-0302-4e20-9dad-709772d5268b.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bH_RYwtem97LWgWwG2c3rQ/7c7b55fd-0302-4e20-9dad-709772d5268b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/H2h3Gc_7T1yDXnx4nig5bA/c629dfcc-85bb-451b-9822-f491cefd9563.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xYE_H1T9ZHq6d0qWEKELJg/c629dfcc-85bb-451b-9822-f491cefd9563.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4isvf1h-xd0OU8rjIBOzrw/352b2e78-9ac4-4c92-896d-d9d9c0eb5b18.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kvU0-AukoJwJP0qvxvicow/352b2e78-9ac4-4c92-896d-d9d9c0eb5b18.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/_KYT4yrE5WLBh0r_8O8GBA/b9cf6e66-331b-4e02-9eb7-c92d739f0289.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6qAB2jU7OLH1B0Pxos-Y1A/b9cf6e66-331b-4e02-9eb7-c92d739f0289.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Ztsp5mzzmY27AUDaMGmuMA/380ca31a-6c20-446c-9ef2-a3e7cbd3f82a.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aflVWQ6fAfjmdarKJWTRsw/380ca31a-6c20-446c-9ef2-a3e7cbd3f82a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mkiaefBVT6c_VkUroJ3vQ/7073cbfd-28e0-4be4-8e85-d7112f99424f.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WrbU7ngY8WCk-TZ5dPCgiw/7073cbfd-28e0-4be4-8e85-d7112f99424f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/PYkjLOfeM1Y3N2P9ZweCQg/6f415709-f26c-4564-bddb-05924274bfb5.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/b9BOa9gKl-Bzkr_jSlFcIw/6f415709-f26c-4564-bddb-05924274bfb5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/xY2Rf8fHSS-q9TZ3ji95UQ/817cac96-2e52-4859-b20f-e8647f81099d.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/M-5uoFRMqCj8neGDdglG3g/817cac96-2e52-4859-b20f-e8647f81099d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/H7_U5-hQXzVjKCMMyqWPiA/9bf4314e-89fa-4f05-959d-c8a9a1a99f3c.webp",
+                  "alt": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HC1c8HrqGa9boVpLhtJVnA/9bf4314e-89fa-4f05-959d-c8a9a1a99f3c.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "مایل به معاوضه",
+            "value": "هستم",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۲،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aau_WacF",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "سپر 405",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/سپر-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.550662994385,
+                  "longitude": 45.085388183594
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXGBvErEi0a_uQhu3KCHAUfVLcMq2nzkgf22ATaoOZWjZuQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aau_WacF"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aau_WacF"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aau_WacF"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر",
+    "web_url": "https://divar.ir/v/Aau_WacF"
+  },
+  "seo": {
+    "title": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر در ارومیه",
+    "description": "آگهی سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر/Aau_WacF/",
+    "web_info": {
+      "title": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-14T19:13:08.381853",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر",
+      "description": "دو عدد باند ساوی 6902 در حد نو ( نصف قیمت فقط دو تومن ) \nدو عدد سوپر تیوتر وحشی 400 واتی سناتور ( فقط دو تومن ) چهارصد واتی پیدا نمیشه اصلا \nهدلایت ها 400\nدیفیوز صندوق عقب 206 ( صد تومن ) \nآینه بغل پراید ( 150 ) \nدو عدد تقویت شیشه بالابر ( هر عدد 80 ) \nسیفون پمپ بنزین 405 ( پانصد تومن ) \nدستی اسپرت دور فرمان فروهر ( 100) \n\nقابل معاوضه با امپیلی \nظبط شش کانال \nو..\n\n\nنهصدو نود و سه \nشصت و پنجاه \nپنجاه و نه \nسی و سه",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "web_info": {
+        "title": "سیستم صوتی  باند درحد سوپر تیوتر قوی و لوازم خودر",
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/H8Pb2PyqWxISQ0qsL0BSYw/816fefbc-9490-4971-a573-916a2836e69e.webp",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "2000000"
+      },
+      "url": "https://divar.ir/v/سیستم-صوتی-باند-درحد-سوپر-تیوتر-قوی-و-لوازم-خودر/Aau_WacF"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aau_WacF",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "4a1c4c58-e0af-4861-bfb4-233514d345e5"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "4a1c4c58-e0af-4861-bfb4-233514d345e5"
+  },
+  "webengage": {
+    "brand_model": "",
+    "cat_1": "vehicles",
+    "rent": 0,
+    "gender": "",
+    "cat_3": "",
+    "business_type": "personal",
+    "credit": 0,
+    "originality": "",
+    "cat_2": "parts-accessories",
+    "business_ref": "",
+    "category": "parts-accessories",
+    "price": 2000000,
+    "token": "Aau_WacF",
+    "image_count": 11,
+    "district": "",
+    "source_view": "",
+    "city": "urmia",
+    "status": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

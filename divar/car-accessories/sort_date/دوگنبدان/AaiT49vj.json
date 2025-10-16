@@ -1,0 +1,619 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "تزینات خودرو و مرکز نور و چراغ  گچساران",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "تزینات خودرو و مرکز نور و چراغ  گچساران",
+            "subtitle": "۱ هفته پیش در دوگنبدان",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaiT49vj"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "فروش انواع هدلایت و فلاپ اسپرت \nتغویض چراغ و انواع طلق خودرو\nاسپرت سازی تمامی چراغ های فابریک شما \nانواع لوازم تزینی و اکسسوری خودرو\nانواع ارم و برچسب\nفلاپ مشکی تمامی خودرو ها موجود \nشیشه مه شکن همه خودرو ها موجود\n. گچساران . فلکه ۳ راهی . دریای ۱۳ . تزیناتی رستمی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/3275025a-396c-4512-8fd3-6e8caddae3e5.jpg",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/3/3275025a-396c-4512-8fd3-6e8caddae3e5/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AaiT49vj",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/3/3275025a-396c-4512-8fd3-6e8caddae3e5/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "تزینات خودرو و مرکز نور و چراغ  گچساران",
+                  "upload_date": "2025-10-05T14:48:40.445501Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/zM5Coy8_6jz5-MFQdRy5QA/5017dad1-b803-4344-a6d6-a68c2f8c915d.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5o3NynLyJrJKCPeiZ3Jt_g/5017dad1-b803-4344-a6d6-a68c2f8c915d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-lz7CfVVkdRw4X7l-Tt_mg/e6e34aab-216b-48e4-a51b-48840b5e95e1.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/k-ai4wdQRLxGDqKtL8z5vw/e6e34aab-216b-48e4-a51b-48840b5e95e1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/rTiL3-MG3S4QjxH3RYLHUw/6175474f-9820-421d-939e-d6f2e19eed95.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UhRk7b-WKugrRWZQ0hrE8g/6175474f-9820-421d-939e-d6f2e19eed95.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/KxeHrzwjM-iL9LnDpCtVyA/1e34a46e-231f-4d97-a198-89cf005ddea0.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZIT6OBkwafZgdKOc-VsN_Q/1e34a46e-231f-4d97-a198-89cf005ddea0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/lb_hW8d_jkcJhuM7fphtNw/eda3ba9d-7b37-4a59-b7d7-11cde33174d3.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/o_qRUR1hhfVaXkxYWsJAQg/eda3ba9d-7b37-4a59-b7d7-11cde33174d3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/u5_fXNUXfikR6cdOifHNCQ/e98dd032-1322-43f3-a86b-1934d9dc2a24.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JIBzThqwTrnWJQ2dIt0Tdg/e98dd032-1322-43f3-a86b-1934d9dc2a24.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/fW_3wNki62Ws08J68OGa8w/171aefa3-6740-4360-a75d-3b5b081b9f5f.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qp09HoXkWW1P9HHQ-T1igw/171aefa3-6740-4360-a75d-3b5b081b9f5f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BMPHfrCVfcZ9HTDS0KCv6g/4b46c307-e342-4848-b5bf-b162e408c893.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_szQuM7VsqKayR4-rlwwIA/4b46c307-e342-4848-b5bf-b162e408c893.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7GJjCM7JD2xchmN0wl1MaQ/2f634aa3-98cc-4f26-8662-619ce745317c.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zxFOLIf3PKOB0F-IbFwHhA/2f634aa3-98cc-4f26-8662-619ce745317c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/TanbtAXxHXd6SNHNJegFtA/31364a09-67d6-42f9-b252-0581671d52b1.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8Zd9Qez665LpiOFEesJjIg/31364a09-67d6-42f9-b252-0581671d52b1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/iTR4TSF_DP-8JdpHudCJ8g/4f776435-5eb6-4094-8a84-506d3b57793c.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NVs6yrAvp-eICF37jyjnVA/4f776435-5eb6-4094-8a84-506d3b57793c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/nYoAzU8-vFrC0hikM8Wd-Q/533d5da6-74d2-486e-a256-c3e07dbfa86b.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Shgw6RLetj0XzGfw26JXlQ/533d5da6-74d2-486e-a256-c3e07dbfa86b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/nCY3mz76smjF0WthakGmig/bf5e84dc-94bb-47a5-8edd-b68c31c339cd.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZBsYWAV9EESLSbDgUjs6Qw/bf5e84dc-94bb-47a5-8edd-b68c31c339cd.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/fxp7tBpq6hsonc8TQnyCMg/8477ced2-2d0a-4534-8e9d-5468f1cfa408.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Hr8nhnsR6TPper3Bbkx9VQ/8477ced2-2d0a-4534-8e9d-5468f1cfa408.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/H_kN3S0E68Wnc4wJMoWFoA/f8bb0b43-e622-434b-9489-6cdda9c141b2.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/877fcBIdfmS7qke1H59UGQ/f8bb0b43-e622-434b-9489-6cdda9c141b2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Pm5Qqh07tK1eQf_K5NZ5bQ/4727a270-2ef5-4924-b3f0-9703de805ad6.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vpPlNdxNk3QTCDPjOKgKIQ/4727a270-2ef5-4924-b3f0-9703de805ad6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hLogo4WAWtE4b9qqwPNqhQ/d4edf753-2968-4512-a071-ed929423f66b.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lMM0GeJ9cqxrhRdpggz1Gw/d4edf753-2968-4512-a071-ed929423f66b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wuJWfH8eFxJiO5s1YiCGxA/dc4985f5-85ad-47e4-b597-07d5953a3050.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4VEdRwvja9K3JwwKMhS5sQ/dc4985f5-85ad-47e4-b597-07d5953a3050.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wAly0ldsIK1W6kb2o7kuaQ/48741b64-8ad1-43e9-a55e-b1784e816e39.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PeoKQgUa1djY3boQ-Fw54w/48741b64-8ad1-43e9-a55e-b1784e816e39.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2ptaYwMup3pXjina1MJBhA/0c9a0717-8f91-460d-b2df-1acd326799c2.webp",
+                  "alt": "تزینات خودرو و مرکز نور و چراغ  گچساران|قطعات یدکی و لوازم جانبی|دوگنبدان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_QfizvMEDC08sFq2m53NqQ/0c9a0717-8f91-460d-b2df-1acd326799c2.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۸۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaiT49vj",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 874
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "چراغ خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/dogonbadan/list/چراغ-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaiT49vj"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaiT49vj"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "تزینات خودرو و مرکز نور و چراغ  گچساران",
+    "web_url": "https://divar.ir/v/AaiT49vj"
+  },
+  "seo": {
+    "title": "تزینات خودرو و مرکز نور و چراغ  گچساران در دوگنبدان",
+    "description": "آگهی تزینات خودرو و مرکز نور و چراغ  گچساران در دیوار دوگنبدان",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/تزینات خودرو و مرکز نور و چراغ  گچساران/AaiT49vj/",
+    "web_info": {
+      "title": "تزینات خودرو و مرکز نور و چراغ  گچساران",
+      "city_persian": "دوگنبدان",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-05T18:18:40.445857",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "874",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "offers": {
+        "price": "800000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "web_info": {
+        "title": "تزینات خودرو و مرکز نور و چراغ  گچساران",
+        "city_persian": "دوگنبدان",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "تزینات خودرو و مرکز نور و چراغ  گچساران",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/zM5Coy8_6jz5-MFQdRy5QA/5017dad1-b803-4344-a6d6-a68c2f8c915d.webp",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/تزینات-خودرو-و-مرکز-نور-و-چراغ-گچساران/AaiT49vj",
+      "description": "فروش انواع هدلایت و فلاپ اسپرت \nتغویض چراغ و انواع طلق خودرو\nاسپرت سازی تمامی چراغ های فابریک شما \nانواع لوازم تزینی و اکسسوری خودرو\nانواع ارم و برچسب\nفلاپ مشکی تمامی خودرو ها موجود \nشیشه مه شکن همه خودرو ها موجود\n. گچساران . فلکه ۳ راهی . دریای ۱۳ . تزیناتی رستمی"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaiT49vj",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "279ec274-95af-4192-974d-4095ece6aef1"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "279ec274-95af-4192-974d-4095ece6aef1"
+  },
+  "webengage": {
+    "business_ref": "",
+    "image_count": 20,
+    "district": "",
+    "cat_2": "parts-accessories",
+    "token": "AaiT49vj",
+    "price": 800000,
+    "gender": "",
+    "source_view": "",
+    "city": "dogonbadan",
+    "rent": 0,
+    "status": "",
+    "originality": "",
+    "cat_3": "",
+    "credit": 0,
+    "business_type": "personal",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "brand_model": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "dogonbadan"
+  },
+  "city": {
+    "city_id": "874",
+    "name": "دوگنبدان",
+    "parent_id": "887",
+    "second_slug": "dogonbadan"
+  }
+}

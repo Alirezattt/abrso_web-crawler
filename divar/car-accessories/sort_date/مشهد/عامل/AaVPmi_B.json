@@ -1,0 +1,538 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب دزدگیر زیتونکس مدل Zx06",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب دزدگیر زیتونکس مدل Zx06",
+            "subtitle": "۲ هفته پیش در مشهد، عامل",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaVPmi_B"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "فقط نقدی فقط تماس ۸ الی ۱۷ دزدگیر تصویری و ردیاب آنلاین مجموعه ردیاب و دزدگیر به صورت 2 کیت مجزا که امنیت بیشتر  برای خودرو شما فراهم می آورد.این دستگاه دارای 1 ریموت تصویری و یک ریموت ساده است و با تمامی ریموت های فابریکی خودرو عمل خواهد کرد بعلاوه قابلیت قفل و باز کردن دربها از طریق موبایل امکان پذیر است. لازم به ذکر است معمولا در سرقت خودرو با اولین ورود سارق به داخل کابین دزدگیر را پیدا و آن را از مدار خارج میکند.این سیستم به گونه ای طراحی شده است که اگر دزدگیر قطع گردد به مالک از طریق پیامک و تماس و ریموت تصویری اطلاع میدهد و کیت دوم که بسیار کوچک و در هرجایی از خودرو قابل پنهان کردن است همچنان به وسیله باتری داخلی به کار خود ادامه میدهد. بدین صورت که مالک از طریق ریموت تصویری علاوه بر موبایل ارتباط 2 طرفه برای کنترل خودرو خود دارد. ریموت های این مدل از نوع کد هاپینگ است بدین صورت که با هربار زدن کلید ریموت کد ارسالی طبق الگوریتم پیشرفته تغییر میکند و قابل هک و کپی کردن نیست\nنکات مثبت\nامکان قفل و باز کردن دربهای خودرو از سراسر کشور\nامکان خاموش کردن خودرو با موبایل از سراسر کشور",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bX0UuHdZJIb06r_eezC3GQ/a73fd341-995b-4fca-8dab-15348e5ec9f2.webp",
+                  "alt": "ردیاب دزدگیر زیتونکس مدل Zx06|قطعات یدکی و لوازم جانبی|مشهد, عامل|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zu8Y1oltW6btrVIr-ZcJKA/a73fd341-995b-4fca-8dab-15348e5ec9f2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GLW5c1Zw1qNxt7BX8Zvpqg/4db2120e-8615-460c-894d-4bc55c31e2cd.webp",
+                  "alt": "ردیاب دزدگیر زیتونکس مدل Zx06|قطعات یدکی و لوازم جانبی|مشهد, عامل|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JIZbT-PrFUJh_JcvUWw_OA/4db2120e-8615-460c-894d-4bc55c31e2cd.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ObYeWmFKWxQUnfyJtrgEMA/3b585d71-e986-413a-ac26-68ba1f2a8674.webp",
+                  "alt": "ردیاب دزدگیر زیتونکس مدل Zx06|قطعات یدکی و لوازم جانبی|مشهد, عامل|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nUXRWRpnIEyiCz4Eucpx5Q/3b585d71-e986-413a-ac26-68ba1f2a8674.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/PRv5aaQvd8O9eeW0iVmZbQ/96fa8f3b-d4b5-42ee-8c71-1c4c162876bb.webp",
+                  "alt": "ردیاب دزدگیر زیتونکس مدل Zx06|قطعات یدکی و لوازم جانبی|مشهد, عامل|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mnMB6sc7Sc9QjuZGv3APZw/96fa8f3b-d4b5-42ee-8c71-1c4c162876bb.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/9KIWN2i3cK-x8n38p4_IOw/f91b3596-4258-4410-959a-7686354371af.webp",
+                  "alt": "ردیاب دزدگیر زیتونکس مدل Zx06|قطعات یدکی و لوازم جانبی|مشهد, عامل|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O9Vsb7O8devdaM0CZBBpVw/f91b3596-4258-4410-959a-7686354371af.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/06ak4OzKh_X-ecAOElYYbQ/5b775e0e-76cb-4039-84e5-0e888233766c.webp",
+                  "alt": "ردیاب دزدگیر زیتونکس مدل Zx06|قطعات یدکی و لوازم جانبی|مشهد, عامل|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/OMJKiDBJE8P_o4LUU8OR0w/5b775e0e-76cb-4039-84e5-0e888233766c.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۷،۵۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaVPmi_B",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در عامل",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1165"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaVPmi_B"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaVPmi_B"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب دزدگیر زیتونکس مدل Zx06",
+    "web_url": "https://divar.ir/v/AaVPmi_B"
+  },
+  "seo": {
+    "title": "ردیاب دزدگیر زیتونکس مدل Zx06 در مشهد",
+    "description": "آگهی ردیاب دزدگیر زیتونکس مدل Zx06 در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب دزدگیر زیتونکس مدل Zx06/AaVPmi_B/",
+    "web_info": {
+      "title": "ردیاب دزدگیر زیتونکس مدل Zx06",
+      "district_persian": "عامل",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-26T19:15:43.237262",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1165"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1165"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "عامل",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1165"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@type": "Product",
+      "url": "https://divar.ir/v/ردیاب-دزدگیر-زیتونکس-مدل-zx06/AaVPmi_B",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "7500000"
+      },
+      "web_info": {
+        "title": "ردیاب دزدگیر زیتونکس مدل Zx06",
+        "city_persian": "مشهد",
+        "district_persian": "عامل",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "description": "فقط نقدی فقط تماس ۸ الی ۱۷ دزدگیر تصویری و ردیاب آنلاین مجموعه ردیاب و دزدگیر به صورت 2 کیت مجزا که امنیت بیشتر  برای خودرو شما فراهم می آورد.این دستگاه دارای 1 ریموت تصویری و یک ریموت ساده است و با تمامی ریموت های فابریکی خودرو عمل خواهد کرد بعلاوه قابلیت قفل و باز کردن دربها از طریق موبایل امکان پذیر است. لازم به ذکر است معمولا در سرقت خودرو با اولین ورود سارق به داخل کابین دزدگیر را پیدا و آن را از مدار خارج میکند.این سیستم به گونه ای طراحی شده است که اگر دزدگیر قطع گردد به مالک از طریق پیامک و تماس و ریموت تصویری اطلاع میدهد و کیت دوم که بسیار کوچک و در هرجایی از خودرو قابل پنهان کردن است همچنان به وسیله باتری داخلی به کار خود ادامه میدهد. بدین صورت که مالک از طریق ریموت تصویری علاوه بر موبایل ارتباط 2 طرفه برای کنترل خودرو خود دارد. ریموت های این مدل از نوع کد هاپینگ است بدین صورت که با هربار زدن کلید ریموت کد ارسالی طبق الگوریتم پیشرفته تغییر میکند و قابل هک و کپی کردن نیست\nنکات مثبت\nامکان قفل و باز کردن دربهای خودرو از سراسر کشور\nامکان خاموش کردن خودرو با موبایل از سراسر کشور",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/bX0UuHdZJIb06r_eezC3GQ/a73fd341-995b-4fca-8dab-15348e5ec9f2.webp",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "name": "ردیاب دزدگیر زیتونکس مدل Zx06"
+    }
+  },
+  "contact": {
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaVPmi_B",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e64bcc1b-b9b0-4123-8172-6dee88091143"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e64bcc1b-b9b0-4123-8172-6dee88091143"
+  },
+  "webengage": {
+    "rent": 0,
+    "city": "mashhad",
+    "token": "AaVPmi_B",
+    "originality": "",
+    "brand_model": "",
+    "cat_2": "parts-accessories",
+    "business_type": "personal",
+    "status": "",
+    "price": 7500000,
+    "source_view": "",
+    "business_ref": "",
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "image_count": 6,
+    "category": "parts-accessories",
+    "district": "amel",
+    "credit": 0,
+    "gender": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

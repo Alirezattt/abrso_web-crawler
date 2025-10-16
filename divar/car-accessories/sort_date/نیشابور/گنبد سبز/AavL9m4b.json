@@ -1,0 +1,568 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور",
+            "subtitle": "۱۵ ساعت پیش در نیشابور، گنبد سبز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AavL9m4b"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام و ارادت \nدرفروشگاه پیشرو سیستم تمامی لوازم صوتی و تصویری و تزیینات و روکش کفپوش بوق ۱۰۱۱،مانیتور ،gps،پخش و باند موجوده \nتمامی لوازم زیر قیمت بازار و به شرط کیفیت و اصالت موجود میباشد \nشرایط چکی هم موجوده\nپیچ اینستای مارو داشته باش \nPishro_sistem_ney\nبلوار جهاد روبروی جهاد ۱۰",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/726jfEQ6h2LRnOxd6CO7Rg/2388441f-673e-4d4d-b343-035ebffea84a.jpg.jpg",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DNLaNqdrgODEbxS2xGon1A/2388441f-673e-4d4d-b343-035ebffea84a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Y8sX73hwh8l34wm-Wjwabg/0e31a6d3-f3a5-4f11-b989-e48820b14ae5.jpg.jpg",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7aEOqbdiB2Z-idTty5vYcA/0e31a6d3-f3a5-4f11-b989-e48820b14ae5.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/0TKa_LEObmlg_8X7JOS6xQ/6f75b80a-5fca-4271-a468-af00ec9213dc.jpg.jpg",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aqH5K32Zh3pUH2xHiJuPpw/6f75b80a-5fca-4271-a468-af00ec9213dc.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ZdsYKM16qfOjA0MEbIWDkA/40de177b-a7a8-4543-933d-8197f6f76772.jpg.jpg",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1_kgs3b2eYDkybl8V-jk5g/40de177b-a7a8-4543-933d-8197f6f76772.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/QPN_N8ppwaf1yX89nRZSkA/70efc161-b42e-44a9-a393-356ea539480c.jpg.jpg",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/K57pxCHT9lRkk1ov4hNt0Q/70efc161-b42e-44a9-a393-356ea539480c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/8sbfDDzXJbEy0Dr8PcWwVg/bcf5ec1a-7d10-4c54-806d-ba05fbaab83f.jpg.jpg",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vlySFCvHnmhTmVwfRFB9Gg/bcf5ec1a-7d10-4c54-806d-ba05fbaab83f.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/8HESOInlwlFRn7R0kfoGuQ/60b403b8-24d2-4c39-b3eb-1d308046603f.jpg.jpg",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oHnI8MD6WLzSO7ZwPTFFdw/60b403b8-24d2-4c39-b3eb-1d308046603f.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/j7-P-4eHASPQi5jBapmBXQ/9b3f5fe7-41f9-416d-89d1-deb1af15da90.webp",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CGLl92PCN5rxvRVTWK0iRA/9b3f5fe7-41f9-416d-89d1-deb1af15da90.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Z5oxciacUUpMoMwA64y90g/6e209174-835d-4bd3-a2ba-4fb1df383132.webp",
+                  "alt": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور|قطعات یدکی و لوازم جانبی|نیشابور, گنبد سبز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Om0KVB2bKlFt-iN2_RSqPg/6e209174-835d-4bd3-a2ba-4fb1df383132.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۲۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AavL9m4b",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 318
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گنبد سبز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3120"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.199731124826,
+                  "longitude": 58.809449682442
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXD3gDlvODq_uQnFbPC2yvP5L2EixbMkeM73mlV1LPIKGSg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AavL9m4b"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AavL9m4b"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AavL9m4b"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور",
+    "web_url": "https://divar.ir/v/AavL9m4b"
+  },
+  "seo": {
+    "title": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور در نیشابور",
+    "description": "آگهی چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور در دیوار نیشابور",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور/AavL9m4b/",
+    "web_info": {
+      "title": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور",
+      "district_persian": "گنبد سبز",
+      "city_persian": "نیشابور",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-15T20:32:57.589154",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3120"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3120"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گنبد سبز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3120"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "318",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1200000"
+      },
+      "name": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور",
+      "description": "سلام و ارادت \nدرفروشگاه پیشرو سیستم تمامی لوازم صوتی و تصویری و تزیینات و روکش کفپوش بوق ۱۰۱۱،مانیتور ،gps،پخش و باند موجوده \nتمامی لوازم زیر قیمت بازار و به شرط کیفیت و اصالت موجود میباشد \nشرایط چکی هم موجوده\nپیچ اینستای مارو داشته باش \nPishro_sistem_ney\nبلوار جهاد روبروی جهاد ۱۰",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/726jfEQ6h2LRnOxd6CO7Rg/2388441f-673e-4d4d-b343-035ebffea84a.jpg.jpg",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/چکی-و-اقساطی-سیستم-دزدگیر-روکش-مانیتور/AavL9m4b",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "چکی و اقساطی سیستم،دزدگیر،روکش،مانیتور",
+        "city_persian": "نیشابور",
+        "district_persian": "گنبد سبز"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AavL9m4b",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "5a8f5260-4443-4b04-b597-7bfc9b9274d3"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "5a8f5260-4443-4b04-b597-7bfc9b9274d3"
+  },
+  "webengage": {
+    "price": 1200000,
+    "rent": 0,
+    "status": "",
+    "city": "neyshabur",
+    "image_count": 9,
+    "source_view": "",
+    "token": "AavL9m4b",
+    "cat_2": "parts-accessories",
+    "credit": 0,
+    "gender": "",
+    "cat_3": "",
+    "originality": "",
+    "business_type": "personal",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "business_ref": "",
+    "district": "gonbad-sabz",
+    "brand_model": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "neyshabur"
+  },
+  "city": {
+    "city_id": "318",
+    "name": "نیشابور",
+    "parent_id": "880",
+    "second_slug": "neyshabur"
+  }
+}

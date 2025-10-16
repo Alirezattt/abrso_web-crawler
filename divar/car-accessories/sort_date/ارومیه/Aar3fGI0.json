@@ -1,0 +1,596 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "قالپاق/چراغ/آیینه/شبکه/قلبیرک",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "قالپاق/چراغ/آیینه/شبکه/قلبیرک",
+            "subtitle": "۳ روز پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aar3fGI0"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "✅️ اگر به دنبال کیفیت و قیمت مناسب هستید، به ما سر بزنید\n\n✅️چراغ جلو وعقب فابریک ماشین های ایرانی\n✅️قالپاق فابریک واسپرت سایز ۱۳/۱۴/۱۵\n✅️ایینه جانبی با متعلقات ایینه \n✅️شبکه فابریک و اسپرت ماشین های ایران خودرو و سایپا\n✅️قلبیرک فرمان در مدل های مختلف\n\n️ارسال سریع و مطمئن \n\n✅️آدرس _ارومیه_خ المهدی (اسلام اباد۲)نبش کوچه ۲۲_لوکس اسپرت حسنعلی زاده",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/aa0febde-a9a1-417f-a82d-f03bb1510543.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/a/aa0febde-a9a1-417f-a82d-f03bb1510543/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "Aar3fGI0",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/a/aa0febde-a9a1-417f-a82d-f03bb1510543/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "قالپاق_چراغ_آیینه_شبکه_قلبیرک",
+                  "upload_date": "2025-10-12T19:12:15.594720Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/KjvFnCuDtSF_SODeS6DzfQ/dff87bd6-371f-4d9a-8be2-277fc13a3fb9.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PIpDV8sv1x6YK43hTOz3Xw/dff87bd6-371f-4d9a-8be2-277fc13a3fb9.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/R5wit6tvp4kb7ElHHDdM-g/d6c64206-7958-421a-a49f-a7fafd82c47d.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PttQJ0j8U2uU9tOgTNo63w/d6c64206-7958-421a-a49f-a7fafd82c47d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Z-Aci8yp6RhMLik2x55Usw/fe7744c0-f596-4d0f-a575-438f34905493.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9sijWSR6kMu6vBJlfLiVjg/fe7744c0-f596-4d0f-a575-438f34905493.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/nTon-2d8nWoQSoQfAIA4wQ/b7fe2d7b-0c40-471b-b1d2-8531d348196e.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FWA0rrjeRKq-ckWBVWszAQ/b7fe2d7b-0c40-471b-b1d2-8531d348196e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/8BF2gaYYUU4CA7HRG7O09Q/f1f1e378-22c2-4f08-b441-53edeb49fee3.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BIch61-vTkPbdO5-m65CQg/f1f1e378-22c2-4f08-b441-53edeb49fee3.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/BJWnTmi3yvHc9e6ln92g_g/42811f9a-7bd2-423e-bea6-96ad10102429.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QZlAe6TDjlcKUqXTOz5udQ/42811f9a-7bd2-423e-bea6-96ad10102429.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/g63OHLFkRj_88lPbEXQQzw/0a8fb2c0-e6df-408d-a169-29c1f4c48ca4.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/h-3_ZVDlJ6zLdesd1Vsmkw/0a8fb2c0-e6df-408d-a169-29c1f4c48ca4.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/y18uc4BQgET8wayG8LNexA/63d38f75-f594-419f-a60d-edd1d090bd28.jpg.jpg",
+                  "alt": "قالپاق/چراغ/آیینه/شبکه/قلبیرک|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EfQ-KhaWQEc1JYqwYg_sJw/63d38f75-f594-419f-a60d-edd1d090bd28.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aar3fGI0",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "بال عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/بال-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "چراغ خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/چراغ-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.568473282245,
+                  "longitude": 45.103311989666
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXG6dlyqd36_uQgDE4HIXVvVLrBEqH1zU6OgIPPELvIleUA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aar3fGI0"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aar3fGI0"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aar3fGI0"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/Aar3fGI0/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "Aar3fGI0"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "قالپاق_چراغ_آیینه_شبکه_قلبیرک",
+    "web_url": "https://divar.ir/v/Aar3fGI0"
+  },
+  "seo": {
+    "title": "قالپاق_چراغ_آیینه_شبکه_قلبیرک در ارومیه",
+    "description": "آگهی قالپاق_چراغ_آیینه_شبکه_قلبیرک در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/قالپاق_چراغ_آیینه_شبکه_قلبیرک/Aar3fGI0/",
+    "web_info": {
+      "title": "قالپاق_چراغ_آیینه_شبکه_قلبیرک",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-12T22:42:15.595311",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "قالپاق/چراغ/آیینه/شبکه/قلبیرک",
+      "@context": "https://schema.org",
+      "description": "✅️ اگر به دنبال کیفیت و قیمت مناسب هستید، به ما سر بزنید\n\n✅️چراغ جلو وعقب فابریک ماشین های ایرانی\n✅️قالپاق فابریک واسپرت سایز ۱۳/۱۴/۱۵\n✅️ایینه جانبی با متعلقات ایینه \n✅️شبکه فابریک و اسپرت ماشین های ایران خودرو و سایپا\n✅️قلبیرک فرمان در مدل های مختلف\n\n️ارسال سریع و مطمئن \n\n✅️آدرس _ارومیه_خ المهدی (اسلام اباد۲)نبش کوچه ۲۲_لوکس اسپرت حسنعلی زاده",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/قالپاق-چراغ-آیینه-شبکه-قلبیرک/Aar3fGI0",
+      "web_info": {
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "قالپاق/چراغ/آیینه/شبکه/قلبیرک"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/KjvFnCuDtSF_SODeS6DzfQ/dff87bd6-371f-4d9a-8be2-277fc13a3fb9.jpg.jpg"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aar3fGI0",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "4c968688-9dcc-4d37-84ee-ad10fd257045"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "4c968688-9dcc-4d37-84ee-ad10fd257045"
+  },
+  "webengage": {
+    "cat_3": "",
+    "price": 1000,
+    "brand_model": "",
+    "rent": 0,
+    "status": "",
+    "source_view": "",
+    "token": "Aar3fGI0",
+    "business_type": "premium-panel",
+    "gender": "",
+    "image_count": 8,
+    "category": "parts-accessories",
+    "business_ref": "yTfDNWTS_fjRDpDkm",
+    "district": "",
+    "credit": 0,
+    "cat_1": "vehicles",
+    "originality": "",
+    "cat_2": "parts-accessories",
+    "city": "urmia"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

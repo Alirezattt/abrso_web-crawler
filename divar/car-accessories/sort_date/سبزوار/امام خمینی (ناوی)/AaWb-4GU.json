@@ -1,0 +1,546 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "سیستم صوتی مانیتور ظبط و باند",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "سیستم صوتی مانیتور ظبط و باند",
+            "subtitle": "۲ هفته پیش در سبزوار، امام خمینی (ناوی)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaWb-4GU"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "به نام ایزدمنان \n….. فروش نصب تعمیر و راه اندازی سیستم \nبا دو دهه سابقه در خدمتیم\n\nنقد با تخفیف ویژه \nاقساط تا ۴ ماه با چک صیادی \n ظبط بلوتوث دار از یک میلیون(ایسی بزرگ آمپیلی خور)\n\nفروش انواع مانیتور از شروع قیمت ۴۵۰۰ \nبا حافظه ۱۶  ۳۲.  ۶۴ گیک \nفروش انواع میدرنج ساب  امپیلی  تیوتر و …\n\n\nتکی خرید کنید به قیمت عمده\nنصب دزدگیر \nهدلایت وات بالا برای تمامی خودرو ها\n \n\nادرس سبزوار خیابان ناوی \nما بین امام خمینی ۱۶ و ۱۴",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ML9xi2fKbIg0ALSU5_cGcg/400eeb11-dca9-47b2-80d6-df56b8cf0c9f.webp",
+                  "alt": "سیستم صوتی مانیتور ظبط و باند|قطعات یدکی و لوازم جانبی|سبزوار, امام خمینی (ناوی)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QRwaDxU-IQBx9bKHIH1AqA/400eeb11-dca9-47b2-80d6-df56b8cf0c9f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/b-WPG4WR3j8iTmdGF50_Ig/c8c8d168-c57d-4909-b4ef-c8568090680a.webp",
+                  "alt": "سیستم صوتی مانیتور ظبط و باند|قطعات یدکی و لوازم جانبی|سبزوار, امام خمینی (ناوی)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZURTBkdPlPL0sWvDuxawLg/c8c8d168-c57d-4909-b4ef-c8568090680a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/U5LX0zGpsUJ0r8wyR0Zk1Q/a8eeaf09-11c4-4280-b326-7f5a67df5b9b.webp",
+                  "alt": "سیستم صوتی مانیتور ظبط و باند|قطعات یدکی و لوازم جانبی|سبزوار, امام خمینی (ناوی)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Dg5wIQZxgl6yJ5meAzmIJg/a8eeaf09-11c4-4280-b326-7f5a67df5b9b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BEiOc5eITB73rxsyNv1Oag/28dcd878-7063-4d8a-bac4-1b8f3c17a47c.webp",
+                  "alt": "سیستم صوتی مانیتور ظبط و باند|قطعات یدکی و لوازم جانبی|سبزوار, امام خمینی (ناوی)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cRo7SaR1d59CebASctO7Yg/28dcd878-7063-4d8a-bac4-1b8f3c17a47c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Xo2RPaC7kJPa4lmm58-ThA/aca0dd50-5d74-4be1-8612-1adf9fd64a81.webp",
+                  "alt": "سیستم صوتی مانیتور ظبط و باند|قطعات یدکی و لوازم جانبی|سبزوار, امام خمینی (ناوی)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RdhIIeK6uffIu5JRq9DjIw/aca0dd50-5d74-4be1-8612-1adf9fd64a81.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/SbRnAVs2xg5ROsoPGSkZxQ/b930958e-92f1-435b-a3dc-a46261660b05.webp",
+                  "alt": "سیستم صوتی مانیتور ظبط و باند|قطعات یدکی و لوازم جانبی|سبزوار, امام خمینی (ناوی)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/cmYcXUMzGTlk-GJt2VHXmw/b930958e-92f1-435b-a3dc-a46261660b05.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/x33GFYnLN__o6EGKEZhTnQ/c0058811-bb89-4162-88a7-e1a4a2b3131e.webp",
+                  "alt": "سیستم صوتی مانیتور ظبط و باند|قطعات یدکی و لوازم جانبی|سبزوار, امام خمینی (ناوی)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6gygcPDGkvmPrix2FRZCfA/c0058811-bb89-4162-88a7-e1a4a2b3131e.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۴،۵۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaWb-4GU",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 316
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در امام خمینی (ناوی)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3221"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/sabzevar/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "مانیتور خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/sabzevar/list/مانیتور-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaWb-4GU"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaWb-4GU"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "سیستم صوتی مانیتور ظبط و باند",
+    "web_url": "https://divar.ir/v/AaWb-4GU"
+  },
+  "seo": {
+    "title": "سیستم صوتی مانیتور ظبط و باند در سبزوار",
+    "description": "آگهی سیستم صوتی مانیتور ظبط و باند در دیوار سبزوار",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/سیستم صوتی مانیتور ظبط و باند/AaWb-4GU/",
+    "web_info": {
+      "title": "سیستم صوتی مانیتور ظبط و باند",
+      "district_persian": "امام خمینی (ناوی)",
+      "city_persian": "سبزوار",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-27T22:48:31.784411",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3221"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3221"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "امام خمینی (ناوی)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3221"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "316",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/ML9xi2fKbIg0ALSU5_cGcg/400eeb11-dca9-47b2-80d6-df56b8cf0c9f.webp",
+      "offers": {
+        "price": "4500000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "description": "به نام ایزدمنان \n….. فروش نصب تعمیر و راه اندازی سیستم \nبا دو دهه سابقه در خدمتیم\n\nنقد با تخفیف ویژه \nاقساط تا ۴ ماه با چک صیادی \n ظبط بلوتوث دار از یک میلیون(ایسی بزرگ آمپیلی خور)\n\nفروش انواع مانیتور از شروع قیمت ۴۵۰۰ \nبا حافظه ۱۶  ۳۲.  ۶۴ گیک \nفروش انواع میدرنج ساب  امپیلی  تیوتر و …\n\n\nتکی خرید کنید به قیمت عمده\nنصب دزدگیر \nهدلایت وات بالا برای تمامی خودرو ها\n \n\nادرس سبزوار خیابان ناوی \nما بین امام خمینی ۱۶ و ۱۴",
+      "@type": "Product",
+      "@context": "https://schema.org",
+      "web_info": {
+        "title": "سیستم صوتی مانیتور ظبط و باند",
+        "city_persian": "سبزوار",
+        "district_persian": "امام خمینی (ناوی)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/سیستم-صوتی-مانیتور-ظبط-و-باند/AaWb-4GU",
+      "name": "سیستم صوتی مانیتور ظبط و باند"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaWb-4GU",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "0552167a-4d8c-4fe1-b2e0-2fbc34815afc"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "0552167a-4d8c-4fe1-b2e0-2fbc34815afc"
+  },
+  "webengage": {
+    "business_ref": "",
+    "cat_2": "parts-accessories",
+    "city": "sabzevar",
+    "district": "emam-khomeyni-navi",
+    "business_type": "personal",
+    "originality": "",
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "brand_model": "",
+    "category": "parts-accessories",
+    "gender": "",
+    "image_count": 7,
+    "price": 4500000,
+    "status": "",
+    "token": "AaWb-4GU",
+    "source_view": "",
+    "credit": 0,
+    "rent": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "sabzevar"
+  },
+  "city": {
+    "city_id": "316",
+    "name": "سبزوار",
+    "parent_id": "880",
+    "second_slug": "sabzevar"
+  }
+}

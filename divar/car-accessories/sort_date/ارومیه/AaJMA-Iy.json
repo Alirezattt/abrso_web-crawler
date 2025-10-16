@@ -1,0 +1,567 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "*روکش*صندلی انواع خودروهای خارجی و چینی",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "*روکش*صندلی انواع خودروهای خارجی و چینی",
+            "subtitle": "۱ هفته پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaJMA-Iy"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "بهترین روکشهای چرم و پارچه اتومبیل خود را از ما بخواهید! \nبانک کفپوش و روکش صندلی متین به عنوان بزرگ ترین و جامع ترین مرکز پخش لوازم ضروری خودرو از قبیل روکش صندلی و کفپوش و دور فرمان و کفی صندوق عقب و روداشبوردی و نمد زیر کاپوت و غیره در خدمت شما مشتریان خوش سلیقه می باشد.فقط یکبار مراجعه شما را به جمع مشتریان ما اضافه خواهد کرد! \n#ارومیه خ باکری روبروی اداره برق،اسپورت متین\n\nارومیه خ شیخ شلتوت روبروی نمایندگی سایپا جعفری لک،اسپورت متین\n\n<<متاسفانه از پاسخ به چت و پیامک به دلیل مشغله کاری معذوریم ، فقط تماس یا مراجعه حضوری>>",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/L5amhNxdMatjYtgpfjpWRA/86ac79b3-d329-448a-aff2-a81f71b98bad.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DpqYjPQimWoQn_NutchzlQ/86ac79b3-d329-448a-aff2-a81f71b98bad.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/lvsAj9NnaUBVdbMGUvI-ig/4c8cce4b-4ec7-409f-bfd8-02fa85663cf9.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9tNmL_EqdPuD-fnlr5QeSw/4c8cce4b-4ec7-409f-bfd8-02fa85663cf9.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/L7TFs8TwXGKs78GHzux3Pg/0b63a3bf-95a8-4594-95d1-9a6bf985464d.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-guCB9N1qe5t8-QO9r8wWw/0b63a3bf-95a8-4594-95d1-9a6bf985464d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/vdf-YDbLgO_yHdTNq1aLqw/4475b16a-0657-4ed8-aaad-f59387651f21.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fzip37f52_OoTjE-S7PoRw/4475b16a-0657-4ed8-aaad-f59387651f21.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ZNnLE-UzP0VN4ajZAAEwmg/453e08b3-18ea-4c20-b456-006b7481376e.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mPR-TWe1P-ZCiWxCwDiO7g/453e08b3-18ea-4c20-b456-006b7481376e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/uq9XXsn0Xr3RldfrrWtnzg/87d734e9-1601-4041-8694-61e220ee9ea6.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FV7ZRZY3PuQ-a-_ygb_xag/87d734e9-1601-4041-8694-61e220ee9ea6.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/mJ-S6lP7ihW2fYp6JqrTSw/f3925e0f-c8ad-44d7-af33-7e48d70d73ac.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/g31Pqev_IXVl1f_UuRazBQ/f3925e0f-c8ad-44d7-af33-7e48d70d73ac.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/AGAtYYvRtIrDIMcpD9Wogg/aac18eee-7dc6-454a-aa9b-d54de3e64e26.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Yl9BcwI99CvleEmCT4D6jA/aac18eee-7dc6-454a-aa9b-d54de3e64e26.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/rKhDhBXpS06cDopWE5GwtA/51ca8a75-2f05-4c4e-ba81-13f354ae13cb.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iGovx4xLT5ZYY9G_ZFOPKg/51ca8a75-2f05-4c4e-ba81-13f354ae13cb.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/C16-JMvBmXRyRM_7gMoK-g/475fcc2b-73af-4886-b6bf-a47298c6d78b.jpg.jpg",
+                  "alt": "*روکش*صندلی انواع خودروهای خارجی و چینی|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qhbHTYKxRcKufrlpi3T3gA/475fcc2b-73af-4886-b6bf-a47298c6d78b.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaJMA-Iy",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "داشبورد",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/داشبورد-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "روکش صندلی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/صندلی-و-روکش-صندلی-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.544645374216,
+                  "longitude": 45.072816610336
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXDV5mWHo0q_uQu1I1yx8UvVLY8bZD525AwCSjMeL3H1XjA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaJMA-Iy"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaJMA-Iy"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaJMA-Iy"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "*روکش*صندلی انواع خودروهای خارجی و چینی",
+    "web_url": "https://divar.ir/v/AaJMA-Iy"
+  },
+  "seo": {
+    "title": "*روکش*صندلی انواع خودروهای خارجی و چینی در ارومیه",
+    "description": "آگهی *روکش*صندلی انواع خودروهای خارجی و چینی در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/*روکش*صندلی انواع خودروهای خارجی و چینی/AaJMA-Iy/",
+    "web_info": {
+      "title": "*روکش*صندلی انواع خودروهای خارجی و چینی",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-21T18:47:03.217178",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "name": "*روکش*صندلی انواع خودروهای خارجی و چینی",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/-روکش-صندلی-انواع-خودروهای-خارجی-و-چینی/AaJMA-Iy",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/L5amhNxdMatjYtgpfjpWRA/86ac79b3-d329-448a-aff2-a81f71b98bad.jpg.jpg",
+      "@type": "Product",
+      "web_info": {
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "*روکش*صندلی انواع خودروهای خارجی و چینی"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "100000"
+      },
+      "description": "بهترین روکشهای چرم و پارچه اتومبیل خود را از ما بخواهید! \nبانک کفپوش و روکش صندلی متین به عنوان بزرگ ترین و جامع ترین مرکز پخش لوازم ضروری خودرو از قبیل روکش صندلی و کفپوش و دور فرمان و کفی صندوق عقب و روداشبوردی و نمد زیر کاپوت و غیره در خدمت شما مشتریان خوش سلیقه می باشد.فقط یکبار مراجعه شما را به جمع مشتریان ما اضافه خواهد کرد! \n#ارومیه خ باکری روبروی اداره برق،اسپورت متین\n\nارومیه خ شیخ شلتوت روبروی نمایندگی سایپا جعفری لک،اسپورت متین\n\n<<متاسفانه از پاسخ به چت و پیامک به دلیل مشغله کاری معذوریم ، فقط تماس یا مراجعه حضوری>>"
+    }
+  },
+  "contact": {
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaJMA-Iy",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "da99b431-92dc-4e74-9e80-cd6df9f229ad"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "da99b431-92dc-4e74-9e80-cd6df9f229ad"
+  },
+  "webengage": {
+    "credit": 0,
+    "brand_model": "",
+    "originality": "",
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "business_ref": "",
+    "gender": "",
+    "cat_3": "",
+    "status": "",
+    "rent": 0,
+    "cat_2": "parts-accessories",
+    "source_view": "",
+    "image_count": 10,
+    "city": "urmia",
+    "token": "AaJMA-Iy",
+    "district": "",
+    "cat_1": "vehicles",
+    "price": 100000
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

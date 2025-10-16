@@ -1,0 +1,615 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad",
+            "subtitle": "۱۷ ساعت پیش در مشهد، گاز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "QZJnL76K"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام \n\n‌فروشگاه تخصصی ردیاب و ردیاب\n\n دزدگیر سایه احمد با بیش 25سال\n\n سابقه کاری مرتبط با امنیت خودرو \n\nامروز به فکر امنیت خودروی خود باشید \n\nفردا شاید دیر باشه \n\n⁦☑️⁩سیستم ردیاب دزدگیر سایه \n\n کامل‌ترین دزدگیر موجود بازار \n\n⁦☑️⁩ با برد بی‌نهایت دارای تمامی\n\n امکانات یک\n\n⁦☑️⁩ دزدگیر از قبیل آژیر سنسور ضربه رله قطع کن\n\n ⁦☑️⁩سیستم لادری کاپوت به همراه دو عدد ریموت\n\n⁦☑️⁩نمایش موقعیت خودرو بر روی گوشی\n\n⁦☑️⁩امکان خاموش کن از راه دور\n\n⁦☑️⁩باز و بسته کردن درب‌ها از فاصله دور\n\n⁦☑️⁩صندوق پرون از طریق گوشی و ریموت\n\n⁦☑️⁩دارای باتری پشتیبان در صورت قطع برق باتری\n\n⁦☑️⁩اخطار قطع باتری\n\n⁦☑️⁩اخطار هم با جرثقیل\n\n⁦☑️⁩اخطار ضربه به خودرو\n\n⁦☑️⁩اخطار باز شدن درب‌ها\n\n⁦☑️⁩اخطار سرعت غیر مجاز\n\n⁦☑️⁩اخطار روشن شدن\n\n⁦☑️⁩اخطار خروج از محدوده مجاز\n\n⁦☑️⁩مشاهده مسیرهای طی شده \n\n⁦☑️⁩شن و د \n\n⁦آدرس مجموعه تخصصی ردیاب احمد \n\nبلوار رسالت داخل رسالت 36 جنب موسسه مالی ملل",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/fd796ced-6736-43b1-a8bf-d4013634761e.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/f/fd796ced-6736-43b1-a8bf-d4013634761e/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "QZJnL76K",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/f/fd796ced-6736-43b1-a8bf-d4013634761e/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad",
+                  "upload_date": "2024-02-12T08:24:44.142971Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/whH5CAdzBP_VCzX4x2hBaw/c1a5eabd-704a-472b-8284-cce152d4ace8.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/iP9HIl8uBKyAQP7QG58Bcg/c1a5eabd-704a-472b-8284-cce152d4ace8.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/u0Msy1WcKg2EefrMwiilRQ/25aee545-76a7-4559-8182-65f989632914.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/0hP9JKb7xmZKuEfumc3wog/25aee545-76a7-4559-8182-65f989632914.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/URo9e7eLinsc2MJW90H93A/bb7bd261-c512-4bf0-8b4d-cf60e114fe77.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/sw8KYvcPYMoV10rTkP4H4A/bb7bd261-c512-4bf0-8b4d-cf60e114fe77.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/OSpXR41R6fIpA65UJdJ7wg/7940133e-ccbe-4873-97c7-45767cb1c15a.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/GLzgdDSmEGHW_lFItL1USQ/7940133e-ccbe-4873-97c7-45767cb1c15a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/YCoGNW-PCkeUDWBGerYsWQ/c374bd1c-37c0-45fe-bb83-78703ae07eec.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/cLPbupRTSuc77TDBkrwrZg/c374bd1c-37c0-45fe-bb83-78703ae07eec.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/Thy-Y4Npc-5Jb-IN618bng/72a13bb1-3c66-4b3f-81a5-586861b20a0d.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/DvINw0KFwyYwcXBqzPyC4A/72a13bb1-3c66-4b3f-81a5-586861b20a0d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/PEO4_Oo7Bgzbf6SPcForpw/e971299f-554d-4533-b815-4e9297e28ea4.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/5Hl4RHvuyaCAXmSk6Z61_A/e971299f-554d-4533-b815-4e9297e28ea4.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/AS3CYaXU6mqtcIRadGgJcw/ebd80b59-7b11-46f3-9ea1-f78d1fca6b3c.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/M52o8UhzmStQ1H9h9xA4Ew/ebd80b59-7b11-46f3-9ea1-f78d1fca6b3c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/0r5XLQ-ZMX2BATMuxaNqwQ/5b8cbf04-6ef2-4665-85c0-4f02e2fcf5d9.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/cp0Z1GxXE6V6vuo8WslVcw/5b8cbf04-6ef2-4665-85c0-4f02e2fcf5d9.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/hdUm1m_Z47anUyFEPkfJLg/67f347ee-c7ba-4b0b-88a0-73151f1e50c3.jpg.jpg",
+                  "alt": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/fTWw4O8jXodp39fw5THWAw/67f347ee-c7ba-4b0b-88a0-73151f1e50c3.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "QZJnL76K",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گاز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "495"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.311578450351,
+                  "longitude": 59.636639709019
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXOxdaVy_MK_uQhF-3ElTCv5LE5aUKniY6hjxQmHR_BhWDA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "QZJnL76K"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "QZJnL76K"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "QZJnL76K"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad",
+    "web_url": "https://divar.ir/v/QZJnL76K"
+  },
+  "seo": {
+    "title": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad در مشهد",
+    "description": "آگهی جی پی اس ردیاب دزدگیر سایه sayeh ahmad در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/جی پی اس ردیاب دزدگیر سایه sayeh ahmad/QZJnL76K/",
+    "web_info": {
+      "title": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad",
+      "district_persian": "گاز",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-04T11:54:44.142579",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گاز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad",
+      "description": "سلام \n\n‌فروشگاه تخصصی ردیاب و ردیاب\n\n دزدگیر سایه احمد با بیش 25سال\n\n سابقه کاری مرتبط با امنیت خودرو \n\nامروز به فکر امنیت خودروی خود باشید \n\nفردا شاید دیر باشه \n\n⁦☑️⁩سیستم ردیاب دزدگیر سایه \n\n کامل‌ترین دزدگیر موجود بازار \n\n⁦☑️⁩ با برد بی‌نهایت دارای تمامی\n\n امکانات یک\n\n⁦☑️⁩ دزدگیر از قبیل آژیر سنسور ضربه رله قطع کن\n\n ⁦☑️⁩سیستم لادری کاپوت به همراه دو عدد ریموت\n\n⁦☑️⁩نمایش موقعیت خودرو بر روی گوشی\n\n⁦☑️⁩امکان خاموش کن از راه دور\n\n⁦☑️⁩باز و بسته کردن درب‌ها از فاصله دور\n\n⁦☑️⁩صندوق پرون از طریق گوشی و ریموت\n\n⁦☑️⁩دارای باتری پشتیبان در صورت قطع برق باتری\n\n⁦☑️⁩اخطار قطع باتری\n\n⁦☑️⁩اخطار هم با جرثقیل\n\n⁦☑️⁩اخطار ضربه به خودرو\n\n⁦☑️⁩اخطار باز شدن درب‌ها\n\n⁦☑️⁩اخطار سرعت غیر مجاز\n\n⁦☑️⁩اخطار روشن شدن\n\n⁦☑️⁩اخطار خروج از محدوده مجاز\n\n⁦☑️⁩مشاهده مسیرهای طی شده \n\n⁦☑️⁩شن و د \n\n⁦آدرس مجموعه تخصصی ردیاب احمد \n\nبلوار رسالت داخل رسالت 36 جنب موسسه مالی ملل",
+      "@type": "Product",
+      "url": "https://divar.ir/v/جی-پی-اس-ردیاب-دزدگیر-سایه-sayeh-ahmad/QZJnL76K",
+      "web_info": {
+        "title": "جی پی اس ردیاب دزدگیر سایه sayeh ahmad",
+        "city_persian": "مشهد",
+        "district_persian": "گاز",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "0",
+        "@type": "Offer"
+      },
+      "@context": "https://schema.org",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/whH5CAdzBP_VCzX4x2hBaw/c1a5eabd-704a-472b-8284-cce152d4ace8.jpg.jpg",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "QZJnL76K",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "83995d0f-c476-4b4c-a28a-cf8f46f3139a"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "83995d0f-c476-4b4c-a28a-cf8f46f3139a"
+  },
+  "webengage": {
+    "business_ref": "",
+    "price": 0,
+    "gender": "",
+    "city": "mashhad",
+    "token": "QZJnL76K",
+    "cat_3": "",
+    "district": "eastgaz",
+    "business_type": "personal",
+    "image_count": 10,
+    "cat_2": "parts-accessories",
+    "source_view": "",
+    "credit": 0,
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "rent": 0,
+    "status": "",
+    "originality": "",
+    "brand_model": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

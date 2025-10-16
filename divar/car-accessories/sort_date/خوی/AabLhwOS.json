@@ -1,0 +1,617 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "لوازم سیستم با چک بدون پیش پرداخت",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "لوازم سیستم با چک بدون پیش پرداخت",
+            "subtitle": "۶ روز پیش در خوی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AabLhwOS"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام  ✅✅ بدون پیش پرداخت واقعی  ✅✅\n\n❗شرایط بدون پیش پرداخت با چک صیادی \n                     2 تا 7 ماهه واقعی بدون بهره.  ❗\n\n⬇️سیستم صوتی کامل با قیمت عالی و صدای عالی  ⬇️ هدلایت ، چراغ اسپورت ، مانیتور ، ردیاب\n ⬇️ روکش صندلی ، دور فرمان ، زیرپایی\n ⬇️مانیتور با قاب مخصوص ، دوربین دنده عقب ⬇️استرس بار ، منبع اگزوز ، بوق 1011 \n\nآدرس ; خوی ، میدان امام حسین به طرف چهارراه ربط \n200 متر مانده به چهارراه ربط \n                      ❌ فروشگاه امید تورک ❌\n\n⏬ شرایط فروش ما واقعی و بدون پیش پرداخت ⏬",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/SVgu40hpTnZhYLl_0dkITA/5ccb8bc4-90d7-415e-817d-76630802876b.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/m4cPEJ0m9OPWRbkk9AntTw/5ccb8bc4-90d7-415e-817d-76630802876b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/HG38n2te4FA-c4lL-Q5sbw/e4b2f8a8-04dc-4c7d-aab0-35a4e7fc3675.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9ZzrWHzyaopL9LnHQOXUCQ/e4b2f8a8-04dc-4c7d-aab0-35a4e7fc3675.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/LJXOehsmL4j6kRma5P2_6Q/f6aed923-dde7-440f-b889-3b27d2d4e3ef.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QJh5M2chD9l1CRzdLnMGUg/f6aed923-dde7-440f-b889-3b27d2d4e3ef.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eWEJRyqE42HveFdqNQXMMg/81cc422e-83b5-4217-81f7-a23a1f35d910.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5JQAKUHZ_CxH145-1FzNQw/81cc422e-83b5-4217-81f7-a23a1f35d910.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/UIanZYK3vLury6lg5hq4kg/34733402-8470-4038-a32f-3a75d54f0f31.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PsPZfo2IgWgbfdFZI1ad-Q/34733402-8470-4038-a32f-3a75d54f0f31.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/pGdCbrIpFQOurCVvaDcAcw/9c9869b7-fcf6-4fbb-934b-f6af593178e0.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mTftxOMlNflwb5bQ5fyyYQ/9c9869b7-fcf6-4fbb-934b-f6af593178e0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7iRiGM1-7zyOnwhk6xgCbA/224cc3b1-06c3-4a6f-94b0-8dd8bc967a38.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PCILsfdoBii8bEn6BTDHAQ/224cc3b1-06c3-4a6f-94b0-8dd8bc967a38.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XyGaPT2wjKMCx_gew9H5fg/af30d402-e421-4400-a18b-88cf2208ae05.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/m57oJMFWCqCm_S22lcvVDA/af30d402-e421-4400-a18b-88cf2208ae05.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/b7FqSPEaFJaha_UXmwNung/c86dc90d-0853-4d5d-8d82-2dba8710f5d3.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kjBTCoQTmHoGPN_hn12-Cg/c86dc90d-0853-4d5d-8d82-2dba8710f5d3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/PEezJfBkKiZb9Nq4F4lhbA/629d5cec-148a-45fc-a382-7cd61753e771.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_1n5R-i1x7ruV9Pr257E7w/629d5cec-148a-45fc-a382-7cd61753e771.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hGK899wW_k2A0tlKwkB9VQ/be4206ff-3e44-4eb5-adc6-68a57416ed03.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qTblMj9zaoAbk8L_q-yhFw/be4206ff-3e44-4eb5-adc6-68a57416ed03.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1SdrljGQF1pnOqdO7ZePgA/6199fb12-2db7-45a1-9fa6-0e06aff09d0c.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Aiog4nkSp6JSuj1cpI-XCg/6199fb12-2db7-45a1-9fa6-0e06aff09d0c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/81QJ-HXFMa7rFM9pZIukQg/01e41bae-2039-49dd-ae14-6d5a8eb0ff51.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6z2uVSHjtBi6snRUIhYXog/01e41bae-2039-49dd-ae14-6d5a8eb0ff51.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OG84VkQ-fu1ZwzU7w2AtmA/7584d978-4f55-4be8-a382-d3b76cee3877.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/A0w5b1WYij3VKzASLoCPbQ/7584d978-4f55-4be8-a382-d3b76cee3877.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Pji3ALCOe1XAKL5yU49Viw/48751397-400c-4651-9b49-c12c21379425.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NXQMhguxdF7h5fE9y-shyA/48751397-400c-4651-9b49-c12c21379425.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/O1VyikPinz7AeG8zVZtAlw/b2680a8d-88ac-4112-937c-489d7969a3ed.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kfxeXmbfQzqiTab3bVV4CA/b2680a8d-88ac-4112-937c-489d7969a3ed.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/quOCf--tT_5OFvwHOTHLow/42464def-143b-4228-8b68-5c2eecbc163b.webp",
+                  "alt": "لوازم سیستم با چک بدون پیش پرداخت|قطعات یدکی و لوازم جانبی|خوی, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/n0u4-DtDt6iFo-9LZPJykA/42464def-143b-4228-8b68-5c2eecbc163b.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AabLhwOS",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 767
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "اگزوز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/khoy/list/اگزوز-و-منبع-اگزوز",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "روکش صندلی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/khoy/list/صندلی-و-روکش-صندلی-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 38.555851371135,
+                  "longitude": 44.940135373262
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXFRUULJ4UK7uQrVLNHp4o_VLthPyMqt9NyQrSW4OkO1YGg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AabLhwOS"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AabLhwOS"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AabLhwOS"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "لوازم سیستم با چک بدون پیش پرداخت",
+    "web_url": "https://divar.ir/v/AabLhwOS"
+  },
+  "seo": {
+    "title": "لوازم سیستم با چک بدون پیش پرداخت در خوی",
+    "description": "آگهی لوازم سیستم با چک بدون پیش پرداخت در دیوار خوی",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/لوازم سیستم با چک بدون پیش پرداخت/AabLhwOS/",
+    "web_info": {
+      "title": "لوازم سیستم با چک بدون پیش پرداخت",
+      "city_persian": "خوی",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-31T02:45:50.017241",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "767",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/لوازم-سیستم-با-چک-بدون-پیش-پرداخت/AabLhwOS",
+      "web_info": {
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "لوازم سیستم با چک بدون پیش پرداخت",
+        "city_persian": "خوی"
+      },
+      "name": "لوازم سیستم با چک بدون پیش پرداخت",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/SVgu40hpTnZhYLl_0dkITA/5ccb8bc4-90d7-415e-817d-76630802876b.webp",
+      "description": "با سلام  ✅✅ بدون پیش پرداخت واقعی  ✅✅\n\n❗شرایط بدون پیش پرداخت با چک صیادی \n                     2 تا 7 ماهه واقعی بدون بهره.  ❗\n\n⬇️سیستم صوتی کامل با قیمت عالی و صدای عالی  ⬇️ هدلایت ، چراغ اسپورت ، مانیتور ، ردیاب\n ⬇️ روکش صندلی ، دور فرمان ، زیرپایی\n ⬇️مانیتور با قاب مخصوص ، دوربین دنده عقب ⬇️استرس بار ، منبع اگزوز ، بوق 1011 \n\nآدرس ; خوی ، میدان امام حسین به طرف چهارراه ربط \n200 متر مانده به چهارراه ربط \n                      ❌ فروشگاه امید تورک ❌\n\n⏬ شرایط فروش ما واقعی و بدون پیش پرداخت ⏬",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000"
+      },
+      "@context": "https://schema.org",
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AabLhwOS",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "b553843b-9f62-4124-bc81-eead4ee72346"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "b553843b-9f62-4124-bc81-eead4ee72346"
+  },
+  "webengage": {
+    "credit": 0,
+    "city": "khoy",
+    "business_ref": "",
+    "status": "",
+    "source_view": "",
+    "district": "",
+    "gender": "",
+    "category": "parts-accessories",
+    "brand_model": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "originality": "",
+    "token": "AabLhwOS",
+    "business_type": "personal",
+    "cat_3": "",
+    "rent": 0,
+    "image_count": 17,
+    "price": 1000
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "khoy"
+  },
+  "city": {
+    "city_id": "767",
+    "name": "خوی",
+    "parent_id": "881",
+    "second_slug": "khoy"
+  }
+}

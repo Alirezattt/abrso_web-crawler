@@ -1,0 +1,557 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات",
+            "subtitle": "۳ هفته پیش در مشهد، توس (بلوار توس)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aauy6iTs"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام و درود خدمت همشهریان عزیز\n\nویژگی های ردیاب آهنربایی ۳۰ روز شارژ \n✅باطری بسیار قوی ✅نصب راحت بدون سیم کشی \n✅ردیابی آنلاین و دقیق ✅قابلیت شنود \n\nنصب دزدگیر فقط وصل کردن چندتا سیم نیست اگر نکات فنی و اصولی رعایت نشه امنیت ماشین تامین نمیشه واقعیت اینه که ۸۰٪ امنیت به نحوه نصب بستگی داره\n\n\n✅ مخفی‌سازی حرفه‌ای دستگاه دزدگیر برای جلوگیری از قطع کردن توسط سارق\nدقت داشته باشید دزدگیری که به ۲۰ دقیقه نصب بشه به ۳ ثانیه باز میشه و دور انداخته میشه\n \n✅ وصل کردن تمام درب‌ها به دزدگیر  \n(مخصوصاً کاپوت و صندوق) \n\n✅ نصب بدون کوچک‌ترین آسیب به سیم‌کشی اصلی خودرو\n\n ✅ گارانتی معتبر محصولات از طرف شخص فروشنده \nو نه شرکت های مربوطه\n\nفروش انواع ریموت اصلی و ریموت فابریک خودرو \nو قطعات جانبی دزدگیر و... \n \nشروع قیمت دزدگیر معمولی با نصب ۱٫۵۰۰٫۰۰۰ تومان \nشروع قیمت ردیاب رله ای با نصب ۲۵۰۰, \n \n\n برای امنیت و آرامش، در کنار شما هستیم \n\nبلوار توس مقابل توس ۱۶۹ یا خیابان بوستان دزدگیر آرجیکار",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JmoDFeFZmzzlQITfCL8CnA/ace24bfb-8d6c-4906-a80a-67dc4937dd3b.webp",
+                  "alt": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات|قطعات یدکی و لوازم جانبی|مشهد, توس (بلوار توس)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KbtYXM9U7qSSO4wPP7rEkA/ace24bfb-8d6c-4906-a80a-67dc4937dd3b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/dNZzPR83tqcWN5pl9vHvRA/71a9e333-43f2-442a-be07-078c42f34147.webp",
+                  "alt": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات|قطعات یدکی و لوازم جانبی|مشهد, توس (بلوار توس)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jojzsHrcowWVinI6oRAg5g/71a9e333-43f2-442a-be07-078c42f34147.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tELaRFZXYMv3mVQ3xGTmuQ/d8c1c7b9-d178-4439-a185-f67507d4d867.webp",
+                  "alt": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات|قطعات یدکی و لوازم جانبی|مشهد, توس (بلوار توس)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DWVV1BJ9b6jqkXpBIZJb-g/d8c1c7b9-d178-4439-a185-f67507d4d867.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/9qXlBqXbKyF1v59BAFFJiw/d8f3b60c-b925-47a0-8156-8accbee02569.webp",
+                  "alt": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات|قطعات یدکی و لوازم جانبی|مشهد, توس (بلوار توس)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MNZhpriEAAux2qOv9Xd6KA/d8f3b60c-b925-47a0-8156-8accbee02569.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aauy6iTs",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در توس (بلوار توس)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "642"
+                                ]
+                              }
+                            },
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.425189940199,
+                  "longitude": 59.478263188879
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXFawqQ4yIa_uQuA5QZsZZv5LsjRjPrKPQYG-PmhjT0-mMA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aauy6iTs"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aauy6iTs"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aauy6iTs"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات",
+    "web_url": "https://divar.ir/v/Aauy6iTs"
+  },
+  "seo": {
+    "title": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات در مشهد",
+    "description": "آگهی نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات/Aauy6iTs/",
+    "web_info": {
+      "title": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات",
+      "district_persian": "توس (بلوار توس)",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-27T10:30:13.186311",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "642"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "642"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "توس (بلوار توس)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "642"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@type": "Product",
+      "@context": "https://schema.org",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات",
+        "city_persian": "مشهد",
+        "district_persian": "توس (بلوار توس)"
+      },
+      "description": "سلام و درود خدمت همشهریان عزیز\n\nویژگی های ردیاب آهنربایی ۳۰ روز شارژ \n✅باطری بسیار قوی ✅نصب راحت بدون سیم کشی \n✅ردیابی آنلاین و دقیق ✅قابلیت شنود \n\nنصب دزدگیر فقط وصل کردن چندتا سیم نیست اگر نکات فنی و اصولی رعایت نشه امنیت ماشین تامین نمیشه واقعیت اینه که ۸۰٪ امنیت به نحوه نصب بستگی داره\n\n\n✅ مخفی‌سازی حرفه‌ای دستگاه دزدگیر برای جلوگیری از قطع کردن توسط سارق\nدقت داشته باشید دزدگیری که به ۲۰ دقیقه نصب بشه به ۳ ثانیه باز میشه و دور انداخته میشه\n \n✅ وصل کردن تمام درب‌ها به دزدگیر  \n(مخصوصاً کاپوت و صندوق) \n\n✅ نصب بدون کوچک‌ترین آسیب به سیم‌کشی اصلی خودرو\n\n ✅ گارانتی معتبر محصولات از طرف شخص فروشنده \nو نه شرکت های مربوطه\n\nفروش انواع ریموت اصلی و ریموت فابریک خودرو \nو قطعات جانبی دزدگیر و... \n \nشروع قیمت دزدگیر معمولی با نصب ۱٫۵۰۰٫۰۰۰ تومان \nشروع قیمت ردیاب رله ای با نصب ۲۵۰۰, \n \n\n برای امنیت و آرامش، در کنار شما هستیم \n\nبلوار توس مقابل توس ۱۶۹ یا خیابان بوستان دزدگیر آرجیکار",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000"
+      },
+      "url": "https://divar.ir/v/نصب-دزدگیر-و-ردیاب-ردیاب-آهنربایی-و-تعمیرات/Aauy6iTs",
+      "name": "نصب دزدگیر و ردیاب ،ردیاب آهنربایی و تعمیرات",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JmoDFeFZmzzlQITfCL8CnA/ace24bfb-8d6c-4906-a80a-67dc4937dd3b.webp",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aauy6iTs",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "c83b1d8e-813b-4e8f-a2ce-0d22bd10dd1c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "c83b1d8e-813b-4e8f-a2ce-0d22bd10dd1c"
+  },
+  "webengage": {
+    "brand_model": "",
+    "cat_2": "parts-accessories",
+    "originality": "",
+    "city": "mashhad",
+    "gender": "",
+    "source_view": "",
+    "token": "Aauy6iTs",
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "business_ref": "",
+    "price": 1000,
+    "rent": 0,
+    "credit": 0,
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "status": "",
+    "image_count": 4,
+    "district": "bolvartoos"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

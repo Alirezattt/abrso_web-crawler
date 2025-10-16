@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت",
+            "subtitle": "۴ هفته پیش در یزد",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaKboJvc"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام چهارتا باند 718کنوود اصلی و آمپلی و پخش پایونر سالم به علت تصادف با ماشین وفروختن ماشین اینارو گذاشتم واسه فروش دزد گیر هم برند استیل مت هست قیمت جدا حساب میشه",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/KDSgj1M1SGAypOqhRpj1FQ/1174bff2-a079-4b86-b5f6-9bc904f24cda.webp",
+                  "alt": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QRAMUEjph-ObVB63fq_dDg/1174bff2-a079-4b86-b5f6-9bc904f24cda.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/EaEhlvkh9A8DH7iiLYEwGg/6cb474f7-8635-46ff-be62-6cc25491af03.webp",
+                  "alt": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/b75yaQBdbpC9NAbu03OvFQ/6cb474f7-8635-46ff-be62-6cc25491af03.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5I1sHmALzCsO26BoYAyCbQ/97ea52b9-d281-4f77-9c90-a506aadf9109.webp",
+                  "alt": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Sg_NEOu3qTkZNmgmuA9fzA/97ea52b9-d281-4f77-9c90-a506aadf9109.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/YNeJCE6c9wB35qm6BU4cVA/06dacbb8-af79-4d69-b643-f59c3a27ef7c.webp",
+                  "alt": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1Zu4pxMrC3vEnrWPnA2zYg/06dacbb8-af79-4d69-b643-f59c3a27ef7c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-6KrWfEt8p-ZIgsJnCbhLg/73d8bf62-b71d-42ff-9db7-b56732941015.webp",
+                  "alt": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Hln7SXFbgHtJraZs0zvYlg/73d8bf62-b71d-42ff-9db7-b56732941015.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ncwzLKU-uOS8J7nv8UmyPg/5a26ad80-ced8-4057-9968-ca5405798c44.webp",
+                  "alt": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tFYhp1oFGjQ3i-RyPwlWAQ/5a26ad80-ced8-4057-9968-ca5405798c44.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/xzsD_taH1ZewAjKTCDW3qg/ea00ffd7-5457-40ae-abf4-98113a29eba1.webp",
+                  "alt": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sSR9D6H0cfiB_Aq8hF_Jwg/ea00ffd7-5457-40ae-abf4-98113a29eba1.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۳۰،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaKboJvc",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 16
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaKboJvc"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaKboJvc"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت",
+    "web_url": "https://divar.ir/v/AaKboJvc"
+  },
+  "seo": {
+    "title": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت در یزد",
+    "description": "آگهی سیستم ماشین و دزدگیر معاوضه با موتور سیکلت در دیوار یزد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/سیستم ماشین و دزدگیر معاوضه با موتور سیکلت/AaKboJvc/",
+    "web_info": {
+      "title": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت",
+      "city_persian": "یزد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-18T13:28:18.429821",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "16",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/سیستم-ماشین-و-دزدگیر-معاوضه-با-موتور-سیکلت/AaKboJvc",
+      "@context": "https://schema.org",
+      "name": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت",
+      "description": "سلام چهارتا باند 718کنوود اصلی و آمپلی و پخش پایونر سالم به علت تصادف با ماشین وفروختن ماشین اینارو گذاشتم واسه فروش دزد گیر هم برند استیل مت هست قیمت جدا حساب میشه",
+      "category": "parts-accessories",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/KDSgj1M1SGAypOqhRpj1FQ/1174bff2-a079-4b86-b5f6-9bc904f24cda.webp",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "30000000",
+        "@type": "Offer"
+      },
+      "web_info": {
+        "title": "سیستم ماشین و دزدگیر معاوضه با موتور سیکلت",
+        "city_persian": "یزد",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaKboJvc",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "cf550149-f96a-4f84-9fbd-cc73477cbd07"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "cf550149-f96a-4f84-9fbd-cc73477cbd07"
+  },
+  "webengage": {
+    "credit": 0,
+    "brand_model": "",
+    "price": 30000000,
+    "gender": "",
+    "token": "AaKboJvc",
+    "district": "",
+    "image_count": 7,
+    "cat_1": "vehicles",
+    "source_view": "",
+    "rent": 0,
+    "business_ref": "",
+    "originality": "",
+    "cat_3": "",
+    "status": "",
+    "category": "parts-accessories",
+    "city": "yazd",
+    "business_type": "personal",
+    "cat_2": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "yazd"
+  },
+  "city": {
+    "city_id": "16",
+    "name": "یزد",
+    "parent_id": "886",
+    "second_slug": "yazd"
+  }
+}

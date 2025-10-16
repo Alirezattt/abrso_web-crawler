@@ -1,0 +1,548 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "کلید کددار و ریموت و ایموبلایزر دادگر",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "کلید کددار و ریموت و ایموبلایزر دادگر",
+            "subtitle": "۲ هفته پیش در مشهد، رضاشهر",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aa2yuxPF"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "♧ساخت کلید کددار پراید کوییک ال۹۰ ریو و خانواده سایپا و ایران خودرو و هیوندا و کیا و تویوتا و تمامی خودروهای چینی و بنز و بی ام دبلیو با تخفیف واقعی(تمامی کارها اصلی و با ضمانت می باشد)(شبانه روزی).\n♧ساخت ریموت خودرو (فابریک-کیلس-دزدگیر )...\n♧ساخت ریموت منزل و کرکره حتی ریموت های کمیاب 》》☆☆کامل ترین کلکسیون ریموت در مشهد را از ما بخواهید☆☆\n♧تعمیرات تخصصی انواع ریموت کنترل و کلکسیون کامل انواع قاب ریموت☆☆\n♧نصب دزدگیر و ردیاب(GPS)>>تعمیرات تخصصی\n♧تعمیرات قفل مرکزی و قفل داخلی اتوموبیل\n♧فروش انواع قفل کتابی و آویز و قفل عصایی وقفل چهارلول با نازلترین قیمتها\nابتدای رضاشهر-جام عسل-بین کاوه ۹ و ۱۱-قفل و کلید دادگر",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/DHZQNWqsmle2NPUO_3P_qA/8ba8fe35-6f5b-4a0f-8b45-9dbaf0d564ad.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uF5L_oQz5KDFyzLpIMjSUQ/8ba8fe35-6f5b-4a0f-8b45-9dbaf0d564ad.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/QVv5Z6X0vK9jJj3cBzNG6A/32e2a4ab-e517-4c76-8c9e-ef945ff17d65.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sjiiw0_ubeuHgJmh0GdHhQ/32e2a4ab-e517-4c76-8c9e-ef945ff17d65.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/IqZgJu5xqvwl27rkTAz8WQ/9059df89-3285-41e6-9ae4-ae18270355a1.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6C-U67yvVL9_55GUm3worg/9059df89-3285-41e6-9ae4-ae18270355a1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ct9m_396KLN-Rxks51KGOQ/1f1aa9b4-bb77-490d-9c1f-5140ad72edad.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KSAmMu6qiYETDba_Id35XA/1f1aa9b4-bb77-490d-9c1f-5140ad72edad.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/f23-IMaHNvEZ0C5HGquBIw/73e6ff12-e5ba-4cd3-94ab-50da86e640ef.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/I7Ngkj8j7ACYnR2yFg8ldw/73e6ff12-e5ba-4cd3-94ab-50da86e640ef.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/k-94zvLosQBE166EMLSzsw/9decb9e5-2809-4e46-b6e3-bfe201cdb74a.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/brd2S5Mka6AyvaCN_pdCUA/9decb9e5-2809-4e46-b6e3-bfe201cdb74a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/7x4VVNtWf4Bzi_zuhp1a0g/093e8723-8d7f-4193-b454-6a43e43c5da3.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-RDp907pjNWQVM0LUa13uw/093e8723-8d7f-4193-b454-6a43e43c5da3.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/02YbEfME7SafkPg7N74Uqw/870ed594-d46c-450e-9ba5-972c586d0f5c.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/f13Rc9k801AMve9FEUFNCA/870ed594-d46c-450e-9ba5-972c586d0f5c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/rK7fN0HiSZAocfiTZCMBXQ/d592dcf0-73a8-4241-b4e6-46bb5fc499b4.jpg.jpg",
+                  "alt": "کلید کددار و ریموت و ایموبلایزر دادگر|قطعات یدکی و لوازم جانبی|مشهد, رضاشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/M4ggnKtOM0JbGjE5woPHqQ/d592dcf0-73a8-4241-b4e6-46bb5fc499b4.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۲،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aa2yuxPF",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در رضاشهر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "433"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aa2yuxPF"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aa2yuxPF"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "کلید کددار و ریموت و ایموبلایزر دادگر",
+    "web_url": "https://divar.ir/v/Aa2yuxPF"
+  },
+  "seo": {
+    "title": "کلید کددار و ریموت و ایموبلایزر دادگر در مشهد",
+    "description": "آگهی کلید کددار و ریموت و ایموبلایزر دادگر در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/کلید کددار و ریموت و ایموبلایزر دادگر/Aa2yuxPF/",
+    "web_info": {
+      "title": "کلید کددار و ریموت و ایموبلایزر دادگر",
+      "district_persian": "رضاشهر",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-02T16:42:13.603202",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "433"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "433"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "رضاشهر",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "433"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "♧ساخت کلید کددار پراید کوییک ال۹۰ ریو و خانواده سایپا و ایران خودرو و هیوندا و کیا و تویوتا و تمامی خودروهای چینی و بنز و بی ام دبلیو با تخفیف واقعی(تمامی کارها اصلی و با ضمانت می باشد)(شبانه روزی).\n♧ساخت ریموت خودرو (فابریک-کیلس-دزدگیر )...\n♧ساخت ریموت منزل و کرکره حتی ریموت های کمیاب 》》☆☆کامل ترین کلکسیون ریموت در مشهد را از ما بخواهید☆☆\n♧تعمیرات تخصصی انواع ریموت کنترل و کلکسیون کامل انواع قاب ریموت☆☆\n♧نصب دزدگیر و ردیاب(GPS)>>تعمیرات تخصصی\n♧تعمیرات قفل مرکزی و قفل داخلی اتوموبیل\n♧فروش انواع قفل کتابی و آویز و قفل عصایی وقفل چهارلول با نازلترین قیمتها\nابتدای رضاشهر-جام عسل-بین کاوه ۹ و ۱۱-قفل و کلید دادگر",
+      "@type": "Product",
+      "url": "https://divar.ir/v/کلید-کددار-و-ریموت-و-ایموبلایزر-دادگر/Aa2yuxPF",
+      "web_info": {
+        "city_persian": "مشهد",
+        "district_persian": "رضاشهر",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "کلید کددار و ریموت و ایموبلایزر دادگر"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/DHZQNWqsmle2NPUO_3P_qA/8ba8fe35-6f5b-4a0f-8b45-9dbaf0d564ad.jpg.jpg",
+      "category": "parts-accessories",
+      "offers": {
+        "price": "2000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "name": "کلید کددار و ریموت و ایموبلایزر دادگر",
+      "@context": "https://schema.org"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aa2yuxPF",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "42d99f3d-97da-4fd5-9015-b15197d48a6c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "42d99f3d-97da-4fd5-9015-b15197d48a6c"
+  },
+  "webengage": {
+    "image_count": 9,
+    "source_view": "",
+    "category": "parts-accessories",
+    "credit": 0,
+    "token": "Aa2yuxPF",
+    "city": "mashhad",
+    "price": 2000,
+    "gender": "",
+    "district": "rezashahr",
+    "business_type": "personal",
+    "cat_3": "",
+    "brand_model": "",
+    "cat_1": "vehicles",
+    "business_ref": "",
+    "status": "",
+    "originality": "",
+    "rent": 0,
+    "cat_2": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

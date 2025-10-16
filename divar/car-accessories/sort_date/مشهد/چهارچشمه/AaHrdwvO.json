@@ -1,0 +1,564 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "فروشگاه بزرگ مستر سیستم",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "فروشگاه بزرگ مستر سیستم",
+            "subtitle": "۳ روز پیش در مشهد، چهارچشمه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaHrdwvO"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام خدمت همشهریان عزیز\nبزرگترین فروشگاه  دزدگیر و ردیاب ، مانیتور و کیلس استارتر با بیش از دو هزار مدل تنوع  کالا \nامنیت ماشینت با ماست\n\nچکی    چکی     چکی     چکی      چکی      چکی  \n\nبا اقساط بلند مدت   \n\nزیر نظر قرار داد همکاری با ارگان های  : شهرداری ، علوم پزشکی ، خانه کارگر ، آتش نشانی ، اسنپ رانندگان ، آستان قدس و .....\nاز فروشگاه معتبر مستر سیستم هرچی که خواستین با بهترین شرایط اقساطی  و بهترین قیمت ها خریداری کنید\nفروش با چک آزاد و کارمندی \nسیستم، روکش صندلی،کف پوش، هدلایت،  کیلس استارتر، بوق، دمپینگ و هرچی دیگه برای ماشینت خواستی حتما یه سر به فروشگاه ما بزنید\n\nآدرس : خیابان هاشیمه  نبش هاشمیه۶۴  مستر سیستم\nساعت کاری ۹ صبح تا ۲۲ شب",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/V-TqYUVXslcgA5nD_j4YXg/b7e2b3dd-5c8e-4ccc-8c6c-8fafe92d51eb.webp",
+                  "alt": "فروشگاه بزرگ مستر سیستم|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RcIyGCrgCcHSpnE7u00F4A/b7e2b3dd-5c8e-4ccc-8c6c-8fafe92d51eb.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wpxx9gTZAtjmvSqPspn6TA/8d5da022-0025-403a-875a-e4b2d208233d.webp",
+                  "alt": "فروشگاه بزرگ مستر سیستم|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/35nfjH337Jgu3MfmLcSAEw/8d5da022-0025-403a-875a-e4b2d208233d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/MsQu03538RRC5VbFh-BnYw/33a23f00-8c35-4627-a478-9644d93da084.webp",
+                  "alt": "فروشگاه بزرگ مستر سیستم|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kTfYqGZu8NcCGmWmSQYJYA/33a23f00-8c35-4627-a478-9644d93da084.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/R6VLuht2WMCY39Fe1bRdZQ/f3b698c9-a969-4edc-9c91-590e86e97a9e.webp",
+                  "alt": "فروشگاه بزرگ مستر سیستم|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NrnHEji-6tAmczL8YfTO_A/f3b698c9-a969-4edc-9c91-590e86e97a9e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/gSo_n68drLLRD_6v-0sLXA/1bfa4efc-b0c3-447f-9af3-52976f97404e.webp",
+                  "alt": "فروشگاه بزرگ مستر سیستم|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jmr98OaRcrWtLhFvvIrQbg/1bfa4efc-b0c3-447f-9af3-52976f97404e.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۵۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaHrdwvO",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در چهارچشمه",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1119"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "بوق ماشین",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/بوق-خودرو-و-موتور",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "روکش صندلی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/صندلی-و-روکش-صندلی-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.299445911755,
+                  "longitude": 59.49376304794
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXA-bTK8KMa_uQivHj4EdZP5LEs17sCxVu_ptGO1lX42gJQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaHrdwvO"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaHrdwvO"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaHrdwvO"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "فروشگاه بزرگ مستر سیستم",
+    "web_url": "https://divar.ir/v/AaHrdwvO"
+  },
+  "seo": {
+    "title": "فروشگاه بزرگ مستر سیستم در مشهد",
+    "description": "آگهی فروشگاه بزرگ مستر سیستم در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/فروشگاه بزرگ مستر سیستم/AaHrdwvO/",
+    "web_info": {
+      "title": "فروشگاه بزرگ مستر سیستم",
+      "district_persian": "چهارچشمه",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-15T12:59:35.484295",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1119"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1119"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "چهارچشمه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1119"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "50000"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/فروشگاه-بزرگ-مستر-سیستم/AaHrdwvO",
+      "web_info": {
+        "title": "فروشگاه بزرگ مستر سیستم",
+        "city_persian": "مشهد",
+        "district_persian": "چهارچشمه",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "category": "parts-accessories",
+      "name": "فروشگاه بزرگ مستر سیستم",
+      "description": "با سلام خدمت همشهریان عزیز\nبزرگترین فروشگاه  دزدگیر و ردیاب ، مانیتور و کیلس استارتر با بیش از دو هزار مدل تنوع  کالا \nامنیت ماشینت با ماست\n\nچکی    چکی     چکی     چکی      چکی      چکی  \n\nبا اقساط بلند مدت   \n\nزیر نظر قرار داد همکاری با ارگان های  : شهرداری ، علوم پزشکی ، خانه کارگر ، آتش نشانی ، اسنپ رانندگان ، آستان قدس و .....\nاز فروشگاه معتبر مستر سیستم هرچی که خواستین با بهترین شرایط اقساطی  و بهترین قیمت ها خریداری کنید\nفروش با چک آزاد و کارمندی \nسیستم، روکش صندلی،کف پوش، هدلایت،  کیلس استارتر، بوق، دمپینگ و هرچی دیگه برای ماشینت خواستی حتما یه سر به فروشگاه ما بزنید\n\nآدرس : خیابان هاشیمه  نبش هاشمیه۶۴  مستر سیستم\nساعت کاری ۹ صبح تا ۲۲ شب",
+      "@context": "https://schema.org",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/V-TqYUVXslcgA5nD_j4YXg/b7e2b3dd-5c8e-4ccc-8c6c-8fafe92d51eb.webp"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaHrdwvO",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "932a3db9-93fa-4c85-93a1-3772ec97de77"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "932a3db9-93fa-4c85-93a1-3772ec97de77"
+  },
+  "webengage": {
+    "category": "parts-accessories",
+    "gender": "",
+    "token": "AaHrdwvO",
+    "business_ref": "",
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "credit": 0,
+    "status": "",
+    "source_view": "",
+    "city": "mashhad",
+    "image_count": 5,
+    "originality": "",
+    "district": "shahrak-e-chahar-cheshmeh",
+    "brand_model": "",
+    "business_type": "personal",
+    "price": 50000,
+    "rent": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "روکش",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "روکش",
+            "subtitle": "۱ هفته پیش در ماکو",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaeLvFMQ"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "آدرس  فلکه مادر جنب میوه فروش ه‍ا شیشه دودی دور فرمان روکش صندلی برچسب رکاب هدلایت",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/HJ3BxRMpTEwL98rNhsUjfQ/9c01f8b4-a4e8-4efd-9b13-0e743e942d60.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9c_eO0x8053Ejf8g4cyR6A/9c01f8b4-a4e8-4efd-9b13-0e743e942d60.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/x5rPYt5HyT1UZAg2XnjYkg/2e2449bd-47d8-4191-aa5b-72b58972be11.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7d-TAx8-ErKdZ14uEb8YoA/2e2449bd-47d8-4191-aa5b-72b58972be11.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bO9OyJLn1kjfpgauvnby1Q/dd4c1019-7f88-4380-bdef-0305c0a5ab3a.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IFU1FhVdoKdHMHmqlYikyg/dd4c1019-7f88-4380-bdef-0305c0a5ab3a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hQtCEOZzhtetIRwyl2A5bA/6d44fcff-6f1e-42ca-8bef-a327c7a9d755.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qFmMvBh3DchcV7LLcG8o8g/6d44fcff-6f1e-42ca-8bef-a327c7a9d755.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ue1-IQ4iflpF9TWIrZAvGA/cd39258f-7e7f-48c0-816d-6f19bb76f876.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lr2f2OhT3EPshlih4_sTPw/cd39258f-7e7f-48c0-816d-6f19bb76f876.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3_X82BFyWV-skeroG0SW3A/f0711232-55d5-4e1a-866d-b74868877781.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/e1029sVX8kFkmeGz-sYr4Q/f0711232-55d5-4e1a-866d-b74868877781.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/yp5QvpU6TwEB8fKMBiYWKw/7d6cd2ff-0330-481d-9aa9-16d8a7839114.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pmHtgd_JluzpW9XRV5R6Dg/7d6cd2ff-0330-481d-9aa9-16d8a7839114.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/zNFphDhsOrJyvsDDJbmKIw/c7198d36-ae48-48f6-8efb-e43a349c55ff.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Yr0WptspSZB7Ck9Etto5qw/c7198d36-ae48-48f6-8efb-e43a349c55ff.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/0iXEEtPJ7mmNngQ-41BIOQ/2c1cc677-076d-493a-8707-7de4bb22f1f3.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qbf5og1a3Ws7XpwzUCTiPw/2c1cc677-076d-493a-8707-7de4bb22f1f3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/d_stQiq5fWksO2hUWBmjwQ/3d03c524-9f93-429e-87f6-b98d1e301375.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VqYA1b36JOpg7ylEetAGrw/3d03c524-9f93-429e-87f6-b98d1e301375.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2jr24PAWStWWX9_ASPhtqA/a958950c-b499-49ca-ad94-10e7d54ff6c8.webp",
+                  "alt": "روکش|قطعات یدکی و لوازم جانبی|ماکو, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/drUED8Y0djLTwj9qZP0s4g/a958950c-b499-49ca-ad94-10e7d54ff6c8.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۳۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaeLvFMQ",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 856
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "روکش صندلی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/maku/list/صندلی-و-روکش-صندلی-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaeLvFMQ"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaeLvFMQ"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "روکش",
+    "web_url": "https://divar.ir/v/AaeLvFMQ"
+  },
+  "seo": {
+    "title": "روکش در ماکو",
+    "description": "آگهی روکش در دیوار ماکو",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/روکش/AaeLvFMQ/",
+    "web_info": {
+      "title": "روکش",
+      "city_persian": "ماکو",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-03T01:14:17.522572",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "856",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/روکش/AaeLvFMQ",
+      "offers": {
+        "price": "300000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "web_info": {
+        "city_persian": "ماکو",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "روکش"
+      },
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/HJ3BxRMpTEwL98rNhsUjfQ/9c01f8b4-a4e8-4efd-9b13-0e743e942d60.webp",
+      "name": "روکش",
+      "description": "آدرس  فلکه مادر جنب میوه فروش ه‍ا شیشه دودی دور فرمان روکش صندلی برچسب رکاب هدلایت"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaeLvFMQ",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "0a260a95-b3c1-46ff-b4ce-cb056d57ebf6"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "0a260a95-b3c1-46ff-b4ce-cb056d57ebf6"
+  },
+  "webengage": {
+    "token": "AaeLvFMQ",
+    "brand_model": "",
+    "city": "maku",
+    "gender": "",
+    "business_ref": "",
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "cat_2": "parts-accessories",
+    "status": "",
+    "district": "",
+    "source_view": "",
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "originality": "",
+    "rent": 0,
+    "price": 300000,
+    "credit": 0,
+    "image_count": 11
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "maku"
+  },
+  "city": {
+    "city_id": "856",
+    "name": "ماکو",
+    "parent_id": "881",
+    "second_slug": "maku"
+  }
+}

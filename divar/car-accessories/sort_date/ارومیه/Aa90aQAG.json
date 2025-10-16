@@ -1,0 +1,542 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب",
+            "subtitle": "۲ هفته پیش در ارومیه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aa90aQAG"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "طاقچه 405\nطاقچه سورن سمند دنا دنا پلاس و..\nطاقچه رانا \nطاقچه خانواده پژو\nطاقچه ام وی ام\nطاقچه اس دی ۲۰۶ .۲۰۷\nطاقچه پراید.۱۱۱. ۱۳۱. هاچپک\nتولید و نصب انواع طاقچه خودرو های ایرانی و خارجی\nدکورات داخلی \nباکس های طرح دار ساده\nطاقچه و باکس ست اسپورت\nجهت ثبت سفارش تماس بگیرید.\nتحویل فوری در نیم ساعت.\nهمکاری با فروشگاه های لوازم صوتی به قیمت عمده و همکاری.",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/MJjgbc-AydeGaqhiEks22w/540a9359-7f0e-44ba-b096-c3969940a097.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lhCvV5l4bwQ4L5FdtK8vNw/540a9359-7f0e-44ba-b096-c3969940a097.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ZN9t_A0kPS5a8I3nh7zD0g/353c4d0d-8391-430e-92bf-659a82235449.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_OrFEu5Ib29AEGhd9BRIVQ/353c4d0d-8391-430e-92bf-659a82235449.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/UoPse-BN2vrHeiHMWYlHBA/49bf6c69-f13e-481d-8d75-d946652e1e8b.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fBXGYDJ7l2VWor7PMDH72w/49bf6c69-f13e-481d-8d75-d946652e1e8b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/u9urfPNWSHWozsxInF_OXg/6c1c7bc6-9dbc-4773-a372-2d336e413121.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DmuhRhb7Wi92ona_iDA0Pg/6c1c7bc6-9dbc-4773-a372-2d336e413121.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/rPR4fcw6zHWQndBD8bXGhg/bdb0877f-de8c-4a41-8303-bdef2572d6b1.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/K90qQhNAFxLHi9BEi2Es0g/bdb0877f-de8c-4a41-8303-bdef2572d6b1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/6vnySANyAyj-7YtGpyUvfg/c97cb9ce-dd8c-43f7-8d00-3e9bc1bbc134.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nBO0j7u0v-ak8AljXDC9eA/c97cb9ce-dd8c-43f7-8d00-3e9bc1bbc134.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/QqKOFChVSbeh3xEcCF9nWQ/ea35a9b6-aed9-4069-9ba2-b33c3b5a6af7.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NGnVc-XlLkClL0IFyLLzgQ/ea35a9b6-aed9-4069-9ba2-b33c3b5a6af7.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/qrNtNDHInk7kZi70i22o_A/891d8f6e-daaa-4004-8a39-f81bd23e423e.jpg.jpg",
+                  "alt": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب|قطعات یدکی و لوازم جانبی|ارومیه, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ztb44S5f2araM49AcTkYdg/891d8f6e-daaa-4004-8a39-f81bd23e423e.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۳۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aa90aQAG",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "طاقچه خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/urmia/list/طاقچه-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 37.5619226,
+                  "longitude": 45.1586014
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXFGeeIWz0K_uQv-70S1jT_VLp39WqH6Tb9Q363VjOeqDAg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aa90aQAG"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aa90aQAG"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aa90aQAG"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب",
+    "web_url": "https://divar.ir/v/Aa90aQAG"
+  },
+  "seo": {
+    "title": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب در ارومیه",
+    "description": "آگهی طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب در دیوار ارومیه",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب/Aa90aQAG/",
+    "web_info": {
+      "title": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب",
+      "city_persian": "ارومیه",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-31T17:25:57.147316",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "10",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@type": "Product",
+      "url": "https://divar.ir/v/طاقچه-3d-تاقچه-سه-بعدی-باکس-سیستم-صوتی-نصب/Aa90aQAG",
+      "name": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب",
+      "offers": {
+        "price": "300000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "description": "طاقچه 405\nطاقچه سورن سمند دنا دنا پلاس و..\nطاقچه رانا \nطاقچه خانواده پژو\nطاقچه ام وی ام\nطاقچه اس دی ۲۰۶ .۲۰۷\nطاقچه پراید.۱۱۱. ۱۳۱. هاچپک\nتولید و نصب انواع طاقچه خودرو های ایرانی و خارجی\nدکورات داخلی \nباکس های طرح دار ساده\nطاقچه و باکس ست اسپورت\nجهت ثبت سفارش تماس بگیرید.\nتحویل فوری در نیم ساعت.\nهمکاری با فروشگاه های لوازم صوتی به قیمت عمده و همکاری.",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/MJjgbc-AydeGaqhiEks22w/540a9359-7f0e-44ba-b096-c3969940a097.jpg.jpg",
+      "@context": "https://schema.org",
+      "web_info": {
+        "title": "طاقچه 3D تاقچه سه بعدی باکس سیستم صوتی نصب",
+        "city_persian": "ارومیه",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aa90aQAG",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "534a7e7a-fb1e-4a5d-ac93-134e5ec4a544"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "534a7e7a-fb1e-4a5d-ac93-134e5ec4a544"
+  },
+  "webengage": {
+    "cat_1": "vehicles",
+    "image_count": 8,
+    "status": "",
+    "rent": 0,
+    "cat_3": "",
+    "gender": "",
+    "city": "urmia",
+    "cat_2": "parts-accessories",
+    "originality": "",
+    "category": "parts-accessories",
+    "brand_model": "",
+    "price": 300000,
+    "token": "Aa90aQAG",
+    "district": "",
+    "business_type": "personal",
+    "business_ref": "",
+    "credit": 0,
+    "source_view": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "urmia"
+  },
+  "city": {
+    "city_id": "10",
+    "name": "ارومیه",
+    "parent_id": "881",
+    "second_slug": "urmia"
+  }
+}

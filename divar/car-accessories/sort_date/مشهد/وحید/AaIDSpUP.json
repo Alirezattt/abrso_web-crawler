@@ -1,0 +1,556 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور",
+            "subtitle": "۴ هفته پیش در مشهد، وحید",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaIDSpUP"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "@ دزدگیر خارجی استارتی موتورسیکلت(M,D,H)،باکیفیتی عالی.قیمت(۱/۳۰۰/۰۰۰ تومان).\n\n@دزدگیرخارجی استارتی موتورسیکلت برند( y.x)،باکیفیتی عالی.قیمت(۱/۳۰۰/۰۰۰ تومان).\n\n@دزدگیرخارجی استارتی موتورسیکلت برند(BEST)محصولی جدیدوباکیفیت وقیمتی مناسب،قیمت:(۱۱۰۰/۰۰۰ تومان).\n\n@دزدگیرخارجی استارتی موتورسیکلت برند(فابریک) ،باکیفیت عالی.قیمت:(۱/۱۰۰/۰۰۰تومان.\n\n@دزدگیراستارتی موتورسیکلت خارجی ویبره دار ( فابریک) باکیفیت وقیمتی مناسب،قیمت:(۱/۷۵۰/۰۰۰تومان).\n\n@دزدگیراستارتی موتورسیکلت خارجی [کیلس داراستارتی] برند (فابریک) ،باکیفیتی بالا،قیمت:۲/۱۰۰/۰۰۰تومان،\n\n@دسته سیم کامل موتورسیکلت ۱۲۵ (ساده)باکیفیت عالی:قیمت ۵۵۰/۰۰۰ تومان.\n\n@دسته سیم کامل موتورسیکلت ۱۲۵(استارتی) باکیفیت عالی. قیمت:(۶۵۰/۰۰۰تومان).\n\n@چراغ جلو کامل موتورسیکلت ۱۲۵ لاکی،قیمت:۱۵۰/۰۰۰تومان.\n\n@باتری7 اتم مارک(لیسر) قیمت:۱/۲۵۰/۰۰۰تومان.\n@باتری4/5 اتم مارک(ام.جی)قیمت:۷۵۰/۰۰۰تومان.\nباتری7 اتم پارت،قیمت۱/۲۵۰/۰۰۰ تومان.\n\n@ضمنالوازم دیگه هم دارم که لیستشونو نوشتم.\n\n@دراخرچک هم قبول میکنم.",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Z5Ik30P1Vcyfs5FSOK8jJQ/f0ec5a33-8930-4f7e-b7ea-b3048856f0e2.jpg.jpg",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tXqzY-v-kl_-gxaNZmBrNg/f0ec5a33-8930-4f7e-b7ea-b3048856f0e2.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/q6GM8a-zG5VX2duHsaGIjg/42510e78-a94b-4f0e-8401-8da951616501.jpg.jpg",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/C16N3jpKgQO_RqPe7D-BmA/42510e78-a94b-4f0e-8401-8da951616501.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/CNl7spWax_yzinlVC6P-mA/f5db1723-2ca7-410f-ab2d-a2f8bd8d921d.jpg.jpg",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kXog7k76qkAoA-cORrY--A/f5db1723-2ca7-410f-ab2d-a2f8bd8d921d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/cjbKO4_bH4UHMLOt0BuGrA/60c66fa0-53fb-4383-9e81-a6e260bf5261.jpg.jpg",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E9lLTC3m85G2szjw-0Mw3g/60c66fa0-53fb-4383-9e81-a6e260bf5261.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/begH8otOy0GxJs3AhG66Cg/52d179d9-6866-4a69-8c87-bca77ffc74dc.jpg.jpg",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4fjKCJ2qXZjnwmRsReOJyQ/52d179d9-6866-4a69-8c87-bca77ffc74dc.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/aPDPpU09C6Bkg1QUS4kA3w/1a6a0af1-35f7-4049-80b4-7ab128ba898f.jpg.jpg",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E4kIjgSV0bREk_Z00w527g/1a6a0af1-35f7-4049-80b4-7ab128ba898f.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/zsHT5U1DAAdLU9rKbNRc_w/99ab8d4a-6fa8-4be2-aa0d-476e9b9e2861.jpg.jpg",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FGa-xCgCJiVLUe3jVxKWHg/99ab8d4a-6fa8-4be2-aa0d-476e9b9e2861.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/0MbcfJmBPy7KGKJLsB5-Kg/eb9e326a-9812-4a1c-8d6d-d7c934628647.webp",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5bCfu_L6bFmhaBVjolZ6ZA/eb9e326a-9812-4a1c-8d6d-d7c934628647.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OOx5Ba6zriojVSkDiFlwQA/e6b74a64-b92a-4cf8-b8e2-4fda3e36409e.webp",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/yIj0RKUOO0mBjxzcyPNQTA/e6b74a64-b92a-4cf8-b8e2-4fda3e36409e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/kdljg90af_zDbYWeryDahA/3983e7e8-6c6f-4bab-9621-1d463dc06c6e.webp",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O3C5OkfuuIPIPLY-oQIBCw/3983e7e8-6c6f-4bab-9621-1d463dc06c6e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ff-bvJy-I3PBeNoa5crbig/4f755110-f21f-4dbb-b82a-cbcfa999439c.webp",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NlOSjKBi_FgoLuONO6f11A/4f755110-f21f-4dbb-b82a-cbcfa999439c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/oXn1y3Z_8zEA67RX7khECw/df16b180-f853-4b92-bfc2-6953ca131e8e.webp",
+                  "alt": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور|قطعات یدکی و لوازم جانبی|مشهد, وحید|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gPee8Hx6zWYgzleKRLFYgQ/df16b180-f853-4b92-bfc2-6953ca131e8e.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۲،۳۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaIDSpUP",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در وحید",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1192"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaIDSpUP"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaIDSpUP"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور",
+    "web_url": "https://divar.ir/v/AaIDSpUP"
+  },
+  "seo": {
+    "title": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور در مشهد",
+    "description": "آگهی دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور/AaIDSpUP/",
+    "web_info": {
+      "title": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور",
+      "district_persian": "وحید",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-16T17:51:55.11732",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1192"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1192"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وحید",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1192"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/دزدگیرموتورسیکلت-ودسته-سیم-کامل-هندا-باتری-موتور/AaIDSpUP",
+      "web_info": {
+        "title": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور",
+        "city_persian": "مشهد",
+        "district_persian": "وحید",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "دزدگیرموتورسیکلت،ودسته سیم کامل هندا،باتری موتور",
+      "description": "@ دزدگیر خارجی استارتی موتورسیکلت(M,D,H)،باکیفیتی عالی.قیمت(۱/۳۰۰/۰۰۰ تومان).\n\n@دزدگیرخارجی استارتی موتورسیکلت برند( y.x)،باکیفیتی عالی.قیمت(۱/۳۰۰/۰۰۰ تومان).\n\n@دزدگیرخارجی استارتی موتورسیکلت برند(BEST)محصولی جدیدوباکیفیت وقیمتی مناسب،قیمت:(۱۱۰۰/۰۰۰ تومان).\n\n@دزدگیرخارجی استارتی موتورسیکلت برند(فابریک) ،باکیفیت عالی.قیمت:(۱/۱۰۰/۰۰۰تومان.\n\n@دزدگیراستارتی موتورسیکلت خارجی ویبره دار ( فابریک) باکیفیت وقیمتی مناسب،قیمت:(۱/۷۵۰/۰۰۰تومان).\n\n@دزدگیراستارتی موتورسیکلت خارجی [کیلس داراستارتی] برند (فابریک) ،باکیفیتی بالا،قیمت:۲/۱۰۰/۰۰۰تومان،\n\n@دسته سیم کامل موتورسیکلت ۱۲۵ (ساده)باکیفیت عالی:قیمت ۵۵۰/۰۰۰ تومان.\n\n@دسته سیم کامل موتورسیکلت ۱۲۵(استارتی) باکیفیت عالی. قیمت:(۶۵۰/۰۰۰تومان).\n\n@چراغ جلو کامل موتورسیکلت ۱۲۵ لاکی،قیمت:۱۵۰/۰۰۰تومان.\n\n@باتری7 اتم مارک(لیسر) قیمت:۱/۲۵۰/۰۰۰تومان.\n@باتری4/5 اتم مارک(ام.جی)قیمت:۷۵۰/۰۰۰تومان.\nباتری7 اتم پارت،قیمت۱/۲۵۰/۰۰۰ تومان.\n\n@ضمنالوازم دیگه هم دارم که لیستشونو نوشتم.\n\n@دراخرچک هم قبول میکنم.",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/Z5Ik30P1Vcyfs5FSOK8jJQ/f0ec5a33-8930-4f7e-b7ea-b3048856f0e2.jpg.jpg",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "2300000"
+      }
+    }
+  },
+  "contact": {
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaIDSpUP",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "0c6fc93d-83eb-4ffc-9423-829ada6c39e8"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "0c6fc93d-83eb-4ffc-9423-829ada6c39e8"
+  },
+  "webengage": {
+    "rent": 0,
+    "credit": 0,
+    "cat_3": "",
+    "status": "",
+    "gender": "",
+    "price": 2300000,
+    "image_count": 12,
+    "district": "vahid-mashhad",
+    "city": "mashhad",
+    "business_type": "personal",
+    "brand_model": "",
+    "cat_1": "vehicles",
+    "cat_2": "parts-accessories",
+    "originality": "",
+    "source_view": "",
+    "token": "AaIDSpUP",
+    "business_ref": "",
+    "category": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

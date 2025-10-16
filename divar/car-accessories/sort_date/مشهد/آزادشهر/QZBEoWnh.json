@@ -1,0 +1,586 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای",
+            "subtitle": "۱ روز پیش در مشهد، آزادشهر",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "QZBEoWnh"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "❌فروشگاه پاناسونیک زیر قیمت ❌\n\n⭐جشنواره فروش دزدگیر و ردیاب GPS خودرو ⭐\n\n ⏩فروش بصورت چکی بدون پیش پرداخت⏪\n\n❗ردیاب از 1800 به بالا \n❗دزدگیر ردیاب از 2850 به بالا \n\n♦️موقعیت دقیق خودرو به صورت آفلاین \n\n♦️امکان خاموش کردن خودرو از راه دور \n\n♦️امکان دریافت صدای داخل کابین خودرو \n\n♦️هشدار باز و بسته شدن درب خودرو \n\n❗امکان باز و بست کردن درب ماشین با موبایل\n\n⏪هشدار روشن شدن خودرو\n\n⏪هشدار سرقت باتری ماشین\n \n⏪هشدار حمل خودرو با جرثقیل \n\n✴️پشتیبانی 24ساعته ، باتری پشتیبان ✴️\n\nو کلی امکانات دیگر ... \n\n ⭕گارانتی تعویض بدون قید و شرط معتبر⭕\n\n❗نصب توسط نمایندگی مجاز ایران خودرو و سایپا\n\n بهمراه سوکت فابریک بدون باطل شدن گارانتی \n\n✴️آدرس بلوار معلم _ داخل معلم ۲۲ فروشگاه دوم پاناسونیک (روبروی کارواش)\nبه آدرس دقت فرمایید ❌\n\nردیاب دزدگیر انواع خودرو ردیاب  مگنتی آهنربایی\n\nساعت کاری ۹ونیم الی ۲۱\n\nبرای ردیاب سیم کارت لازم می‌باشد برای داخل دستگاه\n\n\nردیاب ماشین خودرو جی پی اس مگنتی آهنربایی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/F59bZg1Hqery_EFMvbJkwg/01e4b7cf-7802-4192-88c2-b0da4bd20e88.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/pCYfhsyCaaq12SMnhd7XUQ/01e4b7cf-7802-4192-88c2-b0da4bd20e88.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/XPsKsDLu46qGQf4IEstVFA/f5f093dd-ed30-4e49-9a14-60c8b02c9c2c.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/xLoCS9NFJcklCx26ydxHiw/f5f093dd-ed30-4e49-9a14-60c8b02c9c2c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/SluOWeqh51uHoKoarSgvow/db3374e9-f844-4e74-a216-033047989062.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/kvuCk0Sc8bH7l0t_QZKHPQ/db3374e9-f844-4e74-a216-033047989062.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/_5WOUXaV8iBtXuunYmMOHA/4219b8e9-114a-423e-b414-2c370b78321e.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/4K7NKPk8ZPrvokFOnnvwBQ/4219b8e9-114a-423e-b414-2c370b78321e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/7_SSG4SiVP9lTCvhcPGgrg/3fb45523-d0cc-47bd-ab0f-0d6a6f14d806.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/HmXp6-htf-sAZKTQLS8gIQ/3fb45523-d0cc-47bd-ab0f-0d6a6f14d806.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/CszcucOUCViKFCqGeJZRKQ/35d72c29-8b7c-4d76-9228-a655e7024a39.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/sDdEW8zq1z16Fh1ZKgyM_g/35d72c29-8b7c-4d76-9228-a655e7024a39.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/MrL4SPVOnwoB5ljnamyyEw/94e79b84-9f11-49fd-82f6-7c2bef27a6de.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/gozNZKWMDdbpKQzJavRm2g/94e79b84-9f11-49fd-82f6-7c2bef27a6de.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/WNRUdBZlJjKZnLtCeIwAMg/da3565f7-2b14-4b2f-af2e-526bbd4ef25e.jpg.jpg",
+                  "alt": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/PvKrWE0odQwUCC0aWVBBig/da3565f7-2b14-4b2f-af2e-526bbd4ef25e.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۸۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "QZBEoWnh",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3,
+              "include_post_addons": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در آزادشهر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "431"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.331314,
+                  "longitude": 59.518394
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXDw1V-42Pa_uQpCPJp10Gf5LIHBl7pqM7SK5hADBKRiOog=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "QZBEoWnh"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "QZBEoWnh"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "QZBEoWnh"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای",
+    "web_url": "https://divar.ir/v/QZBEoWnh"
+  },
+  "seo": {
+    "title": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای در مشهد",
+    "description": "آگهی ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای/QZBEoWnh/",
+    "web_info": {
+      "title": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای",
+      "district_persian": "آزادشهر",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-02T13:01:28.280831",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "431"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "431"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "آزادشهر",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "431"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "title": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای",
+        "city_persian": "مشهد",
+        "district_persian": "آزادشهر",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "ردیاب دزدگیر GPS ماشین خودرو جی‌پی‌اس ماهواره ای",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "offers": {
+        "price": "1800000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "url": "https://divar.ir/v/ردیاب-دزدگیر-gps-ماشین-خودرو-جی-پی-اس-ماهواره-ای/QZBEoWnh",
+      "description": "❌فروشگاه پاناسونیک زیر قیمت ❌\n\n⭐جشنواره فروش دزدگیر و ردیاب GPS خودرو ⭐\n\n ⏩فروش بصورت چکی بدون پیش پرداخت⏪\n\n❗ردیاب از 1800 به بالا \n❗دزدگیر ردیاب از 2850 به بالا \n\n♦️موقعیت دقیق خودرو به صورت آفلاین \n\n♦️امکان خاموش کردن خودرو از راه دور \n\n♦️امکان دریافت صدای داخل کابین خودرو \n\n♦️هشدار باز و بسته شدن درب خودرو \n\n❗امکان باز و بست کردن درب ماشین با موبایل\n\n⏪هشدار روشن شدن خودرو\n\n⏪هشدار سرقت باتری ماشین\n \n⏪هشدار حمل خودرو با جرثقیل \n\n✴️پشتیبانی 24ساعته ، باتری پشتیبان ✴️\n\nو کلی امکانات دیگر ... \n\n ⭕گارانتی تعویض بدون قید و شرط معتبر⭕\n\n❗نصب توسط نمایندگی مجاز ایران خودرو و سایپا\n\n بهمراه سوکت فابریک بدون باطل شدن گارانتی \n\n✴️آدرس بلوار معلم _ داخل معلم ۲۲ فروشگاه دوم پاناسونیک (روبروی کارواش)\nبه آدرس دقت فرمایید ❌\n\nردیاب دزدگیر انواع خودرو ردیاب  مگنتی آهنربایی\n\nساعت کاری ۹ونیم الی ۲۱\n\nبرای ردیاب سیم کارت لازم می‌باشد برای داخل دستگاه\n\n\nردیاب ماشین خودرو جی پی اس مگنتی آهنربایی",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/F59bZg1Hqery_EFMvbJkwg/01e4b7cf-7802-4192-88c2-b0da4bd20e88.jpg.jpg",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "QZBEoWnh",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "543d41a3-3121-47b6-9a54-9e8724508da2"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "543d41a3-3121-47b6-9a54-9e8724508da2"
+  },
+  "webengage": {
+    "cat_1": "vehicles",
+    "originality": "",
+    "gender": "",
+    "cat_3": "",
+    "source_view": "",
+    "token": "QZBEoWnh",
+    "business_type": "personal",
+    "cat_2": "parts-accessories",
+    "city": "mashhad",
+    "district": "azadshahr",
+    "business_ref": "",
+    "status": "",
+    "brand_model": "",
+    "price": 1800000,
+    "image_count": 8,
+    "category": "parts-accessories",
+    "credit": 0,
+    "rent": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

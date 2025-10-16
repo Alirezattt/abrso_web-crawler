@@ -1,0 +1,644 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن",
+            "subtitle": "۳ روز پیش در مشهد، شهید مطهری",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaKbtXMS"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⚜⚜⚜اتواکسس\nمرکز نصب تخصصی انواع کیلس استارتر بر روی خودرو شما بدون اختلال در سیستم برق خودرو شما\n\n⚡️⚡️ engine starter keyless \n⚡️⚡️انجین استارت کیلس\n\n\n⚡️⚡️ بهترین انتخاب و اپشن برای خودرو در فصل زمستان\n\n✅ استارت با ریموت\n✅ خاموش کردن با ریموت \n✅ امکان استارت با گوشی با برد بی نهایت\n✅ دکمه انجین استارت بسیار باکیفیت\n✅ سیستم امنیتی هوشمند برای ضد سرقتی خودرو\nو....\n\nآدرس : خیابان شهیدکریمی نبش کوچه ۲۷ کنار ایستگاه اتوبوس پلاک ۹۴ و ۹۶ دزدگیر ردیاب سایه \n((((((فروشگاه اتواکسس)))))\n\nباتشکر \nسید علیرضا حسینی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/BFeLAONZb4hgc-KGcYQJKA/f1d787d6-180f-40ee-b0d7-626ebb405e6a.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Dj23YvayDHaJkdXmCj4UKw/f1d787d6-180f-40ee-b0d7-626ebb405e6a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ahsqkyv5SZ2XuNNhUaaP0Q/3b0f239e-d424-4678-b4e0-7312489a7d8c.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HoevKrmNZ5tXP51LEqsITg/3b0f239e-d424-4678-b4e0-7312489a7d8c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/j6w9fxNJdC6eNiGjIYE_nQ/cbe6477b-5ae3-4c8b-95fe-75b7f732ee15.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vkX-UZnO7OmGCwxe0V4FUg/cbe6477b-5ae3-4c8b-95fe-75b7f732ee15.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5s3hctzc0hUH5aXLfzprWQ/cbb7e452-718f-4aca-b281-26128acecfae.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bFFr8MpdRszGB8nmXZVB6Q/cbb7e452-718f-4aca-b281-26128acecfae.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cS1YyKR0UmQTB6pFVESdMQ/8508cdeb-f8bb-4385-9a88-f7f0c7028d19.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HSKUxcEIbM8VMTqrI80o8Q/8508cdeb-f8bb-4385-9a88-f7f0c7028d19.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XrpQChtpohIsohiH1zE7gA/2a359d7e-55ee-4ddc-904d-b6ee001f387d.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SiK3ar70EiWrvtYZ4Auzyw/2a359d7e-55ee-4ddc-904d-b6ee001f387d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Nj10HOTXax_p6oV76AqWTg/4334ace7-8121-4cff-abe2-8939047bc765.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uLKIH1KK2FDz9FIk0jQvCA/4334ace7-8121-4cff-abe2-8939047bc765.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/YZYSZi_LUbx99jVZ6msAIw/01a82c12-7a55-46b4-954e-0e1932d0c81c.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YLnFy34e-F59v9p684l11g/01a82c12-7a55-46b4-954e-0e1932d0c81c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hpF-C2HaVBl5otFSneuAjg/80c9d458-d707-425a-ab3e-66af31c8db4e.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dz0WHJLpKKEtWlft8y-HMQ/80c9d458-d707-425a-ab3e-66af31c8db4e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/iELQPfURvVxJE6IeTdKzjw/b86695f4-b738-4be3-b345-432d58be7bd4.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/v_SNsIjzIdu58PEP88tDDQ/b86695f4-b738-4be3-b345-432d58be7bd4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/t4X5y5cKFa00ehOohlEX-w/74429211-88e9-43c8-9570-179821af5936.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MiyRtS0FCTXeC4bo22PlvA/74429211-88e9-43c8-9570-179821af5936.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/B64BB2QIcXW6FePfdbXBgA/15ab36bc-e3ab-4301-abe9-7ded013daf11.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O5z-c2f_HKu4RGb5657obQ/15ab36bc-e3ab-4301-abe9-7ded013daf11.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tEbGC47q6SV2R80hJtZMcw/e54c9f66-0eeb-4d6d-84c3-c5beef83395c.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PauQbnG9NyUyOXO-cRYZ7Q/e54c9f66-0eeb-4d6d-84c3-c5beef83395c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/E_edpC8QX6Sk1P9vKBJyfg/33521af5-0926-4718-8710-aac71f5e619a.webp",
+                  "alt": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Z5W4BYE3MPAuXN1kSv92sA/33521af5-0926-4718-8710-aac71f5e619a.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaKbtXMS",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شهید مطهری",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1155"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "کیلس استارتر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/کیلس-استارتر",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.316249859016,
+                  "longitude": 59.597124440097
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXA-ECnEkP6_uQsla8rNAF_5LOunl04ld38gOA8MTrdGktQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaKbtXMS"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaKbtXMS"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaKbtXMS"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AaKbtXMS/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "AaKbtXMS"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن",
+    "web_url": "https://divar.ir/v/AaKbtXMS"
+  },
+  "seo": {
+    "title": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن در مشهد",
+    "description": "آگهی کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن/AaKbtXMS/",
+    "web_info": {
+      "title": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن",
+      "district_persian": "شهید مطهری",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-17T19:11:41.400268",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شهید مطهری",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "title": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن",
+        "city_persian": "مشهد",
+        "district_persian": "شهید مطهری",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/BFeLAONZb4hgc-KGcYQJKA/f1d787d6-180f-40ee-b0d7-626ebb405e6a.webp",
+      "name": "کیلس دزدگیر استارتی ریموت سیمکارتخور ردیاب تمدن",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "1000",
+        "@type": "Offer"
+      },
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/کیلس-دزدگیر-استارتی-ریموت-سیمکارتخور-ردیاب-تمدن/AaKbtXMS",
+      "description": "⚜⚜⚜اتواکسس\nمرکز نصب تخصصی انواع کیلس استارتر بر روی خودرو شما بدون اختلال در سیستم برق خودرو شما\n\n⚡️⚡️ engine starter keyless \n⚡️⚡️انجین استارت کیلس\n\n\n⚡️⚡️ بهترین انتخاب و اپشن برای خودرو در فصل زمستان\n\n✅ استارت با ریموت\n✅ خاموش کردن با ریموت \n✅ امکان استارت با گوشی با برد بی نهایت\n✅ دکمه انجین استارت بسیار باکیفیت\n✅ سیستم امنیتی هوشمند برای ضد سرقتی خودرو\nو....\n\nآدرس : خیابان شهیدکریمی نبش کوچه ۲۷ کنار ایستگاه اتوبوس پلاک ۹۴ و ۹۶ دزدگیر ردیاب سایه \n((((((فروشگاه اتواکسس)))))\n\nباتشکر \nسید علیرضا حسینی",
+      "category": "parts-accessories",
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaKbtXMS",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "14e7f974-a7b5-4650-ad1c-04ac69111f41"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "14e7f974-a7b5-4650-ad1c-04ac69111f41"
+  },
+  "webengage": {
+    "cat_2": "parts-accessories",
+    "city": "mashhad",
+    "district": "north-shahid-mottahari",
+    "price": 1000,
+    "gender": "",
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "brand_model": "",
+    "business_ref": "NPgbzrqc_NVPQPvGj",
+    "status": "",
+    "credit": 0,
+    "originality": "",
+    "source_view": "",
+    "image_count": 14,
+    "token": "AaKbtXMS",
+    "rent": 0,
+    "category": "parts-accessories",
+    "business_type": "premium-panel"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس",
+            "subtitle": "۲۲ ساعت پیش در مشهد، شهید مطهری",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "wZsaluwQ"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⚜️فروشگاه اتواکسس ،، مکز نصب فروش تخصصی انواع کیلس استارتر های سیمکارتی ، PKE ، انجین استارت داخلی و خارجی\n\n⚡️⚡️بهترین اپشن فصل سرما با قابلیت استارت از راه دور⚡️⚡️\n⚡️همراه با گارانتی و نصب تخصصی بر روی خودرو شما\n\n✅ حذف سوییچ قدیمی و جایگزینی دکمه انجیین استارت\n✅ بالا رفتن امنیت خودرو \n✅امکان استارت با ریموت و تلفن همراه\n✅امکان خاموش کردن خودرو و تلفن همراه\n✅دارای اپشن های مشابهه دزدگیر هوشمند\nو...\n_________________________________________________________________\n\nآدرس : مشهد،،خیابان شهیدکریمی،،نبش کوچه 27 ،، کنار ایستگاه اتوبوس ،، پلاک 96 ،، فروشگاه اتواکسس\n\nباتشکر \nسیدعلیرضاحسینی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ub1LAO0C6y0Iv_9hYeggAQ/8f489ee5-55b5-4251-8954-1acdc151f8c8.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9nMa9FoEkX6BBtWuRFd2Dw/8f489ee5-55b5-4251-8954-1acdc151f8c8.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/LWIDXeGtMAM0vniuScy78Q/5d8e0014-5eaf-43ee-8719-136e5c565923.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/opgyalqVudknd4doFnc47Q/5d8e0014-5eaf-43ee-8719-136e5c565923.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/6hsV-5k-8HjpITawl5rZqA/5a87ab43-41bd-4960-9bd3-cf45b39cba14.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0E5Zj22CKHu1aynBdInzmA/5a87ab43-41bd-4960-9bd3-cf45b39cba14.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/4rWSJlNH_7pF_3nk9aZMMA/ca8cfc25-6fe8-4df4-8a34-df6b8c8d29ee.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/V4AKAH8wpS8ory31p4d-Dg/ca8cfc25-6fe8-4df4-8a34-df6b8c8d29ee.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/n7ybEP6x5gTqsSh9dmbK3g/75222eb2-f2f3-4a8b-81f3-29257484b9b9.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/N3axdRb3eNfc_9BmjPsq4w/75222eb2-f2f3-4a8b-81f3-29257484b9b9.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/jXKHWb-XISkikYRVRBINPA/e4125ce0-eecd-414e-b081-020308b35bd5.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FxRv0uV9s-Gof_R88jeIxA/e4125ce0-eecd-414e-b081-020308b35bd5.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/hfQ56_TfzP0p7winHAHfpg/7f03845d-024e-4bff-806e-15fcc14ef29a.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MjfZWwsTUid7bajY8SHKQg/7f03845d-024e-4bff-806e-15fcc14ef29a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ke6uEnOwRUcXmDlwip4A_Q/8a549ba4-d5c2-4f44-a963-dd7fb1821201.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/br0l32xwihKsm4KKa2nuJg/8a549ba4-d5c2-4f44-a963-dd7fb1821201.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/ASh-mKXdoXxUMBYGblcMXw/e33a8325-58d7-4ff9-a081-8813d6455c1d.jpg.jpg",
+                  "alt": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/chHJk5dLois-QKRWqc3xUQ/e33a8325-58d7-4ff9-a081-8813d6455c1d.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "wZsaluwQ",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شهید مطهری",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1155"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "کیلس استارتر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/کیلس-استارتر",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.316300857988,
+                  "longitude": 59.597128629684
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXOsP-hoiP6_uQvlI15RAF_5LOoTv_5xD61TlKpwgkk9YMA=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "wZsaluwQ"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "wZsaluwQ"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "wZsaluwQ"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس",
+    "web_url": "https://divar.ir/v/wZsaluwQ"
+  },
+  "seo": {
+    "title": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس در مشهد",
+    "description": "آگهی مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس/wZsaluwQ/",
+    "web_info": {
+      "title": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس",
+      "district_persian": "شهید مطهری",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-10T11:48:23.610818",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شهید مطهری",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "@type": "Product",
+      "web_info": {
+        "district_persian": "شهید مطهری",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس",
+        "city_persian": "مشهد"
+      },
+      "name": "مغازه-ردیاب کیلس اتوانجیین دزدگیرپیکایی اتو8اکسس",
+      "@context": "https://schema.org",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/ub1LAO0C6y0Iv_9hYeggAQ/8f489ee5-55b5-4251-8954-1acdc151f8c8.jpg.jpg",
+      "url": "https://divar.ir/v/مغازه-ردیاب-کیلس-اتوانجیین-دزدگیرپیکایی-اتو8اکسس/wZsaluwQ",
+      "description": "⚜️فروشگاه اتواکسس ،، مکز نصب فروش تخصصی انواع کیلس استارتر های سیمکارتی ، PKE ، انجین استارت داخلی و خارجی\n\n⚡️⚡️بهترین اپشن فصل سرما با قابلیت استارت از راه دور⚡️⚡️\n⚡️همراه با گارانتی و نصب تخصصی بر روی خودرو شما\n\n✅ حذف سوییچ قدیمی و جایگزینی دکمه انجیین استارت\n✅ بالا رفتن امنیت خودرو \n✅امکان استارت با ریموت و تلفن همراه\n✅امکان خاموش کردن خودرو و تلفن همراه\n✅دارای اپشن های مشابهه دزدگیر هوشمند\nو...\n_________________________________________________________________\n\nآدرس : مشهد،،خیابان شهیدکریمی،،نبش کوچه 27 ،، کنار ایستگاه اتوبوس ،، پلاک 96 ،، فروشگاه اتواکسس\n\nباتشکر \nسیدعلیرضاحسینی",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "wZsaluwQ",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "6c8271b5-5769-4070-a8c6-fb5a2326d948"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "6c8271b5-5769-4070-a8c6-fb5a2326d948"
+  },
+  "webengage": {
+    "price": 0,
+    "gender": "",
+    "category": "parts-accessories",
+    "business_ref": "",
+    "business_type": "personal",
+    "credit": 0,
+    "image_count": 9,
+    "status": "",
+    "district": "north-shahid-mottahari",
+    "source_view": "",
+    "cat_1": "vehicles",
+    "city": "mashhad",
+    "rent": 0,
+    "token": "wZsaluwQ",
+    "brand_model": "",
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر ردیاب سایه gps (پیروزی)",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر ردیاب سایه gps (پیروزی)",
+            "subtitle": "۱ روز پیش در مشهد، سرافرازان",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaIqcStG"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "دزدگیر ردیاب سایه محصول دانش بنیان \nیکی از کامل‌ترین ردیاب های موجود دربازار با گارانتی و خدمات پس از فروش که برای پیشگیری از سرقت وسایل نقلیه شما تولید گردیده است، بانصب تخصصی ومخفی کردن دستگاه بروی وسیله نقلیه و نصب نرم افزار سایه بروی گوشی \n\nبرخی از امکانات ردیاب سایه :\n\n_ قابل اتصال به دزدگیر موجود روی خودرو\n_ نمایش موقعیت خودرو بر روی گوشی\n\n_ امکان تعقیب خودرو بر روی گوشی مالک\n_ امکان خاموش کردن خودرو توسط گوشی از هر فاصله ای\n_ دارای باتری داخلی جهت برقرار ماندن ارتباط در صورت قطع برق خودرو\n\n_ دارای حافظه داخلی جهت نگهداری مسیر پیموده شده در صورت خارج شدن از سرویس آنتن دهی\n\n_ امکان نمایش موقعیت بر روی نرم افزارهای مسیر یابی\n_ امکان اتصال به میکروفن جهت شنیدن صدای داخل خودرو توسط مالک خودرو\nو...\n\nآدرس : بلوار پیروزی ، پیروزی ۳۰ اولین بریدگی سمت چپ ۳۰/۲ \n فروشگاه مدرن",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/OOvfr4rePu9BJsk5kYBjxQ/99a4a791-ca77-46ef-b2a4-45717dd9237a.jpg.jpg",
+                  "alt": "دزدگیر ردیاب سایه gps (پیروزی)|قطعات یدکی و لوازم جانبی|مشهد, سرافرازان|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/V4UitejvViUpl22T2n8YTA/99a4a791-ca77-46ef-b2a4-45717dd9237a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/U_nBEIsvM0Aa9CeW7NMS7A/93de61e9-efda-46f0-8c5c-5cf7f19ff45d.jpg.jpg",
+                  "alt": "دزدگیر ردیاب سایه gps (پیروزی)|قطعات یدکی و لوازم جانبی|مشهد, سرافرازان|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/Cct4vfFZw-B-oDnIJwDPgA/93de61e9-efda-46f0-8c5c-5cf7f19ff45d.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/yx6lKVAP5n6rasg-9P4IWw/75e84cbd-7a8a-4560-ab93-322cdcee85ff.jpg.jpg",
+                  "alt": "دزدگیر ردیاب سایه gps (پیروزی)|قطعات یدکی و لوازم جانبی|مشهد, سرافرازان|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/Zr7-l5ZNY-SKmi184o2Yog/75e84cbd-7a8a-4560-ab93-322cdcee85ff.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/eGOJz_E39-J0Gar4RWPxZg/09b87fde-c41b-4e5c-84a2-d271b39e229c.jpg.jpg",
+                  "alt": "دزدگیر ردیاب سایه gps (پیروزی)|قطعات یدکی و لوازم جانبی|مشهد, سرافرازان|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0e6aU4A0Red8bCEIAlTMxQ/09b87fde-c41b-4e5c-84a2-d271b39e229c.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaIqcStG",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در سرافرازان",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1120"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.302715,
+                  "longitude": 59.515873
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXFruaszhMa_uQuBGdwEmGf5LMTpS7laOAQJ2_vfMH-vkdg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaIqcStG"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaIqcStG"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaIqcStG"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر ردیاب سایه gps (پیروزی)",
+    "web_url": "https://divar.ir/v/AaIqcStG"
+  },
+  "seo": {
+    "title": "دزدگیر ردیاب سایه gps (پیروزی) در مشهد",
+    "description": "آگهی دزدگیر ردیاب سایه gps (پیروزی) در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر ردیاب سایه gps (پیروزی)/AaIqcStG/",
+    "web_info": {
+      "title": "دزدگیر ردیاب سایه gps (پیروزی)",
+      "district_persian": "سرافرازان",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-28T16:49:48.258546",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1120"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1120"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "سرافرازان",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1120"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "description": "دزدگیر ردیاب سایه محصول دانش بنیان \nیکی از کامل‌ترین ردیاب های موجود دربازار با گارانتی و خدمات پس از فروش که برای پیشگیری از سرقت وسایل نقلیه شما تولید گردیده است، بانصب تخصصی ومخفی کردن دستگاه بروی وسیله نقلیه و نصب نرم افزار سایه بروی گوشی \n\nبرخی از امکانات ردیاب سایه :\n\n_ قابل اتصال به دزدگیر موجود روی خودرو\n_ نمایش موقعیت خودرو بر روی گوشی\n\n_ امکان تعقیب خودرو بر روی گوشی مالک\n_ امکان خاموش کردن خودرو توسط گوشی از هر فاصله ای\n_ دارای باتری داخلی جهت برقرار ماندن ارتباط در صورت قطع برق خودرو\n\n_ دارای حافظه داخلی جهت نگهداری مسیر پیموده شده در صورت خارج شدن از سرویس آنتن دهی\n\n_ امکان نمایش موقعیت بر روی نرم افزارهای مسیر یابی\n_ امکان اتصال به میکروفن جهت شنیدن صدای داخل خودرو توسط مالک خودرو\nو...\n\nآدرس : بلوار پیروزی ، پیروزی ۳۰ اولین بریدگی سمت چپ ۳۰/۲ \n فروشگاه مدرن",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/دزدگیر-ردیاب-سایه-gps-پیروزی-/AaIqcStG",
+      "web_info": {
+        "district_persian": "سرافرازان",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دزدگیر ردیاب سایه gps (پیروزی)",
+        "city_persian": "مشهد"
+      },
+      "name": "دزدگیر ردیاب سایه gps (پیروزی)",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/OOvfr4rePu9BJsk5kYBjxQ/99a4a791-ca77-46ef-b2a4-45717dd9237a.jpg.jpg",
+      "category": "parts-accessories",
+      "offers": {
+        "price": "1000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaIqcStG",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "fe5da205-8c30-4c44-8bcb-21b0cef0e586"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "fe5da205-8c30-4c44-8bcb-21b0cef0e586"
+  },
+  "webengage": {
+    "cat_3": "",
+    "originality": "",
+    "rent": 0,
+    "image_count": 4,
+    "token": "AaIqcStG",
+    "city": "mashhad",
+    "price": 1000,
+    "source_view": "",
+    "category": "parts-accessories",
+    "cat_2": "parts-accessories",
+    "credit": 0,
+    "status": "",
+    "gender": "",
+    "district": "kuy-e-sarafrazan",
+    "business_type": "personal",
+    "brand_model": "",
+    "cat_1": "vehicles",
+    "business_ref": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

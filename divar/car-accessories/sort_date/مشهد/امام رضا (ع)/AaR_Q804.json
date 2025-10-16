@@ -1,0 +1,620 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر/ردیاب/جی پی اس/سیمکارتل",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر/ردیاب/جی پی اس/سیمکارتل",
+            "subtitle": "۲ روز پیش در مشهد، امام رضا (ع)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaR_Q804"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⭐️شرکت سیمکارتل اولین و بزرگترین تولید کننده دزدگیر و ردیاب و بیش از 300 نمایندگی در کشور⭐️ \n✅از امروز موقعیت و سرعت دقیق ماشینتان را روی گوشی موبایلتان ببینید و صدای داخل کابین را به صورت کاملا واضح بشنوید حتی وقتی صدها کیلومتر از آن فاصله دارید\n✅ده برابر ایمن تر از دزدگیر\n✅اگر درب ماشین باز شود و یا به ماشین ضربه وارد شود در همان ثانیه زنگ گوشی شما به صدا در میاید\n\n⭐️قابلیت های منحصر به فرد دزدگیر و ردیاب سیمکارتل⭐️ \n\n✅تغذیه کاری 6 تا 60 ولت با توجه به نوسان برق خودرو به هیچ عنوان نخواهد سوخت \n✅استفاده از دو ماژول جی پی اس و جی اس ام بصورت جداگانه و از برند معتبرsimcom\n✅درای سرور داخلی قدرتمند (بدون قطعی یا فیلتر )\n✅دارای اپلیکیشن فارسی (اندروید و IOS) \n✅1سال گارانتی (تعویض) \n✅موقعیت یابی حتی بدون اینترنت\n✅ارسال داده ها هر 5 ثانیه\n✅پشتیبانی بصورت 7 روزه هفته\n\n\n............نماینده رسمی شرکت سیمکارتل.........\n.............امام رضا 72  دزدگیر کلاسیک...آبرون.....\n                     \n\n♦️حرفه ای خرید کن♦️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/TwrWj3YVSf1a9ZHqmoYFAQ/39e5ab3f-3f72-4241-962d-12a10a19cc22.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/II9O3SV-Y4RXRkg4bwqgXQ/39e5ab3f-3f72-4241-962d-12a10a19cc22.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/yWhBMGqBakFkV4cT94silw/d1efefa1-ac70-4a97-a9a7-bd8b58f295c3.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3pns7EOJ6VxuxhkqWMXEyA/d1efefa1-ac70-4a97-a9a7-bd8b58f295c3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tsPZ8X4H4jyJkL387v9KqA/3b8f672c-fed3-4b05-9c92-1006b2a2dc63.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-JP-A6FkUMK-rVW5ALxdqw/3b8f672c-fed3-4b05-9c92-1006b2a2dc63.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wAi2stHhqrgQ5Q-ZCLK3iA/7b7f8d0c-a532-47af-8413-e48a367c125b.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6wQ1W9UAfIyxWYfMVHfmHQ/7b7f8d0c-a532-47af-8413-e48a367c125b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/fNDXxRhAMQytask29GpwrA/d1555793-c581-4f2f-b4a9-1a354f1910cf.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/R9FuenvUnbH-I3iI7LjBUQ/d1555793-c581-4f2f-b4a9-1a354f1910cf.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1ylxz8-xWYEzZTc_8CbFBA/c3a2d407-9079-49b1-9fb4-219991a0b47a.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-kzDwP69OXI83ijDdAeS0Q/c3a2d407-9079-49b1-9fb4-219991a0b47a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3mM28KLdiPXoTclPZbHMmg/e2867e25-d210-49fe-9b80-886e600d173a.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QFOG1JYrLkocTocyTAIyew/e2867e25-d210-49fe-9b80-886e600d173a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Myic9RQqwaDGdd3eCQ4Hxg/9e310a01-735d-48f5-8e64-5b00b6c7a2e2.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p3JPMIzsFATh286II-8QDw/9e310a01-735d-48f5-8e64-5b00b6c7a2e2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/rogmZpeM0QERzwxfXe8Jbg/c4fa509e-3c7b-49c8-8750-e1a013b9ea8c.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MGF0Co3jFMCe-MwZZyXLkg/c4fa509e-3c7b-49c8-8750-e1a013b9ea8c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/rZnfrg3xC-jqOVn966eocg/b910ae02-676e-4bdb-9a41-a773bebb7e26.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/25fd0k3g7QoQA9E9eIg2Bw/b910ae02-676e-4bdb-9a41-a773bebb7e26.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-gSmh8D1BSQ_gND8Duzf_A/721847ec-a8d8-4804-a166-8bc5a386cdd1.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ZnlSCGSbTgzKFUAl4aUhpA/721847ec-a8d8-4804-a166-8bc5a386cdd1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/A3Md56RKZCsXGF9PIZ623w/bab36074-c8ba-4ab0-88c6-a6008d2dd0db.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/kT16vYbbknGmtb70ixFF1w/bab36074-c8ba-4ab0-88c6-a6008d2dd0db.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3biCrU7FOulsmP367zRm8g/bd3731d5-a64e-45fc-b4ac-9d60fcecc7d5.webp",
+                  "alt": "دزدگیر/ردیاب/جی پی اس/سیمکارتل|قطعات یدکی و لوازم جانبی|مشهد, امام رضا (ع)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ql4aw61LtR0t1_7cG0eqXA/bd3731d5-a64e-45fc-b4ac-9d60fcecc7d5.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaR_Q804",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در امام رضا (ع)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "490"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.276088823479,
+                  "longitude": 59.598228940054
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXFW--3EINK_uQoYxOuW8F_5LvoI5Z9FgLz2ibENJ-q10HQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaR_Q804"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaR_Q804"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaR_Q804"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر_ردیاب_جی پی اس_سیمکارتل",
+    "web_url": "https://divar.ir/v/AaR_Q804"
+  },
+  "seo": {
+    "title": "دزدگیر_ردیاب_جی پی اس_سیمکارتل در مشهد",
+    "description": "آگهی دزدگیر_ردیاب_جی پی اس_سیمکارتل در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر_ردیاب_جی پی اس_سیمکارتل/AaR_Q804/",
+    "web_info": {
+      "title": "دزدگیر_ردیاب_جی پی اس_سیمکارتل",
+      "district_persian": "امام رضا (ع)",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-23T12:31:02.515068",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "490"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "490"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "امام رضا (ع)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "490"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "description": "⭐️شرکت سیمکارتل اولین و بزرگترین تولید کننده دزدگیر و ردیاب و بیش از 300 نمایندگی در کشور⭐️ \n✅از امروز موقعیت و سرعت دقیق ماشینتان را روی گوشی موبایلتان ببینید و صدای داخل کابین را به صورت کاملا واضح بشنوید حتی وقتی صدها کیلومتر از آن فاصله دارید\n✅ده برابر ایمن تر از دزدگیر\n✅اگر درب ماشین باز شود و یا به ماشین ضربه وارد شود در همان ثانیه زنگ گوشی شما به صدا در میاید\n\n⭐️قابلیت های منحصر به فرد دزدگیر و ردیاب سیمکارتل⭐️ \n\n✅تغذیه کاری 6 تا 60 ولت با توجه به نوسان برق خودرو به هیچ عنوان نخواهد سوخت \n✅استفاده از دو ماژول جی پی اس و جی اس ام بصورت جداگانه و از برند معتبرsimcom\n✅درای سرور داخلی قدرتمند (بدون قطعی یا فیلتر )\n✅دارای اپلیکیشن فارسی (اندروید و IOS) \n✅1سال گارانتی (تعویض) \n✅موقعیت یابی حتی بدون اینترنت\n✅ارسال داده ها هر 5 ثانیه\n✅پشتیبانی بصورت 7 روزه هفته\n\n\n............نماینده رسمی شرکت سیمکارتل.........\n.............امام رضا 72  دزدگیر کلاسیک...آبرون.....\n                     \n\n♦️حرفه ای خرید کن♦️",
+      "category": "parts-accessories",
+      "@type": "Product",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/TwrWj3YVSf1a9ZHqmoYFAQ/39e5ab3f-3f72-4241-962d-12a10a19cc22.webp",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "10000"
+      },
+      "url": "https://divar.ir/v/دزدگیر-ردیاب-جی-پی-اس-سیمکارتل/AaR_Q804",
+      "web_info": {
+        "title": "دزدگیر/ردیاب/جی پی اس/سیمکارتل",
+        "city_persian": "مشهد",
+        "district_persian": "امام رضا (ع)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "دزدگیر/ردیاب/جی پی اس/سیمکارتل"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaR_Q804",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "7646d66b-4d6e-4899-ac14-1e5c6ee819fa"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "7646d66b-4d6e-4899-ac14-1e5c6ee819fa"
+  },
+  "webengage": {
+    "originality": "",
+    "image_count": 13,
+    "rent": 0,
+    "gender": "",
+    "cat_2": "parts-accessories",
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "source_view": "",
+    "price": 10000,
+    "token": "AaR_Q804",
+    "district": "barqsquare",
+    "city": "mashhad",
+    "category": "parts-accessories",
+    "status": "",
+    "brand_model": "",
+    "business_type": "personal",
+    "business_ref": "",
+    "credit": 0
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

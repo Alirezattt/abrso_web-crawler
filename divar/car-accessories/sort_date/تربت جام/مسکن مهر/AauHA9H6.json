@@ -1,0 +1,613 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+            "subtitle": "۲ روز پیش در تربت جام، مسکن مهر",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AauHA9H6"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⛔️ قبل از خرید محصولا سیمکارتل حتما مدل آن را از سایت simcartell استعلام نمایید. شرکت سیمکارتل هیچ گونه زیر مجموعه ای ندارد.⛔️\n\n✅شرکت سیمکارتل اولین و بزرگترین تولید کننده  تخصصی دزدگیر و ردیاب با 300 نمایندگی ✅\n\n\n⭐ ⭐ ویژگیهای نرم افزاری⭐ ⭐ \n\n\n⭕ تماس و پیامک در صورت باز شدن غیر مجاز دربها\n⭕ ردیابی آنلاین و آفلاین\n⭕ نرم افزار سخنگو\n⭕ باز و بست کردن دربها\n⭕ صندوق پران\n⭕ هشدار قطع باطری خودرو\n⭕ نمایش میزان شارژ سیم کارت ردیاب\n⭕ گزارش مسیرهای پیموده شده\n⭕ گزارش محل پارک خودرو\n⭕ سرعت خودرو\n⭕ روشن کردن چراغها خودرو\n⭕ هشدار حمل با جرثقیل\n⭕ میزان مصرف سوخت\n⭕ هشدار ضعیف شدن باطری خودرو\n⭕ ارسال موقعیت در تایم 5 ثانیه\n⭕ سرور داخلی قدرتمند\n⭕ هشدار ضربه\n⭕ خاموش کردن خودرو \n⭕ صدای داخل کابین\n⭕ سرقت باطری\n⭕ تغییر رمز پنل\n⭕ اپلیکیشن اندروید وios\n⭕ گارانتی معتبر\n⭕ پشتیبانی قوی\n\n\n\n⭐ ⭐ ویژگیهای سخت افزاری⭐ ⭐ \n\n\n⭕ ولتاژ کاری6 تا 60 ولت\n⭕ باطری پشتیبان\n⭕ 2ماژوله برند sim com\n⭕ دسته سیم ها استاندارد (عدم انتشار شعله)\n⭕ قطع کن برق(رله)\n⭕ تشخیص سوییچ ACC\n⭕ خروجی قفل مرکزی\n\n ✴️نماینده رسمی سیمکارتل (بخشی) ✴️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/e5b88003-b0d1-4ee6-8826-ddfb3b98a19c.jpg",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/e/e5b88003-b0d1-4ee6-8826-ddfb3b98a19c/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AauHA9H6",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/e/e5b88003-b0d1-4ee6-8826-ddfb3b98a19c/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل",
+                  "upload_date": "2025-10-14T07:56:21.104072Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5WGxowyrjUCsYkX490X6FQ/484f4e82-6f70-4e47-99c4-a76c32a3108b.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KnL7LIGatYxt2AsWYaHCqQ/484f4e82-6f70-4e47-99c4-a76c32a3108b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/RApIy1rJlOa5JBmoaEFwGA/189e8faf-0868-4eda-827d-08f3cd62ad1c.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/t34dInR2Pn3Kzjh0YXDGXA/189e8faf-0868-4eda-827d-08f3cd62ad1c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/6IdCXluTsw-xv1XnrPMQZg/6ea35975-0298-40c0-96b8-37bccba6992c.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/S8tBevP9ljrwPZdkXKkLcg/6ea35975-0298-40c0-96b8-37bccba6992c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cAOYF8q7-Zng_mq0FwgsUw/db831184-abfe-4b4f-a8c7-1f197dcbbe95.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FZeM8un0aWSGOBepet5vaA/db831184-abfe-4b4f-a8c7-1f197dcbbe95.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/YX0vrDubVpcHdWFx7UYvpA/93010d5d-7dc7-4b4f-a047-31edb10013b1.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EIuNlgHr-FZJVrvpcSd4rg/93010d5d-7dc7-4b4f-a047-31edb10013b1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/SxnCSdzYlmxCsdEYiAi_AA/ee890b98-392f-4b52-a063-f5ff2f506c56.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sBbZOYdAm1Ize9UBRL1r_A/ee890b98-392f-4b52-a063-f5ff2f506c56.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/qdZuFXz1aiwiP17AdCsOpg/7287b0fc-cdbf-4a2c-865d-7a6a460cb028.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PXylaccCVVrAWelRbamZiQ/7287b0fc-cdbf-4a2c-865d-7a6a460cb028.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/yCmhaNvvVPd4tl4V5Tzolw/7949217f-5bef-4696-b23c-1ca01a66120b.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YZwz9GNnxeahPAV603M9YQ/7949217f-5bef-4696-b23c-1ca01a66120b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/HYcnYwZm2VIW1yHYYgiY6g/cb147603-da73-4e90-9ea7-2139401ce200.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oQGVh8ApqYm4yUoaOc8dtQ/cb147603-da73-4e90-9ea7-2139401ce200.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/psTWfGueaSQ3vejrzAh18w/eb1eb5b6-1791-4c6c-b214-013bb5acf2c9.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fHNqi31v5V_OeAsy8ZAZ7A/eb1eb5b6-1791-4c6c-b214-013bb5acf2c9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/vDXLklx5j6A-c1bJonSlsQ/51e18f4c-3b47-4d51-b5e7-be677c99a30b.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mb304zbjcC-4OBrhj31OpA/51e18f4c-3b47-4d51-b5e7-be677c99a30b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/LLmt5ATH-e3FCfh1-Mguew/01e81241-6d1e-435c-b314-b7b15bc00b46.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hRWMdY-kLxL-Src1ceoTGg/01e81241-6d1e-435c-b314-b7b15bc00b46.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/b__U8YprsUV-s68Yl8Bi0Q/df698eb7-b683-40b6-a7a8-2c755e05fca8.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|تربت جام, مسکن مهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/yb4nm-wcXMLqaYlo4PQKgw/df698eb7-b683-40b6-a7a8-2c755e05fca8.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۵۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AauHA9H6",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 791
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در مسکن مهر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3288"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/torbat-jam/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/torbat-jam/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AauHA9H6"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AauHA9H6"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل",
+    "web_url": "https://divar.ir/v/AauHA9H6"
+  },
+  "seo": {
+    "title": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل در تربت جام",
+    "description": "آگهی ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل در دیوار تربت جام",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل/AauHA9H6/",
+    "web_info": {
+      "title": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل",
+      "district_persian": "مسکن مهر",
+      "city_persian": "تربت جام",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-14T11:26:21.104449",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3288"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3288"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "مسکن مهر",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3288"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "791",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "description": "⛔️ قبل از خرید محصولا سیمکارتل حتما مدل آن را از سایت simcartell استعلام نمایید. شرکت سیمکارتل هیچ گونه زیر مجموعه ای ندارد.⛔️\n\n✅شرکت سیمکارتل اولین و بزرگترین تولید کننده  تخصصی دزدگیر و ردیاب با 300 نمایندگی ✅\n\n\n⭐ ⭐ ویژگیهای نرم افزاری⭐ ⭐ \n\n\n⭕ تماس و پیامک در صورت باز شدن غیر مجاز دربها\n⭕ ردیابی آنلاین و آفلاین\n⭕ نرم افزار سخنگو\n⭕ باز و بست کردن دربها\n⭕ صندوق پران\n⭕ هشدار قطع باطری خودرو\n⭕ نمایش میزان شارژ سیم کارت ردیاب\n⭕ گزارش مسیرهای پیموده شده\n⭕ گزارش محل پارک خودرو\n⭕ سرعت خودرو\n⭕ روشن کردن چراغها خودرو\n⭕ هشدار حمل با جرثقیل\n⭕ میزان مصرف سوخت\n⭕ هشدار ضعیف شدن باطری خودرو\n⭕ ارسال موقعیت در تایم 5 ثانیه\n⭕ سرور داخلی قدرتمند\n⭕ هشدار ضربه\n⭕ خاموش کردن خودرو \n⭕ صدای داخل کابین\n⭕ سرقت باطری\n⭕ تغییر رمز پنل\n⭕ اپلیکیشن اندروید وios\n⭕ گارانتی معتبر\n⭕ پشتیبانی قوی\n\n\n\n⭐ ⭐ ویژگیهای سخت افزاری⭐ ⭐ \n\n\n⭕ ولتاژ کاری6 تا 60 ولت\n⭕ باطری پشتیبان\n⭕ 2ماژوله برند sim com\n⭕ دسته سیم ها استاندارد (عدم انتشار شعله)\n⭕ قطع کن برق(رله)\n⭕ تشخیص سوییچ ACC\n⭕ خروجی قفل مرکزی\n\n ✴️نماینده رسمی سیمکارتل (بخشی) ✴️",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "50000",
+        "@type": "Offer"
+      },
+      "url": "https://divar.ir/v/ردیاب-gps-جی-پی-اس-دزدگیر-سیمکارتل/AauHA9H6",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+        "city_persian": "تربت جام",
+        "district_persian": "مسکن مهر"
+      },
+      "name": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/5WGxowyrjUCsYkX490X6FQ/484f4e82-6f70-4e47-99c4-a76c32a3108b.webp"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AauHA9H6",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "ef17b157-b2ca-452f-932a-b74910ab6dfc"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "ef17b157-b2ca-452f-932a-b74910ab6dfc"
+  },
+  "webengage": {
+    "city": "torbat-jam",
+    "credit": 0,
+    "price": 50000,
+    "district": "maskan-mehr-torbat-jam",
+    "brand_model": "",
+    "source_view": "",
+    "cat_3": "",
+    "business_ref": "",
+    "category": "parts-accessories",
+    "rent": 0,
+    "image_count": 13,
+    "token": "AauHA9H6",
+    "gender": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "originality": "",
+    "business_type": "personal",
+    "status": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "torbat-jam"
+  },
+  "city": {
+    "city_id": "791",
+    "name": "تربت جام",
+    "parent_id": "880",
+    "second_slug": "torbat-jam"
+  }
+}

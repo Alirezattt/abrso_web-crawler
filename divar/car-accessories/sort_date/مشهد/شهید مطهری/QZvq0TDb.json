@@ -1,0 +1,590 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب دزدگیر بیسیم قابل چسبیدن high security",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب دزدگیر بیسیم قابل چسبیدن high security",
+            "subtitle": "۱ روز پیش در مشهد، شهید مطهری",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "QZvq0TDb"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "ردیاب بیسیم آهنربایی high security با باتری بسیار قوی ۱۰۴۰۰ میلی آمپر محصولی بسیار هوشمند برای جلوگیری از سرقت خودرو ، محموله های گران قیمت و .... میباشد.\nاین دستگاه نیاز به هیچ گونه سیم کشی روی خودرو ندارد و حتی با آهنرباهای بسیار قوی که دارد قابل چسبیدن به فلز اجسام هست که این ،  کار سارق رو برای پیدا کردنش بسیار  سخت و غیر ممکن میکند. \nهشدار ضربه✅️\nپخش صدای اطراف با کیفیت فوق العاده✅️\nنشانگر باتری داخل ردیاب و هشدار کم شدن باتری✅️\nنمایش موقعیت دقیق خودرو روی گوشی⚡️⚡️✅️\n۳۰ روز کارکرد با هر بار شارژ کامل باتری✅️⚡️⚡️\nاین دستگاه برای خودرو های گران قیمت گارانتی دار برق حساس و غیره بسیار مناسب میباشد.\nاتواکسس تخصصی ترین فروشگاه لوازم امنیت و اپشن خودرو در خراسان رضوی\nجهت مشاوره راجب ردیاب های آهنربایی کیفیت عالی تماس حاصل فرمایید یا به وب سایت ما مراجعه فرمایید.\n\nادرس نبش شهیدکریمی 27 پلاک 96 جنب ایستگاه اتوبوس اتواکسس\n\nبا تشکر \nخدمتگذار شما سیدعلیرضا حسینی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/3tmfpO0SLGznexonwh_lXg/c5fa385b-b929-4d77-a6c3-9385b3a9988c.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/WrBp3P340ZgXq0x2RW2RRQ/c5fa385b-b929-4d77-a6c3-9385b3a9988c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/CnKdJC62tk4eBiM0q_YLZQ/2f7cd62f-44c7-4b81-8043-c7d2e6980d5c.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/eeH3HypMruaJTkO1ij7P_A/2f7cd62f-44c7-4b81-8043-c7d2e6980d5c.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/lCeubpLrH4W0j0Y0D_9ACw/2dff0b1e-1a86-4332-b231-8ffbf7acb0d0.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/cJBlqNK0IcGwhmxkcTXEZQ/2dff0b1e-1a86-4332-b231-8ffbf7acb0d0.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/rzfnilQTFFaND6rpYVZFig/b588932c-be4f-4992-aebc-14dcb10259b2.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/mSMgexYyAVASHCTq-BD5pA/b588932c-be4f-4992-aebc-14dcb10259b2.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/v-75TKpiwBjL08HIjw3B8Q/22b6092b-3099-404b-9c3e-f628c0112603.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/TWn4wc4dUdOw3smVd1yrZw/22b6092b-3099-404b-9c3e-f628c0112603.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/GEojr7cJd-wmosqKLL-bpQ/dfaee676-17da-4b8f-9a05-8131b653f896.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/yo7pkdSAETqDDQlfaIu8cA/dfaee676-17da-4b8f-9a05-8131b653f896.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ijir9cxEQedCayjVWbiumw/13930d9a-f81e-465a-8667-03066545c2c4.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/x75fW-hNJ4olzJG-o-OSyQ/13930d9a-f81e-465a-8667-03066545c2c4.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/8acTaATdNG_y6c0lX2Ry1w/56544460-0c76-4a00-8cbc-7fd3e962af05.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/sT8ygJ1WDgmsmxLXR8yptg/56544460-0c76-4a00-8cbc-7fd3e962af05.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/uDrO1mUxsaEdPL9XF9GOgw/2ea74a30-0bc7-4c91-a593-cb13703d77d1.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/uUxi0GjxWFlTGgOHcg8C_A/2ea74a30-0bc7-4c91-a593-cb13703d77d1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/7rESsJO25UxE0z0v83kEYQ/e6138502-ebc6-4d1e-845e-c4fa00f448e3.jpg.jpg",
+                  "alt": "ردیاب دزدگیر بیسیم قابل چسبیدن high security|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/PPC2xxoe8cFbpdwD9reNUQ/e6138502-ebc6-4d1e-845e-c4fa00f448e3.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "QZvq0TDb",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شهید مطهری",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1155"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "ecu",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/کامپیوتر-خودرو-ECU",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.316445713093,
+                  "longitude": 59.597446831199
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXJE3GNrfP6_uQqU7bAJXF_5LkZV3-8kWhgXM4i0cuA_tIg=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "QZvq0TDb"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "QZvq0TDb"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "QZvq0TDb"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب دزدگیر بیسیم قابل چسبیدن high security",
+    "web_url": "https://divar.ir/v/QZvq0TDb"
+  },
+  "seo": {
+    "title": "ردیاب دزدگیر بیسیم قابل چسبیدن high security در مشهد",
+    "description": "آگهی ردیاب دزدگیر بیسیم قابل چسبیدن high security در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب دزدگیر بیسیم قابل چسبیدن high security/QZvq0TDb/",
+    "web_info": {
+      "title": "ردیاب دزدگیر بیسیم قابل چسبیدن high security",
+      "district_persian": "شهید مطهری",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-14T08:40:56.240656",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شهید مطهری",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "title": "ردیاب دزدگیر بیسیم قابل چسبیدن high security",
+        "city_persian": "مشهد",
+        "district_persian": "شهید مطهری",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "ردیاب دزدگیر بیسیم قابل چسبیدن high security",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/ردیاب-دزدگیر-بیسیم-قابل-چسبیدن-high-security/QZvq0TDb",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/3tmfpO0SLGznexonwh_lXg/c5fa385b-b929-4d77-a6c3-9385b3a9988c.jpg.jpg",
+      "@type": "Product",
+      "description": "ردیاب بیسیم آهنربایی high security با باتری بسیار قوی ۱۰۴۰۰ میلی آمپر محصولی بسیار هوشمند برای جلوگیری از سرقت خودرو ، محموله های گران قیمت و .... میباشد.\nاین دستگاه نیاز به هیچ گونه سیم کشی روی خودرو ندارد و حتی با آهنرباهای بسیار قوی که دارد قابل چسبیدن به فلز اجسام هست که این ،  کار سارق رو برای پیدا کردنش بسیار  سخت و غیر ممکن میکند. \nهشدار ضربه✅️\nپخش صدای اطراف با کیفیت فوق العاده✅️\nنشانگر باتری داخل ردیاب و هشدار کم شدن باتری✅️\nنمایش موقعیت دقیق خودرو روی گوشی⚡️⚡️✅️\n۳۰ روز کارکرد با هر بار شارژ کامل باتری✅️⚡️⚡️\nاین دستگاه برای خودرو های گران قیمت گارانتی دار برق حساس و غیره بسیار مناسب میباشد.\nاتواکسس تخصصی ترین فروشگاه لوازم امنیت و اپشن خودرو در خراسان رضوی\nجهت مشاوره راجب ردیاب های آهنربایی کیفیت عالی تماس حاصل فرمایید یا به وب سایت ما مراجعه فرمایید.\n\nادرس نبش شهیدکریمی 27 پلاک 96 جنب ایستگاه اتوبوس اتواکسس\n\nبا تشکر \nخدمتگذار شما سیدعلیرضا حسینی",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "QZvq0TDb",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "a28822a8-164e-4d5f-9863-552113140795"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "a28822a8-164e-4d5f-9863-552113140795"
+  },
+  "webengage": {
+    "credit": 0,
+    "cat_3": "",
+    "district": "north-shahid-mottahari",
+    "business_type": "personal",
+    "image_count": 10,
+    "cat_2": "parts-accessories",
+    "token": "QZvq0TDb",
+    "price": 0,
+    "originality": "",
+    "brand_model": "",
+    "business_ref": "",
+    "gender": "",
+    "status": "",
+    "source_view": "",
+    "category": "parts-accessories",
+    "city": "mashhad",
+    "rent": 0,
+    "cat_1": "vehicles"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

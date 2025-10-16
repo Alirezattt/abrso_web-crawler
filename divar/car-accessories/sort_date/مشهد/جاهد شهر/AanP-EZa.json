@@ -1,0 +1,624 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "mvm530.شمع.کابل باتری.دزگیر.باند",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "mvm530.شمع.کابل باتری.دزگیر.باند",
+            "subtitle": "۶ روز پیش در مشهد، جاهد شهر",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AanP-EZa"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام عرض ادب \n\nیک عدد قاب دریچه کولر mvm قیمت ۲۰۰ تومن\n\nیک عدد لیور دنده اصلی جنس قدیم \n۵۰ تومن \n\nیک جفت سوپرتیوتر سالم و عالی \nقیمت ۸۰۰ تومن مقطوع \n\nیک جفت باند عقب سمند سالم قیمت ۴۰۰ تومن \n\nشمع و وایر mvm 530 فابریکی و اصلی \nقیمت ۹۰۰تومن \n\n۴ دست شمع برای خانواده پژو \nقیمت دستی ۲۰۰ تومن \n\nدو دست وایر پژو سالم فابریکی \nقیمت دستی ۱۵۰ تومن \n\nکابل باتری به باتری نو نو  یک بار استفاده شده \nقیمت ۴۰۰ تومن \n\nکابل برق سیستم قیمت قرمزه ۲۰۰ تومن \n■■■■■■کابل آبی فروخته شده■■■■■■\n\nدزگیر با دوتا آجیر و دوتا ریموت قیمت ۸۰۰ تومن\n\nدوستان عزیز خواهشا دنبال تخفیف نباشید \nاینا مبلغی نیس که تخفیف بدم \nممنونم از همه",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Bx7ibnN_IDNVU4scqvFFYw/9e6629f9-4229-41e7-a47e-62ab0c316bef.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xyGxrQxVyVcPXhn_R_Fbyg/9e6629f9-4229-41e7-a47e-62ab0c316bef.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/uLiileIClaQyaS74gcK3ag/c327ef0a-03a8-4517-87a1-f3c04f662cbd.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LQ7rHfHwQxYxQn3XVvnUQw/c327ef0a-03a8-4517-87a1-f3c04f662cbd.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GbEd18Ut6zw0E9HtIq9Bkg/bf8f1efd-29d2-45bc-a22b-93a8cb7c3a7c.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SHiVxRHKtuWs2snHSlpAwg/bf8f1efd-29d2-45bc-a22b-93a8cb7c3a7c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-ChIHQ2Q0TO298FVG48oUg/2a334e42-3a19-4cf2-93d4-809b4addb13c.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bZsgd-sssgA8I4YwSxWnlQ/2a334e42-3a19-4cf2-93d4-809b4addb13c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5gKQPTo00XdPPzWgbb3dWw/d7ad55fc-8fab-4920-8a23-9ea7399b109a.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LVqK_n7gFVqb0vI1Hza1AQ/d7ad55fc-8fab-4920-8a23-9ea7399b109a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Iy-2OfHJ6EEbBnNZIQGk3Q/3b562f5c-e2ea-4392-b025-374aa38e3101.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/35baRWGZgqQDg--p_Iy4VA/3b562f5c-e2ea-4392-b025-374aa38e3101.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cpXahPJRyGtEgSfpt5bUuA/6a0f93da-bd0e-47fd-b69c-5f524decfdb2.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iECepbzLtt5xt_upIGOekQ/6a0f93da-bd0e-47fd-b69c-5f524decfdb2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/6Y_pPsjNIuDtsPBgjaelag/5e7762a7-c4c2-48bb-ae70-42309d0b3b90.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/hKhJiGALgXO2zWziIqHuKg/5e7762a7-c4c2-48bb-ae70-42309d0b3b90.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/LMzg88OQqk-5-R6gH5X1pA/f517b1c4-0aff-4153-b95b-c809dbb0de9b.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2x-H0ST7b7erNsNOK33jog/f517b1c4-0aff-4153-b95b-c809dbb0de9b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/rNVTs_rw_QTuEVDKbCuqUw/2e5a6714-46e5-4e29-87a6-61276d434714.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QalmaE2pTCZq7bTqRamonQ/2e5a6714-46e5-4e29-87a6-61276d434714.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/buSm8_zrSWTLY77ZWjA1-w/67171ae5-9093-4bc1-8386-d827a719bb07.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dqhEieH0B65xtt55MA0KYQ/67171ae5-9093-4bc1-8386-d827a719bb07.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/K6q7PZF9sOCciYsyjLqGnA/af0395da-6cbb-43be-b880-868627fbad8b.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Pqkk-zTyppx_rpxrep_T3w/af0395da-6cbb-43be-b880-868627fbad8b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Da9L5QHYPWVEEs8HX4XYKA/df1c0f29-cfb6-4fc2-a452-319013ba3696.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JDHDaIS5Gaoe4DG-DxjYyg/df1c0f29-cfb6-4fc2-a452-319013ba3696.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OYRRblno_5KsDhfafuDKbQ/addad0e1-98d8-4071-bbf8-aeee11e07a5e.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O59qnPXU4Li_vyw7Ylphfw/addad0e1-98d8-4071-bbf8-aeee11e07a5e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/jHNNrmDal1MURJHGHUmI7A/8549f5f5-9daf-4937-82ea-3ec27352725e.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vaoz8Ntq5VkSDhVMnlLWIw/8549f5f5-9daf-4937-82ea-3ec27352725e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GvTRUcg1wHd1Nlrdy6n3PA/a6b7cec0-4bc1-40c7-bad8-ed00fb1ae9c0.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/x-Czl5iK4vw52Nbkdfd0Pg/a6b7cec0-4bc1-40c7-bad8-ed00fb1ae9c0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/A_UU9tCpwuHFfQWLiZ3wGw/6bbd7e43-a607-48cb-84d2-3410d13b3bfe.webp",
+                  "alt": "mvm530.شمع.کابل باتری.دزگیر.باند|قطعات یدکی و لوازم جانبی|مشهد, جاهد شهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QYIw68pWbC-KtTiv1tJm3Q/6bbd7e43-a607-48cb-84d2-3410d13b3bfe.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۴۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AanP-EZa",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در جاهد شهر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1127"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3767337,
+                  "longitude": 59.4575702
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXMsJRl5mJ6_uQt34Ioi_Yf5Lj9hA4awOWIbFjOWEj1pdWQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AanP-EZa"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AanP-EZa"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AanP-EZa"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "mvm530.شمع.کابل باتری.دزگیر.باند",
+    "web_url": "https://divar.ir/v/AanP-EZa"
+  },
+  "seo": {
+    "title": "mvm530.شمع.کابل باتری.دزگیر.باند در مشهد",
+    "description": "آگهی mvm530.شمع.کابل باتری.دزگیر.باند در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/mvm530.شمع.کابل باتری.دزگیر.باند/AanP-EZa/",
+    "web_info": {
+      "title": "mvm530.شمع.کابل باتری.دزگیر.باند",
+      "district_persian": "جاهد شهر",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-09T20:01:34.615249",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1127"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1127"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "جاهد شهر",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1127"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@type": "Product",
+      "url": "https://divar.ir/v/mvm530-شمع-کابل-باتری-دزگیر-باند/AanP-EZa",
+      "name": "mvm530.شمع.کابل باتری.دزگیر.باند",
+      "description": "سلام عرض ادب \n\nیک عدد قاب دریچه کولر mvm قیمت ۲۰۰ تومن\n\nیک عدد لیور دنده اصلی جنس قدیم \n۵۰ تومن \n\nیک جفت سوپرتیوتر سالم و عالی \nقیمت ۸۰۰ تومن مقطوع \n\nیک جفت باند عقب سمند سالم قیمت ۴۰۰ تومن \n\nشمع و وایر mvm 530 فابریکی و اصلی \nقیمت ۹۰۰تومن \n\n۴ دست شمع برای خانواده پژو \nقیمت دستی ۲۰۰ تومن \n\nدو دست وایر پژو سالم فابریکی \nقیمت دستی ۱۵۰ تومن \n\nکابل باتری به باتری نو نو  یک بار استفاده شده \nقیمت ۴۰۰ تومن \n\nکابل برق سیستم قیمت قرمزه ۲۰۰ تومن \n■■■■■■کابل آبی فروخته شده■■■■■■\n\nدزگیر با دوتا آجیر و دوتا ریموت قیمت ۸۰۰ تومن\n\nدوستان عزیز خواهشا دنبال تخفیف نباشید \nاینا مبلغی نیس که تخفیف بدم \nممنونم از همه",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "400000",
+        "@type": "Offer"
+      },
+      "@context": "https://schema.org",
+      "web_info": {
+        "city_persian": "مشهد",
+        "district_persian": "جاهد شهر",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "mvm530.شمع.کابل باتری.دزگیر.باند"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/Bx7ibnN_IDNVU4scqvFFYw/9e6629f9-4229-41e7-a47e-62ab0c316bef.webp",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AanP-EZa",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "45d1dd38-9951-4041-8b79-e19c4d35bb6c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "45d1dd38-9951-4041-8b79-e19c4d35bb6c"
+  },
+  "webengage": {
+    "cat_1": "vehicles",
+    "status": "",
+    "price": 400000,
+    "district": "jahedshahr",
+    "rent": 0,
+    "cat_2": "parts-accessories",
+    "business_ref": "",
+    "image_count": 17,
+    "cat_3": "",
+    "token": "AanP-EZa",
+    "city": "mashhad",
+    "brand_model": "",
+    "business_type": "personal",
+    "category": "parts-accessories",
+    "credit": 0,
+    "gender": "",
+    "source_view": "",
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

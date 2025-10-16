@@ -1,0 +1,582 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳",
+            "subtitle": "۲ روز پیش در مشهد، شهید مطهری",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AazRHImu"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⚜️اتواکسس ، نمایندگی رسمی ردیاب سایه و مرکز نصب تخصصی انواع سیستم امنیتی خودرو\n\n⭐️ جدیدترین دزدگیر خودرو با قابلیت استفاده طریق تلفن همراه با برد بی نهایت\n\n⚡️⚡️دزدگیر و ردیاب سایه\n\nامکانات \n✅️ دارای تمامی آپشن های دزدگیر با برد بی نهایت \n✅️ امکان مشاهده موقعیت خودرو \n✅️ثبت مسیرهای گذشته \n✅️ امکان خاموش کردن خودرو از طریق تلفن همراه\nو...\nاطلاعات بیشتر \nتماس تلفنی\n\n....................................................\nآدرس : مشهد ، بلوار شهیدکریمی ، نبش کوچه ۲۷ ، کنار ایستگاه اتوبوس ، پلاک ۹۶ دزدگیر ردیاب سایه اتواکسس\n\nباتشکر\nسیدعلیرضا حسینی",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/50cd4b12-6e43-416d-ae14-c3211c8dabea.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/5/50cd4b12-6e43-416d-ae14-c3211c8dabea/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AazRHImu",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/5/50cd4b12-6e43-416d-ae14-c3211c8dabea/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳",
+                  "upload_date": "2025-07-14T10:48:42.995789Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/b0QrOdvClOiZgYbEfkHtkA/838d4974-979a-409e-8f2b-daf59ad49a01.jpg.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/U3MGn7RZyi38yzr1SeQL0A/838d4974-979a-409e-8f2b-daf59ad49a01.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/eR7YFQUn9bUulP4DaGZ8aw/570fcdaa-aa16-48e9-a6e8-6b23fc8ba708.jpg.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/-48ZUVEu7qhB5cHsvSYpYA/570fcdaa-aa16-48e9-a6e8-6b23fc8ba708.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/n7i1vcS22JDqN6R0H9MCsw/f048a5f8-d888-4ac9-9a61-05a6ae8c9168.jpg.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/2fi1ZS5tfhYafkvcGqbRxQ/f048a5f8-d888-4ac9-9a61-05a6ae8c9168.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/vFUcyd8QQsWkCpS_kJCgww/c4246d56-6f35-472a-8315-36fc88996f06.jpg.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/Jv26n29PyDDvD6p-lAKuUg/c4246d56-6f35-472a-8315-36fc88996f06.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/8H2NZiOl4ZuvEBKBhfQoKA/6146d48f-44f5-41e7-a2e9-a09980f5d55f.jpg.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/Qrlod8ocEjKv523N2ij_xA/6146d48f-44f5-41e7-a2e9-a09980f5d55f.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/n6PWu6sJxKzrHk_QdCs-Xg/bf535dc6-e21d-4173-9bf5-70a43cac7a3a.jpg.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/eyLbHafmc7SiYvBD2CLhSQ/bf535dc6-e21d-4173-9bf5-70a43cac7a3a.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/2igquPb-sJWDeYLWEGgLag/e245eb69-fef2-4baa-ad61-b5924c28a90b.jpg.jpg",
+                  "alt": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳|قطعات یدکی و لوازم جانبی|مشهد, شهید مطهری|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/843iaDCPD6ac7s2h9qIYRw/e245eb69-fef2-4baa-ad61-b5924c28a90b.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AazRHImu",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در شهید مطهری",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1155"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.316193886039,
+                  "longitude": 59.596995241533
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXImynZsnP6_uQgWXJ3ZEF_5LsyuDcOyhXsuIw-t70Z8QSw=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AazRHImu"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AazRHImu"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AazRHImu"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳",
+    "web_url": "https://divar.ir/v/AazRHImu"
+  },
+  "seo": {
+    "title": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳ در مشهد",
+    "description": "آگهی دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳ در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳/AazRHImu/",
+    "web_info": {
+      "title": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳",
+      "district_persian": "شهید مطهری",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-12T14:18:42.995314",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "شهید مطهری",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1155"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      },
+      "web_info": {
+        "city_persian": "مشهد",
+        "district_persian": "شهید مطهری",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دزدگیر ردیابsy201نمایندگی سایه شهیدکریمی کد۱۰۰۳"
+      },
+      "description": "⚜️اتواکسس ، نمایندگی رسمی ردیاب سایه و مرکز نصب تخصصی انواع سیستم امنیتی خودرو\n\n⭐️ جدیدترین دزدگیر خودرو با قابلیت استفاده طریق تلفن همراه با برد بی نهایت\n\n⚡️⚡️دزدگیر و ردیاب سایه\n\nامکانات \n✅️ دارای تمامی آپشن های دزدگیر با برد بی نهایت \n✅️ امکان مشاهده موقعیت خودرو \n✅️ثبت مسیرهای گذشته \n✅️ امکان خاموش کردن خودرو از طریق تلفن همراه\nو...\nاطلاعات بیشتر \nتماس تلفنی\n\n....................................................\nآدرس : مشهد ، بلوار شهیدکریمی ، نبش کوچه ۲۷ ، کنار ایستگاه اتوبوس ، پلاک ۹۶ دزدگیر ردیاب سایه اتواکسس\n\nباتشکر\nسیدعلیرضا حسینی",
+      "url": "https://divar.ir/v/دزدگیر-ردیابsy201نمایندگی-سایه-شهیدکریمی-کد۱۰۰۳/AazRHImu",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/b0QrOdvClOiZgYbEfkHtkA/838d4974-979a-409e-8f2b-daf59ad49a01.jpg.jpg",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AazRHImu",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e78fe8e0-ac0d-4db3-a497-e2cb9051392a"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e78fe8e0-ac0d-4db3-a497-e2cb9051392a"
+  },
+  "webengage": {
+    "category": "parts-accessories",
+    "city": "mashhad",
+    "cat_2": "parts-accessories",
+    "originality": "",
+    "image_count": 7,
+    "cat_3": "",
+    "cat_1": "vehicles",
+    "brand_model": "",
+    "district": "north-shahid-mottahari",
+    "status": "",
+    "business_type": "personal",
+    "price": 0,
+    "credit": 0,
+    "business_ref": "",
+    "gender": "",
+    "rent": 0,
+    "source_view": "",
+    "token": "AazRHImu"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

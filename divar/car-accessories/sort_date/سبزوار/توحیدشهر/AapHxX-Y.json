@@ -1,0 +1,547 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم",
+            "subtitle": "۵ روز پیش در سبزوار، توحیدشهر، خ پروین اعتصامی",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AapHxX-Y"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام دوستان\nریموت کاملاً سالم ساخت کره مدل R5001 & R5000 تو عکس مشخصه...برای انواع خودرو \nدارای هشدار عیب یابی با تماس برای مشخصات کامل تو گوگل سرچ کنید قیمت نو تو بازار تا ۳.۸۰۰ میلیون تا ۴ میلیون تومنه عکس گزاشتم از قیمت تو سایت ترب\nقیمت ۳.۳۰۰ تخفیف پای معامله\nمشتری قطعی شماره تماس بده تو چت تا هماهنگ کنم",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/iuMjlEtTr2AzUjm-LYMbNQ/4f2dc6c2-5290-4d76-a8a4-441c2242d60a.webp",
+                  "alt": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم|قطعات یدکی و لوازم جانبی|سبزوار, توحیدشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DMh4pI2zFVYHf98CZKCLTw/4f2dc6c2-5290-4d76-a8a4-441c2242d60a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/CGZWlMrCZQeoY76sfvTKFg/e2166ad3-fdf6-44bf-bbeb-5238ecb6387e.webp",
+                  "alt": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم|قطعات یدکی و لوازم جانبی|سبزوار, توحیدشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/faTWzPi76HLjn6PGPW8EkA/e2166ad3-fdf6-44bf-bbeb-5238ecb6387e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/kKFbPMxtl4Ya9DCR_W3zXA/c7942789-cda0-44ab-8c33-df5f660c949a.webp",
+                  "alt": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم|قطعات یدکی و لوازم جانبی|سبزوار, توحیدشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oorFz12QnuO-qnTkRJKMVg/c7942789-cda0-44ab-8c33-df5f660c949a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/jskoDI4AABZ_V_Bb1-3IKA/ceb49e63-b8be-4ae6-a80d-e89b4d0a2243.webp",
+                  "alt": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم|قطعات یدکی و لوازم جانبی|سبزوار, توحیدشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XCsEWiLay5GvSDwmHmjloQ/ceb49e63-b8be-4ae6-a80d-e89b4d0a2243.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۳،۳۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AapHxX-Y",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 316
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در توحیدشهر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3359"
+                                ]
+                              }
+                            },
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/sabzevar/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "type": "FUZZY",
+              "fuzzy_data": {
+                "point": {
+                  "latitude": 36.27935995097466,
+                  "longitude": 57.674741586146716
+                },
+                "radius": 500
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXIjwDICcNK_uQhNXgs9zDf9L2eSb34Dqlc2gO0VIhMkuZw==&is_nearby=true"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AapHxX-Y"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AapHxX-Y"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AapHxX-Y"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم",
+    "web_url": "https://divar.ir/v/AapHxX-Y"
+  },
+  "seo": {
+    "title": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم در سبزوار",
+    "description": "آگهی ریموت دزدگیر تصویری مارک ایزی کار در حد سالم در دیوار سبزوار",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ریموت دزدگیر تصویری مارک ایزی کار در حد سالم/AapHxX-Y/",
+    "web_info": {
+      "title": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم",
+      "district_persian": "توحیدشهر",
+      "city_persian": "سبزوار",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-10T17:30:17.576487",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3359"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3359"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "توحیدشهر",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3359"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "316",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "title": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم",
+        "city_persian": "سبزوار",
+        "district_persian": "توحیدشهر",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "ریموت دزدگیر تصویری مارک ایزی کار در حد سالم",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/iuMjlEtTr2AzUjm-LYMbNQ/4f2dc6c2-5290-4d76-a8a4-441c2242d60a.webp",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "3300000"
+      },
+      "@type": "Product",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/ریموت-دزدگیر-تصویری-مارک-ایزی-کار-در-حد-سالم/AapHxX-Y",
+      "description": "سلام دوستان\nریموت کاملاً سالم ساخت کره مدل R5001 & R5000 تو عکس مشخصه...برای انواع خودرو \nدارای هشدار عیب یابی با تماس برای مشخصات کامل تو گوگل سرچ کنید قیمت نو تو بازار تا ۳.۸۰۰ میلیون تا ۴ میلیون تومنه عکس گزاشتم از قیمت تو سایت ترب\nقیمت ۳.۳۰۰ تخفیف پای معامله\nمشتری قطعی شماره تماس بده تو چت تا هماهنگ کنم"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AapHxX-Y",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "f709f435-df06-4b9c-a0a7-4e8bef072932"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "f709f435-df06-4b9c-a0a7-4e8bef072932"
+  },
+  "webengage": {
+    "rent": 0,
+    "business_type": "personal",
+    "gender": "",
+    "token": "AapHxX-Y",
+    "district": "tohidshahr",
+    "price": 3300000,
+    "cat_1": "vehicles",
+    "brand_model": "",
+    "credit": 0,
+    "originality": "",
+    "category": "parts-accessories",
+    "status": "",
+    "business_ref": "",
+    "cat_3": "",
+    "source_view": "",
+    "city": "sabzevar",
+    "cat_2": "parts-accessories",
+    "image_count": 4
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "sabzevar"
+  },
+  "city": {
+    "city_id": "316",
+    "name": "سبزوار",
+    "parent_id": "880",
+    "second_slug": "sabzevar"
+  }
+}

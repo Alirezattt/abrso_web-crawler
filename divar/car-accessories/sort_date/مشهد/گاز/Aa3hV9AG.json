@@ -1,0 +1,612 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان",
+            "subtitle": "نیم ساعت پیش در مشهد، گاز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aa3hV9AG"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "### ردیاب  . موتور . خودرو ✨  \n\n**فروش ویژه⏰**  \n\nاگر به دنبال امنیت بیشتر برای خودروهای ایرانی و خارجی هستید، محصولات پیشرفته امنیتی خودرو را با قیمت استثنایی از ما تهیه کنید. ✅  \n\n **لیست محصولات و قیمت‌ها:**  \n\n• **دزدگیر بلوتوثی** با امکانات پیشرفته از ➡️ ۱.۶۰۰.۰۰۰ تومان  \n• **ردیاب مگنتی** با قیمت استثنایی ⬇️ از ۸۵۰.۰۰۰ تومان  \n• **ردیاب تک ** همراه با سیم کارت اقتصادی ✴️ ۲.۶۰۰.۰۰۰ تومان  \n\n•**ردیاب تک فول** اینترنتی و پیامکی سرعت بالا # ۳.۲۰۰.۰۰۰\n\n• **پک کامل دزدگیر و ردیاب فول امکانات** با اشتراک رایگان ⚙️ فقط ۴.۲۰۰.۰۰۰ تومان  \n\nردیاب موتور موجود هست\n\n⚙️ **محصولات جانبی:**  \n• قطع کن ➖ ۲۰۰.۰۰۰ تومان  \n• دکلس پخش ➕ ۷۰۰.۰۰۰ تومان  \n• دزدگیر ساده ➖ ۹۰۰.۰۰۰ تومان  \n\n---\n\n✅ **ویژگی‌ها:**  \n✔️ مناسب برای تمامی خودروهای ایرانی و خارجی  \n✔️ نصب کامل و حرفه‌ای  \n✔️ قیمت نمایندگی، کف بازار  \n\n---\n\n **آدرس:**  \nخیابان گاز، گاز ۴، نبش شهید خاکزادی ۱۰  \n(لوکیشن درج شده کاملاً دقیق است ℹ️)  \n\n برای اطلاعات بیشتر و سفارش همین حالا تماس بگیرید! ❤️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/5331aea2-f4c1-455c-954b-cff7bff1c9c9.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/5/5331aea2-f4c1-455c-954b-cff7bff1c9c9/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "Aa3hV9AG",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/5/5331aea2-f4c1-455c-954b-cff7bff1c9c9/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان",
+                  "upload_date": "2025-07-16T07:47:39.531217Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/Uiv1NxTjsIbP-agnYHGHwQ/c74a631c-3a7d-4a21-a34f-4b25e3273152.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aZnWfMJ6PQ5xUkhOqDyIHA/c74a631c-3a7d-4a21-a34f-4b25e3273152.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/cYj9YkY0QOZCMHbPiGgz2g/99ab20e9-06c0-4021-9dd3-1bb8bf3601f5.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ph9F7olyh1sx9WEBUcYY0Q/99ab20e9-06c0-4021-9dd3-1bb8bf3601f5.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/fSW1wOUWAqXuS9yeEa7fnQ/3c9b7a34-6855-4880-a1ca-4fa4895fc841.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/G6Ksx5Z0PMz8cA8zxOy2wg/3c9b7a34-6855-4880-a1ca-4fa4895fc841.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/rHs59IBurA17NDnfI4bVlg/8f9b645d-3419-4635-a3cf-0bda3fb7117b.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mUzJ7Cka5PEORO-GC_mjug/8f9b645d-3419-4635-a3cf-0bda3fb7117b.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/0Q7av8gnYdhnhuCD-_gukQ/0dd28460-a264-4610-b54c-547dea302d69.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/NG_LxNgwNCpt4-Eb_K-ZOA/0dd28460-a264-4610-b54c-547dea302d69.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/yffZkwjUkZzTIFeyldnzSg/c983c022-a791-48f8-bc79-b4c8f002ea6e.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/o5r5Dr6yeC1YcrMnYLbdrA/c983c022-a791-48f8-bc79-b4c8f002ea6e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/YocZhru5GpM08vfYwLGSGw/4afdbff0-927e-4dda-8a18-95ddfdac195e.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2YiZLc-6xngHy9Zoj93Uow/4afdbff0-927e-4dda-8a18-95ddfdac195e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/JBMRYvUhwJvxcRwZn_HfdA/4672f7d3-2897-4eba-b7ea-7ef39fec6116.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8N8-m0VWaDW47z6XwLZfBA/4672f7d3-2897-4eba-b7ea-7ef39fec6116.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/jhuB0ozdsomqywh3--QP3w/8e8b5bc5-e099-424d-9c9c-410b40c33f78.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/z7lq2iOYp_JEqoTC32HGlQ/8e8b5bc5-e099-424d-9c9c-410b40c33f78.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/8BVv44del1nIZOs3hyP4Kw/bfa0e59d-e62d-4a24-b955-deeae1bf9d32.jpg.jpg",
+                  "alt": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ekf7pV4VnAjlH9U0AF2sLw/bfa0e59d-e62d-4a24-b955-deeae1bf9d32.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۶۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aa3hV9AG",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گاز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "495"
+                                ]
+                              }
+                            },
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.321922331061,
+                  "longitude": 59.625288571449
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXGuOL1FqPq_uQvfAnlUnC_5LPIVrGyUCQKcRxYDtwlBYSw=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aa3hV9AG"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aa3hV9AG"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aa3hV9AG"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان",
+    "web_url": "https://divar.ir/v/Aa3hV9AG"
+  },
+  "seo": {
+    "title": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان در مشهد",
+    "description": "آگهی فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان/Aa3hV9AG/",
+    "web_info": {
+      "title": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان",
+      "district_persian": "گاز",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-14T11:17:39.530933",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گاز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/فروش-ویژه-ردیاب-دزدگیر-ردیاب-تک-کامل-اشتراک-رایگان/Aa3hV9AG",
+      "web_info": {
+        "title": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان",
+        "city_persian": "مشهد",
+        "district_persian": "گاز",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "@type": "Product",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1600000"
+      },
+      "name": "فروش ویژه ردیاب دزدگیر ردیاب تک کامل اشتراک رایگان",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/Uiv1NxTjsIbP-agnYHGHwQ/c74a631c-3a7d-4a21-a34f-4b25e3273152.jpg.jpg",
+      "description": "### ردیاب  . موتور . خودرو ✨  \n\n**فروش ویژه⏰**  \n\nاگر به دنبال امنیت بیشتر برای خودروهای ایرانی و خارجی هستید، محصولات پیشرفته امنیتی خودرو را با قیمت استثنایی از ما تهیه کنید. ✅  \n\n **لیست محصولات و قیمت‌ها:**  \n\n• **دزدگیر بلوتوثی** با امکانات پیشرفته از ➡️ ۱.۶۰۰.۰۰۰ تومان  \n• **ردیاب مگنتی** با قیمت استثنایی ⬇️ از ۸۵۰.۰۰۰ تومان  \n• **ردیاب تک ** همراه با سیم کارت اقتصادی ✴️ ۲.۶۰۰.۰۰۰ تومان  \n\n•**ردیاب تک فول** اینترنتی و پیامکی سرعت بالا # ۳.۲۰۰.۰۰۰\n\n• **پک کامل دزدگیر و ردیاب فول امکانات** با اشتراک رایگان ⚙️ فقط ۴.۲۰۰.۰۰۰ تومان  \n\nردیاب موتور موجود هست\n\n⚙️ **محصولات جانبی:**  \n• قطع کن ➖ ۲۰۰.۰۰۰ تومان  \n• دکلس پخش ➕ ۷۰۰.۰۰۰ تومان  \n• دزدگیر ساده ➖ ۹۰۰.۰۰۰ تومان  \n\n---\n\n✅ **ویژگی‌ها:**  \n✔️ مناسب برای تمامی خودروهای ایرانی و خارجی  \n✔️ نصب کامل و حرفه‌ای  \n✔️ قیمت نمایندگی، کف بازار  \n\n---\n\n **آدرس:**  \nخیابان گاز، گاز ۴، نبش شهید خاکزادی ۱۰  \n(لوکیشن درج شده کاملاً دقیق است ℹ️)  \n\n برای اطلاعات بیشتر و سفارش همین حالا تماس بگیرید! ❤️"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aa3hV9AG",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "f93b5a53-06b8-4471-8574-6db7f0714023"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "f93b5a53-06b8-4471-8574-6db7f0714023"
+  },
+  "webengage": {
+    "business_type": "personal",
+    "gender": "",
+    "district": "eastgaz",
+    "rent": 0,
+    "source_view": "",
+    "city": "mashhad",
+    "brand_model": "",
+    "status": "",
+    "token": "Aa3hV9AG",
+    "originality": "",
+    "cat_2": "parts-accessories",
+    "business_ref": "",
+    "cat_1": "vehicles",
+    "credit": 0,
+    "category": "parts-accessories",
+    "price": 1600000,
+    "image_count": 10,
+    "cat_3": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

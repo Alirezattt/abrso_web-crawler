@@ -1,0 +1,607 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی",
+            "subtitle": "۴ هفته پیش در یاسوج",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaJHVSwN"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "فروش و نصب انواع صندلی مناسب تمام خودروهای داخل کشور سی متری معاد بین شاهد ۲۳و ۲۴ آقاپور درخدمتتون هستم",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/864f7dae-1dc3-4473-831a-fafe534183e5.jpg",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/8/864f7dae-1dc3-4473-831a-fafe534183e5/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AaJHVSwN",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/8/864f7dae-1dc3-4473-831a-fafe534183e5/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی",
+                  "upload_date": "2025-09-16T12:01:29.148506Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/SGNu23XotGPiYnRfwW1Jkg/719f50f1-1408-44c5-9a8c-b81aea5dde20.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xStfG0zX9dv2CUoc9zgXsg/719f50f1-1408-44c5-9a8c-b81aea5dde20.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eaZs3pNPWAFIQ5qAYflOLA/3eb1edd2-2eb4-45a4-a338-3ae905068f6d.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PVBxD1u-vmJj8j0DeQjKeA/3eb1edd2-2eb4-45a4-a338-3ae905068f6d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2nwPQZQU4_14KWP6cjSdsA/ab31891a-a11a-421b-a27d-4882cdb071d5.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PSyxnYYngeF_lvyLli8t3Q/ab31891a-a11a-421b-a27d-4882cdb071d5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1SVoRZMsWsr8Zmsj6VJrYQ/2d2d1652-7935-40df-85f3-8d61a4ffd9ec.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ur6jJknHNhZW9TRXeW7CYg/2d2d1652-7935-40df-85f3-8d61a4ffd9ec.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ytyu7nN5pFfD9DqlQdthZQ/94fa32c2-aaf1-4fb5-ac8c-6bc96207bd40.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ylcNQ57OSw1dVpD-xlk-HQ/94fa32c2-aaf1-4fb5-ac8c-6bc96207bd40.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/otrt1x6Sz8FXI11OsdBdEQ/044fd459-1ab7-4366-8752-cd03e44ff73c.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mm73iTVBVJcXrqxaIM26nQ/044fd459-1ab7-4366-8752-cd03e44ff73c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3aAR_I45YEnIxXnWsfjr1w/5d0264af-90ce-4211-a7b4-f473af69d55a.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_FqwtHm1WtSUYn8q7_Ahpw/5d0264af-90ce-4211-a7b4-f473af69d55a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3ZCYVR4ss1LOfWC8PzyZeA/83a4e862-1bda-4751-a9a4-fb4add321292.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pMdhFWGwxI-pit7rS4BLrw/83a4e862-1bda-4751-a9a4-fb4add321292.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XM9gAyYpX_okMI1cgQTkHg/66e2f321-ce37-4ed8-a493-3c08ca3d0ccd.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-vzCoIxO-6ypjisitMtwuQ/66e2f321-ce37-4ed8-a493-3c08ca3d0ccd.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wkUBVoN_faNvn1ShP8OGKg/1c9cf4e2-43fc-47f5-b8ae-7e517b981669.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YVNGPgQy25vV29hE0ZI2zg/1c9cf4e2-43fc-47f5-b8ae-7e517b981669.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/zy1ZeA5ivZ9M-TBA1Ay_mQ/b00ff0b6-de8d-4111-82a5-0b7da4804b56.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/FBIF_M7ims-5FHndwu3ZBQ/b00ff0b6-de8d-4111-82a5-0b7da4804b56.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/oCJRSeb6rfzccD9aFJPAvg/b437c253-617a-4979-87bb-77110280a838.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/eQ3j_djcXdPyeZ5-waTo0g/b437c253-617a-4979-87bb-77110280a838.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/llOV5_WZf4i8rKuQxBsx5A/6bb80b31-a4da-44d9-9b30-dc8c89375b65.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ugrvpNJDufhEat97KhES-Q/6bb80b31-a4da-44d9-9b30-dc8c89375b65.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-AP9fa4ACUDOfVWNe55B0w/bf953a2e-7729-4bf5-b5eb-c761a6467261.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/J8AdupZrdydRghM-d1vr6Q/bf953a2e-7729-4bf5-b5eb-c761a6467261.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hG8kFwfe_jQCVAKtDUZH8Q/82854f7d-5ffc-48bc-96f6-ebf19287c50a.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ypDUQ_aJs2YLQwOal_TVXg/82854f7d-5ffc-48bc-96f6-ebf19287c50a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GmY2-WJpbeQ-MNSnJOvK2g/4c1d8f59-e299-4ef2-ac1a-adab8087e9cc.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/k3PDcKmjgTCFgwnL1cTrFg/4c1d8f59-e299-4ef2-ac1a-adab8087e9cc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/pJxEiSbZBuoDTGdGMp7WMg/67e0385e-51ca-4788-84bc-5b7df8114b11.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WgyftWiOrnOu6NmxkKCyng/67e0385e-51ca-4788-84bc-5b7df8114b11.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/g3ca1oZ_2KfMDO1FDwJuLA/58c05070-2bcd-4f21-9e33-20618e94e80c.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ph8tPgSKIJPYeqqLMGTIxA/58c05070-2bcd-4f21-9e33-20618e94e80c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/NfG2ilFhWijiWNIQ3Zz2_A/b3ea7b9f-341a-45cc-9d9e-d2369b49439c.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/O1fWFTnd0f2AikdzEK6pkw/b3ea7b9f-341a-45cc-9d9e-d2369b49439c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QBpA584sOQdOQYvCrOikJg/a694eca8-79cb-477f-919d-008f2c2fa75f.webp",
+                  "alt": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی|قطعات یدکی و لوازم جانبی|یاسوج, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vJbZz6m70H_aUC2nFpglFg/a694eca8-79cb-477f-919d-008f2c2fa75f.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۴،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaJHVSwN",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 38
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaJHVSwN"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaJHVSwN"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی",
+    "web_url": "https://divar.ir/v/AaJHVSwN"
+  },
+  "seo": {
+    "title": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی در یاسوج",
+    "description": "آگهی فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی در دیوار یاسوج",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی/AaJHVSwN/",
+    "web_info": {
+      "title": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی",
+      "city_persian": "یاسوج",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-17T15:31:29.147874",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "38",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/SGNu23XotGPiYnRfwW1Jkg/719f50f1-1408-44c5-9a8c-b81aea5dde20.webp",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی",
+        "city_persian": "یاسوج",
+        "district_persian": ""
+      },
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "14000000",
+        "@type": "Offer"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/فروش-نصب-و-راه-اندازی-انواع-صندلی-خارجی-و-ایرانی/AaJHVSwN",
+      "name": "فروش نصب و راه اندازی انواع صندلی خارجی و ایرانی",
+      "description": "فروش و نصب انواع صندلی مناسب تمام خودروهای داخل کشور سی متری معاد بین شاهد ۲۳و ۲۴ آقاپور درخدمتتون هستم",
+      "category": "parts-accessories",
+      "@context": "https://schema.org"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaJHVSwN",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "48242399-9d7b-4428-b73f-522983d38ac5"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "48242399-9d7b-4428-b73f-522983d38ac5"
+  },
+  "webengage": {
+    "source_view": "",
+    "business_type": "personal",
+    "credit": 0,
+    "image_count": 20,
+    "gender": "",
+    "rent": 0,
+    "cat_2": "parts-accessories",
+    "category": "parts-accessories",
+    "district": "",
+    "business_ref": "",
+    "price": 14000000,
+    "cat_1": "vehicles",
+    "token": "AaJHVSwN",
+    "brand_model": "",
+    "city": "yasuj",
+    "originality": "",
+    "cat_3": "",
+    "status": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "yasuj"
+  },
+  "city": {
+    "city_id": "38",
+    "name": "یاسوج",
+    "parent_id": "887",
+    "second_slug": "yasuj"
+  }
+}

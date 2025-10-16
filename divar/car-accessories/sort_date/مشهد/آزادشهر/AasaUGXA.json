@@ -1,0 +1,529 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر اتومبیل",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر اتومبیل",
+            "subtitle": "۲ روز پیش در مشهد، آزادشهر",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AasaUGXA"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "کلیه ی امور برقی اتومبیل شما در اصرع وقت انجام میشود .\nنصب دزدگیر جی پی اس قفل مرکزی سنسور دنده عقب شیشه بالابر ماشین پاور انواع ماشینای خارجی و ایرانی \nنصب دزدگیر با قیمت خوب تضمین  و خدمات رایگان دزدگیر با کیفیت بالا برای ماشینایی ایرانی و خارجی با قیمت یک میلیون و پنصدو پنجا دستگاه جوردن یک سال گارانتی با دوتا ریموت\nانواع قفل ضد سرقطع \nقفل سویچی \nقفل کاپت \nقطع کن \nکلاف در و......\nدزدگیر هوتای مجیکاری ایسی بزرگ باریموتایی ایرانی ۲.۱۰۰بانصب\nدزدگیر جوردن بانصب۱.۸۵۰\nدزدگیر هوتایی مجیکاری ایسی بزرگ ریموتایی خارجی و لوازم کامل ۲.۶۵۰\nسنسور دنده عقب هانزو بانصب۱.۵۵۰\nسنسور دنده عقب بوستر مانیتور دوحالته بانصب۱.۹۵۰",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/VpvbOUL6Iw9KGpJD1zsbvw/3d2f5dde-aba0-4457-9f0a-6deb3019eadc.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Pg4TwOXXN-DC3t1K-0b46A/3d2f5dde-aba0-4457-9f0a-6deb3019eadc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/FtQl0nOQyK_hd815BCeCmw/c7309c84-3ef4-4a9a-a199-386b946d5715.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2D1WtxcNanxuib0_aXIXNg/c7309c84-3ef4-4a9a-a199-386b946d5715.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/9EN6o6nvTj-4bYyuXyolzQ/b159930a-9174-4440-a089-d8be7c2fee99.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aM_kQf9U1mdgr3Ra6wCFmA/b159930a-9174-4440-a089-d8be7c2fee99.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4r0g-G0gY1x_GrIHyxp87A/1588f398-e44b-41ff-8b2a-ce94f10fca1c.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Gxz7nWFs4j8U9ur5Q_GMTA/1588f398-e44b-41ff-8b2a-ce94f10fca1c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OgIfp7Ips3WXXaDGetWrpA/465b1f5b-4e0f-4e75-887a-fe44f3a76cb9.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bi60SDtgSdmDIAAYRS6h0A/465b1f5b-4e0f-4e75-887a-fe44f3a76cb9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/MRdU18sshhB11IzMb_tk-g/d50b5ed8-3c24-4146-ae4f-5deec51946c0.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/b044FLyOqpABdPXJ83Abqg/d50b5ed8-3c24-4146-ae4f-5deec51946c0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/6D3tAvqQmJdrZnvrXHp2Iw/0cf17dde-0df4-4f08-8306-d44f9d44542e.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XuXjXODDIrIu29735vrQqw/0cf17dde-0df4-4f08-8306-d44f9d44542e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Sp-DY4LVZTEhoukHKf8FSA/cff91efd-a2b1-47c6-b016-5d56241ddc52.webp",
+                  "alt": "دزدگیر اتومبیل|قطعات یدکی و لوازم جانبی|مشهد, آزادشهر|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/W9Da-uND4yH4FaALpdR0MQ/cff91efd-a2b1-47c6-b016-5d56241ddc52.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۵۵۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AasaUGXA",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در آزادشهر",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "431"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AasaUGXA"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AasaUGXA"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر اتومبیل",
+    "web_url": "https://divar.ir/v/AasaUGXA"
+  },
+  "seo": {
+    "title": "دزدگیر اتومبیل در مشهد",
+    "description": "آگهی دزدگیر اتومبیل در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر اتومبیل/AasaUGXA/",
+    "web_info": {
+      "title": "دزدگیر اتومبیل",
+      "district_persian": "آزادشهر",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-25T14:49:13.612689",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "431"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "431"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "آزادشهر",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "431"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "دزدگیر اتومبیل",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1550000"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/VpvbOUL6Iw9KGpJD1zsbvw/3d2f5dde-aba0-4457-9f0a-6deb3019eadc.webp",
+      "category": "parts-accessories",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دزدگیر اتومبیل",
+        "city_persian": "مشهد",
+        "district_persian": "آزادشهر"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/دزدگیر-اتومبیل/AasaUGXA",
+      "description": "کلیه ی امور برقی اتومبیل شما در اصرع وقت انجام میشود .\nنصب دزدگیر جی پی اس قفل مرکزی سنسور دنده عقب شیشه بالابر ماشین پاور انواع ماشینای خارجی و ایرانی \nنصب دزدگیر با قیمت خوب تضمین  و خدمات رایگان دزدگیر با کیفیت بالا برای ماشینایی ایرانی و خارجی با قیمت یک میلیون و پنصدو پنجا دستگاه جوردن یک سال گارانتی با دوتا ریموت\nانواع قفل ضد سرقطع \nقفل سویچی \nقفل کاپت \nقطع کن \nکلاف در و......\nدزدگیر هوتای مجیکاری ایسی بزرگ باریموتایی ایرانی ۲.۱۰۰بانصب\nدزدگیر جوردن بانصب۱.۸۵۰\nدزدگیر هوتایی مجیکاری ایسی بزرگ ریموتایی خارجی و لوازم کامل ۲.۶۵۰\nسنسور دنده عقب هانزو بانصب۱.۵۵۰\nسنسور دنده عقب بوستر مانیتور دوحالته بانصب۱.۹۵۰",
+      "@context": "https://schema.org"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AasaUGXA",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "c6f0a1c3-9d92-492e-8b07-c525585f622c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "c6f0a1c3-9d92-492e-8b07-c525585f622c"
+  },
+  "webengage": {
+    "credit": 0,
+    "price": 1550000,
+    "status": "",
+    "cat_3": "",
+    "source_view": "",
+    "business_type": "personal",
+    "originality": "",
+    "token": "AasaUGXA",
+    "gender": "",
+    "image_count": 8,
+    "brand_model": "",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "business_ref": "",
+    "rent": 0,
+    "cat_2": "parts-accessories",
+    "city": "mashhad",
+    "district": "azadshahr"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

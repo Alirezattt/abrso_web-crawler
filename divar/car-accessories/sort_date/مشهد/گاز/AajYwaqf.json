@@ -1,0 +1,594 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد",
+            "subtitle": "۱ هفته پیش در مشهد، گاز",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AajYwaqf"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "سلام  مجموعه فروشگاه تخصصی ردیاب دزدگیر احمد \n\n      نمایندگی ردیاب خودرو سایه \n\nامروزه با توجه به افزایش قیمت خودرو\n\nو قطعات یدکی آن نصب یک ردیاب برای\n\n حفظ خودرو و ایمن بودن در مقابل\n\n سرقت الزامی می‌باشد \n\nقبل اینکه خودرو شما مورد دستبرد قرار\n\n بگیره شما با نصب دزدگیر ردیاب سایه\n\n دست پیش بزنید و از سرقت خودرو\n\n جلوگیری نمایید \n\nمجموعه تخصصی ردیاب احمد با بیش از\n\n 25سال سابقه کاری مرتبط با امنیت\n\n خودرو در خدمت شما دوستان  گرامی می‌باشد \n\nهر گونه سوال تماس یا چت دیوار \n \nدارای امکانات دو عدد ریموت کنترل آژیر\n\n قطع کن سنسور ضربه \n\nخاموش کردن خودرو از هرکجا √\n\nقفل و باز کردن درب ها و باز کردن صندوق√\n\nگوش کردن صدا داخل کابین√\n\nمشاهده و تعیین سرعت / محدوده√\n\nگزارش گیری مسیر های پیموده شده√\n\nاخطار ضربه به خودرو ، قطع برق باتری ،\n\nحمل با جرثقیل ، خروج از محدوده مجاز ،\n\n سرعت غیر مجاز ، باز شدن دربها و سوئیچ\n\nآدرس  خ گاز \n\nبلوار رسالت داخل رسالت36جنب موسسه ملل \n\nمجموعه تخصصی ردیاب دزدگیر احمد",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/5d0eff5d-61cb-41f1-a616-37283147330b.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/5d0eff5d-61cb-41f1-a616-37283147330b.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AajYwaqf",
+                      "video_url": "https://video3.divarcdn.com/static/videos/5d0eff5d-61cb-41f1-a616-37283147330b.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد",
+                  "upload_date": "2025-05-13T08:55:25.083967Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/lNCG71VJttXUPEgyXGd9eQ/8ed1268d-b8fa-4a39-b46b-cfb1149bada2.jpg.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/RmB__ZwgHbKfrg3lQxt53A/8ed1268d-b8fa-4a39-b46b-cfb1149bada2.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/dK70oOmyJtuNDwv_ejpUWw/8d8c7367-be61-4ab8-9391-e16b32f30eea.jpg.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RS875SSCBJ2iiGzZKuJEFw/8d8c7367-be61-4ab8-9391-e16b32f30eea.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/5Vi0W424ChPtPWvlxSv1hQ/623fe7cf-1350-4de8-be24-6f68f9daa320.jpg.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/WjhUImk6ImP154wzUnjmkA/623fe7cf-1350-4de8-be24-6f68f9daa320.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/hddveb7LM5nj9ayezVpCCQ/48bf9e84-c207-4369-8896-a043d7d4072e.jpg.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jzE364EUEVwySNvMCtGniw/48bf9e84-c207-4369-8896-a043d7d4072e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/lUNv2WzZbI5bBE1I69sweQ/3428d2b8-fab2-4f2c-acf2-cf861c5f8461.jpg.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dBqPYmpUvWuEd5m7VICYLw/3428d2b8-fab2-4f2c-acf2-cf861c5f8461.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/MMhiOD6-DB-y882pXWFIcg/4c43e817-4447-4d44-bfb8-c2b4fbb0b216.jpg.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/gDrs1QOGLyPIMA9Rl2b5Uw/4c43e817-4447-4d44-bfb8-c2b4fbb0b216.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/20Wz7GKDSJiT8_5ZNb6NtQ/518bee04-0d5d-4591-a7cc-adb9cc204d26.jpg.jpg",
+                  "alt": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد|قطعات یدکی و لوازم جانبی|مشهد, گاز|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KZwRMHQbfTH5gGAZJHsKrw/518bee04-0d5d-4591-a7cc-adb9cc204d26.jpg.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AajYwaqf",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در گاز",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "495"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.311521513089,
+                  "longitude": 59.636864079584
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXJw0yX6BMK_uQoRQNOKqCv5LsHcmnJQBLFm-lEv6CvH_1Q=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AajYwaqf"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AajYwaqf"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AajYwaqf"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد",
+    "web_url": "https://divar.ir/v/AajYwaqf"
+  },
+  "seo": {
+    "title": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد در مشهد",
+    "description": "آگهی ردیاب 101syو دزدگیر 201 سایه خ گاز احمد در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب 101syو دزدگیر 201 سایه خ گاز احمد/AajYwaqf/",
+    "web_info": {
+      "title": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد",
+      "district_persian": "گاز",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-10T12:25:25.083547",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "گاز",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "495"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@type": "Product",
+      "name": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ردیاب 101syو دزدگیر 201 سایه خ گاز احمد",
+        "city_persian": "مشهد",
+        "district_persian": "گاز"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/lNCG71VJttXUPEgyXGd9eQ/8ed1268d-b8fa-4a39-b46b-cfb1149bada2.jpg.jpg",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "0"
+      },
+      "url": "https://divar.ir/v/ردیاب-101syو-دزدگیر-201-سایه-خ-گاز-احمد/AajYwaqf",
+      "description": "سلام  مجموعه فروشگاه تخصصی ردیاب دزدگیر احمد \n\n      نمایندگی ردیاب خودرو سایه \n\nامروزه با توجه به افزایش قیمت خودرو\n\nو قطعات یدکی آن نصب یک ردیاب برای\n\n حفظ خودرو و ایمن بودن در مقابل\n\n سرقت الزامی می‌باشد \n\nقبل اینکه خودرو شما مورد دستبرد قرار\n\n بگیره شما با نصب دزدگیر ردیاب سایه\n\n دست پیش بزنید و از سرقت خودرو\n\n جلوگیری نمایید \n\nمجموعه تخصصی ردیاب احمد با بیش از\n\n 25سال سابقه کاری مرتبط با امنیت\n\n خودرو در خدمت شما دوستان  گرامی می‌باشد \n\nهر گونه سوال تماس یا چت دیوار \n \nدارای امکانات دو عدد ریموت کنترل آژیر\n\n قطع کن سنسور ضربه \n\nخاموش کردن خودرو از هرکجا √\n\nقفل و باز کردن درب ها و باز کردن صندوق√\n\nگوش کردن صدا داخل کابین√\n\nمشاهده و تعیین سرعت / محدوده√\n\nگزارش گیری مسیر های پیموده شده√\n\nاخطار ضربه به خودرو ، قطع برق باتری ،\n\nحمل با جرثقیل ، خروج از محدوده مجاز ،\n\n سرعت غیر مجاز ، باز شدن دربها و سوئیچ\n\nآدرس  خ گاز \n\nبلوار رسالت داخل رسالت36جنب موسسه ملل \n\nمجموعه تخصصی ردیاب دزدگیر احمد"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AajYwaqf",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "ee71e570-eaf3-4d1f-8b77-da527a8bb479"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "ee71e570-eaf3-4d1f-8b77-da527a8bb479"
+  },
+  "webengage": {
+    "city": "mashhad",
+    "business_ref": "",
+    "cat_3": "",
+    "rent": 0,
+    "brand_model": "",
+    "cat_2": "parts-accessories",
+    "credit": 0,
+    "token": "AajYwaqf",
+    "source_view": "",
+    "district": "eastgaz",
+    "business_type": "personal",
+    "category": "parts-accessories",
+    "price": 0,
+    "image_count": 7,
+    "cat_1": "vehicles",
+    "originality": "",
+    "gender": "",
+    "status": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

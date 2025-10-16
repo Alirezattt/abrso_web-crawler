@@ -1,0 +1,560 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت",
+            "subtitle": "۳ هفته پیش در مشهد، چهارچشمه",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaPDsV_L"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "فروش نصب و تعمیرات سیستم صوتی تصویری و جی پی اس (ردیاب)      هدلایت زنون چراغ\nتعمیرات تخصصی مانیتور پخش آمپ بلندگو میدرنج توییتر ساب و...\nنصب و عیب یابی سیستم در کمترین زمان\nنصب شیشه دودی و سلفون چراغ با بالاترین کیفیت\nعیب یابی سیمکشی خودرو و نصب gps و پیدا کردن جی پی اس انواع خودروها در کمترین زمان\nفروش و نصب انواع دوربین ثبت وقایع و مانیتور برای تمامی خودروها\n تعمیرات و عیب یابی دزدگیر ، ریموت درب منزل و خودرو، باتری ریموت \nساخت و طراحی تخته حجمی و کیک پنل \nباکس در انواع سایزها سیلد، بغل ۲۰۶،\n۵۰،۶۰،۷۰،۸۰،۱۲۰ جعبه باکس ساب لیتری \nآدرس : نبش پیروزی ۳۶ اسپرت رویال",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/55AkFV6MGUKXSwmEgEZB3Q/4e9a8b6c-0672-4287-8d90-b517b325f3d6.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/n_7Kc8lJEhnbJSjKG8rrdw/4e9a8b6c-0672-4287-8d90-b517b325f3d6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tqDOmF_6R24ecFPaTktywg/383a1038-e40a-4140-a5c0-9a56cd56601c.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/vPgqvXpNcjJ4CLY3jzEfbA/383a1038-e40a-4140-a5c0-9a56cd56601c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bmgSdJB0tRGE5eCzvzybZg/3375d996-d599-4446-9c63-91367b0444c8.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/35sCgeTaud4QrMGkKMISnA/3375d996-d599-4446-9c63-91367b0444c8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/_Eo2CFTJbK3lMMybZh3eBg/ec560b05-9819-4f3e-94f7-94ed6ded51e9.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XeU8543f2fi0wC_n4dMJ7Q/ec560b05-9819-4f3e-94f7-94ed6ded51e9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/utLOHSaowSQUVb9Dbx74Nw/b3e647ef-1ea0-4f0c-991d-22f9b30a5ce8.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p4oHmwr43PQrG7tBX83etg/b3e647ef-1ea0-4f0c-991d-22f9b30a5ce8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DM4VWH02awOYwSnAbO-yuQ/adb0753e-3a3a-4ca3-98de-10723eec7508.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JCdi1mIz-K7rdiWZtZUE6w/adb0753e-3a3a-4ca3-98de-10723eec7508.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5vmxZl7WoQRWKA4YcIvDnw/a7f9139c-db02-4299-95f1-e744c7577806.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/IPCAjfzbGJPId5gXQaygPg/a7f9139c-db02-4299-95f1-e744c7577806.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/yUguqX1Gb2WmIOFK4agy4Q/f9cb2d10-0709-4e03-ac6e-87cdac698001.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DGBCgHBcs4GwDygmM7aLnw/f9cb2d10-0709-4e03-ac6e-87cdac698001.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/74B-XI2m6cKRnJt-m7QJ8Q/3b6c4c76-7cca-495a-82df-94091182f5c7.webp",
+                  "alt": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت|قطعات یدکی و لوازم جانبی|مشهد, چهارچشمه|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aiLNWU3ICvVoq4fR1SP_bw/3b6c4c76-7cca-495a-82df-94091182f5c7.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaPDsV_L",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در چهارچشمه",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1119"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaPDsV_L"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaPDsV_L"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت",
+    "web_url": "https://divar.ir/v/AaPDsV_L"
+  },
+  "seo": {
+    "title": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت در مشهد",
+    "description": "آگهی سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت/AaPDsV_L/",
+    "web_info": {
+      "title": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت",
+      "district_persian": "چهارچشمه",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-22T12:39:01.997164",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1119"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1119"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "چهارچشمه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1119"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت",
+      "category": "parts-accessories",
+      "offers": {
+        "price": "1000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "web_info": {
+        "title": "سیستم،شیشه دودی،تعمیرات نصب ردیاب دزدگیر هدلایت",
+        "city_persian": "مشهد",
+        "district_persian": "چهارچشمه",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "description": "فروش نصب و تعمیرات سیستم صوتی تصویری و جی پی اس (ردیاب)      هدلایت زنون چراغ\nتعمیرات تخصصی مانیتور پخش آمپ بلندگو میدرنج توییتر ساب و...\nنصب و عیب یابی سیستم در کمترین زمان\nنصب شیشه دودی و سلفون چراغ با بالاترین کیفیت\nعیب یابی سیمکشی خودرو و نصب gps و پیدا کردن جی پی اس انواع خودروها در کمترین زمان\nفروش و نصب انواع دوربین ثبت وقایع و مانیتور برای تمامی خودروها\n تعمیرات و عیب یابی دزدگیر ، ریموت درب منزل و خودرو، باتری ریموت \nساخت و طراحی تخته حجمی و کیک پنل \nباکس در انواع سایزها سیلد، بغل ۲۰۶،\n۵۰،۶۰،۷۰،۸۰،۱۲۰ جعبه باکس ساب لیتری \nآدرس : نبش پیروزی ۳۶ اسپرت رویال",
+      "url": "https://divar.ir/v/سیستم-شیشه-دودی-تعمیرات-نصب-ردیاب-دزدگیر-هدلایت/AaPDsV_L",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/55AkFV6MGUKXSwmEgEZB3Q/4e9a8b6c-0672-4287-8d90-b517b325f3d6.webp",
+      "@context": "https://schema.org",
+      "@type": "Product"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaPDsV_L",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "6b9807e6-528f-42b9-bb21-5b7748c15e05"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "6b9807e6-528f-42b9-bb21-5b7748c15e05"
+  },
+  "webengage": {
+    "token": "AaPDsV_L",
+    "district": "shahrak-e-chahar-cheshmeh",
+    "image_count": 9,
+    "cat_3": "",
+    "rent": 0,
+    "business_type": "personal",
+    "category": "parts-accessories",
+    "cat_1": "vehicles",
+    "gender": "",
+    "source_view": "",
+    "originality": "",
+    "price": 1000,
+    "city": "mashhad",
+    "brand_model": "",
+    "business_ref": "",
+    "cat_2": "parts-accessories",
+    "credit": 0,
+    "status": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

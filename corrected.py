@@ -36,8 +36,8 @@ payload_template = {
         "server_payload": {
             "@type": "type.googleapis.com/widgets.SearchData.ServerPayload",
             "additional_form_data": {}
-        },
-    "query" : "دزدگیر"
+        }
+
     }
 }
 
@@ -60,127 +60,141 @@ if not os.path.exists(base_dir):
 
 processed_tokens = set()
 
+common = ["خودرو", "ماشین"]
+separate = ["تزئیناتی","لوازم امنیت و حفاظت خودرو","GPS ردیاب و","دزدگیر","لوازم اسپرت","سیستم صوتی وتصویری"]
+combinations = []
 
-city_id = 1
-while non_200_count < max_non_200:
-    print(f"Processing city_id: {city_id}")
-    
-    # Start with a fixed known old date to fetch newest first, can be customized
-    last_post_date = datetime.now().strftime("%Y-%m-%dT%H:%M:%S.") + f"{datetime.now().time().microsecond * 1000:09d}Z"
-    
-    no_more_results = 0
-    
-    for page in range(151):
-        if no_more_results > max_non_widget:
-            break
-            
-        print(f"  Processing page: {page}")
+for i in common :
+    for j in separate :
+        combinations.append(f"{i} {j}")
+
+
+
+
+city_id = 877
+for i in combinations :
+    while non_200_count < max_non_200:
+        print(f"Processing city_id: {city_id}")
         
-        payload = dict(payload_template)  # create a fresh copy each loop
-        payload["city_ids"] = [str(city_id)]
-        payload["pagination_data"]["page"] = page
-        payload["pagination_data"]["layer_page"] = page
-        payload["pagination_data"]["last_post_date"] = last_post_date  # update dynamically
+        # Start with a fixed known old date to fetch newest first, can be customized
+        last_post_date = datetime.now().strftime("%Y-%m-%dT%H:%M:%S.") + f"{datetime.now().time().microsecond * 1000:09d}Z"
         
-        try:
-            response = requests.post(url, headers=headers, data=json.dumps(payload), proxies=proxies)
-            print(f"  Status Code: {response.status_code}")
+        no_more_results = 0
+        
+        for page in range(151):
+            if no_more_results > max_non_widget:
+                break
+                
+            print(f"  Processing page: {page}")
             
-            if response.status_code == 200:
-                data = response.json()
-                list_widgets = data.get("list_widgets", [])
+            payload = dict(payload_template)  # create a fresh copy each loop
+            payload["search_data"]["query"] = i
+            payload["city_ids"] = [str(city_id)]
+            payload["pagination_data"]["page"] = page
+            payload["pagination_data"]["layer_page"] = page
+            payload["pagination_data"]["last_post_date"] = last_post_date  # update dynamically
+            
+            try:
+                response = requests.post(url, headers=headers, data=json.dumps(payload), proxies=proxies)
+                print(f"  Status Code: {response.status_code}")
                 
-                if not list_widgets:
-                    print("  No widgets found, moving to next city")
-                    no_more_results += 1
-                    continue
-                
-                # Update last_post_date using the last widget's sort_date if available
-                try:
-                    last_widget = list_widgets[-1]
-                    if ("action_log" in last_widget and 
-                        "server_side_info" in last_widget["action_log"] and
-                        "info" in last_widget["action_log"]["server_side_info"] and
-                        "sort_date" in last_widget["action_log"]["server_side_info"]["info"]):
-                        last_post_date = last_widget["action_log"]["server_side_info"]["info"]["sort_date"]
-                        print(f"  Updated last_post_date: {last_post_date}")
-                    else:
-                        print("  Could not find sort_date in response structure")
-                except (KeyError, IndexError) as e:
-                    print(f"  Could not update last_post_date: {e}")
-                
-                new_items_count = 0
-                for widget in list_widgets:
-                    try:
-                        web_info = widget.get("data", {}).get("action", {}).get("payload", {}).get("web_info", {})
-                        if not web_info:
-                            continue
-                        
-                        token = widget.get("data", {}).get("token")
-                        if not token:
-                            content_str = json.dumps(widget, sort_keys=True)
-                            token = hashlib.md5(content_str.encode("utf-8")).hexdigest()
-                        
-                        if token in processed_tokens:
-                            print(f"  Skipping duplicate item with token: {token}")
-                            continue
-                        
-                        processed_tokens.add(token)
-                        new_items_count += 1
-                        
-                        city_name = web_info.get("city_persian")
-                        district_name = web_info.get("district_persian")
-                        if not city_name:
-                            continue
-                        
-                        city_dir = os.path.join(base_dir, city_name)
-                        os.makedirs(city_dir, exist_ok=True)
-                        
-                        save_dir = city_dir
-                        if district_name:
-                            district_dir = os.path.join(city_dir, district_name)
-                            os.makedirs(district_dir, exist_ok=True)
-                            save_dir = district_dir
-                        
-                        detail_url = detail_url_template.format(token=token)
-                        detail_response = requests.get(detail_url, headers=headers, proxies=proxies)
-                        
-                        if detail_response.status_code == 200:
-                            detail_data = detail_response.json()
-                            filename = os.path.join(save_dir, f"{token}.json")
-                            with open(filename, "w", encoding="utf-8") as f:
-                                json.dump(detail_data, f, ensure_ascii=False, indent=2)
-                            print(f" page: {page}, Saved detailed data for token: {token}")
-                        else:
-                            print(f"  Failed to get detailed data for token: {token}, status: {detail_response.status_code}")
-                            filename = os.path.join(save_dir, f"{token}_widget.json")
-                            with open(filename, "w", encoding="utf-8") as f:
-                                json.dump(widget, f, ensure_ascii=False, indent=2)
-                        
-                        time.sleep(random.uniform(0.8, 1.7))
+                if response.status_code == 200:
+                    data = response.json()
+                    list_widgets = data.get("list_widgets", [])
                     
-                    except Exception as e:
-                        print(f"  Error processing widget: {e}")
+                    if not list_widgets:
+                        print("  No widgets found, moving to next city")
+                        no_more_results += 1
+                        continue
+                    
+                    # Update last_post_date using the last widget's sort_date if available
+                    try:
+                        last_widget = list_widgets[-1]
+                        if ("action_log" in last_widget and 
+                            "server_side_info" in last_widget["action_log"] and
+                            "info" in last_widget["action_log"]["server_side_info"] and
+                            "sort_date" in last_widget["action_log"]["server_side_info"]["info"]):
+                            last_post_date = last_widget["action_log"]["server_side_info"]["info"]["sort_date"]
+                            print(f"  Updated last_post_date: {last_post_date}")
+                        else:
+                            print("  Could not find sort_date in response structure")
+                    except (KeyError, IndexError) as e:
+                        print(f"  Could not update last_post_date: {e}")
+                    
+                    new_items_count = 0
+                    for widget in list_widgets:
+                        try:
+                            web_info = widget.get("data", {}).get("action", {}).get("payload", {}).get("web_info", {})
+                            if not web_info:
+                                continue
+                            
+                            token = widget.get("data", {}).get("token")
+                            if not token:
+                                content_str = json.dumps(widget, sort_keys=True)
+                                token = hashlib.md5(content_str.encode("utf-8")).hexdigest()
+                            
+                            if token in processed_tokens:
+                                print(f"  Skipping duplicate item with token: {token}")
+                                continue
+                            
+                            processed_tokens.add(token)
+                            new_items_count += 1
+                            
+                            city_name = web_info.get("city_persian")
+                            district_name = web_info.get("district_persian")
+                            if not city_name:
+                                continue
+                            
+                            city_dir = os.path.join(base_dir, city_name)
+                            os.makedirs(city_dir, exist_ok=True)
+                            
+                            save_dir = city_dir
+                            if district_name:
+                                district_dir = os.path.join(city_dir, district_name)
+                                os.makedirs(district_dir, exist_ok=True)
+                                save_dir = district_dir
+                            
+                            detail_url = detail_url_template.format(token=token)
+                            detail_response = requests.get(detail_url, headers=headers, proxies=proxies)
+                            
+                            if detail_response.status_code == 200:
+                                detail_data = detail_response.json()
+                                filename = os.path.join(save_dir, f"{token}.json")
+                                with open(filename, "w", encoding="utf-8") as f:
+                                    json.dump(detail_data, f, ensure_ascii=False, indent=2)
+                                print(f" page: {page}, Saved detailed data for token: {token}")
+                            else:
+                                print(f"  Failed to get detailed data for token: {token}, status: {detail_response.status_code}")
+                                filename = os.path.join(save_dir, f"{token}_widget.json")
+                                with open(filename, "w", encoding="utf-8") as f:
+                                    json.dump(widget, f, ensure_ascii=False, indent=2)
+                            
+                            time.sleep(random.uniform(0.8, 1.7))
+                        
+                        except Exception as e:
+                            print(f"  Error processing widget: {e}")
+                    
+                    print(f"  Saved {new_items_count} new items on this page")
+                    if new_items_count == 0 and page > 0:
+                        print("  No new items found, moving to next city")
+                        no_more_results += 1
                 
-                print(f"  Saved {new_items_count} new items on this page")
-                if new_items_count == 0 and page > 0:
-                    print("  No new items found, moving to next city")
-                    no_more_results += 1
+                else:
+                    non_200_count += 1
+                    print(f"  Non-200 response count: {non_200_count}/{max_non_200}")
+                    if non_200_count >= max_non_200:
+                        print("Reached maximum number of non-200 responses. Stopping.")
+                        break
+                
+                time.sleep(4)
             
-            else:
+            except Exception as e:
+                print(f"  Request error: {e}")
                 non_200_count += 1
-                print(f"  Non-200 response count: {non_200_count}/{max_non_200}")
-                if non_200_count >= max_non_200:
-                    print("Reached maximum number of non-200 responses. Stopping.")
-                    break
-            
-            time.sleep(4)
         
-        except Exception as e:
-            print(f"  Request error: {e}")
-            non_200_count += 1
-    
-    city_id += 1
+        city_id += 1
+        if city_id > 877 :
+            break
 
 
 print(f"Script completed. Processed up to city_id: {city_id-1}")

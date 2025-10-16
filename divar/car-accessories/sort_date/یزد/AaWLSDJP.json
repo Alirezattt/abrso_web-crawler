@@ -1,0 +1,606 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "لاستیک و لوازم ماشین",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "لاستیک و لوازم ماشین",
+            "subtitle": "۲ هفته پیش در یزد",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaWLSDJP"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "لاستیک هانکوک کره 205/60/16 مدل چهار فصل ونتوس پرایم۳\nفکر کنم برای 2022 یا 2023 هست سالم حدودا بالا 70 درصد، ۴ حلقه 8ت\nچادر x22 ضدآفتاب داخل پنبه نو ۲۵۰۰ت\nکفی سه بعدی کفپا و صندوق x22 ام وی ام, 2ت\nروداشبوردی مناسب x22 ام وی ام، 1ت\nبرق پاکن و سنسور فابریک x22\nیک جفت باند6975s پایونیر ,4500ت\nضبط حرفه ای فول 7951 پایونیر، 10ت\nسیستم کولر کامل پراید ۱۸ت\nخورده ریز پژو و پراید(کویل، شمع، وایر،جنت،فشنگی، بلبرینگ،باندهای فابریک پراید خراب،لنت، ترموستات، سنسور،و...)\nلاستیک نو گلدستون پراید ۴ حلقه 4ت\nیک جفت رینگ آهنی لاستیک پراید 2ت\nکفی موکت یتکه پراید ،سردنده راهنما پراید و...\nدزدگیر تصویری 902f مجیکار کره ,4ت\nبا چیزیم که بدردم بخوره معاوضه میکنم\nکسی همشو برداره خیلی کمتر میدمش",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/FSzk4VZkHiyaIRWZSE5-qA/0ecb9e5f-ea27-4532-b22d-9e058ce4a425.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RQztRELzcsf3mUGD7ZnyRA/0ecb9e5f-ea27-4532-b22d-9e058ce4a425.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/kKyERAje0znn6cQvJW1Dwg/2e58050c-95a7-4692-a84b-8e36a30d94a3.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Zlf8mAPZsNdDgwmix51YBQ/2e58050c-95a7-4692-a84b-8e36a30d94a3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/_KGuxYl20Gsby1O_VeeriQ/6b5a6e68-a441-4b40-9e93-2602f475e9f6.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GzD_9b45IxLeJqRcflq93Q/6b5a6e68-a441-4b40-9e93-2602f475e9f6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4tJJ2ZsFlir0vk-WTvvhcw/eba7ee69-5ed3-47e7-895c-2e46f554eafc.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_6Qn7fQELqBLIZttWXbGsA/eba7ee69-5ed3-47e7-895c-2e46f554eafc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/13bY_XYxsVbQNj2sA5yVvw/82d3ec3f-f94d-41d4-8cd2-2813ff818a19.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KLWiqIzgeVfGvq1iRvQ5ow/82d3ec3f-f94d-41d4-8cd2-2813ff818a19.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/K-kdvEg0t7x8aWUn4z0Z4A/82245162-a33f-4dde-8ec0-00585b1c8865.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8HtN5twxJmswULK80Hz_ww/82245162-a33f-4dde-8ec0-00585b1c8865.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/m80J95bsW_KCb1-OugC5Pw/7c38d37f-e45c-4e18-8ddc-d4059ae49771.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/3qQDDs9eSNcr9za8nEmyEA/7c38d37f-e45c-4e18-8ddc-d4059ae49771.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/WSQS3rWWy2urUB4nIg7N-w/0ea1e7db-eff7-4b82-9eff-8d091fa7e2a5.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sGyDq0xmFUU6AUct7eyifA/0ea1e7db-eff7-4b82-9eff-8d091fa7e2a5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/-E2vkzU1a4tOGBjyCVJgWA/a758a110-bff2-4970-b921-cd687bac356e.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/K9lzqJGhKCaAArPiuvGFkw/a758a110-bff2-4970-b921-cd687bac356e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/lIUTLfJoSTAYhLpBmR_noQ/2375c290-d6ac-496e-a51d-92f10899e7e1.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8SS0qdhXWJ6xdPl81nhY2Q/2375c290-d6ac-496e-a51d-92f10899e7e1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/LHNKXtc9zDSpG14HiBj58Q/a7d68302-d381-4905-86c9-2b3f5a18a3fb.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jYRXBWXNnKc8vpitoOZOwA/a7d68302-d381-4905-86c9-2b3f5a18a3fb.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/S3iZsnb0JS4cedyGmIHVqw/4cb03932-7b4b-4b1e-8f7b-8183e6a15b14.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Fk0K48VXjwpP4yjcusuhBw/4cb03932-7b4b-4b1e-8f7b-8183e6a15b14.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/__wZuNNM68yzuZylGyA9og/6e1b12e7-7034-47a0-95d8-f1aa4444a9f0.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Kj2g_96PrTtcKJ2Lunu0Xw/6e1b12e7-7034-47a0-95d8-f1aa4444a9f0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OJNwPhi0r-UL-chLdRp6XQ/292e75c4-b08e-41b7-b0a6-9723663e1573.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aDPIxDAo3_vet45oGO8VUQ/292e75c4-b08e-41b7-b0a6-9723663e1573.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/AWktFSKR-Owkv-uuN_TDiQ/747d03b4-f349-4b2b-aa60-aa5143da8c6b.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nOeOaYxGOtVJZeXSbLF5Eg/747d03b4-f349-4b2b-aa60-aa5143da8c6b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/sw_IEecu49LFjKT9puoKsA/223a733c-21c3-4c97-96c2-756c13dbd330.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1yaeH-fE8PeVjJB2PtaGjg/223a733c-21c3-4c97-96c2-756c13dbd330.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/22EfLiYYwj_4w-_XRmrxXg/56a71be0-8ee2-4ff5-83b0-a0c54954d717.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SaM9MvSA6Xtf_p8JvRztxQ/56a71be0-8ee2-4ff5-83b0-a0c54954d717.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/O2CbXdB-59z7rXW60FpNfw/89ac2a42-b590-45d1-b247-0f6e2a893214.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KXtPeBpWTj-VwrDshwyc7g/89ac2a42-b590-45d1-b247-0f6e2a893214.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/i6mKBlz9th_Rv7NN13Deqg/51875721-5c53-410b-bf8c-8de4f717adb1.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aEh7OVRNQDhsvwDMc911Bg/51875721-5c53-410b-bf8c-8de4f717adb1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/IAsewXuEB0H3GMX6A7d64w/dc2a0dd5-1b23-4214-af4e-4d898ca2f7c3.webp",
+                  "alt": "لاستیک و لوازم ماشین|قطعات یدکی و لوازم جانبی|یزد, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p73Y1y3kXtN4uTM3h03RzA/dc2a0dd5-1b23-4214-af4e-4d898ca2f7c3.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۸،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaWLSDJP",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 16
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "بلبرینگ",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/yazd/list/بلبیرینگ-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "داشبورد",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/yazd/list/داشبورد-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaWLSDJP"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaWLSDJP"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "لاستیک و لوازم ماشین",
+    "web_url": "https://divar.ir/v/AaWLSDJP"
+  },
+  "seo": {
+    "title": "لاستیک و لوازم ماشین در یزد",
+    "description": "آگهی لاستیک و لوازم ماشین در دیوار یزد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/لاستیک و لوازم ماشین/AaWLSDJP/",
+    "web_info": {
+      "title": "لاستیک و لوازم ماشین",
+      "city_persian": "یزد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-27T08:49:29.604687",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "16",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "url": "https://divar.ir/v/لاستیک-و-لوازم-ماشین/AaWLSDJP",
+      "name": "لاستیک و لوازم ماشین",
+      "description": "لاستیک هانکوک کره 205/60/16 مدل چهار فصل ونتوس پرایم۳\nفکر کنم برای 2022 یا 2023 هست سالم حدودا بالا 70 درصد، ۴ حلقه 8ت\nچادر x22 ضدآفتاب داخل پنبه نو ۲۵۰۰ت\nکفی سه بعدی کفپا و صندوق x22 ام وی ام, 2ت\nروداشبوردی مناسب x22 ام وی ام، 1ت\nبرق پاکن و سنسور فابریک x22\nیک جفت باند6975s پایونیر ,4500ت\nضبط حرفه ای فول 7951 پایونیر، 10ت\nسیستم کولر کامل پراید ۱۸ت\nخورده ریز پژو و پراید(کویل، شمع، وایر،جنت،فشنگی، بلبرینگ،باندهای فابریک پراید خراب،لنت، ترموستات، سنسور،و...)\nلاستیک نو گلدستون پراید ۴ حلقه 4ت\nیک جفت رینگ آهنی لاستیک پراید 2ت\nکفی موکت یتکه پراید ،سردنده راهنما پراید و...\nدزدگیر تصویری 902f مجیکار کره ,4ت\nبا چیزیم که بدردم بخوره معاوضه میکنم\nکسی همشو برداره خیلی کمتر میدمش",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/FSzk4VZkHiyaIRWZSE5-qA/0ecb9e5f-ea27-4532-b22d-9e058ce4a425.webp",
+      "offers": {
+        "price": "8000000",
+        "@type": "Offer",
+        "priceCurrency": "IRR"
+      },
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "web_info": {
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "لاستیک و لوازم ماشین",
+        "city_persian": "یزد"
+      },
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaWLSDJP",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "fd74b37c-a2c1-45f2-b24c-d4deac5e8b25"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "fd74b37c-a2c1-45f2-b24c-d4deac5e8b25"
+  },
+  "webengage": {
+    "business_type": "personal",
+    "city": "yazd",
+    "credit": 0,
+    "image_count": 20,
+    "cat_1": "vehicles",
+    "source_view": "",
+    "status": "",
+    "category": "parts-accessories",
+    "business_ref": "",
+    "originality": "",
+    "district": "",
+    "gender": "",
+    "token": "AaWLSDJP",
+    "brand_model": "",
+    "rent": 0,
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "price": 8000000
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "yazd"
+  },
+  "city": {
+    "city_id": "16",
+    "name": "یزد",
+    "parent_id": "886",
+    "second_slug": "yazd"
+  }
+}

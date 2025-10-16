@@ -1,0 +1,588 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور",
+            "subtitle": "۲ روز پیش در مشهد، فرهنگ",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaZfAb9N"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⏪⭐فروشگاه داکار اسپرت تخصصی ترین فروشگاه سیستم‌های صوتی و تصویری و امنیتی خودرو شما⭐⏩⭐\n\nآدرس :مشهد بلوار‌معلم ، بین معلم ۲۶ و ۲۴ فروشگاه داکار اسپرت\n\n❌❗❌پایین ترین قیمت در استان❌❗❌\n\n⭐جشنواره فورش کیلس استارتر و انواع دزدگیر‌وردیاب خودرو بصورت اقساط با چک⭐\n\n⭕دزدگیری: این سیستم با امکانات دزدگیری مجهز شده است که از ورود غیرمجاز به خودرو جلوگیری می‌کند.\n\n⬅️استارت از راه دور با ریموت: با استفاده از کلیدهای ریموت کنترل، می‌توانید خودرو را از راه دور روشن و خاموش کنید.\n\n♦️با این ویژگی‌ها، سیستم کیلس استارت نه تنها امکانات راحتی را برای کاربران فراهم می‌کند بلکه امنیت خودرو را نیز تضمین می‌کند.\n\n⭕نصب توسط نصابان حرفه ای\n\n⭕سوکت فابریک بدون باطل شدن گارانتی خودرو\n\n✴️ انواع جی پی‌اس مسیریاب سخنگو آفلاین GPS\n\n✴️ انواع مانیتور های اندرویدی خودرو شما\n\n✴️انواع دزدگیر و ردیاب GPS\n\n✴️انواع دوربین دنده عقب و دوربین های ثبت وقایع\n\n\n⭐تضمین قیمت در فاکتور گارانتی معتبر شرکتی و 5 سال خدمات پس از فروش\n\n❗عضو رسمی اتحادیه مشهد ❗\n\n⏪آدرس بلوار معلم بین معلم ۲۶ و ۲۴ فروشگاه بزرگ داکار اسپرت ❌",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/dLjvsWtguR7WgDGgjiCtSg/64783dea-e33b-4ba6-a494-9cf4272af031.webp",
+                  "alt": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2aNLk752GHwnPG4eUL97kQ/64783dea-e33b-4ba6-a494-9cf4272af031.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/PqMbOlmzcwYCl35HIz4cDA/7b9668f3-74f6-4650-93bf-b23c74588f07.webp",
+                  "alt": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2l9TgKMKfJ_yZwtciS7Daw/7b9668f3-74f6-4650-93bf-b23c74588f07.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/gbjBKQ8vPkM5AhZm36-BbQ/5000ca8c-eb3f-44a7-9323-2774c23e028d.webp",
+                  "alt": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ofbleY29xEYVhXIepdwzjQ/5000ca8c-eb3f-44a7-9323-2774c23e028d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wUD4_afkr-sXjSAPUrSpxg/22c166d6-80cc-4c25-bd03-d42b63032fc8.webp",
+                  "alt": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mGDXQdurF7W984RToswOIw/22c166d6-80cc-4c25-bd03-d42b63032fc8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/U40RFEXXdW9vIHwvwZL_lA/e922a17f-724d-47ec-9679-7a20fe3b1466.webp",
+                  "alt": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/34rwX8y5s1wyJUgDSliQyQ/e922a17f-724d-47ec-9679-7a20fe3b1466.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/P7L5NrvhpTMWaWSHANLUNg/579afe85-2cff-4616-9dc5-2b9b3b5b9d06.webp",
+                  "alt": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور|قطعات یدکی و لوازم جانبی|مشهد, فرهنگ|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XLnqB5z2bFApIsNPUH9wDA/579afe85-2cff-4616-9dc5-2b9b3b5b9d06.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۴،۸۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaZfAb9N",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در فرهنگ",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "1133"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دوربین عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/دوربین-و-سنسور-دنده-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.3322416,
+                  "longitude": 59.5157625
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXDVAmXXYPa_uQlG3R6AqGf5LG_jKAtkqIK9b4cPRO9tZtQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "AaZfAb9N"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaZfAb9N"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaZfAb9N"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AaZfAb9N/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "AaZfAb9N"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور",
+    "web_url": "https://divar.ir/v/AaZfAb9N"
+  },
+  "seo": {
+    "title": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور در مشهد",
+    "description": "آگهی دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور/AaZfAb9N/",
+    "web_info": {
+      "title": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور",
+      "district_persian": "فرهنگ",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-29T13:32:02.100227",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1133"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1133"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "فرهنگ",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "1133"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/دزدگیر-کیلس-استارتر-با-قابلیت-روشن-شدن-از-راه-دور/AaZfAb9N",
+      "category": "parts-accessories",
+      "web_info": {
+        "title": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور",
+        "city_persian": "مشهد",
+        "district_persian": "فرهنگ",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "name": "دزدگیر کیلس استارتر با قابلیت روشن شدن از راه‌ دور",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/dLjvsWtguR7WgDGgjiCtSg/64783dea-e33b-4ba6-a494-9cf4272af031.webp",
+      "@type": "Product",
+      "description": "⏪⭐فروشگاه داکار اسپرت تخصصی ترین فروشگاه سیستم‌های صوتی و تصویری و امنیتی خودرو شما⭐⏩⭐\n\nآدرس :مشهد بلوار‌معلم ، بین معلم ۲۶ و ۲۴ فروشگاه داکار اسپرت\n\n❌❗❌پایین ترین قیمت در استان❌❗❌\n\n⭐جشنواره فورش کیلس استارتر و انواع دزدگیر‌وردیاب خودرو بصورت اقساط با چک⭐\n\n⭕دزدگیری: این سیستم با امکانات دزدگیری مجهز شده است که از ورود غیرمجاز به خودرو جلوگیری می‌کند.\n\n⬅️استارت از راه دور با ریموت: با استفاده از کلیدهای ریموت کنترل، می‌توانید خودرو را از راه دور روشن و خاموش کنید.\n\n♦️با این ویژگی‌ها، سیستم کیلس استارت نه تنها امکانات راحتی را برای کاربران فراهم می‌کند بلکه امنیت خودرو را نیز تضمین می‌کند.\n\n⭕نصب توسط نصابان حرفه ای\n\n⭕سوکت فابریک بدون باطل شدن گارانتی خودرو\n\n✴️ انواع جی پی‌اس مسیریاب سخنگو آفلاین GPS\n\n✴️ انواع مانیتور های اندرویدی خودرو شما\n\n✴️انواع دزدگیر و ردیاب GPS\n\n✴️انواع دوربین دنده عقب و دوربین های ثبت وقایع\n\n\n⭐تضمین قیمت در فاکتور گارانتی معتبر شرکتی و 5 سال خدمات پس از فروش\n\n❗عضو رسمی اتحادیه مشهد ❗\n\n⏪آدرس بلوار معلم بین معلم ۲۶ و ۲۴ فروشگاه بزرگ داکار اسپرت ❌",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "4800000",
+        "@type": "Offer"
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaZfAb9N",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "41c1ba0a-acec-4e0b-a447-c607b71cc8ac"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "41c1ba0a-acec-4e0b-a447-c607b71cc8ac"
+  },
+  "webengage": {
+    "status": "",
+    "cat_2": "parts-accessories",
+    "token": "AaZfAb9N",
+    "brand_model": "",
+    "business_type": "premium-panel",
+    "credit": 0,
+    "business_ref": "ljAczkfp_VwjeqCEf",
+    "gender": "",
+    "cat_3": "",
+    "district": "farhang",
+    "city": "mashhad",
+    "originality": "",
+    "rent": 0,
+    "source_view": "",
+    "price": 4800000,
+    "image_count": 6,
+    "cat_1": "vehicles",
+    "category": "parts-accessories"
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

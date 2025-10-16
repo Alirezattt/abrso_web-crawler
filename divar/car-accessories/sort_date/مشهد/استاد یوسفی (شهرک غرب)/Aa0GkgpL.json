@@ -1,0 +1,578 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر ردیاب سایه 2سال گارانتی",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر ردیاب سایه 2سال گارانتی",
+            "subtitle": "۳ روز پیش در مشهد، استاد یوسفی (شهرک غرب)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aa0GkgpL"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "با سلام\n\nدزدگیر ردیاب مارک سایه هست وسیستم دزدگیر که بهمراه 2عدد ریموت ویک نرم افزار کاملا فارسی بهتون تحویل داده میشه وشما با گوشی میتونید درهای ماشینو بازوبسته کنید بابرد نامحدود وماشینو خاموش کنین وامکان ردیابی لحظه ای بصورت اینترنتی وپیامکی\nگزارش مسیرهای پیموده شده  صدای داخل کابین باطری داخلی دستگاه که درصورت سرقت باطری یا قطع برق دستگاه رویه موبایل مالک اخطار قطع برق براتون میاد هشدارهایی ازقبیل هشدار بازشدن دربها وصندوق عقب وکاپوت هشدار ضربه به ماشین وهشدار حمل با جرثقیل به شما اطلاع داده میشود حتی اگر شما یا ماشین هرکدام در شهر دیگری باشید نامحدود\nو کلی امکانات دیگر\n2سال گارانتی و10سال خدمات پس از فروش\nمژده به مالکین خودرو که دزدگیر ساده ومعمولی برروی خودرو دارن بانصب این دستگاه ردیاب ومتصل به دزدگیرتان سیستم امنیتی خودرویتان را بالا ببریدوهشدارهای دزدگیررا بررویه موبایلتان داشته باشید\nنصب کاملا اختصاصی ومخفی✅\nنصب در محل شما بدون هزینه اضافه پذیرفته میشود✅\nسیم کارت اضافه برای دستگاه حتما همراه داشته باشید✅\nآدرس قاسم آباد بلوار فلاحی نبش فلاحی 80 دزدگیر ردیاب سید(ردیاب سایه)",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Q4MszxAtBKEGmxu9xPD4gA/d706debe-69e9-415e-b7d4-cf85832f4c2f.webp",
+                  "alt": "دزدگیر ردیاب سایه 2سال گارانتی|قطعات یدکی و لوازم جانبی|مشهد, استاد یوسفی (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Rb9qvo3G-KM6ys-edtgn1w/d706debe-69e9-415e-b7d4-cf85832f4c2f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/X7LQKQno_pJsshh73MDJkQ/2c8419a4-e77a-4009-a164-5b725c993fae.webp",
+                  "alt": "دزدگیر ردیاب سایه 2سال گارانتی|قطعات یدکی و لوازم جانبی|مشهد, استاد یوسفی (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sGfFbzHWSK3tpWLLs-lUmg/2c8419a4-e77a-4009-a164-5b725c993fae.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4uCn2_cqYNPCP5lv_qGbqA/0e8fbfcf-4d17-4ffd-b554-ccac38199683.webp",
+                  "alt": "دزدگیر ردیاب سایه 2سال گارانتی|قطعات یدکی و لوازم جانبی|مشهد, استاد یوسفی (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fBoihmcPXhckZZ-lG7sNVA/0e8fbfcf-4d17-4ffd-b554-ccac38199683.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/O-ovuonaQ-41jFDhoXaogg/9a7639b6-f5eb-46a8-9503-3cb82f481775.webp",
+                  "alt": "دزدگیر ردیاب سایه 2سال گارانتی|قطعات یدکی و لوازم جانبی|مشهد, استاد یوسفی (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/63FIiBrD2qFQ5_coLeqPzQ/9a7639b6-f5eb-46a8-9503-3cb82f481775.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GE719poX6PeaiNNj1omETQ/fea58d88-dc2b-46ba-bf29-e1342417be0d.webp",
+                  "alt": "دزدگیر ردیاب سایه 2سال گارانتی|قطعات یدکی و لوازم جانبی|مشهد, استاد یوسفی (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/pWpqVVkaADCQTATrxHqvaw/fea58d88-dc2b-46ba-bf29-e1342417be0d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5_sDfXjiZS4zSitEF7c94A/f45dd15f-0a50-4283-b549-a68c50841cdf.webp",
+                  "alt": "دزدگیر ردیاب سایه 2سال گارانتی|قطعات یدکی و لوازم جانبی|مشهد, استاد یوسفی (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/rFIWeE6Yh5_56-pb7LjEjA/f45dd15f-0a50-4283-b549-a68c50841cdf.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bk6pWAzGDloCSJRl6WHWDQ/043e29bb-9466-4101-aed7-f3263b1de093.webp",
+                  "alt": "دزدگیر ردیاب سایه 2سال گارانتی|قطعات یدکی و لوازم جانبی|مشهد, استاد یوسفی (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ndncfmENfdb9sl-g5cJsfg/043e29bb-9466-4101-aed7-f3263b1de093.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aa0GkgpL",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در استاد یوسفی (شهرک غرب)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3059"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "بال عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/بال-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.35638380657,
+                  "longitude": 59.507893682885
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXCRqH23DOq_uQjxcKogsGv5L4ys4HOiYusHdnRhNAoGL9w=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aa0GkgpL"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aa0GkgpL"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aa0GkgpL"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر ردیاب سایه 2سال گارانتی",
+    "web_url": "https://divar.ir/v/Aa0GkgpL"
+  },
+  "seo": {
+    "title": "دزدگیر ردیاب سایه 2سال گارانتی در مشهد",
+    "description": "آگهی دزدگیر ردیاب سایه 2سال گارانتی در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر ردیاب سایه 2سال گارانتی/Aa0GkgpL/",
+    "web_info": {
+      "title": "دزدگیر ردیاب سایه 2سال گارانتی",
+      "district_persian": "استاد یوسفی (شهرک غرب)",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-31T16:05:40.31115",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3059"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3059"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "استاد یوسفی (شهرک غرب)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3059"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/Q4MszxAtBKEGmxu9xPD4gA/d706debe-69e9-415e-b7d4-cf85832f4c2f.webp",
+      "category": "parts-accessories",
+      "url": "https://divar.ir/v/دزدگیر-ردیاب-سایه-2سال-گارانتی/Aa0GkgpL",
+      "description": "با سلام\n\nدزدگیر ردیاب مارک سایه هست وسیستم دزدگیر که بهمراه 2عدد ریموت ویک نرم افزار کاملا فارسی بهتون تحویل داده میشه وشما با گوشی میتونید درهای ماشینو بازوبسته کنید بابرد نامحدود وماشینو خاموش کنین وامکان ردیابی لحظه ای بصورت اینترنتی وپیامکی\nگزارش مسیرهای پیموده شده  صدای داخل کابین باطری داخلی دستگاه که درصورت سرقت باطری یا قطع برق دستگاه رویه موبایل مالک اخطار قطع برق براتون میاد هشدارهایی ازقبیل هشدار بازشدن دربها وصندوق عقب وکاپوت هشدار ضربه به ماشین وهشدار حمل با جرثقیل به شما اطلاع داده میشود حتی اگر شما یا ماشین هرکدام در شهر دیگری باشید نامحدود\nو کلی امکانات دیگر\n2سال گارانتی و10سال خدمات پس از فروش\nمژده به مالکین خودرو که دزدگیر ساده ومعمولی برروی خودرو دارن بانصب این دستگاه ردیاب ومتصل به دزدگیرتان سیستم امنیتی خودرویتان را بالا ببریدوهشدارهای دزدگیررا بررویه موبایلتان داشته باشید\nنصب کاملا اختصاصی ومخفی✅\nنصب در محل شما بدون هزینه اضافه پذیرفته میشود✅\nسیم کارت اضافه برای دستگاه حتما همراه داشته باشید✅\nآدرس قاسم آباد بلوار فلاحی نبش فلاحی 80 دزدگیر ردیاب سید(ردیاب سایه)",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "web_info": {
+        "city_persian": "مشهد",
+        "district_persian": "استاد یوسفی (شهرک غرب)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "دزدگیر ردیاب سایه 2سال گارانتی"
+      },
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "10000",
+        "@type": "Offer"
+      },
+      "name": "دزدگیر ردیاب سایه 2سال گارانتی"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aa0GkgpL",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e4d8302d-a108-4848-8763-70e2a300d0ae"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e4d8302d-a108-4848-8763-70e2a300d0ae"
+  },
+  "webengage": {
+    "token": "Aa0GkgpL",
+    "city": "mashhad",
+    "business_ref": "",
+    "gender": "",
+    "brand_model": "",
+    "price": 10000,
+    "credit": 0,
+    "status": "",
+    "source_view": "",
+    "district": "ostad-yousefi",
+    "rent": 0,
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "cat_3": "",
+    "image_count": 7,
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}

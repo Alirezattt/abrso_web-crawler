@@ -1,0 +1,711 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)",
+            "subtitle": "۴ روز پیش در مشهد، یوسفیه (شهرک غرب)",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aar_kZQw"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "✳️با نام و یادخدا✳️\n\n⛔️تعمیرات،نصب دزدگیر و ردیاب خودرو⛔️\n\n✅️نصب دزدگیر هوتای آی سی بزرگ با یکسال گارانتی(تنوع ریموت،قطع کن دار،شاسی کاپوت)\n✅️نمایندگی دزدگیرایزیکار کره(نصب و تعمیرات دزدگیر و ریموت و قطعات)\n✅️نمایندگی و نصب ردیابهای کاکتوس،هارمونی،تلکارنت و سایه\n(برای نصب ردیاب حتما باید سیم کارت داشته باشین)\n✅️نصب انواع پخش رادیو فلش گارانتی دار\n✅️نصب انواع باندهای فابریکی خودرو\n✅️نصب سنسور دنده عقب،آیینه و دوربین دنده عقب،نصب پاور شیشه بالابر،نصب آیینه تاشو\n✅️عیب یابی و تعمیرات سیم کشی دزدگیر\n✅️تعمیرات ریموت درب برقیو دزدگیر،کپی ریموتهای درب برقی،کپی و کددهی ریموتهای دزدگیر\n✅️تعمیرات قفل مرکز خودرو و پمپهای درب\nکلیدهای شیشه بالابر\n✅️نصب قطع کن اتومات\n⛔️تمامی نصبها به صورت حرفه ای و تمامی سیم ها داخل روکش سیم وروکش حرارتی قرار می گیرند طبق فیلم⛔️\n\n⭕️آدرس فروشگاه:میدان نمایشگاه،یوسفیه۳،نبش شهید حسن زاده۲⭕️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/d38c26d6-17ec-4072-81ed-d71cd586b68f.jpg",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/d/d38c26d6-17ec-4072-81ed-d71cd586b68f/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "Aar_kZQw",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/d/d38c26d6-17ec-4072-81ed-d71cd586b68f/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)",
+                  "upload_date": "2025-10-12T06:53:31.556121Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/8urZrXZal92mffzLOeIDzA/c1358b86-ee0e-4e88-8682-7f5412961cb9.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dsA3MNMZ_y-Oliqo58UTTg/c1358b86-ee0e-4e88-8682-7f5412961cb9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/M_WzuvVVV-SJIiryUzF3zA/6bef4772-63f7-430c-957c-cae5bfc1cfa3.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UqNDyDr3TGp0zk4f-R3HhA/6bef4772-63f7-430c-957c-cae5bfc1cfa3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/M53IXzT-xX3sIFM1dADIng/ae47e449-1b87-48a2-9a66-c3b1fff57bf5.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5LtQNC3En-9bahycCbjXSg/ae47e449-1b87-48a2-9a66-c3b1fff57bf5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ymxQAd9yS27BaAyWcSCJJw/f9f2e363-171f-4c01-a3f6-5db2c12775f3.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oE1lfMKvBpCFaB11CyTglg/f9f2e363-171f-4c01-a3f6-5db2c12775f3.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ULQriwQWuU316SPzJpNUWg/60264daa-6dba-4c0f-8bab-94186b33518b.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uv_ksfKl-3S1h2VWu8PgoQ/60264daa-6dba-4c0f-8bab-94186b33518b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/a9PWkjh7gmAtDLIaJDQaAQ/5ef76ace-7c73-483d-b752-3cd6f8f877bf.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/wVMPB5S9jjt1TEOgfD4zfg/5ef76ace-7c73-483d-b752-3cd6f8f877bf.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/l6LLVBc03JO_mhd3GvO2mQ/8efa4e51-2730-40a2-b133-302eced8f817.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/I9cqB2T-g_XXEl5ClLaNug/8efa4e51-2730-40a2-b133-302eced8f817.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/M398lhM1f4dcMON37Bb9SQ/e8ca3995-bef3-4aa1-a29e-4556826feb9f.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/E3B8hK0YMk5lXhCbPMiHEg/e8ca3995-bef3-4aa1-a29e-4556826feb9f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/G5w5IvL9UV7mxzt-YvebFg/f35a715f-23f2-4956-970b-03f96355d425.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/rPjYv2otJ2QF8nFMmKEBcQ/f35a715f-23f2-4956-970b-03f96355d425.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/CQMcF1IsMW9KX4rjEZhRFg/eaa92a3b-a6bf-4a69-b48d-9f65971075ee.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/k9j7PQ3RNlJgtFaZ_ng0AA/eaa92a3b-a6bf-4a69-b48d-9f65971075ee.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3Bdu7pXHkyRlpjTWGE39KQ/b4a8c482-7daf-4e57-95a5-29ff19e4fd74.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/V9B4Wy6dIerW21KCoj0-cA/b4a8c482-7daf-4e57-95a5-29ff19e4fd74.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cM7RQRVkGg5AwQcMHg2xqg/284413ef-082f-4120-9f89-f1e10c1b53d6.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/l7ndqQ91hUamxmQDiP0YHg/284413ef-082f-4120-9f89-f1e10c1b53d6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/SqS6cJvHli75iIDb3ynfMg/18926551-4f81-4c59-aa00-a21a0b0ca515.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/up1nMzKE0XvSIb8vKNSIRg/18926551-4f81-4c59-aa00-a21a0b0ca515.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/lc7DoYhmEWToR7sb07-3eQ/36c671c8-30a6-47d8-b885-07a5ea40a05c.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9zDplt1a88SlK4XoyqjG7g/36c671c8-30a6-47d8-b885-07a5ea40a05c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/a5UDj0-rCnu0QplxaV0WLA/ac302b28-3726-4175-8be5-c268797d5bd6.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Dt7Y42wPwo543_c9dzCLNA/ac302b28-3726-4175-8be5-c268797d5bd6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/OTrznxmVSFerAe1Wh_--xw/0dbb12c2-1725-4b7f-87eb-c51a5d10ae96.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/w0wCtsdGRi-htoJxDelCAQ/0dbb12c2-1725-4b7f-87eb-c51a5d10ae96.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/prnV7CjC0GnaM7zbDzFOAA/425a91d1-4d91-442b-a2d0-e25e9025676f.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2RxogpHxJ7xIBQRhAjYaAw/425a91d1-4d91-442b-a2d0-e25e9025676f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5F4VCAajX4u9a653yKKOWA/762ce9d4-7e29-4698-b77c-8269300dab67.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/JcLYADTVqsEQAgHBIZcs2A/762ce9d4-7e29-4698-b77c-8269300dab67.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/b90cGNOsMQpMnUa-jESZiw/b38d9688-94a7-4c82-8d67-0be4b4c46497.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_UJOVbvlsNZWzGXwYbJnLw/b38d9688-94a7-4c82-8d67-0be4b4c46497.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/_3VbUWuGQF_rEv5Qoak9Og/e2c1c248-f8e0-443e-bf40-11bb7d3ef42d.webp",
+                  "alt": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)|قطعات یدکی و لوازم جانبی|مشهد, یوسفیه (شهرک غرب)|دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jk3-f-tVtD_00D6Lc3hj8Q/e2c1c248-f8e0-443e-bf40-11bb7d3ef42d.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۲،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aar_kZQw",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "قطعات یدکی و لوازم جانبی در یوسفیه (شهرک غرب)",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            },
+                            "districts": {
+                              "repeated_string": {
+                                "value": [
+                                  "3074"
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "بال عقب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/بال-عقب-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/mashhad/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "MAP",
+      "widgets": [
+        {
+          "widget_type": "MAP_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.MapRowData",
+            "location": {
+              "exact_data": {
+                "point": {
+                  "latitude": 36.347933988643,
+                  "longitude": 59.47432038925
+                }
+              }
+            },
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXPpexYjXO6_uQvdk56aYZ_5Lxrgq57gBbOKMy6xwFbMcQQ=="
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.MapInfo",
+                "post_token": "Aar_kZQw"
+              },
+              "item_type": {
+                "type": "MAP"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aar_kZQw"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aar_kZQw"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "BUSINESS_SECTION",
+      "widgets": [
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/Aar_kZQw/lazy",
+            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
+            "request_data": {
+              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
+              "post_token": "Aar_kZQw"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)",
+    "web_url": "https://divar.ir/v/Aar_kZQw"
+  },
+  "seo": {
+    "title": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره) در مشهد",
+    "description": "آگهی دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره) در دیوار مشهد",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)/Aar_kZQw/",
+    "web_info": {
+      "title": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)",
+      "district_persian": "یوسفیه (شهرک غرب)",
+      "city_persian": "مشهد",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-12T10:23:31.556713",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3074"
+                  ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3074"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "یوسفیه (شهرک غرب)",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "3074"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "3",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "@context": "https://schema.org",
+      "web_info": {
+        "title": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)",
+        "city_persian": "مشهد",
+        "district_persian": "یوسفیه (شهرک غرب)",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "description": "✳️با نام و یادخدا✳️\n\n⛔️تعمیرات،نصب دزدگیر و ردیاب خودرو⛔️\n\n✅️نصب دزدگیر هوتای آی سی بزرگ با یکسال گارانتی(تنوع ریموت،قطع کن دار،شاسی کاپوت)\n✅️نمایندگی دزدگیرایزیکار کره(نصب و تعمیرات دزدگیر و ریموت و قطعات)\n✅️نمایندگی و نصب ردیابهای کاکتوس،هارمونی،تلکارنت و سایه\n(برای نصب ردیاب حتما باید سیم کارت داشته باشین)\n✅️نصب انواع پخش رادیو فلش گارانتی دار\n✅️نصب انواع باندهای فابریکی خودرو\n✅️نصب سنسور دنده عقب،آیینه و دوربین دنده عقب،نصب پاور شیشه بالابر،نصب آیینه تاشو\n✅️عیب یابی و تعمیرات سیم کشی دزدگیر\n✅️تعمیرات ریموت درب برقیو دزدگیر،کپی ریموتهای درب برقی،کپی و کددهی ریموتهای دزدگیر\n✅️تعمیرات قفل مرکز خودرو و پمپهای درب\nکلیدهای شیشه بالابر\n✅️نصب قطع کن اتومات\n⛔️تمامی نصبها به صورت حرفه ای و تمامی سیم ها داخل روکش سیم وروکش حرارتی قرار می گیرند طبق فیلم⛔️\n\n⭕️آدرس فروشگاه:میدان نمایشگاه،یوسفیه۳،نبش شهید حسن زاده۲⭕️",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "2000000"
+      },
+      "url": "https://divar.ir/v/دزدگیر-و-ردیاب-ابراهیمی-نمایندگی-دزدگیرایزیکارکره-/Aar_kZQw",
+      "name": "دزدگیر و ردیاب ابراهیمی(نمایندگی دزدگیرایزیکارکره)",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/8urZrXZal92mffzLOeIDzA/c1358b86-ee0e-4e88-8682-7f5412961cb9.webp",
+      "@type": "Product",
+      "category": "parts-accessories"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aar_kZQw",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "827444d3-72ec-4377-aa75-6046a7000d03"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "827444d3-72ec-4377-aa75-6046a7000d03"
+  },
+  "webengage": {
+    "district": "yousefiyeh",
+    "rent": 0,
+    "cat_3": "",
+    "token": "Aar_kZQw",
+    "price": 2000000,
+    "gender": "",
+    "category": "parts-accessories",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "business_type": "premium-panel",
+    "business_ref": "WeZzMxay_dSvJwDbk",
+    "source_view": "",
+    "city": "mashhad",
+    "brand_model": "",
+    "image_count": 20,
+    "status": "",
+    "credit": 0,
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "mashhad"
+  },
+  "city": {
+    "city_id": "3",
+    "name": "مشهد",
+    "parent_id": "880",
+    "second_slug": "mashhad"
+  }
+}
