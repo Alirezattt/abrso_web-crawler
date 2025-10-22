@@ -53,7 +53,7 @@
                 }
               }
             ],
-            "current_page_title": "تزییناتی ماشین کلاسیک کار",
+            "current_page_title": "کفپوش ۵ بعدی خودرو",
             "padded": true
           }
         }
@@ -66,8 +66,8 @@
           "widget_type": "LEGEND_TITLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.LegendTitleRowData",
-            "title": "تزییناتی ماشین کلاسیک کار",
-            "subtitle": "۳ هفته پیش در کرمان",
+            "title": "کفپوش ۵ بعدی خودرو",
+            "subtitle": "۱ هفته پیش در کرمان",
             "high_level_heading": true
           }
         },
@@ -108,7 +108,7 @@
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.PostWarningInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AaiHjydx"
               },
               "item_type": {
                 "type": "POST_WARNING"
@@ -135,7 +135,7 @@
           "widget_type": "DESCRIPTION_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.DescriptionRowData",
-            "text": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
+            "text": "«««جشنواره فروش کفپوش ۵ بعدی خودرو  »»»\nفروش ویژه تکی و عمده کفپوش خودرو ۵ بعدی برند EMTC چرم چین\n✅مجموعه امین اسپرت ✅\n«جشنواره ۳ روزه شروع از ۱۳ مهر تا تاریخ ۱۶ مهر »\n✅قیمت تکی کفپوش ها ۲.۵۰۰.۰۰۰ تومان میباشد که در جشنواره تکی به قیمت عمده بخر ✅\nقیمت ماشین ایرانی: تکی و عمده ۱۳۸۰  تومان \n تارا شاهین : ۱۵۵۰ تومان \nماشین چینی : ۱۵۹۰  تومان \n کره ای ژاپنی : ۱۷۹۰ تومان \n❌ موجود برای تمام ماشین های ایرانی و خارجی ❌\n✅ بلوار قدس بلوار ترمینال قدیم روبرو تیپاکس امین اسپرت ✅\n« فقط تماس بگیرید پیام پاسخگو نیستیم »\nموجودی : پراید پژو تارا شاهین دنا سمند رانا و ۲۰۶ رانا پلاس ، ۲۰۷ ، ماکسیما ، آزرا سوناتا برلیانس کی ام سی ها ، t8 , t9 , j4 , j7 , k7 , فیدلیتی دیگنیتی اطلس سهند کوییک تیبا ساینا ال ۹۰ مزدا ۳ زانتیا s5 , x55 , کلوت ، سانتافه نیو ، s3",
             "is_primary": true
           }
         }
@@ -151,30 +151,44 @@
             "items": [
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BinZcotBPA76GYNLMJL48Q/a14ada32-6ea7-4607-ad9b-5c589256992e.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/iWWRUB6bwwLpzOlGDLb6Eg/f76d5234-58d0-406f-ba15-1db15de5807e.webp",
+                  "alt": "کفپوش ۵ بعدی خودرو|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/5mgqo-tM8-IH5phDyjaGEQ/f76d5234-58d0-406f-ba15-1db15de5807e.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mjKHxpadl2W3F9-vjxbEg/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q5XwHkvCYaVTTNClOUF-Kw/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/NOvzssH7ZGWEIc8ijYV7uQ/57e7a4df-b9d8-4e60-83c7-cbebf5ca4fff.webp",
+                  "alt": "کفپوش ۵ بعدی خودرو|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4HAKXys2QbF10Eu7SOcWnw/57e7a4df-b9d8-4e60-83c7-cbebf5ca4fff.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxZBzaUvYRckKyMYZk52Cg/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9qRo4DXoKUWCOIk6G-dRgA/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bGZuYMWeqfUMrH9qsFyv2w/2a7e5f89-21e6-4c97-b1a5-1d216cac99f3.webp",
+                  "alt": "کفپوش ۵ بعدی خودرو|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/93NVfOVYHq3F-xqx9PihxQ/2a7e5f89-21e6-4c97-b1a5-1d216cac99f3.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DHPyIF3Ij7aUGoRJIvdiew/2a086c67-9dad-448e-908f-001e26a69f18.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ItYL_7aM-1KeX-65RMAMoQ/2a086c67-9dad-448e-908f-001e26a69f18.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DCx_7S6A8KiCVa0Lm30BLA/9dd14102-be0a-4dbe-b281-21a1c8b8f41b.webp",
+                  "alt": "کفپوش ۵ بعدی خودرو|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/L_h9wzgsylsHMtOV1cPQAQ/9dd14102-be0a-4dbe-b281-21a1c8b8f41b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/vaYmOdeq44f_OO98y6GiaQ/82b5d51b-065c-4ac3-a8b7-53606e682491.webp",
+                  "alt": "کفپوش ۵ بعدی خودرو|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CzDDA2jbBIjui3rmkNFoZQ/82b5d51b-065c-4ac3-a8b7-53606e682491.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JbZtnN5wVCiJNxGhDHTAUQ/3af959ef-6340-40d9-b68a-0b24b7d28df6.webp",
+                  "alt": "کفپوش ۵ بعدی خودرو|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UVI8R92Hqbv_K8o9sPLPzA/3af959ef-6340-40d9-b68a-0b24b7d28df6.webp"
                 }
               }
             ],
@@ -198,7 +212,7 @@
           "data": {
             "@type": "type.googleapis.com/widgets.UnexpandableRowData",
             "title": "قیمت",
-            "value": "‏۱۰،۰۰۰ تومان",
+            "value": "‏۱،۳۸۰،۰۰۰ تومان",
             "has_divider": true
           }
         },
@@ -210,7 +224,7 @@
             "grpc_request_path": "/addons.Addons/GetLazyAddons",
             "request_data": {
               "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
-              "token": "AaPjsw2e",
+              "token": "AaiHjydx",
               "source": "POST_APPROVED",
               "category": "parts-accessories",
               "city_id": 13
@@ -250,30 +264,6 @@
                       "source_view_str": "CATEGORY_BREAD_CRUMB"
                     }
                   }
-                },
-                {
-                  "text": "چراغ خودرو",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/چراغ-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
-                },
-                {
-                  "text": "کمک فنر",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/کمک-فنر-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
                 }
               ]
             }
@@ -291,18 +281,18 @@
             "location": {
               "exact_data": {
                 "point": {
-                  "latitude": 30.2862277,
-                  "longitude": 57.096546
+                  "latitude": 30.271715718218,
+                  "longitude": 57.063396265082
                 }
               }
             },
-            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNTa4KYYXtPuQpnwpL91V_9LatQhwwG4OSbgPxQ8WeTgIA=="
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXHLhWbjRUtPuQqUsQn8zU_9L341urn50c0_vn2K-Jas0dQ=="
           },
           "action_log": {
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.MapInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AaiHjydx"
               },
               "item_type": {
                 "type": "MAP"
@@ -322,7 +312,7 @@
             "@type": "type.googleapis.com/widgets.NoteData",
             "title": "یادداشت من",
             "button_title": "ویرایش یادداشت",
-            "post_token": "AaPjsw2e"
+            "post_token": "AaiHjydx"
           }
         }
       ]
@@ -348,7 +338,7 @@
                 "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
                 "additional_data": {
                   "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
-                  "post_token": "AaPjsw2e"
+                  "post_token": "AaiHjydx"
                 },
                 "is_modal": true,
                 "rest_request_path": "/v8/post-quality/feedback-v2",
@@ -367,40 +357,23 @@
           }
         }
       ]
-    },
-    {
-      "section_name": "BUSINESS_SECTION",
-      "widgets": [
-        {
-          "widget_type": "LAZY_SECTION",
-          "data": {
-            "@type": "type.googleapis.com/widgets.LazySectionData",
-            "rest_request_path": "/v8/premium-user/post-page/business-data/AaPjsw2e/lazy",
-            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
-            "request_data": {
-              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
-              "post_token": "AaPjsw2e"
-            }
-          }
-        }
-      ]
     }
   ],
   "share": {
-    "title": "تزییناتی ماشین کلاسیک کار",
-    "web_url": "https://divar.ir/v/AaPjsw2e"
+    "title": "کفپوش ۵ بعدی خودرو",
+    "web_url": "https://divar.ir/v/AaiHjydx"
   },
   "seo": {
-    "title": "تزییناتی ماشین کلاسیک کار در کرمان",
-    "description": "آگهی تزییناتی ماشین کلاسیک کار در دیوار کرمان",
+    "title": "کفپوش ۵ بعدی خودرو در کرمان",
+    "description": "آگهی کفپوش ۵ بعدی خودرو در دیوار کرمان",
     "android_package_name": "ir.divar",
-    "android_app_url": "android-app://ir.divar/http/v/تزییناتی ماشین کلاسیک کار/AaPjsw2e/",
+    "android_app_url": "android-app://ir.divar/http/v/کفپوش ۵ بعدی خودرو/AaiHjydx/",
     "web_info": {
-      "title": "تزییناتی ماشین کلاسیک کار",
+      "title": "کفپوش ۵ بعدی خودرو",
       "city_persian": "کرمان",
       "category_slug_persian": "قطعات یدکی و لوازم جانبی"
     },
-    "unavailable_after": "2025-10-22T13:15:26.719091",
+    "unavailable_after": "2025-11-05T12:23:58.742833",
     "bread_crumb": [
       {
         "name": "قطعات یدکی و لوازم جانبی",
@@ -471,24 +444,24 @@
       }
     ],
     "post_seo_schema": {
-      "@context": "https://schema.org",
-      "url": "https://divar.ir/v/تزییناتی-ماشین-کلاسیک-کار/AaPjsw2e",
-      "name": "تزییناتی ماشین کلاسیک کار",
-      "description": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
-      "@type": "Product",
+      "url": "https://divar.ir/v/کفپوش-۵-بعدی-خودرو/AaiHjydx",
       "web_info": {
-        "title": "تزییناتی ماشین کلاسیک کار",
         "city_persian": "کرمان",
         "district_persian": "",
-        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "کفپوش ۵ بعدی خودرو"
       },
-      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "name": "کفپوش ۵ بعدی خودرو",
+      "@type": "Product",
+      "description": "«««جشنواره فروش کفپوش ۵ بعدی خودرو  »»»\nفروش ویژه تکی و عمده کفپوش خودرو ۵ بعدی برند EMTC چرم چین\n✅مجموعه امین اسپرت ✅\n«جشنواره ۳ روزه شروع از ۱۳ مهر تا تاریخ ۱۶ مهر »\n✅قیمت تکی کفپوش ها ۲.۵۰۰.۰۰۰ تومان میباشد که در جشنواره تکی به قیمت عمده بخر ✅\nقیمت ماشین ایرانی: تکی و عمده ۱۳۸۰  تومان \n تارا شاهین : ۱۵۵۰ تومان \nماشین چینی : ۱۵۹۰  تومان \n کره ای ژاپنی : ۱۷۹۰ تومان \n❌ موجود برای تمام ماشین های ایرانی و خارجی ❌\n✅ بلوار قدس بلوار ترمینال قدیم روبرو تیپاکس امین اسپرت ✅\n« فقط تماس بگیرید پیام پاسخگو نیستیم »\nموجودی : پراید پژو تارا شاهین دنا سمند رانا و ۲۰۶ رانا پلاس ، ۲۰۷ ، ماکسیما ، آزرا سوناتا برلیانس کی ام سی ها ، t8 , t9 , j4 , j7 , k7 , فیدلیتی دیگنیتی اطلس سهند کوییک تیبا ساینا ال ۹۰ مزدا ۳ زانتیا s5 , x55 , کلوت ، سانتافه نیو ، s3",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/iWWRUB6bwwLpzOlGDLb6Eg/f76d5234-58d0-406f-ba15-1db15de5807e.webp",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IRR",
-        "price": "10000"
-      },
-      "category": "parts-accessories"
+        "price": "1380000"
+      }
     }
   },
   "contact": {
@@ -497,9 +470,9 @@
       "server_side_info": {
         "info": {
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
-          "post_token": "AaPjsw2e",
+          "post_token": "AaiHjydx",
           "method_name": "GetContactWeb",
-          "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74"
+          "contact_uuid": "3786c1d2-96c0-4cdd-987a-aba58a4e5ba7"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -507,28 +480,27 @@
       },
       "enabled": true
     },
-    "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74",
-    "supplier_chat_assistant_enabled": true
+    "contact_uuid": "3786c1d2-96c0-4cdd-987a-aba58a4e5ba7"
   },
   "webengage": {
-    "gender": "",
-    "originality": "",
-    "category": "parts-accessories",
-    "business_ref": "qGwkiGRz_MvSczBkz",
-    "rent": 0,
-    "cat_1": "vehicles",
     "credit": 0,
+    "cat_1": "vehicles",
+    "price": 1380000,
     "cat_3": "",
-    "token": "AaPjsw2e",
-    "business_type": "premium-panel",
-    "status": "",
-    "city": "kerman",
-    "price": 10000,
-    "cat_2": "parts-accessories",
+    "business_type": "personal",
+    "originality": "",
+    "token": "AaiHjydx",
     "district": "",
-    "image_count": 4,
+    "image_count": 6,
+    "status": "",
+    "business_ref": "",
+    "cat_2": "parts-accessories",
+    "city": "kerman",
+    "gender": "",
     "source_view": "",
-    "brand_model": ""
+    "category": "parts-accessories",
+    "brand_model": "",
+    "rent": 0
   },
   "analytics": {
     "cat1": "vehicles",

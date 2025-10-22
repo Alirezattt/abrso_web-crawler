@@ -53,7 +53,7 @@
                 }
               }
             ],
-            "current_page_title": "تزییناتی ماشین کلاسیک کار",
+            "current_page_title": "تعمیرات انواع باند ومیدرنج.",
             "padded": true
           }
         }
@@ -66,8 +66,8 @@
           "widget_type": "LEGEND_TITLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.LegendTitleRowData",
-            "title": "تزییناتی ماشین کلاسیک کار",
-            "subtitle": "۳ هفته پیش در کرمان",
+            "title": "تعمیرات انواع باند ومیدرنج.",
+            "subtitle": "۱ هفته پیش در بم",
             "high_level_heading": true
           }
         },
@@ -108,7 +108,7 @@
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.PostWarningInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "Aakj7jmb"
               },
               "item_type": {
                 "type": "POST_WARNING"
@@ -135,7 +135,7 @@
           "widget_type": "DESCRIPTION_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.DescriptionRowData",
-            "text": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
+            "text": "تعمیرات انواع باند ومیدرنج .نصب ماژول بلوتوث بر روی انواع رادیو پخش.\nآدرس.خیابان مطهری.کمربندی عیش آباد نبش کوچه 6.سیستم حفاظتی پاپلی\nتعمیر انواع ریموت.\nکد دهی ریموت انواع ماشین ایرانی و خارجی\nانواع ردیاب و دزدگیر\nسرویس قفل مرکزی تمامی ماشین ها",
             "is_primary": true
           }
         }
@@ -151,30 +151,65 @@
             "items": [
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BinZcotBPA76GYNLMJL48Q/a14ada32-6ea7-4607-ad9b-5c589256992e.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/VCuvWamkIW4dPQ6IX6GlOA/f3c8f464-2724-4033-8dd9-599babe8d4e2.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qWk6jpc1cPEuLjslB8UavA/f3c8f464-2724-4033-8dd9-599babe8d4e2.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mjKHxpadl2W3F9-vjxbEg/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q5XwHkvCYaVTTNClOUF-Kw/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/e3CFavvdyt-cuPxTelGIdQ/ee4fd3d2-f7d6-4919-b143-35469d6a536c.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UAHj18G0INlUwoJitQk9oQ/ee4fd3d2-f7d6-4919-b143-35469d6a536c.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxZBzaUvYRckKyMYZk52Cg/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9qRo4DXoKUWCOIk6G-dRgA/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/p6B_Vf0L7rXMtTI_4tIchA/de7f5913-ca3c-4196-9a81-d6663db5d75c.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/akTpf1JxmGWd82dVg3Pevg/de7f5913-ca3c-4196-9a81-d6663db5d75c.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DHPyIF3Ij7aUGoRJIvdiew/2a086c67-9dad-448e-908f-001e26a69f18.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ItYL_7aM-1KeX-65RMAMoQ/2a086c67-9dad-448e-908f-001e26a69f18.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/KENRbdrqic0iPFn4Ejt6Xg/cb6ceb5b-3f21-40ee-85a3-0f7fc37ffd9a.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/1Ywn0whmrErGyFfVJdboHA/cb6ceb5b-3f21-40ee-85a3-0f7fc37ffd9a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/W20Acd7JpfLAqL1kxi7Arg/51824079-2460-4953-b70e-b2e0630f1a5a.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_2ADF6vXlGFuJTjuttou2g/51824079-2460-4953-b70e-b2e0630f1a5a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/O-0kVB9NDsSHNb9xOqlShw/cb8bccc1-da62-406d-86ca-210c9c4aee3d.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AXKOkj0YNRq950HlePrNaA/cb8bccc1-da62-406d-86ca-210c9c4aee3d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/NPYzxqbg3SYOrxjTmY1r1w/694f444a-708b-42ec-8ea5-01698c3786ad.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/a7E8iXGJuHpjE6MTHsJt1A/694f444a-708b-42ec-8ea5-01698c3786ad.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/iivdN7wMA0cQ8J4Rd1RRmg/0a975196-c526-4141-902d-a2f721620156.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/THXXoh7jSUcgUBmXXAyRig/0a975196-c526-4141-902d-a2f721620156.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QVEDVNqucWUFiq0iFsWISg/4eff9ae7-cebb-4097-ba90-a43e15ff28a5.webp",
+                  "alt": "تعمیرات انواع باند ومیدرنج.|قطعات یدکی و لوازم جانبی|بم, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/PsyEiSXlLGDtwNICEoy4Lg/4eff9ae7-cebb-4097-ba90-a43e15ff28a5.webp"
                 }
               }
             ],
@@ -198,7 +233,7 @@
           "data": {
             "@type": "type.googleapis.com/widgets.UnexpandableRowData",
             "title": "قیمت",
-            "value": "‏۱۰،۰۰۰ تومان",
+            "value": "‏۳،۰۰۰ تومان",
             "has_divider": true
           }
         },
@@ -210,10 +245,10 @@
             "grpc_request_path": "/addons.Addons/GetLazyAddons",
             "request_data": {
               "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
-              "token": "AaPjsw2e",
+              "token": "Aakj7jmb",
               "source": "POST_APPROVED",
               "category": "parts-accessories",
-              "city_id": 13
+              "city_id": 815
             }
           }
         }
@@ -250,65 +285,9 @@
                       "source_view_str": "CATEGORY_BREAD_CRUMB"
                     }
                   }
-                },
-                {
-                  "text": "چراغ خودرو",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/چراغ-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
-                },
-                {
-                  "text": "کمک فنر",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/کمک-فنر-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
                 }
               ]
             }
-          }
-        }
-      ]
-    },
-    {
-      "section_name": "MAP",
-      "widgets": [
-        {
-          "widget_type": "MAP_ROW",
-          "data": {
-            "@type": "type.googleapis.com/widgets.MapRowData",
-            "location": {
-              "exact_data": {
-                "point": {
-                  "latitude": 30.2862277,
-                  "longitude": 57.096546
-                }
-              }
-            },
-            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNTa4KYYXtPuQpnwpL91V_9LatQhwwG4OSbgPxQ8WeTgIA=="
-          },
-          "action_log": {
-            "server_side_info": {
-              "info": {
-                "@type": "type.googleapis.com/action_log.MapInfo",
-                "post_token": "AaPjsw2e"
-              },
-              "item_type": {
-                "type": "MAP"
-              }
-            },
-            "enabled": true
           }
         }
       ]
@@ -322,7 +301,7 @@
             "@type": "type.googleapis.com/widgets.NoteData",
             "title": "یادداشت من",
             "button_title": "ویرایش یادداشت",
-            "post_token": "AaPjsw2e"
+            "post_token": "Aakj7jmb"
           }
         }
       ]
@@ -348,7 +327,7 @@
                 "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
                 "additional_data": {
                   "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
-                  "post_token": "AaPjsw2e"
+                  "post_token": "Aakj7jmb"
                 },
                 "is_modal": true,
                 "rest_request_path": "/v8/post-quality/feedback-v2",
@@ -367,40 +346,23 @@
           }
         }
       ]
-    },
-    {
-      "section_name": "BUSINESS_SECTION",
-      "widgets": [
-        {
-          "widget_type": "LAZY_SECTION",
-          "data": {
-            "@type": "type.googleapis.com/widgets.LazySectionData",
-            "rest_request_path": "/v8/premium-user/post-page/business-data/AaPjsw2e/lazy",
-            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
-            "request_data": {
-              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
-              "post_token": "AaPjsw2e"
-            }
-          }
-        }
-      ]
     }
   ],
   "share": {
-    "title": "تزییناتی ماشین کلاسیک کار",
-    "web_url": "https://divar.ir/v/AaPjsw2e"
+    "title": "تعمیرات انواع باند ومیدرنج.",
+    "web_url": "https://divar.ir/v/Aakj7jmb"
   },
   "seo": {
-    "title": "تزییناتی ماشین کلاسیک کار در کرمان",
-    "description": "آگهی تزییناتی ماشین کلاسیک کار در دیوار کرمان",
+    "title": "تعمیرات انواع باند ومیدرنج. در بم",
+    "description": "آگهی تعمیرات انواع باند ومیدرنج. در دیوار بم",
     "android_package_name": "ir.divar",
-    "android_app_url": "android-app://ir.divar/http/v/تزییناتی ماشین کلاسیک کار/AaPjsw2e/",
+    "android_app_url": "android-app://ir.divar/http/v/تعمیرات انواع باند ومیدرنج./Aakj7jmb/",
     "web_info": {
-      "title": "تزییناتی ماشین کلاسیک کار",
-      "city_persian": "کرمان",
+      "title": "تعمیرات انواع باند ومیدرنج.",
+      "city_persian": "بم",
       "category_slug_persian": "قطعات یدکی و لوازم جانبی"
     },
-    "unavailable_after": "2025-10-22T13:15:26.719091",
+    "unavailable_after": "2025-11-07T10:22:14.777881",
     "bread_crumb": [
       {
         "name": "قطعات یدکی و لوازم جانبی",
@@ -461,7 +423,7 @@
         }
       },
       {
-        "name": "13",
+        "name": "815",
         "search_data": {
           "form_data": {}
         }
@@ -471,24 +433,24 @@
       }
     ],
     "post_seo_schema": {
-      "@context": "https://schema.org",
-      "url": "https://divar.ir/v/تزییناتی-ماشین-کلاسیک-کار/AaPjsw2e",
-      "name": "تزییناتی ماشین کلاسیک کار",
-      "description": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
-      "@type": "Product",
-      "web_info": {
-        "title": "تزییناتی ماشین کلاسیک کار",
-        "city_persian": "کرمان",
-        "district_persian": "",
-        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
-      },
-      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/VCuvWamkIW4dPQ6IX6GlOA/f3c8f464-2724-4033-8dd9-599babe8d4e2.webp",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IRR",
-        "price": "10000"
+        "price": "3000"
       },
-      "category": "parts-accessories"
+      "category": "parts-accessories",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "تعمیرات انواع باند ومیدرنج.",
+        "city_persian": "بم",
+        "district_persian": ""
+      },
+      "name": "تعمیرات انواع باند ومیدرنج.",
+      "description": "تعمیرات انواع باند ومیدرنج .نصب ماژول بلوتوث بر روی انواع رادیو پخش.\nآدرس.خیابان مطهری.کمربندی عیش آباد نبش کوچه 6.سیستم حفاظتی پاپلی\nتعمیر انواع ریموت.\nکد دهی ریموت انواع ماشین ایرانی و خارجی\nانواع ردیاب و دزدگیر\nسرویس قفل مرکزی تمامی ماشین ها",
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "url": "https://divar.ir/v/تعمیرات-انواع-باند-ومیدرنج-/Aakj7jmb"
     }
   },
   "contact": {
@@ -497,9 +459,9 @@
       "server_side_info": {
         "info": {
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
-          "post_token": "AaPjsw2e",
+          "post_token": "Aakj7jmb",
           "method_name": "GetContactWeb",
-          "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74"
+          "contact_uuid": "bf56cec5-fc5a-4b3b-b530-9d25d357a1b0"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -507,38 +469,37 @@
       },
       "enabled": true
     },
-    "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74",
-    "supplier_chat_assistant_enabled": true
+    "contact_uuid": "bf56cec5-fc5a-4b3b-b530-9d25d357a1b0"
   },
   "webengage": {
     "gender": "",
-    "originality": "",
-    "category": "parts-accessories",
-    "business_ref": "qGwkiGRz_MvSczBkz",
+    "business_type": "personal",
+    "business_ref": "",
+    "price": 3000,
     "rent": 0,
-    "cat_1": "vehicles",
+    "originality": "",
     "credit": 0,
-    "cat_3": "",
-    "token": "AaPjsw2e",
-    "business_type": "premium-panel",
-    "status": "",
-    "city": "kerman",
-    "price": 10000,
-    "cat_2": "parts-accessories",
+    "category": "parts-accessories",
     "district": "",
-    "image_count": 4,
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "status": "",
+    "cat_3": "",
+    "city": "bam",
+    "image_count": 9,
     "source_view": "",
-    "brand_model": ""
+    "brand_model": "",
+    "token": "Aakj7jmb"
   },
   "analytics": {
     "cat1": "vehicles",
     "cat2": "parts-accessories",
-    "city": "kerman"
+    "city": "bam"
   },
   "city": {
-    "city_id": "13",
-    "name": "کرمان",
+    "city_id": "815",
+    "name": "بم",
     "parent_id": "877",
-    "second_slug": "kerman"
+    "second_slug": "bam"
   }
 }

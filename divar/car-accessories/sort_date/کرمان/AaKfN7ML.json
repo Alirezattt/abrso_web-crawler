@@ -53,7 +53,7 @@
                 }
               }
             ],
-            "current_page_title": "تزییناتی ماشین کلاسیک کار",
+            "current_page_title": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت",
             "padded": true
           }
         }
@@ -66,8 +66,8 @@
           "widget_type": "LEGEND_TITLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.LegendTitleRowData",
-            "title": "تزییناتی ماشین کلاسیک کار",
-            "subtitle": "۳ هفته پیش در کرمان",
+            "title": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت",
+            "subtitle": "۴ هفته پیش در کرمان",
             "high_level_heading": true
           }
         },
@@ -108,7 +108,7 @@
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.PostWarningInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AaKfN7ML"
               },
               "item_type": {
                 "type": "POST_WARNING"
@@ -135,7 +135,7 @@
           "widget_type": "DESCRIPTION_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.DescriptionRowData",
-            "text": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
+            "text": "سیستم صوتی مانیتور روکش صندلی دزدگیر شیشه دودی کف پوش هدلایت زنون دزدگیر وسایر وسایل تزیینی وصوتی اقساط بلند مدت در اسپرت داداشی برای اطلاعات از اقساط و شرایط فقط تماس یا به ادرس ما مراجعه کنید کرمان خیابان سرباز خیابان هفده شهریورسمت راست  سومین مغازه اسپرت داداشی تابلو مشکی زرد بزرگ شرایط اقساط شش ماه الی۲۴ ماه پخش عمده تمامی لوازم برای همکاران هم با چک صیادی امکان پذیر است تماس جواب گو هستم درصورت جواب ندادن به ادرس ما مراجعه کنید ساعت کاری ۱۰ صبح تا ۹ شب",
             "is_primary": true
           }
         }
@@ -151,30 +151,41 @@
             "items": [
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BinZcotBPA76GYNLMJL48Q/a14ada32-6ea7-4607-ad9b-5c589256992e.webp"
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/41a573a6-32cd-409e-a64f-24b83d94907a.jpg",
+                  "alt": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت|قطعات یدکی و لوازم جانبی|کرمان, |دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/4/41a573a6-32cd-409e-a64f-24b83d94907a/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AaKfN7ML",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/4/41a573a6-32cd-409e-a64f-24b83d94907a/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت",
+                  "upload_date": "2025-09-18T12:23:55.953008Z"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mjKHxpadl2W3F9-vjxbEg/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q5XwHkvCYaVTTNClOUF-Kw/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/D5F9f9V62J4NCyYpw3NMGA/2e5bed8a-62a6-42de-a561-354be6fcb0bd.webp",
+                  "alt": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/A1ZXG4MhghffKOkSCCrKPQ/2e5bed8a-62a6-42de-a561-354be6fcb0bd.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxZBzaUvYRckKyMYZk52Cg/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9qRo4DXoKUWCOIk6G-dRgA/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp"
-                }
-              },
-              {
-                "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DHPyIF3Ij7aUGoRJIvdiew/2a086c67-9dad-448e-908f-001e26a69f18.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ItYL_7aM-1KeX-65RMAMoQ/2a086c67-9dad-448e-908f-001e26a69f18.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bI4we4UqY5pUY3w5ysKa8g/6f1fb520-95ac-42e1-9a4c-00557b452c17.webp",
+                  "alt": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/L9lSnf3ZzsyjM5rgIttSaA/6f1fb520-95ac-42e1-9a4c-00557b452c17.webp"
                 }
               }
             ],
@@ -198,7 +209,7 @@
           "data": {
             "@type": "type.googleapis.com/widgets.UnexpandableRowData",
             "title": "قیمت",
-            "value": "‏۱۰،۰۰۰ تومان",
+            "value": "‏۱،۰۰۰،۰۰۰ تومان",
             "has_divider": true
           }
         },
@@ -210,7 +221,7 @@
             "grpc_request_path": "/addons.Addons/GetLazyAddons",
             "request_data": {
               "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
-              "token": "AaPjsw2e",
+              "token": "AaKfN7ML",
               "source": "POST_APPROVED",
               "category": "parts-accessories",
               "city_id": 13
@@ -252,25 +263,13 @@
                   }
                 },
                 {
-                  "text": "چراغ خودرو",
+                  "text": "روکش صندلی",
                   "type": "ACTION",
                   "action": {
                     "type": "OPEN_WEB_PAGE",
                     "payload": {
                       "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/چراغ-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
-                },
-                {
-                  "text": "کمک فنر",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/کمک-فنر-خودرو",
+                      "link": "https://divar.ir/s/kerman/list/صندلی-و-روکش-صندلی-خودرو",
                       "page_type": "SAME_PAGE"
                     }
                   }
@@ -291,18 +290,18 @@
             "location": {
               "exact_data": {
                 "point": {
-                  "latitude": 30.2862277,
-                  "longitude": 57.096546
+                  "latitude": 30.279222018243,
+                  "longitude": 57.098431259706
                 }
               }
             },
-            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNTa4KYYXtPuQpnwpL91V_9LatQhwwG4OSbgPxQ8WeTgIA=="
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXALCDoklUNPuQokcaES3V_9LQ5z3x1DyFMFpZY7WhEm5DA=="
           },
           "action_log": {
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.MapInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AaKfN7ML"
               },
               "item_type": {
                 "type": "MAP"
@@ -322,7 +321,7 @@
             "@type": "type.googleapis.com/widgets.NoteData",
             "title": "یادداشت من",
             "button_title": "ویرایش یادداشت",
-            "post_token": "AaPjsw2e"
+            "post_token": "AaKfN7ML"
           }
         }
       ]
@@ -348,7 +347,7 @@
                 "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
                 "additional_data": {
                   "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
-                  "post_token": "AaPjsw2e"
+                  "post_token": "AaKfN7ML"
                 },
                 "is_modal": true,
                 "rest_request_path": "/v8/post-quality/feedback-v2",
@@ -367,40 +366,23 @@
           }
         }
       ]
-    },
-    {
-      "section_name": "BUSINESS_SECTION",
-      "widgets": [
-        {
-          "widget_type": "LAZY_SECTION",
-          "data": {
-            "@type": "type.googleapis.com/widgets.LazySectionData",
-            "rest_request_path": "/v8/premium-user/post-page/business-data/AaPjsw2e/lazy",
-            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
-            "request_data": {
-              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
-              "post_token": "AaPjsw2e"
-            }
-          }
-        }
-      ]
     }
   ],
   "share": {
-    "title": "تزییناتی ماشین کلاسیک کار",
-    "web_url": "https://divar.ir/v/AaPjsw2e"
+    "title": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت",
+    "web_url": "https://divar.ir/v/AaKfN7ML"
   },
   "seo": {
-    "title": "تزییناتی ماشین کلاسیک کار در کرمان",
-    "description": "آگهی تزییناتی ماشین کلاسیک کار در دیوار کرمان",
+    "title": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت در کرمان",
+    "description": "آگهی سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت در دیوار کرمان",
     "android_package_name": "ir.divar",
-    "android_app_url": "android-app://ir.divar/http/v/تزییناتی ماشین کلاسیک کار/AaPjsw2e/",
+    "android_app_url": "android-app://ir.divar/http/v/سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت/AaKfN7ML/",
     "web_info": {
-      "title": "تزییناتی ماشین کلاسیک کار",
+      "title": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت",
       "city_persian": "کرمان",
       "category_slug_persian": "قطعات یدکی و لوازم جانبی"
     },
-    "unavailable_after": "2025-10-22T13:15:26.719091",
+    "unavailable_after": "2025-10-19T15:53:55.952532",
     "bread_crumb": [
       {
         "name": "قطعات یدکی و لوازم جانبی",
@@ -472,23 +454,23 @@
     ],
     "post_seo_schema": {
       "@context": "https://schema.org",
-      "url": "https://divar.ir/v/تزییناتی-ماشین-کلاسیک-کار/AaPjsw2e",
-      "name": "تزییناتی ماشین کلاسیک کار",
-      "description": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
-      "@type": "Product",
-      "web_info": {
-        "title": "تزییناتی ماشین کلاسیک کار",
-        "city_persian": "کرمان",
-        "district_persian": "",
-        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
-      },
-      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
+      "url": "https://divar.ir/v/سیستم-مانیتور-روکش-شیشه-دودی-کفپوش-اقساط-بلندمدت/AaKfN7ML",
+      "description": "سیستم صوتی مانیتور روکش صندلی دزدگیر شیشه دودی کف پوش هدلایت زنون دزدگیر وسایر وسایل تزیینی وصوتی اقساط بلند مدت در اسپرت داداشی برای اطلاعات از اقساط و شرایط فقط تماس یا به ادرس ما مراجعه کنید کرمان خیابان سرباز خیابان هفده شهریورسمت راست  سومین مغازه اسپرت داداشی تابلو مشکی زرد بزرگ شرایط اقساط شش ماه الی۲۴ ماه پخش عمده تمامی لوازم برای همکاران هم با چک صیادی امکان پذیر است تماس جواب گو هستم درصورت جواب ندادن به ادرس ما مراجعه کنید ساعت کاری ۱۰ صبح تا ۹ شب",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IRR",
-        "price": "10000"
+        "price": "1000000"
       },
-      "category": "parts-accessories"
+      "name": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت",
+      "category": "parts-accessories",
+      "@type": "Product",
+      "web_info": {
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "سیستم مانیتور روکش شیشه دودی  کفپوش اقساط بلندمدت",
+        "city_persian": "کرمان"
+      },
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/D5F9f9V62J4NCyYpw3NMGA/2e5bed8a-62a6-42de-a561-354be6fcb0bd.webp"
     }
   },
   "contact": {
@@ -497,9 +479,9 @@
       "server_side_info": {
         "info": {
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
-          "post_token": "AaPjsw2e",
+          "post_token": "AaKfN7ML",
           "method_name": "GetContactWeb",
-          "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74"
+          "contact_uuid": "1b89eeb9-1e7e-497e-b46e-09d037dff9b1"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -507,28 +489,27 @@
       },
       "enabled": true
     },
-    "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74",
-    "supplier_chat_assistant_enabled": true
+    "contact_uuid": "1b89eeb9-1e7e-497e-b46e-09d037dff9b1"
   },
   "webengage": {
-    "gender": "",
-    "originality": "",
-    "category": "parts-accessories",
-    "business_ref": "qGwkiGRz_MvSczBkz",
-    "rent": 0,
-    "cat_1": "vehicles",
-    "credit": 0,
-    "cat_3": "",
-    "token": "AaPjsw2e",
-    "business_type": "premium-panel",
-    "status": "",
+    "business_ref": "",
     "city": "kerman",
-    "price": 10000,
+    "brand_model": "",
+    "cat_3": "",
+    "rent": 0,
+    "credit": 0,
+    "cat_1": "vehicles",
+    "gender": "",
+    "token": "AaKfN7ML",
     "cat_2": "parts-accessories",
+    "status": "",
+    "price": 1000000,
     "district": "",
-    "image_count": 4,
+    "originality": "",
     "source_view": "",
-    "brand_model": ""
+    "category": "parts-accessories",
+    "business_type": "personal",
+    "image_count": 2
   },
   "analytics": {
     "cat1": "vehicles",

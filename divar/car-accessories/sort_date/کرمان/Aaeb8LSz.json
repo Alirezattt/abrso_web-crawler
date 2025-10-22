@@ -1,0 +1,585 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "چراغ 206،،باربندپارس وتعداد لوازم پراید،",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "چراغ 206،،باربندپارس وتعداد لوازم پراید،",
+            "subtitle": "۱ هفته پیش در کرمان",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aaeb8LSz"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "چراغ جلو وعقب 206،فابریک کارخانه +لامپ ها کامل قیمت 2700میلیون تومان، علت فروش، چراغ اسپرت گرفتم\n\nقفل فرمان پدالی قیمت 500هزار تومان \n\nلنت پراید نونو قیمت 400هزار تومان \nترموستات پژو نونو قیمت 170هزار تومان \nاینه پراید یکی نونو یکیش شکسته قیمت دوتا 170هزار تومان \nباربند پژو پارس سالم قیمت 450هزار تومان \n\nژنت پراید نونو قیمت 200هزار تومان \nبلبرینگ چرخ جلو پراید مدل پایین دوتا نونو قیمت 120هزار تومان \nپره فن پژو پیچی نونو قیمت 100هزار تومان \n\nموتور کولر 4500، یه اتصالی داره سر وته نونو قیمت 800هزار تومان",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/h7keH2iARmxZVEed6ZMdBQ/e5b68fa5-5a02-4d87-b909-6905c4ca24be.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_kS8RNf1SOBkX_Rj03QpPw/e5b68fa5-5a02-4d87-b909-6905c4ca24be.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hLBhXlDxX1yGlBvZqS_OCQ/6068b583-395b-4a84-b98a-4c2f0c0588aa.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/GdHvmy8PE6GhruorQHy4oQ/6068b583-395b-4a84-b98a-4c2f0c0588aa.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/IABH60D76gJTIrSDAxK6zQ/24f334d1-86ea-4614-9e8a-8761de7801cc.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XGRe_UYEVy5DSWw5u9XC2Q/24f334d1-86ea-4614-9e8a-8761de7801cc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Cuh2sJkXv2ClCysoyepmbA/b1d2859c-b9aa-47ed-95d4-232aa7dc0b12.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UusAlH-6heCnPESqHD-mhw/b1d2859c-b9aa-47ed-95d4-232aa7dc0b12.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/CXxwL4udbWhlNWzOJafMxA/8c67c6f4-3eee-4819-ad24-65a4a084ed44.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qRxYsn12j-4szeT0oqUiaA/8c67c6f4-3eee-4819-ad24-65a4a084ed44.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/wTMHYr6WcF3KUFbqW8AHmA/811dc10f-6d36-4bbf-a7d4-240bb8a463e0.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qzQ85gP6mobdSwg7c7PqIw/811dc10f-6d36-4bbf-a7d4-240bb8a463e0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/unMwZ6VFCGQ1TM1iQk7uyA/af62df13-f457-4724-8cac-bc2b91888a00.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tAF1T-lhLgrqGud-Yu8GJw/af62df13-f457-4724-8cac-bc2b91888a00.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/xDvT4jywF-8NiCbCxJojDQ/44167660-999c-452b-9854-38a44d9f3616.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0CF6_9WxlUNDgGnKIjMdXQ/44167660-999c-452b-9854-38a44d9f3616.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1FQ33EhF9NwtNemrBcrb9Q/72d0b5a6-893e-49f1-b101-45f3781d6708.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ie-OnghCG25-dC3KkI8URg/72d0b5a6-893e-49f1-b101-45f3781d6708.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/35hdel7BX2cR2fpf54NA6w/1bc82261-35ea-4fd4-9321-40e6fc318dea.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/lnMFhfWZSEWsW7DXSvEzHA/1bc82261-35ea-4fd4-9321-40e6fc318dea.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/UXOLA50F9cHpVAdCJt2qTQ/31b78477-e3a9-4d91-ba93-6c6e9af56d75.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KqCazKlnh9HjYMQk7pZ7zw/31b78477-e3a9-4d91-ba93-6c6e9af56d75.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/aNo0LL6K1Y2eQvE0A6evhQ/2615dd88-bac8-416e-aa90-fc8aabab4793.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/AGdfDFJsboa21lZXCHPuRQ/2615dd88-bac8-416e-aa90-fc8aabab4793.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Qu1x1Gr_a0z6FLierw37oA/b0ed4681-a22f-4597-a529-1695595cb42d.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Bz7LP9ysjl-UOP7MwLpLLA/b0ed4681-a22f-4597-a529-1695595cb42d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/kONwH-cQKDsl3YkDWq2zwA/e1cfd943-4c44-471a-8f36-c659fbb79ef1.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/rXFfC1L4gsOiG1m4-kw8HA/e1cfd943-4c44-471a-8f36-c659fbb79ef1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxDhHrU-dMAHISx3bHA-Ig/10e84eee-ef5c-4fd7-b3a1-8b86fe48f246.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/niOcDzTIqG4vciaZA2ejBw/10e84eee-ef5c-4fd7-b3a1-8b86fe48f246.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JJQzzNvpMPqj3RCxbGLCog/1090b919-cb65-42a1-afd3-31cbad769aed.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/d7ZqWi4u4jC5X1PeNhP2yg/1090b919-cb65-42a1-afd3-31cbad769aed.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/O60125xJG4-AWCTZ3NiUcA/c193957d-e556-4fba-90be-212587b320ba.webp",
+                  "alt": "چراغ 206،،باربندپارس وتعداد لوازم پراید،|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DRWHXJLV3ZJrvDiXu07Krg/c193957d-e556-4fba-90be-212587b320ba.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۲۷،۰۰۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aaeb8LSz",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 13
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "بلبرینگ",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/kerman/list/بلبیرینگ-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "لنت",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/kerman/list/لنت-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aaeb8LSz"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aaeb8LSz"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "چراغ 206،،باربندپارس وتعداد لوازم پراید،",
+    "web_url": "https://divar.ir/v/Aaeb8LSz"
+  },
+  "seo": {
+    "title": "چراغ 206،،باربندپارس وتعداد لوازم پراید، در کرمان",
+    "description": "آگهی چراغ 206،،باربندپارس وتعداد لوازم پراید، در دیوار کرمان",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/چراغ 206،،باربندپارس وتعداد لوازم پراید،/Aaeb8LSz/",
+    "web_info": {
+      "title": "چراغ 206،،باربندپارس وتعداد لوازم پراید،",
+      "city_persian": "کرمان",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-02T22:07:16.729014",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "13",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "name": "چراغ 206،،باربندپارس وتعداد لوازم پراید،",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "27000000"
+      },
+      "@type": "Product",
+      "web_info": {
+        "title": "چراغ 206،،باربندپارس وتعداد لوازم پراید،",
+        "city_persian": "کرمان",
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+      },
+      "description": "چراغ جلو وعقب 206،فابریک کارخانه +لامپ ها کامل قیمت 2700میلیون تومان، علت فروش، چراغ اسپرت گرفتم\n\nقفل فرمان پدالی قیمت 500هزار تومان \n\nلنت پراید نونو قیمت 400هزار تومان \nترموستات پژو نونو قیمت 170هزار تومان \nاینه پراید یکی نونو یکیش شکسته قیمت دوتا 170هزار تومان \nباربند پژو پارس سالم قیمت 450هزار تومان \n\nژنت پراید نونو قیمت 200هزار تومان \nبلبرینگ چرخ جلو پراید مدل پایین دوتا نونو قیمت 120هزار تومان \nپره فن پژو پیچی نونو قیمت 100هزار تومان \n\nموتور کولر 4500، یه اتصالی داره سر وته نونو قیمت 800هزار تومان",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/h7keH2iARmxZVEed6ZMdBQ/e5b68fa5-5a02-4d87-b909-6905c4ca24be.webp",
+      "url": "https://divar.ir/v/چراغ-206-باربندپارس-وتعداد-لوازم-پراید-/Aaeb8LSz"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aaeb8LSz",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "e14fcf09-cef6-4add-95e0-bb52f05e652c"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "e14fcf09-cef6-4add-95e0-bb52f05e652c"
+  },
+  "webengage": {
+    "rent": 0,
+    "city": "kerman",
+    "business_type": "personal",
+    "credit": 0,
+    "token": "Aaeb8LSz",
+    "business_ref": "",
+    "status": "",
+    "originality": "",
+    "district": "",
+    "brand_model": "",
+    "category": "parts-accessories",
+    "price": 27000000,
+    "gender": "",
+    "cat_3": "",
+    "source_view": "",
+    "cat_2": "parts-accessories",
+    "cat_1": "vehicles",
+    "image_count": 17
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "kerman"
+  },
+  "city": {
+    "city_id": "13",
+    "name": "کرمان",
+    "parent_id": "877",
+    "second_slug": "kerman"
+  }
+}

@@ -53,7 +53,7 @@
                 }
               }
             ],
-            "current_page_title": "تزییناتی ماشین کلاسیک کار",
+            "current_page_title": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی",
             "padded": true
           }
         }
@@ -66,8 +66,8 @@
           "widget_type": "LEGEND_TITLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.LegendTitleRowData",
-            "title": "تزییناتی ماشین کلاسیک کار",
-            "subtitle": "۳ هفته پیش در کرمان",
+            "title": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی",
+            "subtitle": "۵ روز پیش در کرمان",
             "high_level_heading": true
           }
         },
@@ -108,7 +108,7 @@
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.PostWarningInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AaqXBKV_"
               },
               "item_type": {
                 "type": "POST_WARNING"
@@ -135,7 +135,7 @@
           "widget_type": "DESCRIPTION_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.DescriptionRowData",
-            "text": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
+            "text": "✅️تعمیر انواع قفل (کتابی.اویز.حیاطی و...)\n✅️ساخت انواع کلید های ضدسرقت و کددار\n✅️تعمیر قفل مرکزی خودرو و شیشه بالابر \n✅️ساخت کلید گاوصندوقی و سولکسی \n✅️نصب ردیاب و دزدگیر .نصب سویچ مخفی \n✅️ضد سرقت انواع خودرو\n✅️بازکردن انواع قفل و درب ماشین های ایرانی و خارجی \n✅️تعریف انواع ریموت درب پارکینگ .مغازه و انواع دزدگیر های خودرو \n@kled_saleh \n    آدرس.شهرک مطهری خیابان هجرت بین کوچه ۲و۴ .کلید سازی صالح",
             "is_primary": true
           }
         }
@@ -151,30 +151,97 @@
             "items": [
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BinZcotBPA76GYNLMJL48Q/a14ada32-6ea7-4607-ad9b-5c589256992e.webp"
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/efacc954-ae6b-4f4d-beaa-1034c5647ea0.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار"
+                },
+                "video_url": "https://video1.divarcdn.com/static/videos/post/e/efacc954-ae6b-4f4d-beaa-1034c5647ea0/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AaqXBKV_",
+                      "video_url": "https://video1.divarcdn.com/static/videos/post/e/efacc954-ae6b-4f4d-beaa-1034c5647ea0/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی",
+                  "upload_date": "2025-10-11T08:30:54.471521Z"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mjKHxpadl2W3F9-vjxbEg/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q5XwHkvCYaVTTNClOUF-Kw/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/YSKbhlIKlnOJVLtSjBRhXw/447c373e-ecc0-4606-897c-3cb98e2c5548.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SBfhC3qMtqw-Vf2I5d2L1A/447c373e-ecc0-4606-897c-3cb98e2c5548.jpg.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxZBzaUvYRckKyMYZk52Cg/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9qRo4DXoKUWCOIk6G-dRgA/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/w-e9kYcgbv_BGrprufebjg/84e84de2-a2a7-4773-bbba-d6f00f15083b.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/HEHyLdO_NZBDd5a4qA6Ejg/84e84de2-a2a7-4773-bbba-d6f00f15083b.jpg.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DHPyIF3Ij7aUGoRJIvdiew/2a086c67-9dad-448e-908f-001e26a69f18.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ItYL_7aM-1KeX-65RMAMoQ/2a086c67-9dad-448e-908f-001e26a69f18.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/hFooODV1mWi6Ah_z6cJAQw/657d62d7-93df-42c2-81a0-a8c328182fe4.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/EDfLslIlE8AS6l1RPSffWA/657d62d7-93df-42c2-81a0-a8c328182fe4.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/GteE0ju4WRS8Pbd3WvtgQQ/9b87ee83-0acb-4597-b080-25ec71d7e446.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jWUHjOhVUHLhujM4HDpUzQ/9b87ee83-0acb-4597-b080-25ec71d7e446.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/XSmU8LCECqywQ_aiwKPppw/5a163674-5717-404b-8a5d-06a02b66d08e.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/93NvYwDs7SxC9UDbTG3czw/5a163674-5717-404b-8a5d-06a02b66d08e.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/_XD91eht71chshbUKQBwhg/ea539701-0aad-4619-98b4-a429be955e00.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/LlgyRX8OXafWbYP0zm4YeA/ea539701-0aad-4619-98b4-a429be955e00.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/qrS-RkcuHRMOlwLzfMHwJA/bb962dd1-a576-45d8-a2fa-96f2d52759ff.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Ap7v3G7LLnDDFkJWTSrHjw/bb962dd1-a576-45d8-a2fa-96f2d52759ff.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/dYCsTfyd6py8E6tuyRsVxQ/214bf15b-e26a-4f24-b17b-a5fc4578a20f.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/dLNqtliqTHa9jX4wiVjZnw/214bf15b-e26a-4f24-b17b-a5fc4578a20f.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/XNWzDWrHQEbRvvGDNdQIeA/97c4fde5-6abc-45e6-ab9e-7f82d3e4d938.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/P2bl8NAfj6Azoy82vevLdg/97c4fde5-6abc-45e6-ab9e-7f82d3e4d938.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/g3u7aRsAwLW1bc3uK1_Ezw/51f92fb6-3cbd-48ba-b09c-e218907e8244.jpg.jpg",
+                  "alt": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/aJv7mdHa7WmdR7Zci7NTUQ/51f92fb6-3cbd-48ba-b09c-e218907e8244.jpg.webp"
                 }
               }
             ],
@@ -198,7 +265,7 @@
           "data": {
             "@type": "type.googleapis.com/widgets.UnexpandableRowData",
             "title": "قیمت",
-            "value": "‏۱۰،۰۰۰ تومان",
+            "value": "‏۹۹،۰۰۰ تومان",
             "has_divider": true
           }
         },
@@ -210,7 +277,7 @@
             "grpc_request_path": "/addons.Addons/GetLazyAddons",
             "request_data": {
               "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
-              "token": "AaPjsw2e",
+              "token": "AaqXBKV_",
               "source": "POST_APPROVED",
               "category": "parts-accessories",
               "city_id": 13
@@ -252,25 +319,25 @@
                   }
                 },
                 {
-                  "text": "چراغ خودرو",
+                  "text": "درب خودرو",
                   "type": "ACTION",
                   "action": {
                     "type": "OPEN_WEB_PAGE",
                     "payload": {
                       "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/چراغ-خودرو",
+                      "link": "https://divar.ir/s/kerman/list/درب-انواع-خودرو",
                       "page_type": "SAME_PAGE"
                     }
                   }
                 },
                 {
-                  "text": "کمک فنر",
+                  "text": "دزدگیر خودرو",
                   "type": "ACTION",
                   "action": {
                     "type": "OPEN_WEB_PAGE",
                     "payload": {
                       "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/کمک-فنر-خودرو",
+                      "link": "https://divar.ir/s/kerman/list/دزدگیر-خودرو",
                       "page_type": "SAME_PAGE"
                     }
                   }
@@ -291,18 +358,18 @@
             "location": {
               "exact_data": {
                 "point": {
-                  "latitude": 30.2862277,
-                  "longitude": 57.096546
+                  "latitude": 30.261929339343,
+                  "longitude": 57.040589790792
                 }
               }
             },
-            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNTa4KYYXtPuQpnwpL91V_9LatQhwwG4OSbgPxQ8WeTgIA=="
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXBE4CFxTVNPuQl638CocXv9LEW7RNTlvvrQm9VgrTgrY6g=="
           },
           "action_log": {
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.MapInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AaqXBKV_"
               },
               "item_type": {
                 "type": "MAP"
@@ -322,7 +389,7 @@
             "@type": "type.googleapis.com/widgets.NoteData",
             "title": "یادداشت من",
             "button_title": "ویرایش یادداشت",
-            "post_token": "AaPjsw2e"
+            "post_token": "AaqXBKV_"
           }
         }
       ]
@@ -348,7 +415,7 @@
                 "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
                 "additional_data": {
                   "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
-                  "post_token": "AaPjsw2e"
+                  "post_token": "AaqXBKV_"
                 },
                 "is_modal": true,
                 "rest_request_path": "/v8/post-quality/feedback-v2",
@@ -375,11 +442,11 @@
           "widget_type": "LAZY_SECTION",
           "data": {
             "@type": "type.googleapis.com/widgets.LazySectionData",
-            "rest_request_path": "/v8/premium-user/post-page/business-data/AaPjsw2e/lazy",
+            "rest_request_path": "/v8/premium-user/post-page/business-data/AaqXBKV_/lazy",
             "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
             "request_data": {
               "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
-              "post_token": "AaPjsw2e"
+              "post_token": "AaqXBKV_"
             }
           }
         }
@@ -387,20 +454,20 @@
     }
   ],
   "share": {
-    "title": "تزییناتی ماشین کلاسیک کار",
-    "web_url": "https://divar.ir/v/AaPjsw2e"
+    "title": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی",
+    "web_url": "https://divar.ir/v/AaqXBKV_"
   },
   "seo": {
-    "title": "تزییناتی ماشین کلاسیک کار در کرمان",
-    "description": "آگهی تزییناتی ماشین کلاسیک کار در دیوار کرمان",
+    "title": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی در کرمان",
+    "description": "آگهی قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی در دیوار کرمان",
     "android_package_name": "ir.divar",
-    "android_app_url": "android-app://ir.divar/http/v/تزییناتی ماشین کلاسیک کار/AaPjsw2e/",
+    "android_app_url": "android-app://ir.divar/http/v/قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی/AaqXBKV_/",
     "web_info": {
-      "title": "تزییناتی ماشین کلاسیک کار",
+      "title": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی",
       "city_persian": "کرمان",
       "category_slug_persian": "قطعات یدکی و لوازم جانبی"
     },
-    "unavailable_after": "2025-10-22T13:15:26.719091",
+    "unavailable_after": "2025-11-11T12:00:54.471946",
     "bread_crumb": [
       {
         "name": "قطعات یدکی و لوازم جانبی",
@@ -428,16 +495,16 @@
         "search_data": {
           "form_data": {
             "data": {
-              "category": {
-                "str": {
-                  "value": "vehicles"
-                }
-              },
               "districts": {
                 "repeated_string": {
                   "value": [
                     "0"
                   ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
                 }
               }
             }
@@ -471,24 +538,24 @@
       }
     ],
     "post_seo_schema": {
-      "@context": "https://schema.org",
-      "url": "https://divar.ir/v/تزییناتی-ماشین-کلاسیک-کار/AaPjsw2e",
-      "name": "تزییناتی ماشین کلاسیک کار",
-      "description": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
       "@type": "Product",
+      "description": "✅️تعمیر انواع قفل (کتابی.اویز.حیاطی و...)\n✅️ساخت انواع کلید های ضدسرقت و کددار\n✅️تعمیر قفل مرکزی خودرو و شیشه بالابر \n✅️ساخت کلید گاوصندوقی و سولکسی \n✅️نصب ردیاب و دزدگیر .نصب سویچ مخفی \n✅️ضد سرقت انواع خودرو\n✅️بازکردن انواع قفل و درب ماشین های ایرانی و خارجی \n✅️تعریف انواع ریموت درب پارکینگ .مغازه و انواع دزدگیر های خودرو \n@kled_saleh \n    آدرس.شهرک مطهری خیابان هجرت بین کوچه ۲و۴ .کلید سازی صالح",
+      "name": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی",
+      "image": "https://s100.divarcdn.com/static/photo/neda/post/YSKbhlIKlnOJVLtSjBRhXw/447c373e-ecc0-4606-897c-3cb98e2c5548.jpg.jpg",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "99000"
+      },
+      "url": "https://divar.ir/v/قفل-و-کلید-سازی-صالح-دزدگیر-ردیاب-قفل-مرکزی/AaqXBKV_",
       "web_info": {
-        "title": "تزییناتی ماشین کلاسیک کار",
+        "title": "قفل و کلید سازی صالح.دزدگیر.ردیاب.قفل مرکزی",
         "city_persian": "کرمان",
         "district_persian": "",
         "category_slug_persian": "قطعات یدکی و لوازم جانبی"
       },
-      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "IRR",
-        "price": "10000"
-      },
-      "category": "parts-accessories"
+      "category": "parts-accessories",
+      "@context": "https://schema.org"
     }
   },
   "contact": {
@@ -497,9 +564,9 @@
       "server_side_info": {
         "info": {
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
-          "post_token": "AaPjsw2e",
+          "post_token": "AaqXBKV_",
           "method_name": "GetContactWeb",
-          "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74"
+          "contact_uuid": "5fc9b35c-536e-4fcc-a0bf-f32a5ffb39cb"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -507,28 +574,27 @@
       },
       "enabled": true
     },
-    "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74",
-    "supplier_chat_assistant_enabled": true
+    "contact_uuid": "5fc9b35c-536e-4fcc-a0bf-f32a5ffb39cb"
   },
   "webengage": {
-    "gender": "",
-    "originality": "",
-    "category": "parts-accessories",
-    "business_ref": "qGwkiGRz_MvSczBkz",
-    "rent": 0,
-    "cat_1": "vehicles",
-    "credit": 0,
-    "cat_3": "",
-    "token": "AaPjsw2e",
-    "business_type": "premium-panel",
-    "status": "",
-    "city": "kerman",
-    "price": 10000,
-    "cat_2": "parts-accessories",
-    "district": "",
-    "image_count": 4,
     "source_view": "",
-    "brand_model": ""
+    "cat_2": "parts-accessories",
+    "gender": "",
+    "token": "AaqXBKV_",
+    "business_ref": "PftQvXFd_cMBdrerR",
+    "price": 99000,
+    "cat_3": "",
+    "category": "parts-accessories",
+    "district": "",
+    "brand_model": "",
+    "image_count": 10,
+    "cat_1": "vehicles",
+    "city": "kerman",
+    "originality": "",
+    "business_type": "premium-panel",
+    "credit": 0,
+    "rent": 0,
+    "status": ""
   },
   "analytics": {
     "cat1": "vehicles",

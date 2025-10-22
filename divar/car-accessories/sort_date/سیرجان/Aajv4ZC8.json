@@ -53,7 +53,7 @@
                 }
               }
             ],
-            "current_page_title": "تزییناتی ماشین کلاسیک کار",
+            "current_page_title": "سیست و لوازم اسپورت ماشین",
             "padded": true
           }
         }
@@ -66,8 +66,8 @@
           "widget_type": "LEGEND_TITLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.LegendTitleRowData",
-            "title": "تزییناتی ماشین کلاسیک کار",
-            "subtitle": "۳ هفته پیش در کرمان",
+            "title": "سیست و لوازم اسپورت ماشین",
+            "subtitle": "۱ هفته پیش در سیرجان",
             "high_level_heading": true
           }
         },
@@ -108,7 +108,7 @@
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.PostWarningInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "Aajv4ZC8"
               },
               "item_type": {
                 "type": "POST_WARNING"
@@ -135,7 +135,7 @@
           "widget_type": "DESCRIPTION_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.DescriptionRowData",
-            "text": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
+            "text": "با سلام.\nمقداری لوازم سیستم صوتی شامل میدرنج و فول رنج و ساب و باند و دزدگیر و دوربین ثبت وقایع و دوربین دنده عقب و....\nو تعدادی هدلایت برند زوکو کره ای\nو مقداری مصالح شیشه دودی\n\nو یک عدد ویترین شیشه ای و دوعدد ویترین  ام دی اف و تابلو مغازه\n\nبه قیمت خرید فاکتور تهران به دلیل تغییر شغل به فروش میرسد.\nتعداد محدود است و یکجاهم به صورت اقساطی با چک صیادی به همکار داده میشود.",
             "is_primary": true
           }
         }
@@ -151,30 +151,51 @@
             "items": [
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BinZcotBPA76GYNLMJL48Q/a14ada32-6ea7-4607-ad9b-5c589256992e.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/k2CEpeT2FDxqoNcYSNphbw/9b7c0746-5ad9-4398-9363-6c8045965d3e.webp",
+                  "alt": "سیست و لوازم اسپورت ماشین|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jFQEQT0M5lguoRpn2qoXhg/9b7c0746-5ad9-4398-9363-6c8045965d3e.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mjKHxpadl2W3F9-vjxbEg/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q5XwHkvCYaVTTNClOUF-Kw/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/O_LaIo1Ckd3wpRfLDDENeQ/56dbcb49-7e7b-4a22-8c6a-cfd9a8acb498.webp",
+                  "alt": "سیست و لوازم اسپورت ماشین|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/qogbU8cYxVdu5OoqQExI5A/56dbcb49-7e7b-4a22-8c6a-cfd9a8acb498.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxZBzaUvYRckKyMYZk52Cg/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9qRo4DXoKUWCOIk6G-dRgA/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/8yzJIiWiZRwwyjAYbKUM1Q/5609185d-9b4d-4e40-9b96-7612ae933c2e.webp",
+                  "alt": "سیست و لوازم اسپورت ماشین|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/H0TJw8NP9ulYiRJCE5TBeA/5609185d-9b4d-4e40-9b96-7612ae933c2e.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DHPyIF3Ij7aUGoRJIvdiew/2a086c67-9dad-448e-908f-001e26a69f18.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ItYL_7aM-1KeX-65RMAMoQ/2a086c67-9dad-448e-908f-001e26a69f18.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/f7DhRwZGuTPK2XH7URiohg/75b7b02e-0392-4cf8-a2f5-4a40e74c9a48.webp",
+                  "alt": "سیست و لوازم اسپورت ماشین|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RKVtFh-WE9999iBZ_Dl0hg/75b7b02e-0392-4cf8-a2f5-4a40e74c9a48.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XufijTb_CclnaQvJPSOKmQ/e2780e42-dedd-4055-af6b-11b795b8042d.webp",
+                  "alt": "سیست و لوازم اسپورت ماشین|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RyMV_rDC2wvBw0xXOXoM9A/e2780e42-dedd-4055-af6b-11b795b8042d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/jO0o5AIRxEfQfiM8cVUZsQ/87bcb556-5829-409b-87f4-cd7c46c86be1.webp",
+                  "alt": "سیست و لوازم اسپورت ماشین|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/TClSY3ZO72nnMLzS-NmcUg/87bcb556-5829-409b-87f4-cd7c46c86be1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/M2_YqrPda3_-UnM9bzd1gw/a106ed8a-1948-49fb-96f4-e5be0218190a.webp",
+                  "alt": "سیست و لوازم اسپورت ماشین|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0JbHVICXkAQ5xcOyf_tYiQ/a106ed8a-1948-49fb-96f4-e5be0218190a.webp"
                 }
               }
             ],
@@ -198,7 +219,7 @@
           "data": {
             "@type": "type.googleapis.com/widgets.UnexpandableRowData",
             "title": "قیمت",
-            "value": "‏۱۰،۰۰۰ تومان",
+            "value": "‏۶،۰۰۰،۰۰۰ تومان",
             "has_divider": true
           }
         },
@@ -210,10 +231,10 @@
             "grpc_request_path": "/addons.Addons/GetLazyAddons",
             "request_data": {
               "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
-              "token": "AaPjsw2e",
+              "token": "Aajv4ZC8",
               "source": "POST_APPROVED",
               "category": "parts-accessories",
-              "city_id": 13
+              "city_id": 818
             }
           }
         }
@@ -250,65 +271,9 @@
                       "source_view_str": "CATEGORY_BREAD_CRUMB"
                     }
                   }
-                },
-                {
-                  "text": "چراغ خودرو",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/چراغ-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
-                },
-                {
-                  "text": "کمک فنر",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/کمک-فنر-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
                 }
               ]
             }
-          }
-        }
-      ]
-    },
-    {
-      "section_name": "MAP",
-      "widgets": [
-        {
-          "widget_type": "MAP_ROW",
-          "data": {
-            "@type": "type.googleapis.com/widgets.MapRowData",
-            "location": {
-              "exact_data": {
-                "point": {
-                  "latitude": 30.2862277,
-                  "longitude": 57.096546
-                }
-              }
-            },
-            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNTa4KYYXtPuQpnwpL91V_9LatQhwwG4OSbgPxQ8WeTgIA=="
-          },
-          "action_log": {
-            "server_side_info": {
-              "info": {
-                "@type": "type.googleapis.com/action_log.MapInfo",
-                "post_token": "AaPjsw2e"
-              },
-              "item_type": {
-                "type": "MAP"
-              }
-            },
-            "enabled": true
           }
         }
       ]
@@ -322,7 +287,7 @@
             "@type": "type.googleapis.com/widgets.NoteData",
             "title": "یادداشت من",
             "button_title": "ویرایش یادداشت",
-            "post_token": "AaPjsw2e"
+            "post_token": "Aajv4ZC8"
           }
         }
       ]
@@ -348,7 +313,7 @@
                 "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
                 "additional_data": {
                   "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
-                  "post_token": "AaPjsw2e"
+                  "post_token": "Aajv4ZC8"
                 },
                 "is_modal": true,
                 "rest_request_path": "/v8/post-quality/feedback-v2",
@@ -367,40 +332,23 @@
           }
         }
       ]
-    },
-    {
-      "section_name": "BUSINESS_SECTION",
-      "widgets": [
-        {
-          "widget_type": "LAZY_SECTION",
-          "data": {
-            "@type": "type.googleapis.com/widgets.LazySectionData",
-            "rest_request_path": "/v8/premium-user/post-page/business-data/AaPjsw2e/lazy",
-            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
-            "request_data": {
-              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
-              "post_token": "AaPjsw2e"
-            }
-          }
-        }
-      ]
     }
   ],
   "share": {
-    "title": "تزییناتی ماشین کلاسیک کار",
-    "web_url": "https://divar.ir/v/AaPjsw2e"
+    "title": "سیست و لوازم اسپورت ماشین",
+    "web_url": "https://divar.ir/v/Aajv4ZC8"
   },
   "seo": {
-    "title": "تزییناتی ماشین کلاسیک کار در کرمان",
-    "description": "آگهی تزییناتی ماشین کلاسیک کار در دیوار کرمان",
+    "title": "سیست و لوازم اسپورت ماشین در سیرجان",
+    "description": "آگهی سیست و لوازم اسپورت ماشین در دیوار سیرجان",
     "android_package_name": "ir.divar",
-    "android_app_url": "android-app://ir.divar/http/v/تزییناتی ماشین کلاسیک کار/AaPjsw2e/",
+    "android_app_url": "android-app://ir.divar/http/v/سیست و لوازم اسپورت ماشین/Aajv4ZC8/",
     "web_info": {
-      "title": "تزییناتی ماشین کلاسیک کار",
-      "city_persian": "کرمان",
+      "title": "سیست و لوازم اسپورت ماشین",
+      "city_persian": "سیرجان",
       "category_slug_persian": "قطعات یدکی و لوازم جانبی"
     },
-    "unavailable_after": "2025-10-22T13:15:26.719091",
+    "unavailable_after": "2025-11-06T13:24:07.988014",
     "bread_crumb": [
       {
         "name": "قطعات یدکی و لوازم جانبی",
@@ -461,7 +409,7 @@
         }
       },
       {
-        "name": "13",
+        "name": "818",
         "search_data": {
           "form_data": {}
         }
@@ -471,24 +419,24 @@
       }
     ],
     "post_seo_schema": {
-      "@context": "https://schema.org",
-      "url": "https://divar.ir/v/تزییناتی-ماشین-کلاسیک-کار/AaPjsw2e",
-      "name": "تزییناتی ماشین کلاسیک کار",
-      "description": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
-      "@type": "Product",
+      "category": "parts-accessories",
       "web_info": {
-        "title": "تزییناتی ماشین کلاسیک کار",
-        "city_persian": "کرمان",
         "district_persian": "",
-        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "سیست و لوازم اسپورت ماشین",
+        "city_persian": "سیرجان"
       },
-      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
+      "@type": "Product",
+      "url": "https://divar.ir/v/سیست-و-لوازم-اسپورت-ماشین/Aajv4ZC8",
+      "name": "سیست و لوازم اسپورت ماشین",
+      "description": "با سلام.\nمقداری لوازم سیستم صوتی شامل میدرنج و فول رنج و ساب و باند و دزدگیر و دوربین ثبت وقایع و دوربین دنده عقب و....\nو تعدادی هدلایت برند زوکو کره ای\nو مقداری مصالح شیشه دودی\n\nو یک عدد ویترین شیشه ای و دوعدد ویترین  ام دی اف و تابلو مغازه\n\nبه قیمت خرید فاکتور تهران به دلیل تغییر شغل به فروش میرسد.\nتعداد محدود است و یکجاهم به صورت اقساطی با چک صیادی به همکار داده میشود.",
       "offers": {
+        "price": "6000000",
         "@type": "Offer",
-        "priceCurrency": "IRR",
-        "price": "10000"
+        "priceCurrency": "IRR"
       },
-      "category": "parts-accessories"
+      "@context": "https://schema.org",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/k2CEpeT2FDxqoNcYSNphbw/9b7c0746-5ad9-4398-9363-6c8045965d3e.webp"
     }
   },
   "contact": {
@@ -497,9 +445,9 @@
       "server_side_info": {
         "info": {
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
-          "post_token": "AaPjsw2e",
+          "post_token": "Aajv4ZC8",
           "method_name": "GetContactWeb",
-          "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74"
+          "contact_uuid": "a32aed99-e27c-4632-ae07-7307aebd86f1"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -507,38 +455,37 @@
       },
       "enabled": true
     },
-    "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74",
-    "supplier_chat_assistant_enabled": true
+    "contact_uuid": "a32aed99-e27c-4632-ae07-7307aebd86f1"
   },
   "webengage": {
-    "gender": "",
-    "originality": "",
-    "category": "parts-accessories",
-    "business_ref": "qGwkiGRz_MvSczBkz",
-    "rent": 0,
-    "cat_1": "vehicles",
+    "brand_model": "",
     "credit": 0,
-    "cat_3": "",
-    "token": "AaPjsw2e",
-    "business_type": "premium-panel",
-    "status": "",
-    "city": "kerman",
-    "price": 10000,
-    "cat_2": "parts-accessories",
-    "district": "",
-    "image_count": 4,
     "source_view": "",
-    "brand_model": ""
+    "business_type": "personal",
+    "token": "Aajv4ZC8",
+    "image_count": 7,
+    "gender": "",
+    "business_ref": "",
+    "rent": 0,
+    "cat_3": "",
+    "district": "",
+    "city": "sirjan",
+    "cat_1": "vehicles",
+    "originality": "",
+    "price": 6000000,
+    "status": "",
+    "cat_2": "parts-accessories",
+    "category": "parts-accessories"
   },
   "analytics": {
     "cat1": "vehicles",
     "cat2": "parts-accessories",
-    "city": "kerman"
+    "city": "sirjan"
   },
   "city": {
-    "city_id": "13",
-    "name": "کرمان",
+    "city_id": "818",
+    "name": "سیرجان",
     "parent_id": "877",
-    "second_slug": "kerman"
+    "second_slug": "sirjan"
   }
 }

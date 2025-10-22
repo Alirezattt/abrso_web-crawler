@@ -1,0 +1,589 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+            "subtitle": "۲ روز پیش در سیرجان",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaujBWJx"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⛔️ قبل از خرید محصولا سیمکارتل حتما مدل آن را از سایت simcartell استعلام نمایید. شرکت سیمکارتل هیچ گونه زیر مجموعه ای ندارد.⛔️\n\n✅شرکت سیمکارتل اولین و بزرگترین تولید کننده  تخصصی دزدگیر و ردیاب با 300 نمایندگی ✅\n\n⭐ ⭐ ویژگیهای نرم افزاری⭐ ⭐ \n\n⭕ تماس و پیامک در صورت باز شدن غیر مجاز دربها\n⭕ ردیابی آنلاین و آفلاین\n⭕ نرم افزار سخنگو\n⭕ باز و بست کردن دربها\n⭕ صندوق پران\n⭕ هشدار قطع باطری خودرو\n⭕ نمایش میزان شارژ سیم کارت ردیاب\n⭕ گزارش مسیرهای پیموده شده\n⭕ گزارش محل پارک خودرو\n⭕ سرعت خودرو\n⭕ روشن کردن چراغها خودرو\n⭕ هشدار حمل با جرثقیل\n⭕ میزان مصرف سوخت\n⭕ هشدار ضعیف شدن باطری خودرو\n⭕ ارسال موقعیت در تایم 5 ثانیه\n⭕ سرور داخلی قدرتمند\n⭕ هشدار ضربه\n⭕ خاموش کردن خودرو \n⭕ صدای داخل کابین\n⭕ سرقت باطری\n⭕ تغییر رمز پنل\n⭕ اپلیکیشن اندروید وios\n⭕ گارانتی معتبر\n⭕ پشتیبانی قوی\n\n⭐ ⭐ ویژگیهای سخت افزاری⭐ ⭐ \n\n⭕ ولتاژ کاری6 تا 60 ولت\n⭕ باطری پشتیبان\n⭕ 2ماژوله برند sim com\n⭕ دسته سیم ها استاندارد (عدم انتشار شعله)\n⭕ قطع کن برق(رله)\n⭕ تشخیص سوییچ ACC\n⭕ خروجی قفل مرکزی\n\n ✴️نماینده رسمی سیمکارتل (غیب زاده) ✴️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/447b2b8b-7b4f-416a-88d9-e3609427d525.jpg",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/4/447b2b8b-7b4f-416a-88d9-e3609427d525/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AaujBWJx",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/4/447b2b8b-7b4f-416a-88d9-e3609427d525/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل",
+                  "upload_date": "2025-10-14T09:32:01.183876Z"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/jjdvdNJfthxK-mfnyf80Zw/1f14d718-cdd7-4b86-adfb-ede49e9b3d06.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iY-CaK_wwH8TkPlSxBwGaQ/1f14d718-cdd7-4b86-adfb-ede49e9b3d06.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/njaQzdCnPU0MuEUDaTIwEg/04d90aec-cb7b-4bfa-945f-7aa64ea2faa2.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/APcSndhzd61H1zmpTn-ShQ/04d90aec-cb7b-4bfa-945f-7aa64ea2faa2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1_TF6-I462dCf2khXxd7Fw/3762034f-867b-4bc9-ba16-02106ce6fec8.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/OQLNeu-UVRnT2VxRnNrVDA/3762034f-867b-4bc9-ba16-02106ce6fec8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Y8JZKKekzfq-PIVGJ4AsAA/db29f6aa-72df-4e79-a4ec-56887bbe125b.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/POQgOcRXqrs1aswxcZmajw/db29f6aa-72df-4e79-a4ec-56887bbe125b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/knM6FYYz19pDqUSxccu6kw/8b9cbd1c-5b07-4f64-b02f-fc187ff8559c.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/xSGEGr_UZf9lxdkTBxcppw/8b9cbd1c-5b07-4f64-b02f-fc187ff8559c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/W49CqhNjVTl9ErLzXvg2nw/7c829a5c-83cb-45ff-8fc0-9313bbd0f24d.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oyYHPhdbnALMEQBbdOek5w/7c829a5c-83cb-45ff-8fc0-9313bbd0f24d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/T2uJFxK7m6Gw806JYYRBTA/3bccbdee-b058-40a7-9bec-09a0a0fb8ef2.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/CgsliJfZ9wYjjg37J3Jppw/3bccbdee-b058-40a7-9bec-09a0a0fb8ef2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/E5VkJ-akGjaHZjno9UIm0g/2eca6f46-8ee8-4e97-85f0-23beab19de46.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QI032XfN_ohVIENG918oaA/2eca6f46-8ee8-4e97-85f0-23beab19de46.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/1S-vEotCDFppWCaL4HTWbg/9637649b-91b3-47ad-bdf1-698866673c6b.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sXCMdzLhWa9hwZpsKWV3lA/9637649b-91b3-47ad-bdf1-698866673c6b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/puBPPs3-FqIn_8LqRytmxQ/0c431824-ca59-4983-b999-18eef8ce9e98.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/iX8YUrYUzQyrRhtQFMFKpA/0c431824-ca59-4983-b999-18eef8ce9e98.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2-VRL9cLjrDKSEjcKvsDLg/bfd3284d-e60c-44ec-870e-8f5196fb4285.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oU3JNHd5iIs5PIkqr-5rDQ/bfd3284d-e60c-44ec-870e-8f5196fb4285.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/cQmp4KbqMpXSoqg3xyog_w/f9f900c5-0df4-47c2-8229-62209b5f44b2.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/s62KRVsqIIeVYuNWAiHpOg/f9f900c5-0df4-47c2-8229-62209b5f44b2.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/aTQiqVffNc_D12k0zwWF8g/8feb2974-4b1d-48d5-81df-98d50777204c.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/6niDcEjvrLyONNCazy58oQ/8feb2974-4b1d-48d5-81df-98d50777204c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/7F_uZGHVzvSKzqWJHr0_aQ/79c7d913-95a2-4ed9-bc72-bb374290ae9c.webp",
+                  "alt": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل|قطعات یدکی و لوازم جانبی|سیرجان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YJ4S2-4dvAm_BWDNFeaUWQ/79c7d913-95a2-4ed9-bc72-bb374290ae9c.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۵۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaujBWJx",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 818
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "درب خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/sirjan/list/درب-انواع-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                },
+                {
+                  "text": "دزدگیر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/sirjan/list/دزدگیر-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaujBWJx"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaujBWJx"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل",
+    "web_url": "https://divar.ir/v/AaujBWJx"
+  },
+  "seo": {
+    "title": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل در سیرجان",
+    "description": "آگهی ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل در دیوار سیرجان",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل/AaujBWJx/",
+    "web_info": {
+      "title": "ردیاب_gps_جی پی اس_دزدگیر_سیمکارتل",
+      "city_persian": "سیرجان",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-14T13:02:01.184231",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "818",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/jjdvdNJfthxK-mfnyf80Zw/1f14d718-cdd7-4b86-adfb-ede49e9b3d06.webp",
+      "@type": "Product",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "50000",
+        "@type": "Offer"
+      },
+      "@context": "https://schema.org",
+      "url": "https://divar.ir/v/ردیاب-gps-جی-پی-اس-دزدگیر-سیمکارتل/AaujBWJx",
+      "name": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+      "category": "parts-accessories",
+      "web_info": {
+        "district_persian": "",
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ردیاب/gps/جی پی اس/دزدگیر/سیمکارتل",
+        "city_persian": "سیرجان"
+      },
+      "description": "⛔️ قبل از خرید محصولا سیمکارتل حتما مدل آن را از سایت simcartell استعلام نمایید. شرکت سیمکارتل هیچ گونه زیر مجموعه ای ندارد.⛔️\n\n✅شرکت سیمکارتل اولین و بزرگترین تولید کننده  تخصصی دزدگیر و ردیاب با 300 نمایندگی ✅\n\n⭐ ⭐ ویژگیهای نرم افزاری⭐ ⭐ \n\n⭕ تماس و پیامک در صورت باز شدن غیر مجاز دربها\n⭕ ردیابی آنلاین و آفلاین\n⭕ نرم افزار سخنگو\n⭕ باز و بست کردن دربها\n⭕ صندوق پران\n⭕ هشدار قطع باطری خودرو\n⭕ نمایش میزان شارژ سیم کارت ردیاب\n⭕ گزارش مسیرهای پیموده شده\n⭕ گزارش محل پارک خودرو\n⭕ سرعت خودرو\n⭕ روشن کردن چراغها خودرو\n⭕ هشدار حمل با جرثقیل\n⭕ میزان مصرف سوخت\n⭕ هشدار ضعیف شدن باطری خودرو\n⭕ ارسال موقعیت در تایم 5 ثانیه\n⭕ سرور داخلی قدرتمند\n⭕ هشدار ضربه\n⭕ خاموش کردن خودرو \n⭕ صدای داخل کابین\n⭕ سرقت باطری\n⭕ تغییر رمز پنل\n⭕ اپلیکیشن اندروید وios\n⭕ گارانتی معتبر\n⭕ پشتیبانی قوی\n\n⭐ ⭐ ویژگیهای سخت افزاری⭐ ⭐ \n\n⭕ ولتاژ کاری6 تا 60 ولت\n⭕ باطری پشتیبان\n⭕ 2ماژوله برند sim com\n⭕ دسته سیم ها استاندارد (عدم انتشار شعله)\n⭕ قطع کن برق(رله)\n⭕ تشخیص سوییچ ACC\n⭕ خروجی قفل مرکزی\n\n ✴️نماینده رسمی سیمکارتل (غیب زاده) ✴️"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaujBWJx",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "ab417a63-7331-413d-b34b-3e77052dc405"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "ab417a63-7331-413d-b34b-3e77052dc405"
+  },
+  "webengage": {
+    "credit": 0,
+    "status": "",
+    "token": "AaujBWJx",
+    "cat_1": "vehicles",
+    "originality": "",
+    "district": "",
+    "business_type": "personal",
+    "price": 50000,
+    "city": "sirjan",
+    "rent": 0,
+    "image_count": 14,
+    "source_view": "",
+    "business_ref": "",
+    "gender": "",
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "category": "parts-accessories",
+    "brand_model": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "sirjan"
+  },
+  "city": {
+    "city_id": "818",
+    "name": "سیرجان",
+    "parent_id": "877",
+    "second_slug": "sirjan"
+  }
+}

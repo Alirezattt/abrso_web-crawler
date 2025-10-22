@@ -53,7 +53,7 @@
                 }
               }
             ],
-            "current_page_title": "تزییناتی ماشین کلاسیک کار",
+            "current_page_title": "فروش اقساطی کلیه لوازم تزیینات سیستم",
             "padded": true
           }
         }
@@ -66,8 +66,8 @@
           "widget_type": "LEGEND_TITLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.LegendTitleRowData",
-            "title": "تزییناتی ماشین کلاسیک کار",
-            "subtitle": "۳ هفته پیش در کرمان",
+            "title": "فروش اقساطی کلیه لوازم تزیینات سیستم",
+            "subtitle": "۱ هفته پیش در کرمان",
             "high_level_heading": true
           }
         },
@@ -108,7 +108,7 @@
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.PostWarningInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AayJT7cO"
               },
               "item_type": {
                 "type": "POST_WARNING"
@@ -135,7 +135,7 @@
           "widget_type": "DESCRIPTION_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.DescriptionRowData",
-            "text": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
+            "text": "با سلام خدمت همشهریان عزیز و گرامی  \nفروشگاه بزرگ حرفه ای ها در نظر دارد با شرایط جدید و باور نکردنی اقدام به فروش محصولات خود بنماید \nاجناس فروشگاه شامل\nمانیتور اندروید \nروکش صندلی ماشین \nانواع باند میدرنج فول رنج سوپر تیوتر و...\nکفپوش یک تیکه \nکفپوش سه بعدی \nکفپوش پنج بعدی \nردیاب gps\nبلوری و چراغ جلو انواع ماشین ایرانی \nچراغ خطر اسپرت انواع ماشین ایرانی \nهدلایت و زنون و انواع لامپ لیمویی \nگارد و رکاب برای انواع ماشین ایرانی و خارجی \nفرمان اسپرت و فرمان فابریک \nانواع خوشبو کننده و جا کلیدی \nرم ایر و کیت مکش و فیلتر هوا\nدفیوزر عقب و جلو \nلیپ سپر عقب و جلو \nشیشه دودی معمولی و آنتی یووی\nروکش عرق گیر \nدوربین دنده عقب و 360\nانواع منبع اگزوز \nو سایر لوازم اسپرت برای خودروی شما \nبرای اینکه در این شرایط اقتصادی توان خرید کردن شما بالاتر باشه فروش بصورت اقساطی و چک ثبتی هم برای شما فراهم کرده ایم \nآدرس فروشگاه کرمان خیابان هفده شهریور بین کوچه48و50 چسبیده به بانک رفاه تزیینات ماشین حرفه ای ها ایمان دریایی \nتا ساعت 21هر شب پاسخگوی تماس شما عزیزان میباشم",
             "is_primary": true
           }
         }
@@ -151,30 +151,97 @@
             "items": [
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BinZcotBPA76GYNLMJL48Q/a14ada32-6ea7-4607-ad9b-5c589256992e.webp"
+                  "url": "https://s100.divarcdn.com/static/videos/thumbnails/thumbnail/33632a34-8d82-44f2-b76f-768115ac1121.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار"
+                },
+                "video_url": "https://video3.divarcdn.com/static/videos/post/3/33632a34-8d82-44f2-b76f-768115ac1121/video.mp4",
+                "action_log": {
+                  "server_side_info": {
+                    "info": {
+                      "@type": "type.googleapis.com/action_log.PostVideoInfo",
+                      "post_token": "AayJT7cO",
+                      "video_url": "https://video3.divarcdn.com/static/videos/post/3/33632a34-8d82-44f2-b76f-768115ac1121/video.mp4",
+                      "index_in_slider": 1
+                    },
+                    "item_type": {
+                      "type": "POST_VIDEO"
+                    }
+                  },
+                  "enabled": true
+                },
+                "seo": {
+                  "name": "فروش اقساطی کلیه لوازم تزیینات سیستم",
+                  "upload_date": "2025-07-12T10:03:57.958230Z"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mjKHxpadl2W3F9-vjxbEg/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q5XwHkvCYaVTTNClOUF-Kw/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ZCACuqMsM95iW1C9WvCkgg/fcb5640b-f876-4a5a-b45b-afbd23a7042a.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/GQ8Zm1anliv1_6_I07ZsQw/fcb5640b-f876-4a5a-b45b-afbd23a7042a.jpg.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxZBzaUvYRckKyMYZk52Cg/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9qRo4DXoKUWCOIk6G-dRgA/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/3xa2sEAsOOf-2l86s1up6w/2fa5134b-7aed-4ff2-9094-4e9efcfbab62.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/B31TDa3Zwciod4C5mlejfg/2fa5134b-7aed-4ff2-9094-4e9efcfbab62.jpg.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DHPyIF3Ij7aUGoRJIvdiew/2a086c67-9dad-448e-908f-001e26a69f18.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ItYL_7aM-1KeX-65RMAMoQ/2a086c67-9dad-448e-908f-001e26a69f18.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/u9-xcTzlZa0OE9dYw-nrsw/05a72bfc-3bde-4e8d-ae5e-0ec2ab85c8d5.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/Mh6_bp4uAOvu5oC5GUtPLA/05a72bfc-3bde-4e8d-ae5e-0ec2ab85c8d5.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/ZzrjzXTqEawPqfTKFXLcHA/4588f00f-ddda-460f-8dde-df91fbddb128.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/6B7gmFCETG5Y45We2AE7wA/4588f00f-ddda-460f-8dde-df91fbddb128.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/Fx9sj009AXIORiXjQmMb2w/ab7e8873-bc88-4c79-b842-151a377437ee.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/iDU6G2vErzlCHOnaGHXtMg/ab7e8873-bc88-4c79-b842-151a377437ee.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/afra/post/YTAKpf3zwDcLOZO-MWRA_w/f8291992-9ebd-42c9-a2a3-fab49abb24bf.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/afra/webp_thumbnail/ymzFAUGwTNzW5jy_M2uYpw/f8291992-9ebd-42c9-a2a3-fab49abb24bf.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/gJLm9WNIk5zjT_adxS6cCw/29a7ecd8-820b-4329-9f43-8cc577a12ef9.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/REJHj3TUVr9B8CWMCkbD_w/29a7ecd8-820b-4329-9f43-8cc577a12ef9.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/XCA-vwpJHscqy9DfEtUVAA/3a5a320c-e9e2-4020-b6a8-1c1d824970b1.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/fwMJE2uFxqHV94BZAbyN7A/3a5a320c-e9e2-4020-b6a8-1c1d824970b1.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/-UeOu1KBjmNZ7Jj8LzW_cg/b37d018b-7e45-4b25-85b3-2f1bf881ce17.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/RVARk3ug3HsZPaUJiKaf5A/b37d018b-7e45-4b25-85b3-2f1bf881ce17.jpg.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/post/PANXEIMqHmNnweQfLhyfjA/be410ac0-3a7b-4931-9621-87283129f25e.jpg.jpg",
+                  "alt": "فروش اقساطی کلیه لوازم تزیینات سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uzPEZH22lmPpH8ripODI_Q/be410ac0-3a7b-4931-9621-87283129f25e.jpg.webp"
                 }
               }
             ],
@@ -198,7 +265,7 @@
           "data": {
             "@type": "type.googleapis.com/widgets.UnexpandableRowData",
             "title": "قیمت",
-            "value": "‏۱۰،۰۰۰ تومان",
+            "value": "‏۶۵۰،۰۰۰ تومان",
             "has_divider": true
           }
         },
@@ -210,7 +277,7 @@
             "grpc_request_path": "/addons.Addons/GetLazyAddons",
             "request_data": {
               "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
-              "token": "AaPjsw2e",
+              "token": "AayJT7cO",
               "source": "POST_APPROVED",
               "category": "parts-accessories",
               "city_id": 13
@@ -252,25 +319,25 @@
                   }
                 },
                 {
-                  "text": "چراغ خودرو",
+                  "text": "اگزوز",
                   "type": "ACTION",
                   "action": {
                     "type": "OPEN_WEB_PAGE",
                     "payload": {
                       "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/چراغ-خودرو",
+                      "link": "https://divar.ir/s/kerman/list/اگزوز-و-منبع-اگزوز",
                       "page_type": "SAME_PAGE"
                     }
                   }
                 },
                 {
-                  "text": "کمک فنر",
+                  "text": "بال عقب خودرو",
                   "type": "ACTION",
                   "action": {
                     "type": "OPEN_WEB_PAGE",
                     "payload": {
                       "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/کمک-فنر-خودرو",
+                      "link": "https://divar.ir/s/kerman/list/بال-عقب-خودرو",
                       "page_type": "SAME_PAGE"
                     }
                   }
@@ -291,18 +358,18 @@
             "location": {
               "exact_data": {
                 "point": {
-                  "latitude": 30.2862277,
-                  "longitude": 57.096546
+                  "latitude": 30.280239834277,
+                  "longitude": 57.098141603868
                 }
               }
             },
-            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNTa4KYYXtPuQpnwpL91V_9LatQhwwG4OSbgPxQ8WeTgIA=="
+            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNQuKV3jUNPuQoLJWcahV_9L3PPuc4MSZK1Aj360wn8Tbw=="
           },
           "action_log": {
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.MapInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "AayJT7cO"
               },
               "item_type": {
                 "type": "MAP"
@@ -322,7 +389,7 @@
             "@type": "type.googleapis.com/widgets.NoteData",
             "title": "یادداشت من",
             "button_title": "ویرایش یادداشت",
-            "post_token": "AaPjsw2e"
+            "post_token": "AayJT7cO"
           }
         }
       ]
@@ -348,7 +415,7 @@
                 "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
                 "additional_data": {
                   "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
-                  "post_token": "AaPjsw2e"
+                  "post_token": "AayJT7cO"
                 },
                 "is_modal": true,
                 "rest_request_path": "/v8/post-quality/feedback-v2",
@@ -367,40 +434,23 @@
           }
         }
       ]
-    },
-    {
-      "section_name": "BUSINESS_SECTION",
-      "widgets": [
-        {
-          "widget_type": "LAZY_SECTION",
-          "data": {
-            "@type": "type.googleapis.com/widgets.LazySectionData",
-            "rest_request_path": "/v8/premium-user/post-page/business-data/AaPjsw2e/lazy",
-            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
-            "request_data": {
-              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
-              "post_token": "AaPjsw2e"
-            }
-          }
-        }
-      ]
     }
   ],
   "share": {
-    "title": "تزییناتی ماشین کلاسیک کار",
-    "web_url": "https://divar.ir/v/AaPjsw2e"
+    "title": "فروش اقساطی کلیه لوازم تزیینات سیستم",
+    "web_url": "https://divar.ir/v/AayJT7cO"
   },
   "seo": {
-    "title": "تزییناتی ماشین کلاسیک کار در کرمان",
-    "description": "آگهی تزییناتی ماشین کلاسیک کار در دیوار کرمان",
+    "title": "فروش اقساطی کلیه لوازم تزیینات سیستم در کرمان",
+    "description": "آگهی فروش اقساطی کلیه لوازم تزیینات سیستم در دیوار کرمان",
     "android_package_name": "ir.divar",
-    "android_app_url": "android-app://ir.divar/http/v/تزییناتی ماشین کلاسیک کار/AaPjsw2e/",
+    "android_app_url": "android-app://ir.divar/http/v/فروش اقساطی کلیه لوازم تزیینات سیستم/AayJT7cO/",
     "web_info": {
-      "title": "تزییناتی ماشین کلاسیک کار",
+      "title": "فروش اقساطی کلیه لوازم تزیینات سیستم",
       "city_persian": "کرمان",
       "category_slug_persian": "قطعات یدکی و لوازم جانبی"
     },
-    "unavailable_after": "2025-10-22T13:15:26.719091",
+    "unavailable_after": "2025-11-10T13:33:57.957642",
     "bread_crumb": [
       {
         "name": "قطعات یدکی و لوازم جانبی",
@@ -471,24 +521,24 @@
       }
     ],
     "post_seo_schema": {
-      "@context": "https://schema.org",
-      "url": "https://divar.ir/v/تزییناتی-ماشین-کلاسیک-کار/AaPjsw2e",
-      "name": "تزییناتی ماشین کلاسیک کار",
-      "description": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
-      "@type": "Product",
-      "web_info": {
-        "title": "تزییناتی ماشین کلاسیک کار",
-        "city_persian": "کرمان",
-        "district_persian": "",
-        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
-      },
-      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
+      "image": "https://s100.divarcdn.com/static/photo/afra/post/ZCACuqMsM95iW1C9WvCkgg/fcb5640b-f876-4a5a-b45b-afbd23a7042a.jpg.jpg",
       "offers": {
+        "price": "650000",
         "@type": "Offer",
-        "priceCurrency": "IRR",
-        "price": "10000"
+        "priceCurrency": "IRR"
       },
-      "category": "parts-accessories"
+      "url": "https://divar.ir/v/فروش-اقساطی-کلیه-لوازم-تزیینات-سیستم/AayJT7cO",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "فروش اقساطی کلیه لوازم تزیینات سیستم",
+        "city_persian": "کرمان",
+        "district_persian": ""
+      },
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "category": "parts-accessories",
+      "name": "فروش اقساطی کلیه لوازم تزیینات سیستم",
+      "description": "با سلام خدمت همشهریان عزیز و گرامی  \nفروشگاه بزرگ حرفه ای ها در نظر دارد با شرایط جدید و باور نکردنی اقدام به فروش محصولات خود بنماید \nاجناس فروشگاه شامل\nمانیتور اندروید \nروکش صندلی ماشین \nانواع باند میدرنج فول رنج سوپر تیوتر و...\nکفپوش یک تیکه \nکفپوش سه بعدی \nکفپوش پنج بعدی \nردیاب gps\nبلوری و چراغ جلو انواع ماشین ایرانی \nچراغ خطر اسپرت انواع ماشین ایرانی \nهدلایت و زنون و انواع لامپ لیمویی \nگارد و رکاب برای انواع ماشین ایرانی و خارجی \nفرمان اسپرت و فرمان فابریک \nانواع خوشبو کننده و جا کلیدی \nرم ایر و کیت مکش و فیلتر هوا\nدفیوزر عقب و جلو \nلیپ سپر عقب و جلو \nشیشه دودی معمولی و آنتی یووی\nروکش عرق گیر \nدوربین دنده عقب و 360\nانواع منبع اگزوز \nو سایر لوازم اسپرت برای خودروی شما \nبرای اینکه در این شرایط اقتصادی توان خرید کردن شما بالاتر باشه فروش بصورت اقساطی و چک ثبتی هم برای شما فراهم کرده ایم \nآدرس فروشگاه کرمان خیابان هفده شهریور بین کوچه48و50 چسبیده به بانک رفاه تزیینات ماشین حرفه ای ها ایمان دریایی \nتا ساعت 21هر شب پاسخگوی تماس شما عزیزان میباشم"
     }
   },
   "contact": {
@@ -497,9 +547,9 @@
       "server_side_info": {
         "info": {
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
-          "post_token": "AaPjsw2e",
+          "post_token": "AayJT7cO",
           "method_name": "GetContactWeb",
-          "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74"
+          "contact_uuid": "3a99a488-c92f-4729-a047-f61728685bee"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -507,28 +557,27 @@
       },
       "enabled": true
     },
-    "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74",
-    "supplier_chat_assistant_enabled": true
+    "contact_uuid": "3a99a488-c92f-4729-a047-f61728685bee"
   },
   "webengage": {
-    "gender": "",
-    "originality": "",
-    "category": "parts-accessories",
-    "business_ref": "qGwkiGRz_MvSczBkz",
     "rent": 0,
-    "cat_1": "vehicles",
-    "credit": 0,
+    "source_view": "",
+    "business_type": "personal",
+    "brand_model": "",
+    "image_count": 10,
+    "token": "AayJT7cO",
+    "originality": "",
+    "gender": "",
     "cat_3": "",
-    "token": "AaPjsw2e",
-    "business_type": "premium-panel",
-    "status": "",
-    "city": "kerman",
-    "price": 10000,
+    "credit": 0,
     "cat_2": "parts-accessories",
     "district": "",
-    "image_count": 4,
-    "source_view": "",
-    "brand_model": ""
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "status": "",
+    "price": 650000,
+    "city": "kerman",
+    "business_ref": ""
   },
   "analytics": {
     "cat1": "vehicles",

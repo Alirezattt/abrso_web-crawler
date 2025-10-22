@@ -68,11 +68,32 @@ for i in common :
     for j in separate :
         combinations.append(f"{i} {j}")
 
+import requests
+def find_phonenumber(token="wZzK82uW", uuid="a72bcf2d-e79e-4682-ad9a-847b1f46bb57"):
+    url = f"https://api.divar.ir/v8/postcontact/web/contact_info_v2/{token}"
+    headers = {
+
+        "Authorization": "Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiI0NGYyNmM3Ni05NmM3LTRkNTktYmQyZi1lYjdiNzEwNzZjODEiLCJ1aWQiOiJmMjY5NTg5NC0xYjQ0LTQxOTAtOTJkMi04NDUzNDY1N2FiODYiLCJ1c2VyIjoiMDkwMjQ2MzY1NjUiLCJ2ZXJpZmllZF90aW1lIjoxNzYwNTkwMTU5LCJpc3MiOiJhdXRoIiwidXNlci10eXBlIjoicGVyc29uYWwiLCJ1c2VyLXR5cGUtZmEiOiLZvtmG2YQg2LTYrti124wiLCJleHAiOjE3NjMxODIxNTksImlhdCI6MTc2MDU5MDE1OX0.YOTqNvwn0F2PT7Fkfl0ElX0onbMQkhfap5_gN8tgD-E",
+    }
+    payload = {
+        "contact_uuid": uuid
+    }
+    response = requests.post(url, headers=headers, json=payload)
+
+    # #print(response.text)
+    # if response.status_code == 200:
+    #     data = response.json()
+    #     #print(data)
+    #     return data["widget_list"][0]["data"]["action"]["payload"]["phone_number"]
+    # else:
+    #     return None
+    return response
 
 
 
 city_id = 877
 for i in combinations :
+    city_id = 877
     while non_200_count < max_non_200:
         print(f"Processing city_id: {city_id}")
         
@@ -95,7 +116,7 @@ for i in combinations :
             payload["pagination_data"]["last_post_date"] = last_post_date  # update dynamically
             
             try:
-                response = requests.post(url, headers=headers, data=json.dumps(payload), proxies=proxies)
+                response = requests.post(url, headers=headers, data=json.dumps(payload))
                 print(f"  Status Code: {response.status_code}")
                 
                 if response.status_code == 200:
@@ -155,13 +176,45 @@ for i in combinations :
                                 save_dir = district_dir
                             
                             detail_url = detail_url_template.format(token=token)
-                            detail_response = requests.get(detail_url, headers=headers, proxies=proxies)
+                            detail_response = requests.get(detail_url, headers=headers)
+                            time.sleep(random.uniform(1, 4))
+                            phonenumber_response = find_phonenumber(token=token, uuid=detail_response.json()["contact"]["contact_uuid"])
                             
-                            if detail_response.status_code == 200:
+                            if detail_response.status_code == 200 and phonenumber_response.status_code == 200:
                                 detail_data = detail_response.json()
+                                phone_number = phonenumber_response.json()["widget_list"][0]["data"]["action"]["payload"]["phone_number"],
+                                save_data = ["دیوار",
+                                             i,
+                                             phone_number,
+                                             detail_data["seo"]["post_seo_schema"]["name"],
+                                             detail_data["city"]["parent_id"],
+                                             city_name,
+                                             detail_data["seo"]["post_seo_schema"]["web_info"]["category_slug_persian"],
+                                             detail_data["seo"]["post_seo_schema"]["description"],
+                                             detail_data["seo"]["post_seo_schema"]["url"],
+                                             ]
+                                
+                                import csv
+                                csv_path = "document.csv"
+
+                                header = [
+                                    "Platform",
+                                    "Index",
+                                    "Phone",
+                                    "Name",
+                                    "ParentCityID",
+                                    "CityName",
+                                    "CategorySlugPersian",
+                                    "Description",
+                                    "URL",
+                                ]
+                                with open(csv_path, 'a', newline='', encoding="utf-8") as csvfile:
+                                    writer = csv.writer(csvfile)
+                                    writer.writerow(save_data)
+                                    
                                 filename = os.path.join(save_dir, f"{token}.json")
                                 with open(filename, "w", encoding="utf-8") as f:
-                                    json.dump(detail_data, f, ensure_ascii=False, indent=2)
+                                    json.dump({**detail_data,**{"phone_number" :  phone_number}}, f, ensure_ascii=False, indent=2)
                                 print(f" page: {page}, Saved detailed data for token: {token}")
                             else:
                                 print(f"  Failed to get detailed data for token: {token}, status: {detail_response.status_code}")

@@ -53,7 +53,7 @@
                 }
               }
             ],
-            "current_page_title": "تزییناتی ماشین کلاسیک کار",
+            "current_page_title": "قلیون(و وسایل ماشین)",
             "padded": true
           }
         }
@@ -66,8 +66,8 @@
           "widget_type": "LEGEND_TITLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.LegendTitleRowData",
-            "title": "تزییناتی ماشین کلاسیک کار",
-            "subtitle": "۳ هفته پیش در کرمان",
+            "title": "قلیون(و وسایل ماشین)",
+            "subtitle": "۶ روز پیش در کرمان",
             "high_level_heading": true
           }
         },
@@ -108,7 +108,7 @@
             "server_side_info": {
               "info": {
                 "@type": "type.googleapis.com/action_log.PostWarningInfo",
-                "post_token": "AaPjsw2e"
+                "post_token": "Aannfgzl"
               },
               "item_type": {
                 "type": "POST_WARNING"
@@ -135,7 +135,7 @@
           "widget_type": "DESCRIPTION_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.DescriptionRowData",
-            "text": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
+            "text": "(یه جفت باند طرح میدرنج صدا فوق عالی با قیمت پایین750) \n(یه ظبط چهار کانال خوب تو عکس مشخصه همچی داره1150) \n(هدلایت نونو استفاده نشده نور عالی750) \n(قلیون چوب گردو قد یک مترو 60/70بزرگ اسطوره1200)\n(شیشه بالابر پراید سالمه400 و خطر عقب سمت راننده نو200) \n(سه عدد قالپاق پراید دونه ای 45) \n(ظبط فابریکی ماشین 450)\n(دوچرخه 16 خرج داره تیوپ ها نو 450)\nهرکی هرچی پسندش شد کمترم میدم گیر پولم",
             "is_primary": true
           }
         }
@@ -151,30 +151,65 @@
             "items": [
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BinZcotBPA76GYNLMJL48Q/a14ada32-6ea7-4607-ad9b-5c589256992e.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/u7w8Sktz5I_g2bnijzRc9A/4dc59dfd-a385-4afb-895c-02fa70f82dfb.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/l1hwG0A6AxOeYpK7OFW_4w/4dc59dfd-a385-4afb-895c-02fa70f82dfb.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/2mjKHxpadl2W3F9-vjxbEg/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Q5XwHkvCYaVTTNClOUF-Kw/a5fb3905-c49f-4165-a968-5a27dafa5f61.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/s0GanqRU15NQPHPnBjy2Kg/d3f1c376-a5cf-46f4-8aba-890fdb5cc4c9.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/r71SxKOSHxp3ZQmGSdNkDA/d3f1c376-a5cf-46f4-8aba-890fdb5cc4c9.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QxZBzaUvYRckKyMYZk52Cg/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/9qRo4DXoKUWCOIk6G-dRgA/49abdb12-3afa-4ee5-bc76-f77280bfc7cb.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/GIjWriIc0HDIxEwfipeXfA/42234fb6-e5de-45cb-8bf9-df03430d2673.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/7OXTDU2p5gOFvm7IJGalJw/42234fb6-e5de-45cb-8bf9-df03430d2673.webp"
                 }
               },
               {
                 "image": {
-                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DHPyIF3Ij7aUGoRJIvdiew/2a086c67-9dad-448e-908f-001e26a69f18.webp",
-                  "alt": "تزییناتی ماشین کلاسیک کار|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
-                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ItYL_7aM-1KeX-65RMAMoQ/2a086c67-9dad-448e-908f-001e26a69f18.webp"
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/PF0IpWmeKg3IJui1VZOjxg/d67bea26-5b5a-4505-8c75-23fb0e8626c5.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/zKHhRKUJcBokGx6gg0Xiwg/d67bea26-5b5a-4505-8c75-23fb0e8626c5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/hmEhQ--q2_uOfuUenN23lQ/8da10239-9a9a-4582-a0aa-826c9060ce33.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/4JdYzd8f4wjvJTUf_W66HQ/8da10239-9a9a-4582-a0aa-826c9060ce33.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/38WmgKufUPSiZpeWHdURLQ/b6638838-5aeb-40c4-a284-1fdca7b45af9.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/88WScrbiGwJjVE8l8ejE9g/b6638838-5aeb-40c4-a284-1fdca7b45af9.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/a7p88Ur1fa0lbTiKLOO47g/cdd41fda-ec85-481b-98bf-36302a9b57bc.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_Kpf7AqEfjbphjx3_dFAVA/cdd41fda-ec85-481b-98bf-36302a9b57bc.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/m8bZvWCF8R5rkP9v5m5mHg/426aeddb-e179-42a4-b760-3659eea8ff45.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/8wf1W8wDGNzRZsHA6RrgJg/426aeddb-e179-42a4-b760-3659eea8ff45.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Fo6XqP10IdgwfQcrikpKIA/6d7231aa-e064-483d-8564-b65adf31369c.webp",
+                  "alt": "قلیون(و وسایل ماشین)|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/bh4GufKp1OyA8OY5NJysqg/6d7231aa-e064-483d-8564-b65adf31369c.webp"
                 }
               }
             ],
@@ -197,8 +232,17 @@
           "widget_type": "UNEXPANDABLE_ROW",
           "data": {
             "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "مایل به معاوضه",
+            "value": "هستم",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
             "title": "قیمت",
-            "value": "‏۱۰،۰۰۰ تومان",
+            "value": "‏۱،۰۰۰ تومان",
             "has_divider": true
           }
         },
@@ -210,7 +254,7 @@
             "grpc_request_path": "/addons.Addons/GetLazyAddons",
             "request_data": {
               "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
-              "token": "AaPjsw2e",
+              "token": "Aannfgzl",
               "source": "POST_APPROVED",
               "category": "parts-accessories",
               "city_id": 13
@@ -250,65 +294,9 @@
                       "source_view_str": "CATEGORY_BREAD_CRUMB"
                     }
                   }
-                },
-                {
-                  "text": "چراغ خودرو",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/چراغ-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
-                },
-                {
-                  "text": "کمک فنر",
-                  "type": "ACTION",
-                  "action": {
-                    "type": "OPEN_WEB_PAGE",
-                    "payload": {
-                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
-                      "link": "https://divar.ir/s/kerman/list/کمک-فنر-خودرو",
-                      "page_type": "SAME_PAGE"
-                    }
-                  }
                 }
               ]
             }
-          }
-        }
-      ]
-    },
-    {
-      "section_name": "MAP",
-      "widgets": [
-        {
-          "widget_type": "MAP_ROW",
-          "data": {
-            "@type": "type.googleapis.com/widgets.MapRowData",
-            "location": {
-              "exact_data": {
-                "point": {
-                  "latitude": 30.2862277,
-                  "longitude": 57.096546
-                }
-              }
-            },
-            "image_url": "https://api.divar.ir/v8/mapimage?encrypted_data=MTIzNDU2Nzg5MTIzXNTa4KYYXtPuQpnwpL91V_9LatQhwwG4OSbgPxQ8WeTgIA=="
-          },
-          "action_log": {
-            "server_side_info": {
-              "info": {
-                "@type": "type.googleapis.com/action_log.MapInfo",
-                "post_token": "AaPjsw2e"
-              },
-              "item_type": {
-                "type": "MAP"
-              }
-            },
-            "enabled": true
           }
         }
       ]
@@ -322,7 +310,7 @@
             "@type": "type.googleapis.com/widgets.NoteData",
             "title": "یادداشت من",
             "button_title": "ویرایش یادداشت",
-            "post_token": "AaPjsw2e"
+            "post_token": "Aannfgzl"
           }
         }
       ]
@@ -348,7 +336,7 @@
                 "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
                 "additional_data": {
                   "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
-                  "post_token": "AaPjsw2e"
+                  "post_token": "Aannfgzl"
                 },
                 "is_modal": true,
                 "rest_request_path": "/v8/post-quality/feedback-v2",
@@ -367,40 +355,23 @@
           }
         }
       ]
-    },
-    {
-      "section_name": "BUSINESS_SECTION",
-      "widgets": [
-        {
-          "widget_type": "LAZY_SECTION",
-          "data": {
-            "@type": "type.googleapis.com/widgets.LazySectionData",
-            "rest_request_path": "/v8/premium-user/post-page/business-data/AaPjsw2e/lazy",
-            "grpc_request_path": "/premium_panel.PremiumPanel/GetPostBusinessLazyWidgets",
-            "request_data": {
-              "@type": "type.googleapis.com/premium_panel.GetPostBusinessLazyWidgetsRequest.RequestData",
-              "post_token": "AaPjsw2e"
-            }
-          }
-        }
-      ]
     }
   ],
   "share": {
-    "title": "تزییناتی ماشین کلاسیک کار",
-    "web_url": "https://divar.ir/v/AaPjsw2e"
+    "title": "قلیون(و وسایل ماشین)",
+    "web_url": "https://divar.ir/v/Aannfgzl"
   },
   "seo": {
-    "title": "تزییناتی ماشین کلاسیک کار در کرمان",
-    "description": "آگهی تزییناتی ماشین کلاسیک کار در دیوار کرمان",
+    "title": "قلیون(و وسایل ماشین) در کرمان",
+    "description": "آگهی قلیون(و وسایل ماشین) در دیوار کرمان",
     "android_package_name": "ir.divar",
-    "android_app_url": "android-app://ir.divar/http/v/تزییناتی ماشین کلاسیک کار/AaPjsw2e/",
+    "android_app_url": "android-app://ir.divar/http/v/قلیون(و وسایل ماشین)/Aannfgzl/",
     "web_info": {
-      "title": "تزییناتی ماشین کلاسیک کار",
+      "title": "قلیون(و وسایل ماشین)",
       "city_persian": "کرمان",
       "category_slug_persian": "قطعات یدکی و لوازم جانبی"
     },
-    "unavailable_after": "2025-10-22T13:15:26.719091",
+    "unavailable_after": "2025-11-09T21:37:32.709142",
     "bread_crumb": [
       {
         "name": "قطعات یدکی و لوازم جانبی",
@@ -428,16 +399,16 @@
         "search_data": {
           "form_data": {
             "data": {
-              "category": {
-                "str": {
-                  "value": "vehicles"
-                }
-              },
               "districts": {
                 "repeated_string": {
                   "value": [
                     "0"
                   ]
+                }
+              },
+              "category": {
+                "str": {
+                  "value": "vehicles"
                 }
               }
             }
@@ -471,24 +442,24 @@
       }
     ],
     "post_seo_schema": {
-      "@context": "https://schema.org",
-      "url": "https://divar.ir/v/تزییناتی-ماشین-کلاسیک-کار/AaPjsw2e",
-      "name": "تزییناتی ماشین کلاسیک کار",
-      "description": "با سلام خدمت همشهریان گرامی \n\nتزیینات کلاسیک کار واقع در کرمان خ هفده شهریور نبش کوچه ۱۵ \n\nانواع روکش و کفپوش 3D و 5D ماشین ایرانی و خارجی \n\nانواع ردیاب و GPS\n\nانواع کمک کوتاه و اسپرت و فنر ریگلاژی \n\nانواع چراغ جلو و خطر اسپرت ماشین ایرانی و خارجی \n\nانواع : میدرنج • باند • ظبط • کامپانت • فولرنج • ساب دهنه ۱۲ و ۱۵ و...\n\n انواع لوازم لوکس و اسپرت خودرو که باید خودتون حضوری ببینید \n\nبا شرایط اقساطی با چک صیادی وضعیت سفید \n\n«بدون پیش پرداخت و کارمزد به قیمت نقد تا ۴ ماه »",
-      "@type": "Product",
-      "web_info": {
-        "title": "تزییناتی ماشین کلاسیک کار",
-        "city_persian": "کرمان",
-        "district_persian": "",
-        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
-      },
-      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/JLQxPfZxr0FzM9nCd84Z1A/a14ada32-6ea7-4607-ad9b-5c589256992e.webp",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/u7w8Sktz5I_g2bnijzRc9A/4dc59dfd-a385-4afb-895c-02fa70f82dfb.webp",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "IRR",
-        "price": "10000"
+        "price": "1000"
       },
-      "category": "parts-accessories"
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "قلیون(و وسایل ماشین)",
+        "city_persian": "کرمان",
+        "district_persian": ""
+      },
+      "@type": "Product",
+      "name": "قلیون(و وسایل ماشین)",
+      "description": "(یه جفت باند طرح میدرنج صدا فوق عالی با قیمت پایین750) \n(یه ظبط چهار کانال خوب تو عکس مشخصه همچی داره1150) \n(هدلایت نونو استفاده نشده نور عالی750) \n(قلیون چوب گردو قد یک مترو 60/70بزرگ اسطوره1200)\n(شیشه بالابر پراید سالمه400 و خطر عقب سمت راننده نو200) \n(سه عدد قالپاق پراید دونه ای 45) \n(ظبط فابریکی ماشین 450)\n(دوچرخه 16 خرج داره تیوپ ها نو 450)\nهرکی هرچی پسندش شد کمترم میدم گیر پولم",
+      "url": "https://divar.ir/v/قلیون-و-وسایل-ماشین-/Aannfgzl"
     }
   },
   "contact": {
@@ -497,9 +468,9 @@
       "server_side_info": {
         "info": {
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
-          "post_token": "AaPjsw2e",
+          "post_token": "Aannfgzl",
           "method_name": "GetContactWeb",
-          "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74"
+          "contact_uuid": "3fe12323-b82d-4649-a8ba-12356cf37ca8"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -507,27 +478,26 @@
       },
       "enabled": true
     },
-    "contact_uuid": "ae821178-ba01-4b2b-b106-8a9236cdaa74",
-    "supplier_chat_assistant_enabled": true
+    "contact_uuid": "3fe12323-b82d-4649-a8ba-12356cf37ca8"
   },
   "webengage": {
-    "gender": "",
-    "originality": "",
-    "category": "parts-accessories",
-    "business_ref": "qGwkiGRz_MvSczBkz",
+    "business_ref": "",
+    "business_type": "personal",
     "rent": 0,
-    "cat_1": "vehicles",
-    "credit": 0,
+    "originality": "",
+    "token": "Aannfgzl",
     "cat_3": "",
-    "token": "AaPjsw2e",
-    "business_type": "premium-panel",
-    "status": "",
-    "city": "kerman",
-    "price": 10000,
-    "cat_2": "parts-accessories",
     "district": "",
-    "image_count": 4,
+    "credit": 0,
+    "price": 1000,
     "source_view": "",
+    "cat_1": "vehicles",
+    "status": "",
+    "cat_2": "parts-accessories",
+    "city": "kerman",
+    "image_count": 9,
+    "category": "parts-accessories",
+    "gender": "",
     "brand_model": ""
   },
   "analytics": {

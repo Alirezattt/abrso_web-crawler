@@ -1,0 +1,587 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان",
+            "subtitle": "۳ هفته پیش در زرند",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "AaTLJIoX"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "⛔️فروشگاه شمع وایر تقویتی خودرو شیرنشان⛔️\n\nشمع و وایر بی کیفیت و گران نخرید!!!⚠️\n\nبا پول وایر فابریک وایر فوق تقویتی با گارانتی بنداز ✅️\nانواع وایر تقویتی  باسیم های مسی که با قلع اندود شده اند و دوسر آن برنجی است✅️ \n\n✅انواع وایر با کابل ۲۶ رشته و ۳۲ رشته \n✅انواع شمع های سوزنی و معمولی ایریدیوم و پلاتینیوم  \n✅انواع کیت مکش و فیلتر هوای اسپرت\n✅انواع اکتان ایرانی و خارجی \n✅انواع اتصال بدنه\n✅انواع هدرز\nو.. \nفواید وایر تقویتی:افزایش شتاب و قدرت و راندمان خودرو کاهش مصرف سوخت بهتر راه رفتن خودرو در سربالایی ها و زمانی که کولر روشن است و عمر سه چهار برابری آن در برابر وایر فابریک ⚠️\n\nاستقامت نکن یک بار امتحانش ضرر نداره \nکیفیتی که انتظار داشتید و قیمتی که انتظار نداشتید!!\n\nبا یک بار خرید مشتری دائمی ما خواهید شد ⚠️\n\nتمام اجناس فروشگاه با ضمانت هستند ⛔️\n\nنصب و تعویض شمع وایر و دیگر وسایل رایگان است\n\nهدف ماجلب رضایت خداوند و مشتری است\n\nآدرس :زرند اکبرآباد خیابان شهدای اکبر آباد جنب نانوایی محسنی\n   \n⛔️(فروشگاه تیونینگ خودرو شیرنشان)⛔️\n\n           ⚡️حال ماشینت با ما خوبه⚡️",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Hg-LzoNEiwjw8t31qu3VEQ/4c1c54d1-21b7-4cb7-81e2-f1d281db39ba.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/82EW0qN_cZ9SZuzQHsAh7A/4c1c54d1-21b7-4cb7-81e2-f1d281db39ba.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Cm3mS3lNx-VqKfBbcIDXlA/53d8749b-0b6e-49ca-b6f5-9fae78856a0e.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/VIJi_LJkRU0_JXJuaB4cUA/53d8749b-0b6e-49ca-b6f5-9fae78856a0e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3c572LbaPFGrnHomaTDhRQ/608bc5e7-8e3a-4f73-9fcb-0c2fe35ea283.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/SD9litHT_rCSu4lIrnl_MQ/608bc5e7-8e3a-4f73-9fcb-0c2fe35ea283.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/KxkuN_t7CiJ0AypJx6Irvw/c07bd22e-823d-4827-9322-d965f2f77a09.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KiTRKWv9us3KraI7__Yw2A/c07bd22e-823d-4827-9322-d965f2f77a09.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/N2d_znNzT5OG7bqW4CD0QQ/10650061-2734-4d05-827b-7d4ccdebea69.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/yopSmB-juX71dQ53zkfUkA/10650061-2734-4d05-827b-7d4ccdebea69.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/KsEfxUNuUK_5mzwJTCtTSg/d99c4329-7c4c-407c-ac65-568fdc6b55a8.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/_4ErKcDJhjz1bKM9z7KYtA/d99c4329-7c4c-407c-ac65-568fdc6b55a8.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/5XEPlaoGNt0EpYlf5jbi4w/306cd886-5156-4720-8856-c359a38f4708.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/J-txNesKNSMPLtn2ZlCmVg/306cd886-5156-4720-8856-c359a38f4708.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/i-mDs0F5B5b21CwTy51GKQ/217c5f70-39fd-4f81-a438-eb69902ef651.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/sj6CEYx7eTWad5mhk-a1eA/217c5f70-39fd-4f81-a438-eb69902ef651.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/nv1nxLQJlTlkSXsRxxPiBg/e87751b8-5a4d-4ab3-b696-8507912f5188.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/2q28wC4_5452I63KDCMhhQ/e87751b8-5a4d-4ab3-b696-8507912f5188.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/FQLD2xfoWUvN3Wk97XlgIA/bfc86974-fc72-4a47-8627-e827839b898c.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/p5oF6pJ5TskcykD5fbmdHw/bfc86974-fc72-4a47-8627-e827839b898c.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Hb0rS7ENBJXmzQjHaVuOmQ/872dbbfa-9521-4d5e-a67f-7e7d4d80951a.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/piA6QbODBQgy4RYgHMHvOw/872dbbfa-9521-4d5e-a67f-7e7d4d80951a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/pynO39Dt51Y_jiSNEU64bg/514982f1-16c9-41b2-a850-82dd0c1422f6.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/BhQVNmVYowWkIkbi6Zz12w/514982f1-16c9-41b2-a850-82dd0c1422f6.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/8iIVADCMI8Da2OYPQsFAFQ/7e4c90e8-3d51-4b34-a7db-07d6ebd076b7.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/G3uDWZyN_cIn0r2Y2Ob_XQ/7e4c90e8-3d51-4b34-a7db-07d6ebd076b7.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tEfFgwErFxQh6C4v4a3wRA/71c610a5-6f90-40d6-8451-60c878e84d06.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/DBg4bqf5GEtN6Odk9CnNCQ/71c610a5-6f90-40d6-8451-60c878e84d06.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/syUMJb_SbRL4sf0TSWxE4A/ddc7fa06-2ef4-4888-ac82-d1b9e02c9d79.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/-JmSCMbVXMcL90Ua5Rqwpg/ddc7fa06-2ef4-4888-ac82-d1b9e02c9d79.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/9CT7AokE4OMNXPlJrM4dUQ/9f8dfd49-98bd-49d6-85e2-2b29fa4a4873.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/M0zUS5hJRR4DNP8uGfW-oA/9f8dfd49-98bd-49d6-85e2-2b29fa4a4873.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/uzsfPPQqcp0Hkh5PVl84uw/f7b2fe10-4a2e-43d6-8272-a77918b1297b.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/KmvQb97H9APWWe9HoclJ3A/f7b2fe10-4a2e-43d6-8272-a77918b1297b.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/z1fYWksddCOyKV7hWDyPJg/d042dd7d-d46d-40b1-8fc5-85dd504efa6d.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/oxb2AGtJ2CATk3WR0Z3Ecg/d042dd7d-d46d-40b1-8fc5-85dd504efa6d.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/eVdpKQZhbs3i4tD8o10UFA/937a7f19-f940-4f2f-9958-544bf715624a.webp",
+                  "alt": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان|قطعات یدکی و لوازم جانبی|زرند, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/0FcP4tM6cooULXbHwO0pcA/937a7f19-f940-4f2f-9958-544bf715624a.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۴۵۰،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "AaTLJIoX",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 867
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                },
+                {
+                  "text": "کولر خودرو",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_WEB_PAGE",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+                      "link": "https://divar.ir/s/zarand/list/کولر-و-کمپرسور-خودرو",
+                      "page_type": "SAME_PAGE"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "AaTLJIoX"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "AaTLJIoX"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان",
+    "web_url": "https://divar.ir/v/AaTLJIoX"
+  },
+  "seo": {
+    "title": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان در زرند",
+    "description": "آگهی فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان در دیوار زرند",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان/AaTLJIoX/",
+    "web_info": {
+      "title": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان",
+      "city_persian": "زرند",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-10-25T10:10:58.955469",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "867",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان",
+        "city_persian": "زرند",
+        "district_persian": ""
+      },
+      "description": "⛔️فروشگاه شمع وایر تقویتی خودرو شیرنشان⛔️\n\nشمع و وایر بی کیفیت و گران نخرید!!!⚠️\n\nبا پول وایر فابریک وایر فوق تقویتی با گارانتی بنداز ✅️\nانواع وایر تقویتی  باسیم های مسی که با قلع اندود شده اند و دوسر آن برنجی است✅️ \n\n✅انواع وایر با کابل ۲۶ رشته و ۳۲ رشته \n✅انواع شمع های سوزنی و معمولی ایریدیوم و پلاتینیوم  \n✅انواع کیت مکش و فیلتر هوای اسپرت\n✅انواع اکتان ایرانی و خارجی \n✅انواع اتصال بدنه\n✅انواع هدرز\nو.. \nفواید وایر تقویتی:افزایش شتاب و قدرت و راندمان خودرو کاهش مصرف سوخت بهتر راه رفتن خودرو در سربالایی ها و زمانی که کولر روشن است و عمر سه چهار برابری آن در برابر وایر فابریک ⚠️\n\nاستقامت نکن یک بار امتحانش ضرر نداره \nکیفیتی که انتظار داشتید و قیمتی که انتظار نداشتید!!\n\nبا یک بار خرید مشتری دائمی ما خواهید شد ⚠️\n\nتمام اجناس فروشگاه با ضمانت هستند ⛔️\n\nنصب و تعویض شمع وایر و دیگر وسایل رایگان است\n\nهدف ماجلب رضایت خداوند و مشتری است\n\nآدرس :زرند اکبرآباد خیابان شهدای اکبر آباد جنب نانوایی محسنی\n   \n⛔️(فروشگاه تیونینگ خودرو شیرنشان)⛔️\n\n           ⚡️حال ماشینت با ما خوبه⚡️",
+      "category": "parts-accessories",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "450000"
+      },
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "url": "https://divar.ir/v/فروشگاه-تخصصی-شمع-وایر-فوق-تقویتی-شیرنشان/AaTLJIoX",
+      "name": "فروشگاه تخصصی شمع وایر فوق‌ تقویتی شیرنشان",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/Hg-LzoNEiwjw8t31qu3VEQ/4c1c54d1-21b7-4cb7-81e2-f1d281db39ba.webp"
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "AaTLJIoX",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "1132fff0-8917-4363-a477-47c98d24d40f"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "1132fff0-8917-4363-a477-47c98d24d40f"
+  },
+  "webengage": {
+    "image_count": 19,
+    "cat_1": "vehicles",
+    "business_type": "personal",
+    "gender": "",
+    "business_ref": "",
+    "source_view": "",
+    "brand_model": "",
+    "price": 450000,
+    "category": "parts-accessories",
+    "cat_3": "",
+    "cat_2": "parts-accessories",
+    "district": "",
+    "rent": 0,
+    "city": "zarand",
+    "credit": 0,
+    "status": "",
+    "token": "AaTLJIoX",
+    "originality": ""
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "zarand"
+  },
+  "city": {
+    "city_id": "867",
+    "name": "زرند",
+    "parent_id": "877",
+    "second_slug": "zarand"
+  }
+}

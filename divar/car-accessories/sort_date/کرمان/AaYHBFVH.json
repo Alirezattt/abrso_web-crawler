@@ -408,24 +408,24 @@
       }
     ],
     "post_seo_schema": {
-      "web_info": {
-        "title": "ابرویی چراغ پارس (تزئینی)",
-        "city_persian": "کرمان",
-        "district_persian": "",
-        "category_slug_persian": "قطعات یدکی و لوازم جانبی"
-      },
-      "name": "ابرویی چراغ پارس (تزئینی)",
-      "description": "من اینارو خریدم به ماشین نمی امد من درشون اوردم \nخلاصه نو هستن پلاستیک ها شونم هست \n۲۵۰ خریدم ۲۰۰ میدمشون",
       "@context": "https://schema.org",
       "@type": "Product",
       "url": "https://divar.ir/v/ابرویی-چراغ-پارس-تزئینی-/AaYHBFVH",
+      "offers": {
+        "priceCurrency": "IRR",
+        "price": "200000",
+        "@type": "Offer"
+      },
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "ابرویی چراغ پارس (تزئینی)",
+        "city_persian": "کرمان",
+        "district_persian": ""
+      },
+      "description": "من اینارو خریدم به ماشین نمی امد من درشون اوردم \nخلاصه نو هستن پلاستیک ها شونم هست \n۲۵۰ خریدم ۲۰۰ میدمشون",
       "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/I1mBzafTIiGccUXvqbrMWg/02de9495-f8fa-46b9-9d72-4b54fa356e8f.webp",
       "category": "parts-accessories",
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "IRR",
-        "price": "200000"
-      }
+      "name": "ابرویی چراغ پارس (تزئینی)"
     }
   },
   "contact": {
@@ -436,7 +436,7 @@
           "@type": "type.googleapis.com/action_log.ContactInfoInfo",
           "post_token": "AaYHBFVH",
           "method_name": "GetContactWeb",
-          "contact_uuid": "c732af79-3635-4b63-8bf4-66e4b8c055a8"
+          "contact_uuid": "ec576b60-fb56-4b81-b61b-04284e5b29f8"
         },
         "item_type": {
           "type": "CONTACT_INFO"
@@ -444,27 +444,27 @@
       },
       "enabled": true
     },
-    "contact_uuid": "c732af79-3635-4b63-8bf4-66e4b8c055a8"
+    "contact_uuid": "ec576b60-fb56-4b81-b61b-04284e5b29f8"
   },
   "webengage": {
-    "brand_model": "",
-    "category": "parts-accessories",
-    "image_count": 1,
-    "status": "",
-    "city": "kerman",
-    "gender": "",
-    "cat_3": "",
-    "originality": "",
-    "credit": 0,
-    "cat_1": "vehicles",
-    "business_ref": "",
     "token": "AaYHBFVH",
-    "price": 200000,
-    "source_view": "",
+    "city": "kerman",
+    "status": "",
+    "image_count": 1,
+    "brand_model": "",
     "rent": 0,
-    "district": "",
+    "credit": 0,
+    "originality": "",
+    "price": 200000,
+    "cat_3": "",
+    "business_ref": "",
     "business_type": "personal",
-    "cat_2": "parts-accessories"
+    "cat_2": "parts-accessories",
+    "district": "",
+    "cat_1": "vehicles",
+    "category": "parts-accessories",
+    "gender": "",
+    "source_view": ""
   },
   "analytics": {
     "cat1": "vehicles",

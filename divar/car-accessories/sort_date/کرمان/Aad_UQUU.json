@@ -1,0 +1,582 @@
+{
+  "sections": [
+    {
+      "section_name": "BREADCRUMB",
+      "widgets": [
+        {
+          "widget_type": "BREADCRUMB",
+          "data": {
+            "@type": "type.googleapis.com/widgets.BreadcrumbData",
+            "parent_items": [
+              {
+                "title": "وسایل نقلیه",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "vehicles"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              },
+              {
+                "title": "قطعات یدکی و لوازم جانبی",
+                "action": {
+                  "type": "OPEN_POSTLIST_PAGE_GRPC",
+                  "payload": {
+                    "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                    "search_data": {
+                      "form_data": {
+                        "data": {
+                          "category": {
+                            "str": {
+                              "value": "parts-accessories"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "source_view": "CATEGORY_BREAD_CRUMB",
+                    "source_view_str": "CATEGORY_BREAD_CRUMB"
+                  }
+                }
+              }
+            ],
+            "current_page_title": "لوازم اسپرت ۲۰۶ و سیستم",
+            "padded": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TITLE",
+      "widgets": [
+        {
+          "widget_type": "LEGEND_TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LegendTitleRowData",
+            "title": "لوازم اسپرت ۲۰۶ و سیستم",
+            "subtitle": "۱ هفته پیش در کرمان",
+            "high_level_heading": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "زنگ خطرهای قبل از معامله",
+            "action": {
+              "type": "OPEN_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenPagePayload",
+                "request_http_method": "POST",
+                "request_data": {
+                  "@type": "type.googleapis.com/post_api_v2.GetFraudAlertPageRequest.Data",
+                  "category": "parts-accessories"
+                },
+                "specification": {
+                  "@type": "type.googleapis.com/widgets.OpenPagePayload.SimplePageSpecification",
+                  "navigation_button": "BACK"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/postview/fraud-alert",
+                "grpc_request_path": "/post_api_v2.PostApi/GetFraudAlertPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/warning.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/warning.png",
+              "icon_name": "WARNING",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          },
+          "action_log": {
+            "server_side_info": {
+              "info": {
+                "@type": "type.googleapis.com/action_log.PostWarningInfo",
+                "post_token": "Aad_UQUU"
+              },
+              "item_type": {
+                "type": "POST_WARNING"
+              }
+            },
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "DESCRIPTION",
+      "widgets": [
+        {
+          "widget_type": "TITLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.TitleRowData",
+            "text": "توضیحات",
+            "text_color": "TEXT_PRIMARY",
+            "text_type": "SECONDARY"
+          }
+        },
+        {
+          "widget_type": "DESCRIPTION_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.DescriptionRowData",
+            "text": "باسلام \nلوازم زیر بفروش میرسد\nجفت چراغ جلو ۲۰۶ فابریکی \nجفت خطر عقب طرح ۲۰۷\nخطر عقب طرح yf\nمانیتور ۱۱ اینچ شیائومی به همراه قاب ۲۰۶\nآمپ ۴کانال mb 3200\nآمپ ۴کانال mb 4200\nساب پایونر ۳۰۸\nباند۶۹۶۵v3\nسیم کشی ۴ کانال سیستم\nباند گرند زیرو اصلی\nباند کنوود۷۱۸ پشت آبی\nسیم کشی سیستم\nپخش فابریکی ۲۰۶\nپخش پایونر ۷۲۵۰\nو تعدادی دیگر لوازم اسپرت و یدکی ۲۰۶ که داخل عکس آخر نوشته شده اند\nکسی همه را باهم بخواد تخفیف خوبی میدم\nچت دیوار درخدمتم \nیاحق",
+            "is_primary": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "IMAGE",
+      "widgets": [
+        {
+          "widget_type": "IMAGE_CAROUSEL",
+          "data": {
+            "@type": "type.googleapis.com/widgets.ImageCarouselData",
+            "items": [
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/WvaEMqZ99xLb0iKczD3Cmg/db69565c-546f-4a18-9956-9d5a7fcebb4f.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/QwHRTgrpOoXF9Ewkdx2JRw/db69565c-546f-4a18-9956-9d5a7fcebb4f.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/3BMel_BXpxE7jAQQ9f5Ztw/b694c5ad-3b7c-4506-9bcf-e6711d1b6cf4.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/ekRc8xrXC9IKPkNSkaVP_g/b694c5ad-3b7c-4506-9bcf-e6711d1b6cf4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/vYbXpJyXVuqHTi6E89CTrg/7d260267-ce97-4e3b-bd68-fbb34f46db96.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/XQobqGYnv1lv7m5sNHsJ6A/7d260267-ce97-4e3b-bd68-fbb34f46db96.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/FMYhEoFjNMXwj80PUpc_ow/8c9f7bfa-788f-4ea7-a67f-f84e093642b5.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/yEuRObv3W-5-egvsKfkRRw/8c9f7bfa-788f-4ea7-a67f-f84e093642b5.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/aCt5p2ZiYiteXWJAl_hU2w/fedc50a6-ce75-4e02-b44a-088e7f59ffb1.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/UwegT-5Cq4TqHTha46ZwCw/fedc50a6-ce75-4e02-b44a-088e7f59ffb1.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/tFzZ78HZvgxL37u3s-gWPg/8ad73b22-730a-4bc2-8a18-af7a0afba465.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/mHGfTlKKZgXzw4oK78C0pg/8ad73b22-730a-4bc2-8a18-af7a0afba465.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/msg-Q-FGv9TX1xiCIllYLw/807c4589-6c7d-4548-8603-d190fc6533fd.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/l1BOVtRdTMNsZmC1FP9Lhw/807c4589-6c7d-4548-8603-d190fc6533fd.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Fj16Wx35ufaTSTlzqq69CQ/5ddf173e-19a0-49a2-a8ff-414e1cbdf984.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/uuCgXcGgKIsYTdX23VRx2A/5ddf173e-19a0-49a2-a8ff-414e1cbdf984.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/poSkOWfXn4nR6ayJiJNPFA/9412eb3e-db81-4940-82cb-53fc31558c1a.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/jC6tRGZTKRpnPBv0baUSfg/9412eb3e-db81-4940-82cb-53fc31558c1a.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/WBYjyczvB0EjkOv2WQHtqA/e6949e6b-1544-484c-97c4-7e545a583aec.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/YORrOHcu_cZSZ9yIWq9xxg/e6949e6b-1544-484c-97c4-7e545a583aec.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/XIXmYso65m43SXekVG7NaQ/a0da686b-645e-4466-865f-6d52e7f3908e.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/t_KTxx-llWoRHxEK_gfatQ/a0da686b-645e-4466-865f-6d52e7f3908e.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/DEhsWokLp0Yp_0mb_UCx0g/a690d187-e00f-4ea7-8b31-80f639901576.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/L6ZZlHBc-MLQEk3FsD8kyA/a690d187-e00f-4ea7-8b31-80f639901576.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/R2kILtto45aP8pzD6pNTjg/5ef97923-80df-400c-9bc9-841e3ba376d4.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/S5OIfMFEwvqyoP54ccsq-A/5ef97923-80df-400c-9bc9-841e3ba376d4.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/QYwAroP_CMGpsPFHjXqGRg/05c8b540-fb38-4ac9-bc3e-49f4c7fb0754.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/MILhxNGBuLug5mrUW8BqQA/05c8b540-fb38-4ac9-bc3e-49f4c7fb0754.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/LqANejfqagtA0uwJ2hZ3uA/61ae06f9-5a2f-494a-b770-75544096d6d0.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/Wk8bEZfdumqGROoPG776WQ/61ae06f9-5a2f-494a-b770-75544096d6d0.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/bxprYGXwFE27EXl0FCQlEw/27f6eb4f-90bd-4348-9397-3c9885900048.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/89kO8KE_T-jku9QBA_tsWQ/27f6eb4f-90bd-4348-9397-3c9885900048.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/Bus0YlOJjrPFkak9PVpo1w/3030583b-3b92-4b55-bbf0-810391bf5084.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/56sGiED7GraRTVwgTeCiBA/3030583b-3b92-4b55-bbf0-810391bf5084.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/4ZjMEBCrLE-FwtXAmHTTqQ/377f0a79-114c-4153-86d2-36bb73b06116.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/H1MZsKZ8DN1iPPCJwSB4zQ/377f0a79-114c-4153-86d2-36bb73b06116.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/ZkMdfPZt536i2Lf973F4KA/9d2e9061-0244-4c85-9ccf-0a2870209980.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/nIGZgfcvLxt9oXD9lXJJRg/9d2e9061-0244-4c85-9ccf-0a2870209980.webp"
+                }
+              },
+              {
+                "image": {
+                  "url": "https://s100.divarcdn.com/static/photo/neda/webp_post/zWwy75p0lWHoEjFVbeOYCw/ae345ff5-a48a-4a8b-8cd6-556643da38b1.webp",
+                  "alt": "لوازم اسپرت ۲۰۶ و سیستم|قطعات یدکی و لوازم جانبی|کرمان, |دیوار",
+                  "thumbnail_url": "https://s100.divarcdn.com/static/photo/neda/webp_thumbnail/tiwV-wJ4mpJoOHQH5pJc-A/ae345ff5-a48a-4a8b-8cd6-556643da38b1.webp"
+                }
+              }
+            ],
+            "image_aspect_ratio": {
+              "dynamic_aspect_ratio": {
+                "height": 3,
+                "width": 4
+              }
+            },
+            "has_preview": true,
+            "has_thumbnails": true
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "LIST_DATA",
+      "widgets": [
+        {
+          "widget_type": "UNEXPANDABLE_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.UnexpandableRowData",
+            "title": "قیمت",
+            "value": "‏۱،۰۰۰ تومان",
+            "has_divider": true
+          }
+        },
+        {
+          "widget_type": "LAZY_SECTION",
+          "data": {
+            "@type": "type.googleapis.com/widgets.LazySectionData",
+            "rest_request_path": "/v1/open-platform/addons/lazy",
+            "grpc_request_path": "/addons.Addons/GetLazyAddons",
+            "request_data": {
+              "@type": "type.googleapis.com/addons.GetLazyAddonsRequest.RequestData",
+              "token": "Aad_UQUU",
+              "source": "POST_APPROVED",
+              "category": "parts-accessories",
+              "city_id": 13
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "TAGS",
+      "widgets": [
+        {
+          "widget_type": "WRAPPER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.WrapperRowData",
+            "chip_list": {
+              "chips": [
+                {
+                  "text": "قطعات یدکی و لوازم جانبی",
+                  "type": "ACTION",
+                  "action": {
+                    "type": "OPEN_POSTLIST_PAGE_GRPC",
+                    "payload": {
+                      "@type": "type.googleapis.com/widgets.OpenPostListPageGRPCPayload",
+                      "search_data": {
+                        "form_data": {
+                          "data": {
+                            "category": {
+                              "str": {
+                                "value": "parts-accessories"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "source_view": "CATEGORY_BREAD_CRUMB",
+                      "source_view_str": "CATEGORY_BREAD_CRUMB"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "NOTE",
+      "widgets": [
+        {
+          "widget_type": "NOTE",
+          "data": {
+            "@type": "type.googleapis.com/widgets.NoteData",
+            "title": "یادداشت من",
+            "button_title": "ویرایش یادداشت",
+            "post_token": "Aad_UQUU"
+          }
+        }
+      ]
+    },
+    {
+      "section_name": "STATIC",
+      "widgets": [
+        {
+          "widget_type": "SECTION_DIVIDER_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SectionDividerRowData",
+            "padded": true
+          }
+        },
+        {
+          "widget_type": "SELECTOR_ROW",
+          "data": {
+            "@type": "type.googleapis.com/widgets.SelectorRowData",
+            "title": "گزارش آگهی",
+            "action": {
+              "type": "OPEN_SCHEMA_PAGE",
+              "payload": {
+                "@type": "type.googleapis.com/widgets.OpenSchemaPagePayload",
+                "additional_data": {
+                  "@type": "type.googleapis.com/widgets.GetFeedbackPageRequest.AdditionalData",
+                  "post_token": "Aad_UQUU"
+                },
+                "is_modal": true,
+                "rest_request_path": "/v8/post-quality/feedback-v2",
+                "grpc_request_path": "/post_quality.PostQualityFeedback/GetFeedbackPage"
+              }
+            },
+            "has_divider": true,
+            "icon": {
+              "image_url_dark": "https://s100.divarcdn.com/static/imgs/widget-icons/dark/icon_secondary/v1/report.png",
+              "image_url_light": "https://s100.divarcdn.com/static/imgs/widget-icons/light/icon_secondary/v1/report.png",
+              "icon_name": "REPORT",
+              "icon_color": "ICON_SECONDARY"
+            },
+            "has_arrow": true,
+            "last_notification_date": "0001-01-01T00:00:00Z"
+          }
+        }
+      ]
+    }
+  ],
+  "share": {
+    "title": "لوازم اسپرت ۲۰۶ و سیستم",
+    "web_url": "https://divar.ir/v/Aad_UQUU"
+  },
+  "seo": {
+    "title": "لوازم اسپرت ۲۰۶ و سیستم در کرمان",
+    "description": "آگهی لوازم اسپرت ۲۰۶ و سیستم در دیوار کرمان",
+    "android_package_name": "ir.divar",
+    "android_app_url": "android-app://ir.divar/http/v/لوازم اسپرت ۲۰۶ و سیستم/Aad_UQUU/",
+    "web_info": {
+      "title": "لوازم اسپرت ۲۰۶ و سیستم",
+      "city_persian": "کرمان",
+      "category_slug_persian": "قطعات یدکی و لوازم جانبی"
+    },
+    "unavailable_after": "2025-11-04T11:38:29.633452",
+    "bread_crumb": [
+      {
+        "name": "قطعات یدکی و لوازم جانبی",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "parts-accessories"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "وسایل نقلیه",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "category": {
+                "str": {
+                  "value": "vehicles"
+                }
+              },
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "0",
+        "search_data": {
+          "form_data": {
+            "data": {
+              "districts": {
+                "repeated_string": {
+                  "value": [
+                    "0"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": "13",
+        "search_data": {
+          "form_data": {}
+        }
+      },
+      {
+        "name": "دیوار"
+      }
+    ],
+    "post_seo_schema": {
+      "name": "لوازم اسپرت ۲۰۶ و سیستم",
+      "description": "باسلام \nلوازم زیر بفروش میرسد\nجفت چراغ جلو ۲۰۶ فابریکی \nجفت خطر عقب طرح ۲۰۷\nخطر عقب طرح yf\nمانیتور ۱۱ اینچ شیائومی به همراه قاب ۲۰۶\nآمپ ۴کانال mb 3200\nآمپ ۴کانال mb 4200\nساب پایونر ۳۰۸\nباند۶۹۶۵v3\nسیم کشی ۴ کانال سیستم\nباند گرند زیرو اصلی\nباند کنوود۷۱۸ پشت آبی\nسیم کشی سیستم\nپخش فابریکی ۲۰۶\nپخش پایونر ۷۲۵۰\nو تعدادی دیگر لوازم اسپرت و یدکی ۲۰۶ که داخل عکس آخر نوشته شده اند\nکسی همه را باهم بخواد تخفیف خوبی میدم\nچت دیوار درخدمتم \nیاحق",
+      "category": "parts-accessories",
+      "@context": "https://schema.org",
+      "image": "https://s100.divarcdn.com/static/photo/neda/webp_post/WvaEMqZ99xLb0iKczD3Cmg/db69565c-546f-4a18-9956-9d5a7fcebb4f.webp",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IRR",
+        "price": "1000"
+      },
+      "@type": "Product",
+      "url": "https://divar.ir/v/لوازم-اسپرت-۲۰۶-و-سیستم/Aad_UQUU",
+      "web_info": {
+        "category_slug_persian": "قطعات یدکی و لوازم جانبی",
+        "title": "لوازم اسپرت ۲۰۶ و سیستم",
+        "city_persian": "کرمان",
+        "district_persian": ""
+      }
+    }
+  },
+  "contact": {
+    "chat_enabled": true,
+    "action_log": {
+      "server_side_info": {
+        "info": {
+          "@type": "type.googleapis.com/action_log.ContactInfoInfo",
+          "post_token": "Aad_UQUU",
+          "method_name": "GetContactWeb",
+          "contact_uuid": "88a139c0-7362-4868-ac02-226978cf6927"
+        },
+        "item_type": {
+          "type": "CONTACT_INFO"
+        }
+      },
+      "enabled": true
+    },
+    "contact_uuid": "88a139c0-7362-4868-ac02-226978cf6927"
+  },
+  "webengage": {
+    "city": "kerman",
+    "gender": "",
+    "originality": "",
+    "token": "Aad_UQUU",
+    "district": "",
+    "category": "parts-accessories",
+    "status": "",
+    "cat_1": "vehicles",
+    "cat_2": "parts-accessories",
+    "price": 1000,
+    "source_view": "",
+    "cat_3": "",
+    "credit": 0,
+    "brand_model": "",
+    "business_ref": "",
+    "rent": 0,
+    "business_type": "personal",
+    "image_count": 20
+  },
+  "analytics": {
+    "cat1": "vehicles",
+    "cat2": "parts-accessories",
+    "city": "kerman"
+  },
+  "city": {
+    "city_id": "13",
+    "name": "کرمان",
+    "parent_id": "877",
+    "second_slug": "kerman"
+  }
+}
